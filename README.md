@@ -25,7 +25,7 @@ Presented through an editor window which installs the package with a user-friend
 ![Header](https://github.com/ltsLumina/ltsLumina.github.io/assets/119983088/d18db0a3-6aa5-465d-b052-b8888185d4ca)
 
 
-- [Desktop Game (W.I.P](https://github.com/ltsLumina/DesktopGame)
+- [Desktop Game](https://github.com/ltsLumina/DesktopGame)
 
 A project I work on in my spare time to improve at programming.
 
