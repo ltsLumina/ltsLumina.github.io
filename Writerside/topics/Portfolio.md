@@ -19,7 +19,7 @@ I truly believe that games are a structural and defining part of society that ca
 |    C#     |     Unity     |
 |    C++    | Unreal Engine |
 
-> My C++ knowledge is limited, but I am improving every day.
+> My C++ knowledge is limited in comparison to my C# experience, but I am improving every day.
 > { style="note" }
 
 ## Tools
