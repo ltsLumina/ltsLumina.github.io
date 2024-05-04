@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="6df2d14c">
+        <description>Created after removal of "Tutorial" from Portfolio</description>
+        <accepts>Tutorial.html</accepts>
+    </rule>
+    <rule id="72e26b2b">
+        <description>Created after removal of "Reference" from Portfolio</description>
+        <accepts>Reference.html</accepts>
+    </rule>
+    <rule id="2bbb2129">
+        <description>Created after removal of "Overview" from Portfolio</description>
+        <accepts>Overview.html</accepts>
+    </rule>
+    <rule id="6c5e1513">
+        <description>Created after removal of "Section Starting Page" from Portfolio</description>
+        <accepts>Section-Starting-Page.html</accepts>
+    </rule>
+    <rule id="50b0409a">
+        <description>Created after removal of "How to" from Portfolio</description>
+        <accepts>How-to.html</accepts>
+    </rule>
+    <rule id="719212de">
+        <description>Created after removal of "Tutorial" from Portfolio</description>
+        <accepts>Tutorial.html</accepts>
+    </rule>
+    <rule id="7ff360cd">
+        <description>Created after removal of "Reference" from Portfolio</description>
+        <accepts>Reference.html</accepts>
+    </rule>
+    <rule id="448b019d">
+        <description>Created after removal of "Example" from Portfolio</description>
+        <accepts>starter-topic.html</accepts>
+    </rule>
+    <rule id="59edc5e6">
+        <description>Created after removal of "Section Starting Page" from Portfolio</description>
+        <accepts>Section-Starting-Page.html</accepts>
+    </rule>
+    <rule id="529e93f9">
+        <description>Created after removal of "Tutorial" from Portfolio</description>
+        <accepts>Tutorial.html</accepts>
+    </rule>
+    <rule id="26f9ec3d">
+        <description>Created after removal of "Overview" from Portfolio</description>
+        <accepts>Overview.html</accepts>
+    </rule>
+    <rule id="712fd11b">
+        <description>Created after removal of "How to" from Portfolio</description>
+        <accepts>How-to.html</accepts>
+    </rule>
+    <rule id="1d89f196">
+        <description>Created after removal of "Starter" from Portfolio</description>
+        <accepts>Starter.html</accepts>
+    </rule>
+    <rule id="6850b1ac">
+        <description>Created after removal of "Neon Rivalry" from Portfolio</description>
+        <accepts>Neon-Rivalry-Images.html</accepts>
+    </rule>
+    <rule id="1a686af2">
+        <description>Created after removal of "Section Starting Page" from Portfolio</description>
+        <accepts>Section-Starting-Page.html</accepts>
+    </rule>
+</rules>

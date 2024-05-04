@@ -1,8 +1,34 @@
 # Portfolio
 
-#### Languages: C#, C++
+## About Me
 
-#### Engines: Unity, Unreal Engine
+##### Hello! 
+My name is Alexander, but I go by Lumina online.  
+I am a high school student with an overwhelming passion for game development, and I'm currently studying game development at LBS Kreativa Gymnasiet Göteborg.  
+I have 4 years of experience with Unity and C#, and limited experience with Unreal Engine and C++.
+
+My goal as a developer is to be the very best I can be and to create games that people enjoy.  
+I truly believe that games are a structural and defining part of society that can be used to tell stories and convey emotions in a way that no other medium can.
+
+---
+
+## Skills
+
+| Languages |    Engines    |
+|:---------:|:-------------:|
+|    C#     |     Unity     |
+|    C++    | Unreal Engine |
+
+> My C++ knowledge is limited, but I am improving every day.
+> { style="note" }
+
+## Tools
+- **JetBrains Rider** — My preferred IDE for C# and C++ development.
+- **JetBrains Writerside** — Used for writing documentation.
+- **JetBrains Space** — Used for project management and collaboration.
+- **GitHub** — Used for version control, project management, and collaboration.
+- **Unity** — My preferred engine for game development.
+- **Unreal Engine** — Used for learning C++. Knowledge is limited.
 
 ## Education
 
@@ -10,27 +36,44 @@
 
 ## Experience
 
-**Playtester @ Thunderful Games (_December 6th, 2023_)**
+**Play-tester @ Thunderful Games (_December 6th, 2023_)**
 
-- Playtested a game as part of a special collaboration between LBS Kreativa Gymnasiet Göteborg and Thunderful Games Gothenburg.
+Play-tested a game as part of a special collaboration between LBS Kreativa Gymnasiet Göteborg and Thunderful Games Gothenburg.
 
 ## Projects
 
-- [Neon Rivalry](My-Projects.md#neon-rivalry)
+<procedure>
 
-Created a couch co-op 3D Fighting game in the Unity game engine with a group of 6 members consisting of 2 other programmers and 4 artists.
+- [Neon Rivalry](Projects.md#neon-rivalry)
 
-![NeonRivalry_COVERART](https://github.com/ltsLumina/ltsLumina.github.io/assets/119983088/dd86e26c-a9f1-4fa5-ad1e-d7e67c983a79)
+Created a couch co-op 3D Fighting game in the Unity game engine with a group of six members consisting of two other programmers and four artists.
 
-- [Lumina's Essentials](https://github.com/ltsLumina/Lumina-Essentials)
+![NeonRivalry_COVERART.jpg](../../images/NeonRivalry_COVERART.jpg)
+
+</procedure>
+
+---
+
+<procedure>
+
+- [Lumina's Essentials](Projects.md#lumina-s-essentials)
 
 A package full of utility methods and classes that are often used in game development such as a music manager and object pooling system, as well as some convenient C# attributes.
 Presented through an editor window which installs the package with a user-friendly interface.
 
-![Header](https://github.com/ltsLumina/ltsLumina.github.io/assets/119983088/d18db0a3-6aa5-465d-b052-b8888185d4ca)
+![Lumina's Essentials Logo.png](../../images/Luminas Essentials Logo.png)
 
-- [Desktop Game](https://github.com/ltsLumina/DesktopGame)
+</procedure>
+
+---
+
+<procedure>
+
+- [Desktop Game](Projects.md#desktop-game-wip)
 
 A project I work on in my spare time to improve at programming.
 
-![DesktopGame Example](https://github.com/ltsLumina/ltsLumina.github.io/assets/119983088/9c6d99ab-89db-451e-952c-32de2a49ed7e)
+![desktop game example.png](../../images/desktop game example.png)
+
+</procedure>
+
