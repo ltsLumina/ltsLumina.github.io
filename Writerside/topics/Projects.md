@@ -21,6 +21,9 @@ Our goal with this project was to create a fighting game for LBS Game Awards, a 
 > Both programmers and artists used GitHub, Discord, and Trello for collaboration and project management.
 
 ### Images & Code {collapsible="true"}
+
+[Neon Rivalry Official Trailer](https://www.youtube.com/watch?v=UevxVm1XZMU)
+
 ![nr1.png](../../images/nr1.png)
 ![nr2.png](../../images/nr2.png)
 ![nr3.png](../../images/nr3.png)
