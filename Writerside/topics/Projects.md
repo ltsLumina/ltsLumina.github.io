@@ -1,5 +1,7 @@
 # Projects
 
+> If you have any questions regarding my projects, feel free to reach out to me via Discord at @itsLumina { style="note" }
+
 ---
 
 ## Neon Rivalry
@@ -7,8 +9,12 @@
 ### Description
 
 Neon Rivalry is a couch co-op 3D Fighting game created in Unity.
-The game was created in a group of six members consisting of three programmers and four artists.  
+The game was created in a group of six members consisting of three programmers and four artists.   
 Our goal with this project was to create a fighting game for LBS Game Awards, a feat no one had achieved before.
+
+###### Repository
+
+[Neon Rivalry Repository](https://github.com/ltsLumina/NeonRivalry)
 
 ### Technologies Used
 
@@ -43,10 +49,6 @@ Our goal with this project was to create a fighting game for LBS Game Awards, a 
 ##### StateMachine.cs
 ![sm1.png](../../images/sm1.png)
 
-### Project Link
-
-[Neon Rivalry Repository](https://github.com/ltsLumina/NeonRivalry)
-
 ---
 
 ## Lumina's Essentials
@@ -54,6 +56,10 @@ Our goal with this project was to create a fighting game for LBS Game Awards, a 
 ### Description {id="description_2"}
 
 Lumina's Essentials is a package full of utility methods and classes that are often used in game development, such as a music manager and object pooling system, as well as some convenient C# attributes.
+
+###### Repository {id="repository_2"}
+
+[Lumina's Essentials Repository](https://github.com/ltsLumina/Lumina-Essentials)
 
 ### Technologies Used {id="technologies-used_2"}
 
@@ -80,10 +86,6 @@ Lumina's Essentials is a package full of utility methods and classes that are of
 ![mm1.png](../../images/mm1.png)
 ![mm2.png](../../images/mm2.png)
 
-### Project Link {id="project-link_2"}
-
-[Lumina's Essentials Repository](https://github.com/ltsLumina/Lumina-Essentials)
-
 ---
 
 ## Desktop Game (WIP)
@@ -92,6 +94,10 @@ Lumina's Essentials is a package full of utility methods and classes that are of
 
 Desktop Game is a project I work on in my spare time to improve at programming.  
 The goal is simply to improve at programming and learn new things about Unity and C#.
+
+###### Repository {id="repository_3"}
+
+[Desktop Game Repository](https://github.com/ltsLumina/DesktopGame)
 
 ### Technologies Used {id="technologies-used_3"}
 
@@ -112,9 +118,5 @@ The goal is simply to improve at programming and learn new things about Unity an
 ##### Window.cs
 ![w1.png](../../images/w1.png)
 ![w2.png](../../images/w2.png)
-
-### Project Link {id="project-link_3"}
-
-[Desktop Game Repository](https://github.com/ltsLumina/DesktopGame)
 
 ---
