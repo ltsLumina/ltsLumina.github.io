@@ -47,7 +47,7 @@ Play-tested a game as part of a special collaboration between LBS Kreativa Gymna
 
 - [Neon Rivalry](Projects.md#neon-rivalry)
 
-Created a couch co-op 3D Fighting game in the Unity game engine with a group of six members consisting of two other programmers and four artists.
+Neon Rivalry is a couch co-op 3D Fighting game made in the Unity game engine with a group of six members consisting of two other programmers and four artists.
 
 ![NeonRivalry_COVERART.jpg](../../images/NeonRivalry_COVERART.jpg)
 
