@@ -4,7 +4,7 @@
 
 ##### Hello! 
 I'm Alexander, but I go by Lumina online.  
-I am a university student with an overwhelming passion for game development, and I am currently studying game development at LBS Kreativa Gymnasiet Göteborg.  
+I am a university student with an overwhelming passion for game development, and I am currently studying game programming at Futuregames Malmö.  
 I have 4 years of experience with Unity and C#, and limited experience with Unreal Engine and C++.
 
 My goal as a developer is to be the very best I can be and to create games that people enjoy.  
