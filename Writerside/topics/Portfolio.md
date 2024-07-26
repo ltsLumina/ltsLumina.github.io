@@ -3,8 +3,8 @@
 ## About Me
 
 ##### Hello! 
-My name is Alexander, but I go by Lumina online.  
-I am a high school student with an overwhelming passion for game development, and I am currently studying game development at LBS Kreativa Gymnasiet Göteborg.  
+I'm Alexander, but I go by Lumina online.  
+I am a university student with an overwhelming passion for game development, and I am currently studying game development at LBS Kreativa Gymnasiet Göteborg.  
 I have 4 years of experience with Unity and C#, and limited experience with Unreal Engine and C++.
 
 My goal as a developer is to be the very best I can be and to create games that people enjoy.  
@@ -33,6 +33,7 @@ I truly believe that games are a structural and defining part of society that ca
 ## Education
 
 - High School | LBS Kreativa Gymnasiet Göteborg (_June 2024_)
+- Higher Vocational Education | Futuregames (_December 2026_)
 
 ## Experience
 
