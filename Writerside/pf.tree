@@ -9,7 +9,7 @@
     <toc-element topic="Portfolio.md">
         <toc-element topic="Projects.md">
         </toc-element>
-        <toc-element topic="Programming.md"/>
         <toc-element topic="Design.md"/>
+        <toc-element topic="Programming.md"/>
     </toc-element>
 </instance-profile>
