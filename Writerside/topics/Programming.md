@@ -1,5 +1,7 @@
 # Programming
 
+> This page is no longer used and will not be updated in the future. {style="note"}
+
 ## Programming Skills
 
 | Languages |    Engines    |

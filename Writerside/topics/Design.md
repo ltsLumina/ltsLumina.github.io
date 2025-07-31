@@ -5,14 +5,46 @@
 ---
 
 I have experience in broad Game Design, Level Design, and Content Design.
-Specifically, I have worked on a variety of projects, including Neon Rivalry, PLORA, and STOKOS.
 Responsibilities include designing and implementing core game mechanics, game balance, and level design.
-My passion for game design is fueled by the desire to create timeless experiences that people can enjoy for years to come.
+My passion for game design is fuelled by the desire to create timeless experiences that people can enjoy for years to come.
 
 ---
 
 ## Game Design
-> This section includes Gameplay, Systems, and Technical Design
+> This section includes all facets of Game Design, including Level Design, Content Design, and Game Mechanics Design.
+
+## Palindra {id=palindra-design}
+
+<procedure>
+
+![PosterPalindraSMALL.png](../../images/PosterPalindraSMALL.png)
+
+- Lead designer working on various aspects of the game, including:
+  - Game mechanics (puzzles, time travel, and interactions)
+  - Level design (house layout, environmental storytelling)
+  - UI/UX design (menus, HUD)
+
+Prototyped and implemented various puzzles such as:
+- Piano puzzle which requires players to find the correct notes in a specific order to unlock a door.
+- Fireplace puzzle that physically changes the environment, revealing hidden clues.
+- An environmental painting puzzle that requires players to identify the primary colour of a painting to unlock a safe.
+
+I worked alongside three programmers and six artists to create this game over the span of 7 weeks.
+
+[Images](Projects.md#images_palindra)  
+[Repository](https://github.com/ltsLumina/Unreal_GP3_Team2)
+
+|   Development   | Project Management |
+|:---------------:|:------------------:|
+| JetBrains Rider |       Trello       |
+|     GitHub      |    Google Drive    |
+|      Unity      |      Discord       |
+
+</procedure>
+
+---
+
+## Neon Rivalry {id=neon-rivalry-design}
 
 <procedure>
 
@@ -21,8 +53,7 @@ My passion for game design is fueled by the desire to create timeless experience
 
 Neon Rivalry is a couch co-op 2.5D Fighting game created in Unity.
 
-- Lead designer and programmer on this project,
-  working with a team of six members consisting of three programmers and four artists.
+Lead designer and programmer on this project, working with a team of six members consisting of three programmers and four artists.
 
 - Responsibilities included designing and implementing core game mechanics:
   - Movement
@@ -32,6 +63,7 @@ Neon Rivalry is a couch co-op 2.5D Fighting game created in Unity.
   - Levels
   - UI
 
+[Images](Projects.md#images)  
 [Neon Rivalry Repository](https://github.com/ltsLumina/NeonRivalry)
 
 |   Development   | Project Management |
@@ -44,9 +76,11 @@ Neon Rivalry is a couch co-op 2.5D Fighting game created in Unity.
 
 ---
 
+## PLORA {id=plora-design}
+
 <procedure>
 
-![NeonRivalry_COVERART.jpg](../../images/PLORAcoverLOGO_SMALL.png)
+![ploracoverlogo](../../images/PLORAcoverLOGO_SMALL.png)
 
 PLORA is a 3D infinite runner game in a 2D-perspective, created in Unity HDRP.
 
@@ -55,8 +89,9 @@ PLORA is a 3D infinite runner game in a 2D-perspective, created in Unity HDRP.
 - Primary role was technical designer and programmer for the player character and the game's core mechanics:
   - Player movement, collision, interaction
   - Submarine mechanics; Repair, Refuel, Recharge
-  - Customized inspector tools for designers to tweak game values and balance
+  - Custom inspector tools for designers to easily tweak game values and balance
 
+[Images](Projects.md#images_4)
 [PLORA Repository](https://github.com/ltsLumina/PLORA)
 
 |   Development   | Project Management |
@@ -70,7 +105,7 @@ PLORA is a 3D infinite runner game in a 2D-perspective, created in Unity HDRP.
 
 ---
 
-## Level Design
+## STOKOS {id=stokos-design}
 
 <procedure>
 
