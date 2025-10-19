@@ -1,19 +1,8 @@
-# Design
-
-> If you have any questions regarding my projects, feel free to reach out to me via Discord or LinkedIn at @itsLumina { style="note" }
+# <span style="color: #ff7b7c;">BREAKDOWNS</span>
 
 ---
 
-I have experience in broad Game Design, Level Design, and Content Design.
-Responsibilities include designing and implementing core game mechanics, game balance, and level design.
-My passion for game design is fuelled by the desire to create timeless experiences that people can enjoy for years to come.
-
----
-
-## Game Design
-> This section includes all facets of Game Design, including Level Design, Content Design, and Game Mechanics Design.
-
-## Palindra {id=palindra-design}
+## Palindra
 
 <procedure>
 
@@ -31,20 +20,11 @@ Prototyped and implemented various puzzles such as:
 
 I worked alongside three programmers and six artists to create this game over the span of 7 weeks.
 
-[Images](Projects.md#images_palindra)  
-[Repository](https://github.com/ltsLumina/Unreal_GP3_Team2)
-
-|   Development   | Project Management |
-|:---------------:|:------------------:|
-| JetBrains Rider |       Trello       |
-|     GitHub      |    Google Drive    |
-|      Unity      |      Discord       |
-
 </procedure>
 
 ---
 
-## Neon Rivalry {id=neon-rivalry-design}
+## Neon Rivalry
 
 <procedure>
 
@@ -76,7 +56,7 @@ Lead designer and programmer on this project, working with a team of six members
 
 ---
 
-## PLORA {id=plora-design}
+## PLORA
 
 <procedure>
 
