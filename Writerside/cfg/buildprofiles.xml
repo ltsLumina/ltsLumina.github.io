@@ -14,6 +14,7 @@
         <download-page>https://www.linkedin.com/in/itslumina</download-page>
         <showDownloadButton>true</showDownloadButton>
         <sidebar-width>250</sidebar-width>
+        <noindex-content>false</noindex-content>
     </variables>
     <footer>
         <copyright>2025 Alexander Andrejeff.</copyright>

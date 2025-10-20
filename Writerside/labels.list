@@ -3,28 +3,28 @@
 <labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
 
-    <primary-label id="lum" short-name=">" name="Alexander Andrejeff">
-        
+    <primary-label id="lum" short-name=">" name="Alexander Andrejeff" href="https://itslumina.com">
+        Hey there!
     </primary-label>
     
-    <primary-label id="angel" short-name="ANG" name="" href="https://www.jetbrains.com">
+    <primary-label id="angel" short-name="ANG" name="" href="https://playvalorant.com/">
         Angel Project
     </primary-label>
 
-    <primary-label id="palindra" short-name="PAL" name="" href="https://www.jetbrains.com" color="tangerine">
-        Palindra Project
+    <primary-label id="palindra" short-name="PAL" name="" href="https://futuregames.itch.io/palindra" color="tangerine">
+        PALINDRA
     </primary-label>
 
-    <primary-label id="neon-rivalry" short-name="NR" name="" href="https://www.jetbrains.com" color="strawberry">
-        Neon Rivalry Project
+    <primary-label id="neon-rivalry" short-name="NR" name="" href="https://www.youtube.com/watch?v=BDWqbVHXUpc" color="strawberry">
+        Neon Rivalry
     </primary-label>
 
-    <primary-label id="plora" short-name="PLO" name="" href="https://www.jetbrains.com" color="blue">
-        PLORA Project
+    <primary-label id="plora" short-name="PLO" name="" href="https://futuregames.itch.io/plora" color="blue">
+        PLORA 
     </primary-label>
 
-    <primary-label id="dead-sector" short-name="DS" name="" href="https://www.jetbrains.com" color="purple">
-        Dead Sector Project
+    <primary-label id="dead-sector" short-name="DS" name="" href="https://futuregames.itch.io/dead-sector" color="purple">
+        Dead Sector
     </primary-label>
 
     <!-- Secondary Labels -->
@@ -62,11 +62,11 @@
     </secondary-label>
     
     <!-- Extra Labels for About Me page -->
-    
-    <secondary-label id="age" name="20 y/o" color="tangerine"></secondary-label>
-    <secondary-label id="in" name="in" color="purple"></secondary-label>
-    <secondary-label id="location" name="Stockholm, Sweden" color="blue"></secondary-label>
-    <secondary-label id="ethnicity" name="Canadian" color="red"></secondary-label>
+
+    <secondary-label id="age" name="20 y/o" color="tangerine"/>
+    <secondary-label id="in" name="in" color="purple"/>
+    <secondary-label id="location" name="Stockholm, Sweden" color="blue"/>
+    <secondary-label id="ethnicity" name="Canadian" color="red"/>
     
     <!-- built-in/default -->
 
