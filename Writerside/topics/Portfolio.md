@@ -291,8 +291,10 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 
 ---
 
-## Check out my [About section](About-Me.md) to learn more about me! { title="About Me" }
+## About Me
 <primary-label ref="lum"></primary-label>
+
+> [Click here to learn more about me!](About-Me.md)
 
 <p>&nbsp;</p>
 
