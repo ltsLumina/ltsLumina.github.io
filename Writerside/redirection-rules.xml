@@ -66,4 +66,29 @@
         <description>Created after removal of "Section Starting Page" from Portfolio</description>
         <accepts>Section-Starting-Page.html</accepts>
     </rule>
+    <rule id="5698e9a9">
+        <description>Created after removal of "Programming" from Portfolio</description>
+        <accepts>Programming.html</accepts>
+    </rule>
+    <rule id="45758af5">
+        <description>
+            <![CDATA[Created after removal of "<span style="color: #ff7b7c;">BREAKDOWNS</span>" from Portfolio]]></description>
+        <accepts>Design.html</accepts>
+    </rule>
+    <rule id="33158ff1">
+        <description>Created after removal of "Projects Overview" from Portfolio</description>
+        <accepts>Projects.html</accepts>
+    </rule>
+    <rule id="710d0903">
+        <description>Created after removal of "Snippets" from Portfolio</description>
+        <accepts>snippets.html</accepts>
+    </rule>
+    <rule id="86dd4d0">
+        <description>Created after removal of "Topic title" from Portfolio</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
+    <rule id="29faafe9">
+        <description>Created after removal of "Empty XML Topic" from Portfolio</description>
+        <accepts>Empty-XML-Topic.html</accepts>
+    </rule>
 </rules>

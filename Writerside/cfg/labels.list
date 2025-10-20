@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "https://resources.jetbrains.com/writerside/1.0/labels-list.dtd">
+<labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
+
+    <primary-label id="lum" short-name=">" name="Alexander Andrejeff">
+        
+    </primary-label>
+    
+    <primary-label id="angel" short-name="ANG" name="" href="https://www.jetbrains.com">
+        Angel Project
+    </primary-label>
+
+    <primary-label id="palindra" short-name="PAL" name="" href="https://www.jetbrains.com" color="tangerine">
+        Palindra Project
+    </primary-label>
+
+    <primary-label id="neon-rivalry" short-name="NR" name="" href="https://www.jetbrains.com" color="strawberry">
+        Neon Rivalry Project
+    </primary-label>
+
+    <primary-label id="plora" short-name="PLO" name="" href="https://www.jetbrains.com" color="blue">
+        PLORA Project
+    </primary-label>
+
+    <primary-label id="dead-sector" short-name="DS" name="" href="https://www.jetbrains.com" color="purple">
+        Dead Sector Project
+    </primary-label>
+
+    <!-- Secondary Labels -->
+    
+    <secondary-label id="futuregames" name="Futuregames" color="red">
+        Made at Futuregames
+    </secondary-label>
+
+    <secondary-label id="lbs" name="LBS" color="tangerine">
+        Made at LBS
+    </secondary-label>
+
+    <secondary-label id="unreal" name="Unreal Engine" color="tangerine">
+        Made in Unreal Engine
+    </secondary-label>
+
+    <secondary-label id="unity" name="Unity" color="blue">
+        Made in Unreal Engine
+    </secondary-label>
+
+    <secondary-label id="c#" name="C#" color="purple">
+        C#
+    </secondary-label>
+
+    <secondary-label id="c++" name="C++" color="blue">
+        C++
+    </secondary-label>
+
+    <secondary-label id="angelscript" name="Angelscript" color="blue">
+        C++
+    </secondary-label>
+
+    <secondary-label id="char-designer" name="Character Designer" color="strawberry">
+        Character Designer
+    </secondary-label>
+    
+    <!-- Extra Labels for About Me page -->
+    
+    <secondary-label id="age" name="20 y/o" color="tangerine"></secondary-label>
+    <secondary-label id="in" name="in" color="purple"></secondary-label>
+    <secondary-label id="location" name="Stockholm, Sweden" color="blue"></secondary-label>
+    <secondary-label id="ethnicity" name="Canadian" color="red"></secondary-label>
+    
+    <!-- built-in/default -->
+
+    <primary-label id="label" short-name="L" name="Label">
+        This is an example label
+    </primary-label>
+
+    <primary-label id="jetbrains" short-name="JB" name="JetBrains" href="https://www.jetbrains.com" color="red">
+        Go to www.jetbrains.com
+    </primary-label>
+    
+    <secondary-label id="wip" name="WIP" color="purple">
+        Work in progress
+    </secondary-label>
+    
+    <secondary-label id="beta" name="β" color="tangerine">
+        Beta
+    </secondary-label>
+    
+    <secondary-label id="experimental" name="Experimental" color="purple">
+        This is an experimental feature
+    </secondary-label>
+    
+    <secondary-label id="2023.3" name="2023.3" color="blue">
+        New in version 2023.3
+    </secondary-label>
+</labels>

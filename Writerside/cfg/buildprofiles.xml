@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
+    <sitemap priority="0.5" change-frequency="monthly"/>
 
-    <variables></variables>
+    <variables>
+        <primary-color>ruby</primary-color>
+        <color-preset>contrast</color-preset>
+        <link-color>aqua</link-color>
+        <content-max-width>1250</content-max-width>
+        <custom-favicons>favicon.png</custom-favicons>
+        <header-logo>favicon.png</header-logo>
+        <download-title>Reach out!</download-title>
+        <download-page>https://www.linkedin.com/in/itslumina</download-page>
+        <showDownloadButton>true</showDownloadButton>
+        <sidebar-width>250</sidebar-width>
+    </variables>
+    <footer>
+        <copyright>2025 Alexander Andrejeff.</copyright>
+        <social type="youtube" href="https://www.youtube.com/@ItsLumina"/>
+        <social type="instagram"
+                href="https://instagram.com/korv.stroganof/">
+            Personal Instagram account.
+        </social>
+        <social type="twitter" href="https://twitter.com/ltsLumina"/>
+        <social type="discord"
+                href="https://discordapp.com/users/287272193946288129">
+            Personal and Business Discord.
+        </social>
+        <social type="github" href="https://github.com/ltsumina"/>
+        <social type="linkedin" href="https://www.linkedin.com/in/itslumina"/>
+        <social type="email" href="mailto:itsluminas@gmail.com"/>
+        <link href="https://riotgames.com/">My Ideal Game Studio</link>
+    </footer>
     <build-profile instance="in">
         <variables>
-            <noindex-content>true</noindex-content>
+            <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
     <build-profile instance="pf">
         <variables>
-            <noindex-content>true</noindex-content>
+            <noindex-content>false</noindex-content>
+        </variables>
+    </build-profile>
+    <build-profile instance="">
+        <variables>
+            <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
 
