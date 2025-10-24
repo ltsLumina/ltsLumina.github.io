@@ -197,10 +197,13 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 **Team Size:** 14 (4 Programmers, 6 Artists, 3 Designers, 1 Producer)  
 **Duration:** 2.5 Weeks @ Futuregames (2024)
 </td>
-<td>
-<img src="PLORAcoverLOGO.png" alt="PLORA Cover Logo" width="500"/>
-</td>
-</tr>
+      <td>
+        <video src="https://www.youtube.com/watch?v=1oeAm2Fegz4" width="300" height="400"
+                preview-src="PLORAcoverLOGO.png">
+            <img src="PLORAcoverLOGO.png" alt="Plora Cover Art" width="300" height="400"/>
+        </video>
+      </td>
+    </tr>
   </table>
 </procedure>
 
@@ -254,10 +257,13 @@ grow stronger, and master melee, ranged, and powerful special attacks to survive
 **Team Size:** 16 (5 Programmers, 7 Artists, 3 Designers, 1 Producer)  
 **Duration:** 7 weeks @ Futuregames (2025)
 </td>
-<td>
-<img src="DEAD-SECTOR-banner.png" alt="Dead Sector Banner" width="500"/>
-</td>
-</tr>
+      <td>
+        <video src="https://www.youtube.com/watch?v=NRYq1QncCZc" width="300" height="400"
+                preview-src="DEAD-SECTOR-banner.png">
+            <img src="DEAD-SECTOR-banner.png" alt="Plora Cover Art" width="300" height="400"/>
+        </video>
+      </td>
+    </tr>
   </table>
 </procedure>
 
@@ -278,8 +284,8 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
   <table width="790">
     <tr>
       <td><img src="ds-1.png" alt="Dead Sector screenshot 1." width="300" thumbnail="true"/></td>
-      <td><img src="ds-5.png" alt="Dead Sector screenshot 2." width="300" thumbnail="true"/></td>
-      <td><img src="ds-6.png" alt="Dead Sector screenshot 3." width="300" thumbnail="true"/></td>
+      <td><img src="ds-6.png" alt="Dead Sector screenshot 2." width="300" thumbnail="true"/></td>
+      <td><img src="ds-7.png" alt="Dead Sector screenshot 3." width="300" thumbnail="true"/></td>
     </tr>
   </table>
 
