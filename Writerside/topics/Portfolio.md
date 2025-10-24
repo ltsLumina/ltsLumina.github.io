@@ -260,7 +260,7 @@ grow stronger, and master melee, ranged, and powerful special attacks to survive
       <td>
         <video src="https://www.youtube.com/watch?v=NRYq1QncCZc" width="300" height="400"
                 preview-src="DEAD-SECTOR-banner.png">
-            <img src="DEAD-SECTOR-banner.png" alt="Plora Cover Art" width="300" height="400"/>
+            <img src="DEAD-SECTOR-banner.png" alt="Dead Sector Cover Art" width="300" height="400"/>
         </video>
       </td>
     </tr>
