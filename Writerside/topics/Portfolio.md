@@ -50,8 +50,7 @@ Take a look at some of the projects I've worked on in my Portfolio below.
 <secondary-label ref="angelscript"></secondary-label>
 
 A portfolio piece showcasing my work on a clone of Valorant.
-This project is intended to demonstrate my proficiency in **Character Design**, **Unreal Engine**, **Blueprints** and *
-*[Angelscript](https://angelscript.hazelight.se)**.
+This project is intended to demonstrate my proficiency in **Character Design**, **Unreal Engine**, **Blueprints** and **[Angelscript](https://angelscript.hazelight.se)**.
 
 > No copyright infringement is intended.   
 > All assets used are either created by me, fan-made, or sourced from free asset libraries.  
