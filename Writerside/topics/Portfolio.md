@@ -400,7 +400,7 @@ Solo Developer (Designer/Programmer/Artist)
 
 ### <format style="bold" color="e14273">TOOLS</format> {id="tools_prototyping"}
 
-Unity, JetBrains Rider, GitHub, Notion
+Unity, JetBrains Rider, GitHub, Notion 
 
 ### <format style="bold" color="e14273">LINKS</format> {id="links_prototyping"}
 
