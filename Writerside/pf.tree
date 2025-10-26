@@ -16,6 +16,9 @@
         <toc-element toc-title="Neon Rivalry"/>
         <toc-element toc-title="PLORA"/>
         <toc-element toc-title="Dead Sector"/>
+        <toc-element toc-title="Other Projects">
+            <toc-element topic="Prototyping.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="About-Me.md"/>
 </instance-profile>

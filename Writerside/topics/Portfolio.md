@@ -362,3 +362,51 @@ Unity, JetBrains Rider, GitHub
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_sto"}
 
 > No breakdown available for this project.
+
+---
+
+### Prototyping Course
+
+<primary-label ref="plora"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="unity"></secondary-label>
+
+<procedure>
+  <table>
+    <tr>
+      <td>
+This project was created as part of the Prototyping Course at Futuregames, where the goal is to prototype a game that focuses on the 3C's of game design. (Character, Camera, and Controls).  
+
+**A detailed breakdown is available as it was produced as part of the assignment.**
+
+<p>&nbsp;</p>
+
+**Platform:** Windows  
+**Engine:** Unity  
+**Genre:** 3D Platformer  
+**Team Size:** Solo  
+**Duration:** 7 days @ Futuregames (2025)
+</td>
+<td>
+<video src="../../Writerside/videos/Prototype.mp4" width="300" preview-src="prototyping.png">
+    <img src="prototyping.png" alt="Prototyping Course Preview" width="300"/></video>
+</td>
+</tr>
+  </table>
+</procedure>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_prototyping"}
+
+Solo Developer (Designer/Programmer/Artist)
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_prototyping"}
+
+Unity, JetBrains Rider, GitHub, Notion
+
+### <format style="bold" color="e14273">LINKS</format> {id="links_prototyping"}
+
+- <resource src="Prototyping.zip"></resource>
+
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_prototyping"}
+
+> [Click here to view a detailed breakdown on my work on the Prototyping Course](Prototyping.md)
