@@ -58,15 +58,15 @@
     </secondary-label>
 
     <secondary-label id="char-designer" name="Character Designer" color="strawberry">
-        Character Designer
+        I design characters like those in Overwatch, Valorant, and League of Legends!
     </secondary-label>
     
     <!-- Extra Labels for About Me page -->
 
     <secondary-label id="age" name="20 y/o" color="tangerine"/>
+    <secondary-label id="ethnicity" name="Canadian" color="red"/>
     <secondary-label id="in" name="in" color="purple"/>
     <secondary-label id="location" name="Stockholm, Sweden" color="blue"/>
-    <secondary-label id="ethnicity" name="Canadian" color="red"/>
     
     <!-- built-in/default -->
 
