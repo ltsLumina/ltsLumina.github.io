@@ -1,4 +1,5 @@
 # Portfolio
+
 <primary-label ref="lum"></primary-label>
 <secondary-label ref="char-designer"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
@@ -42,13 +43,15 @@ Take a look at some of the projects I've worked on in my Portfolio below.
 ---
 
 ## ANGEL
+
 <primary-label ref="angel"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
 A portfolio piece showcasing my work on a clone of Valorant.
-This project is intended to demonstrate my proficiency in **Character Design**, **Unreal Engine**, **Blueprints** and **[Angelscript](https://angelscript.hazelight.se)**.
+This project is intended to demonstrate my proficiency in **Character Design**, **Unreal Engine**, **Blueprints** and *
+*[Angelscript](https://angelscript.hazelight.se)**.
 
 > No copyright infringement is intended.   
 > All assets used are either created by me, fan-made, or sourced from free asset libraries.  
@@ -64,6 +67,7 @@ This project is intended to demonstrate my proficiency in **Character Design**, 
   </table>
 
 ## PALINDRA
+
 <primary-label ref="palindra"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
@@ -150,7 +154,8 @@ Unreal Engine 5 (C++ & Blueprints), JetBrains Rider, Perforce, JIRA, Miro, Disco
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_nr"}
 
-Lead Game Designer, Scrum Master, Playtest Coordinator, Combat System Designer, Game Balance, UI/UX Design, Programmer (C#).
+Lead Game Designer, Scrum Master, Playtest Coordinator, Combat System Designer, Game Balance, UI/UX Design, Programmer (
+C#).
 
 ### <format style="bold" color="e14273">TOOLS</format> {id="tools_nr"}
 
@@ -299,6 +304,7 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <p>&nbsp;</p>
 
 ## About Me
+
 <primary-label ref="lum"></primary-label>
 
 > [Click here to learn more about me!](About-Me.md) { style="note" }
@@ -310,7 +316,8 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 ## Other Projects { collapsible="true" default-state="collapsed" }
 
 > The projects listed below are smaller games and prototypes I have worked on either solo or in small teams.
-> They are included here to showcase a broader range of my skills and experiences, but aren't intended as portfolio pieces.
+> They are included here to showcase a broader range of my skills and experiences, but aren't intended as portfolio
+> pieces.
 
 ### STOKOS
 
@@ -330,7 +337,7 @@ STOKOS is a 2D celeste-like platformer created as part of a 3-day game jam with 
 **Engine:** Unity  
 **Genre:** 2D Platformer  
 **Team Size:** 3 Programmers  
-**Duration:** 3 days @ Futuregames (2024)  
+**Duration:** 3 days @ Futuregames (2024)
 </td>
 <td>
 <img src="stokos.png" alt="STOKOS cover art" width="800"/>
