@@ -6,10 +6,10 @@
 
 <table width="790">
   <tr>
-    <td style="vertical-align: top;">
+    <td>
       <img src="polaroid profile picture.png" width="300" alt="Me!" border-effect="rounded"/>
     </td>
-    <td style="vertical-align: top; padding-left: 1rem;">
+    <td>
 <p>
 Hello, I'm Alexander "Lum" Andrejeff, a Game Designer based in Stockholm, Sweden.
 </p>
@@ -107,9 +107,9 @@ Unreal Engine 5 (C++ & Blueprints), JetBrains Rider, Perforce, JIRA, Miro, Disco
 
   <table width="790">
     <tr>
-      <td><img src="palindra-bedroom-past.png" alt="Palindra Screenshot 1" width="300" thumbnail="true"/></td>
-      <td><img src="palindra-fireplace-present.png" alt="Palindra Screenshot 2" width="300" thumbnail="true"/></td>
-      <td><img src="palindra-piano-past.png" alt="Palindra Screenshot 3" width="300" thumbnail="true"/></td>
+      <td><img src="palindra-bedroom-past.png" alt="Screenshot of the bedroom in Palindra, during the past timeline, holding the time-travel mirror." width="300" thumbnail="true"/></td>
+      <td><img src="palindra-fireplace-present.png" alt="Screenshot of the fireplace in Palindra, during the present timeline." width="300" thumbnail="true"/></td>
+      <td><img src="palindra-piano-past.png" alt="Screenshot of the piano room in Palindra, during the past timeline." width="300" thumbnail="true"/></td>
     </tr>
   </table>
 
@@ -141,7 +141,7 @@ Unreal Engine 5 (C++ & Blueprints), JetBrains Rider, Perforce, JIRA, Miro, Disco
 </td>
       <td>
         <video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" width="300" preview-src="NeonRivalry_COVERART.jpg">
-            <img src="NeonRivalry_COVERART.jpg" alt="Palindra Cover Art" width="300"/>
+            <img src="NeonRivalry_COVERART.jpg" alt="The cover art of Neon Rivalry." width="300"/>
         </video>
       </td>
     </tr>
@@ -283,9 +283,9 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 
   <table width="790">
     <tr>
-      <td><img src="ds-1.png" alt="Dead Sector screenshot 1." width="300" thumbnail="true"/></td>
-      <td><img src="ds-6.png" alt="Dead Sector screenshot 2." width="300" thumbnail="true"/></td>
-      <td><img src="ds-7.png" alt="Dead Sector screenshot 3." width="300" thumbnail="true"/></td>
+      <td><img src="ds-1.png" alt="Screenshot of a grenade exploding and killing multiple enemies." width="300" thumbnail="true"/></td>
+      <td><img src="ds-6.png" alt="Screenshot of the final boss fight of Dead Sector." width="300" thumbnail="true"/></td>
+      <td><img src="ds-7.png" alt="Screenshot of some dialogue at the start of the game, in Dead Sector." width="300" thumbnail="true"/></td>
     </tr>
   </table>
 
@@ -296,12 +296,16 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 
 ---
 
+<p>&nbsp;</p>
+
 ## About Me
 <primary-label ref="lum"></primary-label>
 
-> [Click here to learn more about me!](About-Me.md)
+> [Click here to learn more about me!](About-Me.md) { style="note" }
 
 <p>&nbsp;</p>
+
+---
 
 ## Other Projects { collapsible="true" default-state="collapsed" }
 
