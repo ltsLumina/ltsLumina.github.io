@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="pf"
-                 name="Portfolio"
+                 name="Alexander Andrejeff"
                  start-page="Portfolio.md">
 
     <toc-element topic="Portfolio.md">

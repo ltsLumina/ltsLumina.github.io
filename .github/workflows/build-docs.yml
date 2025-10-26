@@ -18,7 +18,7 @@ env:
   # Replace XX with the ID of the instance in capital letters
   ARTIFACT: webHelpPF2-all.zip
   # Docker image version
-  DOCKER_VERSION: 241.15989
+  DOCKER_VERSION: 2025.04.8412
 
 jobs:
   build:
