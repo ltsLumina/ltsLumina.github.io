@@ -1,6 +1,13 @@
 # Prototyping
+<primary-label ref="plora"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="unity"></secondary-label>
 > This breakdown was written as part of the prototyping course at Futuregames and therefore has a different structure from my usual breakdowns.
-> A gameplay video can be seen at the bottom of the page.
+> A gameplay video can be seen at the bottom of the page. { style = "note" }
+
+<video src="../../Writerside/videos/Prototype.mp4" width="500" preview-src="prototyping.png">
+    <img src="prototyping.png" alt="Prototyping Course Preview" width="500" style="block"/>
+</video>
 
 ## What is this project
 
@@ -174,6 +181,3 @@ iterate, and polish it with playtest feedback.
 [Zipper.cs | Update()](https://gist.github.com/ltsLumina/2e44ae880536ec335c62e398ac34bc03) - The main function for grappling. Horribly coded, and all in Update(), but it works, and it only took 2.5 minutes to make.  
 [Dash Logic and some Audio | Update()](https://gist.github.com/ltsLumina/55a63627dfe3f4f5e1b8d724a1f5c875) - Another example of terrible coding practices, but it doesn’t matter because it’s for a prototype, and therefore only took a few minutes to implement into a playable state. There’s even some leftover code from when
 crouching was a thing.
-
-<video src="../../Writerside/videos/Prototype.mp4" width="500" preview-src="prototyping.png">
-    <img src="prototyping.png" alt="Prototyping Course Preview" width="500"/></video>

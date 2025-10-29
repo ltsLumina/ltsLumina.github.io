@@ -52,18 +52,34 @@ Take a look at some of the projects I've worked on in my Portfolio below.
 A portfolio piece showcasing my work on a clone of Valorant.
 This project is intended to demonstrate my proficiency in **Character Design**, **Unreal Engine**, **Blueprints** and **[Angelscript](https://angelscript.hazelight.se)**.
 
+> **Work-in-Progress!** { style = warning }  
+
 > No copyright infringement is intended.   
-> All assets used are either created by me, fan-made, or sourced from free asset libraries.  
+> All assets used are either created by myself or friends, fan-made, or sourced from free asset libraries.  
 > Credits can be found in the project's [GitHub repository](https://github.com/ltsLumina/Angel) under
 > the ["Credits.txt"](https://github.com/ltsLumina/Angel/blob/main/Credits.txt) file. { style="note" }
 
 <table width="790">
-    <tr>
-      <td><video src="../../Writerside/videos/angel_project_wip.mp4" width="200"></video></td>
-      <td><video src="../../Writerside/videos/abilities.mp4" width="200"></video></td>
-      <td><video src="../../Writerside/videos/drop_gun.mp4" width="200"></video></td>
-    </tr>
-  </table>
+  <tr>
+    <td>
+      <video src="https://youtu.be/bdRX9e4xM9k" width="300" preview-src="angel-image-preview.png">
+        <img src="angel-image-preview.png" alt="Angel Project" width="300"/>
+      </video>
+    </td>
+    <td>
+      <video src="https://youtu.be/82P7VPWmOyg" width="300" preview-src="abilities-thumbnail.jpg">
+        <img src="abilities-thumbnail.jpg" alt="Angel Project" width="300"/>
+      </video>
+    </td>
+    <td>
+      <video src="https://youtu.be/6hgCoz_sFOs" width="300" preview-src="drop-gun-thumbnail.jpg">
+        <img src="drop-gun-thumbnail.jpg" alt="Angel Project" width="300"/>
+      </video>
+    </td>
+  </tr>
+</table>
+
+> [Click here to view a work-in-progress breakdown of my work on this project.](Angel.md)
 
 ## PALINDRA
 
@@ -80,10 +96,10 @@ This project is intended to demonstrate my proficiency in **Character Design**, 
 <p>&nbsp;</p>
 
 **Platform:** Windows  
-**Engine:** Unreal Engine   
+**Engine:** Unreal Engine  
 **Genre:** Puzzle Adventure  
 **Team Size:** 10  
-**Duration:** 4 weeks @ Futuregames (2025)
+**Duration:** 6 weeks @ Futuregames (2025)
 </td>
       <td>
         <video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" width="300" preview-src="PosterPalindraSMALL.png">
@@ -118,7 +134,7 @@ Unreal Engine 5 (C++ & Blueprints), JetBrains Rider, Perforce, JIRA, Miro, Disco
 
 ### <format style="bold" color="e14273">BREAKDOWN</format>
 
-> [Click here to view a detailed breakdown on my work on PALINDRA](Palindra.md)
+> [Click here to view a detailed breakdown of my work on PALINDRA](Palindra.md)
 
 ---
 
@@ -177,7 +193,7 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 <!--
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_nr"}
 
- > [Click here to view a detailed breakdown on my work on Neon Rivalry](Neon-Rivalry.md) -->
+ > [Click here to view a detailed breakdown of my work on Neon Rivalry](Neon-Rivalry.md) -->
 
 ---
 
@@ -236,7 +252,7 @@ Unity, JetBrains Rider, Perforce, GitHub, JIRA, Miro.
 <!--
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_plo"}
 
-> [Click here to view a detailed breakdown on my work on PLORA](PLORA.md) -->
+> [Click here to view a detailed breakdown of my work on PLORA](PLORA.md) -->
 
 ---
 
@@ -296,7 +312,7 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <!-- 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ds"}
 
-> [Click here to view a detailed breakdown on my work on Dead Sector](Dead-Sector.md) -->
+> [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md) -->
 
 ---
 
@@ -408,4 +424,4 @@ Unity, JetBrains Rider, GitHub, Notion
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_prototyping"}
 
-> [Click here to view a detailed breakdown on my work on the Prototyping Course](Prototyping.md)
+> [Click here to view a detailed breakdown of my work on the Prototyping Course](Prototyping.md)
