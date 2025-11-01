@@ -55,7 +55,7 @@ This project is intended to demonstrate my proficiency in **Character Design**, 
 > **Work-in-Progress!** { style = warning }  
 
 > No copyright infringement is intended.   
-> All assets used are either created by myself or friends, fan-made, or sourced from free asset libraries.  
+> All infringing assets will be replaced by assets created by me or friends, fan-made, or sourced from free asset libraries.  
 > Credits can be found in the project's [GitHub repository](https://github.com/ltsLumina/Angel) under
 > the ["Credits.txt"](https://github.com/ltsLumina/Angel/blob/main/Credits.txt) file. { style="note" }
 
@@ -214,7 +214,7 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 **Platform:** Windows  
 **Engine:** Unity 6.0 HDRP  
 **Genre:** Infinite Runner (3D in 2D-perspective)  
-**Team Size:** 14 (4 Programmers, 6 Artists, 3 Designers, 1 Producer)  
+**Team Size:** 14  
 **Duration:** 2.5 Weeks @ Futuregames (2024)
 </td>
       <td>
