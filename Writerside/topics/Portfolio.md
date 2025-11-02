@@ -54,10 +54,9 @@ This project is intended to demonstrate my proficiency in **Character Design**, 
 
 > **Work-in-Progress!** { style = warning }  
 
-> No copyright infringement is intended.   
-> All infringing assets will be replaced by assets created by me or friends, fan-made, or sourced from free asset libraries.  
-> Credits can be found in the project's [GitHub repository](https://github.com/ltsLumina/Angel) under
-> the ["Credits.txt"](https://github.com/ltsLumina/Angel/blob/main/Credits.txt) file. { style="note" }
+> No copyright infringement is intended.  
+> All infringing assets serve only as references during development, and will be replaced by assets created by me or friends, fan-made, or sourced from free asset libraries.  
+> Credits can be found in the project's [GitHub repository](https://github.com/ltsLumina/Angel) under the ["Credits.txt"](https://github.com/ltsLumina/Angel/blob/main/Credits.txt) file. { style="note" }
 
 <table width="790">
   <tr>
