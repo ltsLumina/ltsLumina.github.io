@@ -274,7 +274,7 @@ grow stronger, and master melee, ranged, and powerful special attacks to survive
 **Engine:** Unity  
 **Genre:** Action / Roguelike-style Scavenge  
 **Team Size:** 16 (5 Programmers, 7 Artists, 3 Designers, 1 Producer)  
-**Duration:** 7 weeks @ Futuregames (2025)
+**Duration:** 3.5 weeks @ Futuregames (2025)
 </td>
       <td>
         <video src="https://www.youtube.com/watch?v=NRYq1QncCZc" width="300" height="400"
