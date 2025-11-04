@@ -424,3 +424,24 @@ Unity, JetBrains Rider, GitHub, Notion
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_prototyping"}
 
 > [Click here to view a detailed breakdown of my work on the Prototyping Course](Prototyping.md)
+
+### Board Game Design Course
+
+<primary-label ref="palindra"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+
+We created a board game entirely from scratch, designed as part of the Board Game Design Course at Futuregames.
+
+**A detailed breakdown is available as it was produced as part of the assignment.**
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_bgd"}
+
+Designer, Playtester, Documenter
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_bgd"}
+
+Google Sheets (Excel), Google Docs, Miro
+
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_bgd"}
+
+- <resource src="Board Game Design - Personal Reflection - Alexander Andrejeff.pdf"></resource>
