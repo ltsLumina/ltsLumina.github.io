@@ -42,7 +42,7 @@
     </secondary-label>
 
     <secondary-label id="unity" name="Unity" color="blue">
-        Made in Unreal Engine
+        Made in Unity
     </secondary-label>
 
     <secondary-label id="c#" name="C#" color="purple">

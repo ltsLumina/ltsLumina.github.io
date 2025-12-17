@@ -32,7 +32,8 @@ Although I have an education in programming, I am mostly self-taught.
 <p>&nbsp;</p>
 
 <p>
-Read more about who I am below!
+Fun Fact: This website was made with the code-documentation tool "Writerside", rather than through traditional website-making means.  
+Using it was close enough to writing code that I figured I would try to make something out of it, and with enough dedication, and reading a lot of documentation, I figured something out -- and I think it looks quite neat!
 </p>
     </td>
   </tr>
@@ -74,10 +75,10 @@ To be part of that would mean more to me than words can express.
 ## Favourite Games
 Here's a list of games I enjoy, in no particular order.
 
-- Final Fantasy XVI (16)
-- Final Fantasy XIV (14)
 - Valorant
 - League of Legends
+- Final Fantasy XVI (16)
+- Final Fantasy XIV (14)
 - Pacific Drive
 - Monster Hunter Wilds
 - Hollow Knight: Silksong

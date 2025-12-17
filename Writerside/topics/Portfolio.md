@@ -38,7 +38,8 @@ Take a look at some of the projects I've worked on in my Portfolio below.
 
 > If you have any questions about me or the projects I have worked on, feel free to reach out
 > via [LinkedIn](https://www.linkedin.com/in/itslumina/), or email
-> me: [itsluminas@gmail.com](mailto:itsluminas@gmail.com)
+> me: [itsluminas@gmail.com](mailto:itsluminas@gmail.com)  
+> You can read more about _me_ on my [About Section](#About-Me).
 
 ---
 
