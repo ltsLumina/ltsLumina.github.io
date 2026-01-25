@@ -12,19 +12,19 @@
     </td>
     <td>
 <p>
-Hello, I'm Alexander "Lum" Andrejeff, a Game Designer based in Stockholm, Sweden.
+Hello, I'm Alexander "Lum" Andrejeff, an Award-winning Game Designer based in Stockholm, Sweden.
 </p>
 
 <p>&nbsp;</p>
 
 <p>
-I am currently in my first year at Futuregames, specializing in Character Design akin to Overwatch heroes, Valorant agents, and League of Legends champions.
+I am currently in my first year at Futuregames, specializing in the design of character abilities akin to Overwatch heroes, Valorant agents, and League of Legends champions.
 </p>
 
 <p>&nbsp;</p>
 
 <p>
-As a Game Design student at Futuregames, I'm building on 4 years of Unity & C# experience and over 2 years with Unreal & C++ where I have driven successful projects both independently and collaboratively.
+As a Game Design student at Futuregames, I'm building on 5 years of Unity & C# experience and nearly 3 years with Unreal & C++ where I have driven successful projects both independently and collaboratively.
 </p>
 
 <p>&nbsp;</p>
@@ -39,9 +39,12 @@ Take a look at some of the projects I've worked on in my Portfolio below.
 > If you have any questions about me or the projects I have worked on, feel free to reach out
 > via [LinkedIn](https://www.linkedin.com/in/itslumina/), or email
 > me: [itsluminas@gmail.com](mailto:itsluminas@gmail.com)  
-> You can read more about _me_ on my [About Section](#About-Me).
+> You can read more about me on my [About Section](#about-me).
 
 ---
+
+<img src="Side-by-Side FGA Award.png" alt="Angel Project" width="400"/>
+> **Winner of the award for Best Debut Game 2025 at the Future Game Awards**
 
 ## ANGEL
 
