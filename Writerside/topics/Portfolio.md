@@ -12,7 +12,7 @@
     </td>
     <td>
 <p>
-Hello, I'm Alexander "Lum" Andrejeff, an Award-winning Game Designer based in Stockholm, Sweden.
+Hello, I'm Alexander "Lum" Andrejeff, a Game Designer based in Stockholm, Sweden.
 </p>
 
 <p>&nbsp;</p>
