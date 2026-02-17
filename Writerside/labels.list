@@ -27,6 +27,11 @@
         Dead Sector
     </primary-label>
 
+    <primary-label id="skills" short-name="Skills" name="" href=""
+                   color="blue">
+        Dead Sector
+    </primary-label>
+
     <!-- Secondary Labels -->
     
     <secondary-label id="futuregames" name="Futuregames" color="red">
@@ -45,7 +50,7 @@
         Made in Unity
     </secondary-label>
 
-    <secondary-label id="c#" name="C#" color="purple">
+    <secondary-label id="c#" name="C#" color="blue">
         C#
     </secondary-label>
 
@@ -57,8 +62,12 @@
         C++
     </secondary-label>
 
-    <secondary-label id="char-designer" name="Character Designer" color="strawberry">
-        I design characters and their abilities, like those in Overwatch, Valorant, and League of Legends!
+    <secondary-label id="blueprint" name="Blueprint" color="blue">
+        Blueprint
+    </secondary-label>
+
+    <secondary-label id="hero-designer" name="Hero Designer" color="strawberry">
+        I design heroes and their abilities, like those in Overwatch, Valorant, and League of Legends!
     </secondary-label>
     
     <!-- Extra Labels for About Me page -->

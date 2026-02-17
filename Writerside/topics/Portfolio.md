@@ -1,7 +1,7 @@
 # Portfolio
 
 <primary-label ref="lum"></primary-label>
-<secondary-label ref="char-designer"></secondary-label>
+<secondary-label ref="hero-designer"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
@@ -18,7 +18,7 @@ Hello, I'm Alexander "Lum" Andrejeff, a Game Designer based in Stockholm, Sweden
 <p>&nbsp;</p>
 
 <p>
-I am currently in my first year at Futuregames, specializing in the design of character abilities akin to Overwatch heroes, Valorant agents, and League of Legends champions.
+I am currently in my first year at Futuregames, specializing in the design of heroes and their abilities akin to Overwatch heroes, Valorant agents, and League of Legends champions.
 </p>
 
 <p>&nbsp;</p>
@@ -41,10 +41,22 @@ Take a look at some of the projects I've worked on in my Portfolio below.
 > me: [itsluminas@gmail.com](mailto:itsluminas@gmail.com)  
 > You can read more about me on my [About Section](#about-me).
 
+## SKILLS
+
+<primary-label ref="skills"></primary-label>
+<secondary-label ref="c#"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
+<secondary-label ref="angelscript"></secondary-label>
+<secondary-label ref="blueprint"></secondary-label>
+
+I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working experience in **C++**.
+
 ---
 
 <img src="Side-by-Side FGA Award.png" alt="Angel Project" width="400"/>
 > **Winner of the award for Best Debut Game 2025 at the Future Game Awards**
+
+---
 
 ## ANGEL
 
@@ -54,7 +66,7 @@ Take a look at some of the projects I've worked on in my Portfolio below.
 <secondary-label ref="angelscript"></secondary-label>
 
 A portfolio piece showcasing my work on a clone of Valorant.
-This project is intended to demonstrate my proficiency in **Character Design**, **Unreal Engine**, **Blueprints** and **[Angelscript](https://angelscript.hazelight.se)**.
+This project is intended to demonstrate my proficiency in **Hero Design**, **Unreal Engine**, **Blueprints** and **[Angelscript](https://angelscript.hazelight.se)**.
 
 > **Work-in-Progress!** { style = warning }  
 
