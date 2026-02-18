@@ -13,27 +13,27 @@
     </td>
     <td style="vertical-align: top; padding-left: 1rem;">
 <p>
-Hello, I'm Alexander "Lum" Andrejeff, a Game Designer based in Stockholm, Sweden.   
+Hello, I'm Alexander "<b>Lum</b>" Andrejeff, a Game Designer based in Stockholm, Sweden.   
 </p>
 
 <p>&nbsp;</p>
 
 <p>
-I also go by Alexander Seguin as a pen name, in respect to my mother and grandmother.
+I also go by Alexander <b>Seguin</b> as a pen name, in respect to my mother and grandmother.
 </p>
 
 <p>&nbsp;</p>
 
 <p>
-I am a Character Designer, with a background in game programming, in part thanks to my education at LBS (High School), and Futuregames Malmö.  
+I am a Gameplay Designer, with a background in game programming, in part thanks to my education at LBS (High School), and Futuregames Malmö.  
 Although I have an education in programming, I am mostly self-taught.
 </p>
 
 <p>&nbsp;</p>
 
 <p>
-Fun Fact: This website was made with the code-documentation tool "Writerside", rather than through traditional website-making means.  
-Using it was close enough to writing code that I figured I would try to make something out of it, and with enough dedication, and reading a lot of documentation, I figured something out -- and I think it looks quite neat!
+<b>Fun Fact:</b> This website was made with the code-documentation tool "Writerside," rather than through traditional website-making means.  
+Using it was close enough to writing code that I figured I would try to make something out of it. With enough dedication, and reading a lot of documentation, I figured something out -- and I think it looks quite neat!
 </p>
     </td>
   </tr>
@@ -41,7 +41,7 @@ Using it was close enough to writing code that I figured I would try to make som
 
 ## Who am I?
 
-I'm a Swedish-born Finnish-Canadian, with an unmatched dedication and drive to learn, improve, and create.
+I'm a Swedish-_born_ **Finnish-Canadian**, with an unmatched dedication and drive to learn, improve, teach, and create.
 
 In my spare time I like to work on personal projects, spend time with friends and family, listen to music (Linkin Park), and teach whatever I can to those around me.
 
@@ -64,9 +64,9 @@ A man who was unable to live a regular life due to a condition he was born with,
 fulfilling life through World of Warcraft, experiencing friendship, love, and all other kinds of experiences and
 feelings he otherwise could not.
 
-This is why I do it — to provide those people who need it most with an outlet to connect.
+This is why I make games -- to provide those people who need them most with an outlet to connect.
 
-The primary reason why Riot Games is so appealing to me, is because of the unmatched outreach and sheer amount of people
+The primary reason why Riot Games is so appealing to me is because of the unmatched outreach and sheer number of people
 that their games reach and affect every day.  
 To be part of that would mean more to me than words can express.
 

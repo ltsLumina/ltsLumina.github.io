@@ -12,49 +12,30 @@
     </td>
     <td>
 <p>
-Hello, I'm Alexander "Lum" Andrejeff, a Game Designer based in Stockholm, Sweden.
+Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockholm, Sweden</b>.
 </p>
 
 <p>&nbsp;</p>
 
 <p>
-I am currently in my first year at Futuregames, specializing in the design of heroes and their abilities akin to Overwatch heroes, Valorant agents, and League of Legends champions.
+I am a first year at Futuregames, <b>specializing in the design of characters</b> and their <b>abilities</b> akin to <b>Overwatch heroes</b>, <b>Valorant agents</b>, and <b>League of Legends champions</b>.
 </p>
 
 <p>&nbsp;</p>
 
 <p>
-As a Game Design student at Futuregames, I'm building on 5 years of Unity & C# experience and nearly 3 years with Unreal & C++ where I have driven successful projects both independently and collaboratively.
-</p>
-
-<p>&nbsp;</p>
-
-<p>
-Take a look at some of the projects I've worked on in my Portfolio below.
+I'm building on <b>5 years of Unity & C#</b> experience and nearly <b>3 years with Unreal Engine, C++, and Angelscript</b> where I have driven <b>successful projects</b> both independently and collaboratively.
 </p>
     </td>
   </tr>
 </table>
 
-> If you have any questions about me or the projects I have worked on, feel free to reach out
-> via [LinkedIn](https://www.linkedin.com/in/itslumina/), or email
-> me: [itsluminas@gmail.com](mailto:itsluminas@gmail.com)  
-> You can read more about me on my [About Section](#about-me).
-
-## SKILLS
-
-<primary-label ref="skills"></primary-label>
-<secondary-label ref="c#"></secondary-label>
-<secondary-label ref="c++"></secondary-label>
-<secondary-label ref="angelscript"></secondary-label>
-<secondary-label ref="blueprint"></secondary-label>
-
-I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working experience in **C++**.
+> Reach out on [LinkedIn](https://www.linkedin.com/in/itslumina/) or email me at: [itsluminas@gmail.com](mailto:itsluminas@gmail.com)  
+> You can read more about me on my [About Section](About-Me.md).
 
 ---
 
 <img src="Side-by-Side FGA Award.png" alt="Angel Project" width="400"/>
-> **Winner of the award for Best Debut Game 2025 at the Future Game Awards**
 
 ---
 
@@ -328,6 +309,17 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ds"}
 
 > [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md) -->
+
+## SKILLS
+
+<primary-label ref="skills"></primary-label>
+<secondary-label ref="c#"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
+<secondary-label ref="angelscript"></secondary-label>
+<secondary-label ref="blueprint"></secondary-label>
+
+I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working
+experience in **C++**.
 
 ---
 
