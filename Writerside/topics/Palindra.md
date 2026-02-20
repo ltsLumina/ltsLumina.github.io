@@ -4,7 +4,7 @@ switcher-label: Puzzle
 
 <show-structure for="chapter,procedure" depth="0"></show-structure>
 
-# Breakdown
+# Palindra
 <primary-label ref="palindra"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>

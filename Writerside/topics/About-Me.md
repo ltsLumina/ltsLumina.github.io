@@ -2,7 +2,7 @@
 <primary-label ref="lum"></primary-label>
 <secondary-label ref="age"></secondary-label>
 <secondary-label ref="ethnicity"></secondary-label>
-<secondary-label ref="char-designer"></secondary-label>
+<secondary-label ref="game-designer"></secondary-label>
 <secondary-label ref="in"></secondary-label>
 <secondary-label ref="location"></secondary-label>
 
@@ -33,7 +33,7 @@ Although I have an education in programming, I am mostly self-taught.
 
 <p>
 <b>Fun Fact:</b> This website was made with the code-documentation tool "Writerside," rather than through traditional website-making means.  
-Using it was close enough to writing code that I figured I would try to make something out of it. With enough dedication, and reading a lot of documentation, I figured something out -- and I think it looks quite neat!
+Using it was close enough to writing code that I figured I would try to make something out of it. With enough dedication, and reading a lot of documentation, I figured something out -- and I think it looks neat!
 </p>
     </td>
   </tr>
@@ -41,7 +41,7 @@ Using it was close enough to writing code that I figured I would try to make som
 
 ## Who am I?
 
-I'm a Swedish-_born_ **Finnish-Canadian**, with an unmatched dedication and drive to learn, improve, teach, and create.
+I'm a Swedish-_born_ **Finnish-Canadian**, with an unmatched dedication and drive to **learn**, **improve**, **teach**, and **create**. I have a growth mindset, which pushes me to iterate on existing skills, and to always be willing to learn new things.  
 
 In my spare time I like to work on personal projects, spend time with friends and family, listen to music (Linkin Park), and teach whatever I can to those around me.
 
@@ -85,8 +85,13 @@ Here's a list of games I enjoy, in no particular order.
 - Satisfactory
 - NieR: Automata
 
-### Thanks for reading about me!
+## Tutorials
+I've made a bunch of tutorials for my friends and classmates throughout my education, and I have a lot of fun doing it. Here's a playlist:
+> [Futuregames Tutorials](https://www.youtube.com/playlist?list=PLY-ty403ysHTlh4AzxgBGEONXBIY9UANx)
+
+## Thanks for reading about me!
 
 Here are a couple funny Final Fantasy XIV memes I have made over the years:  
 [i put the kratos falling song over shiva's death](https://youtu.be/CTMR5y5Dp2k)  
-[haurchefant.mp4](https://youtu.be/yevn5G1di5Q)
+[haurchefant.mp4](https://youtu.be/yevn5G1di5Q)  
+[there goes my hero](https://youtu.be/X1FuSN2roXY)

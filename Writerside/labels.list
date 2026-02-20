@@ -27,9 +27,12 @@
         Dead Sector
     </primary-label>
 
-    <primary-label id="skills" short-name="Skills" name="" href=""
-                   color="blue">
-        Dead Sector
+    <primary-label id="somnium" short-name="SOM" name="" href="https://futuregames.itch.io/somnium" color="purple">
+        Somnium
+    </primary-label>
+
+    <primary-label id="skills" short-name="SKL" name="" href="" color="marine">
+        My Skills
     </primary-label>
 
     <!-- Secondary Labels -->
@@ -38,8 +41,8 @@
         Made at Futuregames
     </secondary-label>
 
-    <secondary-label id="lbs" name="LBS" color="tangerine">
-        Made at LBS
+    <secondary-label id="lbs" name="LBS" color="yellow">
+        Made at LBS (A game development high school in Gothenburg, Sweden)
     </secondary-label>
 
     <secondary-label id="unreal" name="Unreal Engine" color="tangerine">
@@ -68,6 +71,22 @@
 
     <secondary-label id="hero-designer" name="Hero Designer" color="strawberry">
         I design heroes and their abilities, like those in Overwatch, Valorant, and League of Legends!
+    </secondary-label>
+
+    <secondary-label id="game-designer" name="Game Designer" color="strawberry">
+        I design game mechanics, systems, and features, with a focus on multiplayer games.
+    </secondary-label>
+
+    <secondary-label id="gameplay-designer" name="Gameplay Designer" color="strawberry">
+        I specialize in gameplay design, which includes designing game mechanics, systems, and features.
+    </secondary-label>
+
+    <secondary-label id="tech-designer" name="Tech Designer" color="strawberry">
+        With a background in programming, I also design technical systems and features.
+    </secondary-label>
+
+    <secondary-label id="award-best-debut-game" name="Best Debut Game" color="primary">
+        Winner of the Best Debut Game award at the 2025 Future Game Awards. 
     </secondary-label>
     
     <!-- Extra Labels for About Me page -->

@@ -3,21 +3,18 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="pf"
-                 name="Alexander Andrejeff"
-                 start-page="Portfolio.md">
+                  name="Alexander Andrejeff"
+                  start-page="Portfolio.md">
 
-    <toc-element topic="Portfolio.md">
-        <toc-element toc-title="Angel Project">
-            <toc-element topic="Angel.md"/>
-        </toc-element>
-        <toc-element toc-title="Palindra">
-            <toc-element topic="Palindra.md"/>
-        </toc-element>
+    <toc-element topic="Portfolio.md"></toc-element>
+    <toc-element toc-title="Breakdowns">
+        <toc-element topic="Angel.md"/>
+        <toc-element topic="Palindra.md"/>
         <toc-element toc-title="Neon Rivalry"/>
         <toc-element toc-title="PLORA"/>
         <toc-element toc-title="Dead Sector"/>
+        <toc-element topic="Prototyping.md"/>
         <toc-element toc-title="Other Projects">
-            <toc-element topic="Prototyping.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="About-Me.md"/>

@@ -1,7 +1,7 @@
 # Portfolio
 
 <primary-label ref="lum"></primary-label>
-<secondary-label ref="hero-designer"></secondary-label>
+<secondary-label ref="gameplay-designer"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
@@ -30,12 +30,15 @@ I'm building on <b>5 years of Unity & C#</b> experience and nearly <b>3 years wi
   </tr>
 </table>
 
-> Reach out on [LinkedIn](https://www.linkedin.com/in/itslumina/) or email me at: [itsluminas@gmail.com](mailto:itsluminas@gmail.com)  
-> You can read more about me on my [About Section](About-Me.md).
+<tip>
+<p>Reach out on <a href="https://www.linkedin.com/in/itslumina/">LinkedIn</a> or email me at: <a href="mailto:itsluminas@gmail.com">itsluminas@gmail.com</a>  
+<br></br>
+View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.md"></a>.</p>
+</tip>
 
 ---
 
-<img src="Side-by-Side FGA Award.png" alt="Angel Project" width="400"/>
+<img src="Side-by-Side FGA Award.png" alt="" width="400"/>
 
 ---
 
@@ -47,13 +50,15 @@ I'm building on <b>5 years of Unity & C#</b> experience and nearly <b>3 years wi
 <secondary-label ref="angelscript"></secondary-label>
 
 A portfolio piece showcasing my work on a clone of Valorant.
-This project is intended to demonstrate my proficiency in **Hero Design**, **Unreal Engine**, **Blueprints** and **[Angelscript](https://angelscript.hazelight.se)**.
+This project is intended to demonstrate my proficiency in **Hero & Ability Design**, **Unreal Engine**, **Blueprints** and **[Angelscript](https://angelscript.hazelight.se)**.
 
-> **Work-in-Progress!** { style = warning }  
+> **Work-in-Progress!** { style = warning }
 
 > No copyright infringement is intended.  
-> All infringing assets serve only as references during development, and will be replaced by assets created by me or friends, fan-made, or sourced from free asset libraries.  
-> Credits can be found in the project's [GitHub repository](https://github.com/ltsLumina/Angel) under the ["Credits.txt"](https://github.com/ltsLumina/Angel/blob/main/Credits.txt) file. { style="note" }
+> All infringing assets serve only as references during development, and will be replaced by assets created by me or
+> friends, fan-made, or sourced from free asset libraries.  
+> Credits can be found in the project's [GitHub repository](https://github.com/ltsLumina/Angel) under
+> the ["Credits.txt"](https://github.com/ltsLumina/Angel/blob/main/Credits.txt) file. { style="note" }
 
 <table width="790">
   <tr>
@@ -99,7 +104,7 @@ This project is intended to demonstrate my proficiency in **Hero Design**, **Unr
 </td>
       <td>
         <video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" width="300" preview-src="PosterPalindraSMALL.png">
-            <img src="PosterPalindra.png" alt="Palindra Cover Art" width="300"/>
+            <img src="PosterPalindra.png" alt="Palindra Cover Art" width="300" muted="true"/>
         </video>
       </td>
     </tr>
@@ -108,11 +113,15 @@ This project is intended to demonstrate my proficiency in **Hero Design**, **Unr
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
 
-Lead Game Designer, Level Designer, Puzzle Designer, UI/UX Designer, and Assistant Programmer (C++).
+Lead Game Designer and Associate Programmer (C++).
+
+- Level Design
+- Puzzle Design
+- UI/UX Design
 
 ### <format style="bold" color="e14273">TOOLS</format>
 
-Unreal Engine 5 (C++ & Blueprints), JetBrains Rider, Perforce, JIRA, Miro, Discord.
+**Unreal Engine 5** (C++ & Blueprints), JetBrains Rider, **Perforce**, **JIRA**, **Miro**, Discord.
 
 ### <format style="bold" color="e14273">LINKS</format>
 
@@ -134,6 +143,72 @@ Unreal Engine 5 (C++ & Blueprints), JetBrains Rider, Perforce, JIRA, Miro, Disco
 
 ---
 
+## Somnium
+
+<primary-label ref="somnium"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="unity"></secondary-label>
+<secondary-label ref="award-best-debut-game"></secondary-label>
+
+<procedure>
+  <table>
+    <tr>
+      <td>
+‘Somnium’ is a retro inspired first person dungeon crawler.
+
+<p>&nbsp;</p>
+
+**Platform:** Windows  
+**Engine:** Unity  
+**Genre:** Dungeon Crawler  
+**Team Size:** 11 (4 Designers, 4 Programmers, 3 VFX/Animators)  
+**Duration:** 2.5 weeks @ Futuregames (2025)
+<img src="Side-by-Side FGA Award.png" alt="" width="400" style="block"/>
+</td>
+      <td>
+        <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="300" height="400"
+                preview-src="somnium poster.png" muted="true">
+            <img src="somnium poster.png" alt="Somnium Poster" width="300" height="400"/>
+        </video>
+      </td>
+    </tr>
+  </table>
+</procedure>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_som" }
+
+Lead Combat & Tech Designer, Programming Lead.
+- 3C Design & Implementation
+- Combat System
+- Enemy AI & Attacks
+- Interaction System
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_som"}
+
+Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
+
+### <format style="bold" color="e14273">LINKS</format> {id="links_som"}
+
+- [Itch.io](https://futuregames.itch.io/somnium)
+
+### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_som"}
+
+  <table width="790">
+    <tr>
+      <td><img src="somnium-1.png" alt="Screenshot of the dream you are chasing." width="300" thumbnail="true"/></td>
+      <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/></td>
+      <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." width="300" thumbnail="true"/></td>
+    </tr>
+  </table>
+
+<!--
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ds"}
+
+> [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md) 
+-->
+
+---
+
 ## NEON RIVALRY
 
 <primary-label ref="neon-rivalry"></primary-label>
@@ -150,9 +225,9 @@ Unreal Engine 5 (C++ & Blueprints), JetBrains Rider, Perforce, JIRA, Miro, Disco
 
 **Platform:** Windows  
 **Engine:** Unity  
-**Genre:** Couch Co-op / Fighting  
-**Team Size:** 6 (2 Programmers, 4 Artists)  
-**Duration:** 7.5 months (August 2023 - April 2024) @ LBS
+**Genre:** Fighting  
+**Team Size:** 5 (1 Designer/Programmer, 4 Artists)  
+**Duration:** 7.5 months (August 2023 – April 2024) @ LBS
 </td>
       <td>
         <video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" width="300" preview-src="NeonRivalry_COVERART.jpg">
@@ -165,12 +240,15 @@ Unreal Engine 5 (C++ & Blueprints), JetBrains Rider, Perforce, JIRA, Miro, Disco
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_nr"}
 
-Lead Game Designer, Scrum Master, Playtest Coordinator, Combat System Designer, Game Balance, UI/UX Design, Programmer (
-C#).
+Lead Game Designer, Product Owner, Scrum Master, Programmer (C#).
+
+- State Machine
+- Combat System
+- 3C Design & Implementation
 
 ### <format style="bold" color="e14273">TOOLS</format> {id="tools_nr"}
 
-Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrains Space.
+Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrains Space **(CI/CD)**.
 
 ### <format style="bold" color="e14273">LINKS</format> {id="links_nr"}
 
@@ -193,6 +271,7 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 
 ---
 
+<!--
 ## PLORA
 
 <primary-label ref="plora"></primary-label>
@@ -225,7 +304,11 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_plo"}
 
-Lead Gameplay Programmer, Technical Designer, Tools Programmer.
+Technical Designer, Gameplay & Tools Programmer.
+
+- Player Movement
+- Repair, Refuel, and Recharge System
+- Scoring System
 
 ### <format style="bold" color="e14273">TOOLS</format> {id="tools_plo"}
 
@@ -245,13 +328,13 @@ Unity, JetBrains Rider, Perforce, GitHub, JIRA, Miro.
     </tr>
   </table>
 
-<!--
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_plo"}
 
 > [Click here to view a detailed breakdown of my work on PLORA](PLORA.md) -->
-
+-->
 ---
 
+<!-- 
 ## DEAD SECTOR
 
 <primary-label ref="dead-sector"></primary-label>
@@ -300,15 +383,15 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
   <table width="790">
     <tr>
       <td><img src="ds-1.png" alt="Screenshot of a grenade exploding and killing multiple enemies." width="300" thumbnail="true"/></td>
-      <td><img src="ds-6.png" alt="Screenshot of the final boss fight of Dead Sector." width="300" thumbnail="true"/></td>
+      <td><img src="ds-6.png" alt="Screenshot representing the final boss fight of Dead Sector." width="300" thumbnail="true"/></td>
       <td><img src="ds-7.png" alt="Screenshot of some dialogue at the start of the game, in Dead Sector." width="300" thumbnail="true"/></td>
     </tr>
   </table>
 
-<!-- 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ds"}
 
-> [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md) -->
+> [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md) 
+-->
 
 ## SKILLS
 
@@ -318,8 +401,8 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="blueprint"></secondary-label>
 
-I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working
-experience in **C++**.
+I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working experience in **C++**.  
+Furthermore, I have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**, and **CI/CD** pipelines.
 
 ---
 
@@ -423,7 +506,7 @@ Solo Developer (Designer/Programmer/Artist)
 
 ### <format style="bold" color="e14273">TOOLS</format> {id="tools_prototyping"}
 
-Unity, JetBrains Rider, GitHub, Notion 
+Unity, JetBrains Rider, GitHub, Notion
 
 ### <format style="bold" color="e14273">LINKS</format> {id="links_prototyping"}
 

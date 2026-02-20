@@ -4,7 +4,7 @@ switcher-label: Mechanic
 
 <show-structure for="chapter,procedure" depth="0"></show-structure>
 
-# Breakdown
+# Angel Project
 
 <primary-label ref="angel"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
