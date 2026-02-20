@@ -31,7 +31,7 @@
         Somnium
     </primary-label>
 
-    <primary-label id="skills" short-name="SKL" name="" href="" color="marine">
+    <primary-label id="skills" short-name="SKL" name="" href="" color="blue">
         My Skills
     </primary-label>
 
@@ -85,7 +85,7 @@
         With a background in programming, I also design technical systems and features.
     </secondary-label>
 
-    <secondary-label id="award-best-debut-game" name="Best Debut Game" color="primary">
+    <secondary-label id="award-best-debut-game" name="Best Debut Game" color="strawberry">
         Winner of the Best Debut Game award at the 2025 Future Game Awards. 
     </secondary-label>
     
