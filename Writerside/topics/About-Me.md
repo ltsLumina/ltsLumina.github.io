@@ -13,7 +13,7 @@
     </td>
     <td style="vertical-align: top; padding-left: 1rem;">
 <p>
-Hello, I'm Alexander "<b>Lum</b>" Andrejeff, a Game Designer based in Stockholm, Sweden.   
+Hello, I'm Alexander "<b>Lum</b>" Andrejeff!
 </p>
 
 <p>&nbsp;</p>
@@ -27,13 +27,6 @@ I also go by Alexander <b>Seguin</b> as a pen name, in respect to my mother and 
 <p>
 I am a Gameplay Designer, with a background in game programming, in part thanks to my education at LBS (High School), and Futuregames Malmö.  
 Although I have an education in programming, I am mostly self-taught.
-</p>
-
-<p>&nbsp;</p>
-
-<p>
-<b>Fun Fact:</b> This website was made with the code-documentation tool "Writerside," rather than through traditional website-making means.  
-Using it was close enough to writing code that I figured I would try to make something out of it. With enough dedication, and reading a lot of documentation, I figured something out -- and I think it looks neat!
 </p>
     </td>
   </tr>
@@ -88,6 +81,10 @@ Here's a list of games I enjoy, in no particular order.
 ## Tutorials
 I've made a bunch of tutorials for my friends and classmates throughout my education, and I have a lot of fun doing it. Here's a playlist:
 > [Futuregames Tutorials](https://www.youtube.com/playlist?list=PLY-ty403ysHTlh4AzxgBGEONXBIY9UANx)
+
+### Fun Fact: 
+This website was made with the code-documentation tool "Writerside," rather than through traditional website-making means.  
+Using it was close enough to writing code that I figured I would try to make something out of it. With enough dedication, and reading a lot of documentation, I figured something out -- and I think it looks neat!
 
 ## Thanks for reading about me!
 

@@ -63,7 +63,7 @@ This project is intended to demonstrate my proficiency in **Hero & Ability Desig
 <table width="790">
   <tr>
     <td>
-      <video src="https://youtu.be/bdRX9e4xM9k" width="300" preview-src="angel-image-preview.png">
+      <video src="https://youtu.be/bdRX9e4xM9k" width="300" preview-src="angel-image-preview.png" muted="true">
         <img src="angel-image-preview.png" alt="Angel Project" width="300"/>
       </video>
     </td>
@@ -267,11 +267,7 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 <!--
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_nr"}
 
- > [Click here to view a detailed breakdown of my work on Neon Rivalry](Neon-Rivalry.md) -->
-
----
-
-<!--
+ > [Click here to view a detailed breakdown of my work on Neon Rivalry](Neon-Rivalry.md)
 ## PLORA
 
 <primary-label ref="plora"></primary-label>
@@ -330,11 +326,7 @@ Unity, JetBrains Rider, Perforce, GitHub, JIRA, Miro.
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_plo"}
 
-> [Click here to view a detailed breakdown of my work on PLORA](PLORA.md) -->
--->
----
-
-<!-- 
+> [Click here to view a detailed breakdown of my work on PLORA](PLORA.md)
 ## DEAD SECTOR
 
 <primary-label ref="dead-sector"></primary-label>
@@ -390,7 +382,8 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ds"}
 
-> [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md) 
+> [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md)
+
 -->
 
 ## SKILLS
@@ -405,6 +398,7 @@ I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript
 Furthermore, I have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**, and **CI/CD** pipelines.
 
 ---
+
 
 <p>&nbsp;</p>
 
