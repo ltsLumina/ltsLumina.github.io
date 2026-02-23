@@ -38,7 +38,76 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 
 ---
 
-<img src="Side-by-Side FGA Award.png" alt="" width="400"/>
+<!-- 
+<img src="Side-by-Side FGA Award.png" alt="" width="400"/> 
+-->
+
+---
+
+## SOMNIUM
+
+<primary-label ref="somnium"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="unity"></secondary-label>
+<secondary-label ref="award-best-debut-game"></secondary-label>
+
+<procedure>
+  <table>
+    <tr>
+      <td>
+‘Somnium’ is a retro inspired first person dungeon crawler.
+
+<p>&nbsp;</p>
+
+**Platform:** Windows  
+**Engine:** Unity  
+**Genre:** Dungeon Crawler  
+**Team Size:** 11 (4 Designers, 4 Programmers, 3 VFX/Animators)  
+**Duration:** 2.5 weeks @ Futuregames (2025)
+<img src="Side-by-Side FGA Award.png" alt="" width="400" style="block"/>
+</td>
+      <td>
+        <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="300" height="400"
+                preview-src="somnium poster.png" muted="true">
+            <img src="somnium poster.png" alt="Somnium Poster" width="300" height="400"/>
+        </video>
+      </td>
+    </tr>
+  </table>
+</procedure>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_som" }
+
+Lead Combat & Tech Designer, Programming Lead.
+
+- 3C Design & Implementation
+- Combat System
+- Enemy AI & Attacks
+- Interaction System
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_som"}
+
+Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
+
+### <format style="bold" color="e14273">LINKS</format> {id="links_som"}
+
+- [Itch.io](https://futuregames.itch.io/somnium)
+
+### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_som"}
+
+  <table width="790">
+    <tr>
+      <td><img src="somnium-1.png" alt="Screenshot of the dream you are chasing." width="300" thumbnail="true"/></td>
+      <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/></td>
+      <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." width="300" thumbnail="true"/></td>
+    </tr>
+  </table>
+
+<!--
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ds"}
+
+> [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md) 
+-->
 
 ---
 
@@ -140,72 +209,6 @@ Lead Game Designer and Associate Programmer (C++).
 ### <format style="bold" color="e14273">BREAKDOWN</format>
 
 > [Click here to view a detailed breakdown of my work on PALINDRA](Palindra.md)
-
----
-
-## Somnium
-
-<primary-label ref="somnium"></primary-label>
-<secondary-label ref="futuregames"></secondary-label>
-<secondary-label ref="unity"></secondary-label>
-<secondary-label ref="award-best-debut-game"></secondary-label>
-
-<procedure>
-  <table>
-    <tr>
-      <td>
-‘Somnium’ is a retro inspired first person dungeon crawler.
-
-<p>&nbsp;</p>
-
-**Platform:** Windows  
-**Engine:** Unity  
-**Genre:** Dungeon Crawler  
-**Team Size:** 11 (4 Designers, 4 Programmers, 3 VFX/Animators)  
-**Duration:** 2.5 weeks @ Futuregames (2025)
-<img src="Side-by-Side FGA Award.png" alt="" width="400" style="block"/>
-</td>
-      <td>
-        <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="300" height="400"
-                preview-src="somnium poster.png" muted="true">
-            <img src="somnium poster.png" alt="Somnium Poster" width="300" height="400"/>
-        </video>
-      </td>
-    </tr>
-  </table>
-</procedure>
-
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_som" }
-
-Lead Combat & Tech Designer, Programming Lead.
-- 3C Design & Implementation
-- Combat System
-- Enemy AI & Attacks
-- Interaction System
-
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_som"}
-
-Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
-
-### <format style="bold" color="e14273">LINKS</format> {id="links_som"}
-
-- [Itch.io](https://futuregames.itch.io/somnium)
-
-### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_som"}
-
-  <table width="790">
-    <tr>
-      <td><img src="somnium-1.png" alt="Screenshot of the dream you are chasing." width="300" thumbnail="true"/></td>
-      <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/></td>
-      <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." width="300" thumbnail="true"/></td>
-    </tr>
-  </table>
-
-<!--
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ds"}
-
-> [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md) 
--->
 
 ---
 
