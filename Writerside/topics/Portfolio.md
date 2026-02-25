@@ -64,7 +64,7 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 **Genre:** Dungeon Crawler  
 **Team Size:** 11 (4 Designers, 4 Programmers, 3 VFX/Animators)  
 **Duration:** 2.5 weeks @ Futuregames (2025)
-<img src="Side-by-Side FGA Award.png" alt="" width="400" style="block"/>
+<img src="Debut_Win25_White.png" alt="" width="300" style="block"/>
 </td>
       <td>
         <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="300" height="400"
