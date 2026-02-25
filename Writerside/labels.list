@@ -52,6 +52,8 @@
     <secondary-label id="unity" name="Unity" color="blue">
         Made in Unity
     </secondary-label>
+    
+    <!-- Skill Labels -->
 
     <secondary-label id="c#" name="C#" color="blue">
         C#
@@ -62,12 +64,22 @@
     </secondary-label>
 
     <secondary-label id="angelscript" name="Angelscript" color="blue">
-        C++
+        Angelscript
     </secondary-label>
 
     <secondary-label id="blueprint" name="Blueprint" color="blue">
         Blueprint
     </secondary-label>
+
+    <secondary-label id="p4" name="Perforce" color="blue">
+        Perforce
+    </secondary-label>
+
+    <secondary-label id="jira" name="JIRA" color="blue">
+        JIRA
+    </secondary-label>
+    
+    <!-- End Skill Labels -->
 
     <secondary-label id="hero-designer" name="Hero Designer" color="strawberry">
         I design heroes and their abilities, like those in Overwatch, Valorant, and League of Legends!

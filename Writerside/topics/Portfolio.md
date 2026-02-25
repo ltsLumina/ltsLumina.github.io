@@ -69,7 +69,7 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
       <td>
         <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="300" height="400"
                 preview-src="somnium poster.png" muted="true">
-            <img src="somnium poster.png" alt="Somnium Poster" width="300" height="400"/>
+           <img src="somnium poster.png" alt="Somnium Poster" width="300" height="400"/>
         </video>
       </td>
     </tr>
@@ -119,7 +119,8 @@ Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
 <secondary-label ref="angelscript"></secondary-label>
 
 A portfolio piece showcasing my work on a clone of Valorant.
-This project is intended to demonstrate my proficiency in **Hero & Ability Design**, **Unreal Engine**, **Blueprints** and **[Angelscript](https://angelscript.hazelight.se)**.
+This project is intended to demonstrate my proficiency in **Hero & Ability Design**, **Unreal Engine**, **Blueprints**
+and **[Angelscript](https://angelscript.hazelight.se)**.
 
 > **Work-in-Progress!** { style = warning }
 
@@ -396,9 +397,19 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="blueprint"></secondary-label>
+<secondary-label ref="p4"></secondary-label>
+<secondary-label ref="jira"></secondary-label>
 
-I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working experience in **C++**.  
-Furthermore, I have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**, and **CI/CD** pipelines.
+I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working experience in **C++**. I also have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**, and **CI/CD** pipelines.
+
+### Additional Skills { collapsible="true" default-state="collapsed" }
+- Markdown
+- XML
+- Perforce
+- GitHub (actions, pull requests, branching, etc.)
+- JIRA (Agile project management)
+- Miro
+- CI/CD
 
 ---
 
