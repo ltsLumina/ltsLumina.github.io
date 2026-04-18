@@ -8,6 +8,7 @@
 
     <toc-element topic="Portfolio.md"></toc-element>
     <toc-element toc-title="Breakdowns">
+        <toc-element topic="Somnium.md"/>
         <toc-element topic="Angel.md"/>
         <toc-element topic="Palindra.md"/>
         <toc-element toc-title="Neon Rivalry"/>

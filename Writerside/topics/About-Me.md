@@ -13,7 +13,7 @@
     </td>
     <td style="vertical-align: top; padding-left: 1rem;">
 <p>
-Hello, I'm Alexander "<b>Lum</b>" Andrejeff!
+Hello, I'm Alexander "<b>Lum</b>" Andrejeff.
 </p>
 
 <p>&nbsp;</p>

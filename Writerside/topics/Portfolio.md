@@ -18,13 +18,13 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockho
 <p>&nbsp;</p>
 
 <p>
-I am a first year at Futuregames, <b>specializing in the design of characters</b> and their <b>abilities</b> akin to <b>Overwatch heroes</b>, <b>Valorant agents</b>, and <b>League of Legends champions</b>.
+I am a <b>Gameplay & Tech Designer</b> studying at <u>Futuregames</u>, specializing in the <b>design and implementation</b> of gameplay mechanics.
 </p>
 
 <p>&nbsp;</p>
 
 <p>
-I'm building on <b>5 years of Unity & C#</b> experience and nearly <b>3 years with Unreal Engine, C++, and Angelscript</b> where I have driven <b>successful projects</b> both independently and collaboratively.
+I'm building on <b>5 years</b> of <b>Unity/C#</b> experience, over <b>3 years with Unreal Engine</b>, and over a year with C++, and Angelscript, where I have driven <b>successful projects</b> both independently and collaboratively.
 </p>
     </td>
   </tr>
@@ -57,14 +57,12 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
       <td>
 ‘Somnium’ is a retro inspired first person dungeon crawler.
 
-<p>&nbsp;</p>
-
 **Platform:** Windows  
 **Engine:** Unity  
 **Genre:** Dungeon Crawler  
 **Team Size:** 11 (4 Designers, 4 Programmers, 3 VFX/Animators)  
 **Duration:** 2.5 weeks @ Futuregames (2025)
-<img src="Debut_Win25_White.png" alt="" width="300" style="block"/>
+<img src="Debut_Win25_White.png" alt="Winner of the Best Debut Game (2025) award!" width="300" style="block"/>
 </td>
       <td>
         <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="300" height="400"
@@ -97,17 +95,15 @@ Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
 
   <table width="790">
     <tr>
-      <td><img src="somnium-1.png" alt="Screenshot of the dream you are chasing." width="300" thumbnail="true"/></td>
+      <td><img src="../videos/somnium-trailer.gif" alt="Trailer" width="300" thumbnail="true"/></td>
       <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/></td>
       <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." width="300" thumbnail="true"/></td>
     </tr>
   </table>
 
-<!--
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ds"}
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_som"}
 
-> [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md) 
--->
+> [Click here to view a detailed breakdown of my work on Somnium](Somnium.md)
 
 ---
 
@@ -133,19 +129,13 @@ and **[Angelscript](https://angelscript.hazelight.se)**.
 <table width="790">
   <tr>
     <td>
-      <video src="https://youtu.be/bdRX9e4xM9k" width="300" preview-src="angel-image-preview.png" muted="true">
-        <img src="angel-image-preview.png" alt="Angel Project" width="300"/>
-      </video>
+      <img src="../videos/angel_project_wip-gif.gif" alt="" thumbnail="true"/>
     </td>
     <td>
-      <video src="https://youtu.be/82P7VPWmOyg" width="300" preview-src="abilities-thumbnail.jpg">
-        <img src="abilities-thumbnail.jpg" alt="Angel Project" width="300"/>
-      </video>
+      <img src="../videos/abilities-gif.gif" alt="" thumbnail="true"/>
     </td>
     <td>
-      <video src="https://youtu.be/6hgCoz_sFOs" width="300" preview-src="drop-gun-thumbnail.jpg">
-        <img src="drop-gun-thumbnail.jpg" alt="Angel Project" width="300"/>
-      </video>
+        <img src="../videos/drop_gun-gif.gif" alt="" thumbnail="true"/>
     </td>
   </tr>
 </table>
@@ -237,6 +227,7 @@ Lead Game Designer and Associate Programmer (C++).
         <video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" width="300" preview-src="NeonRivalry_COVERART.jpg">
             <img src="NeonRivalry_COVERART.jpg" alt="The cover art of Neon Rivalry." width="300"/>
         </video>
+        <img src="lbs-game-awards.png" alt="Winner of the Best Debut Game (2025) award!" width="200"/>
       </td>
     </tr>
   </table>
@@ -395,6 +386,7 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <primary-label ref="skills"></primary-label>
 <secondary-label ref="c#"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
+<secondary-label ref="java"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="blueprint"></secondary-label>
 <secondary-label ref="p4"></secondary-label>
@@ -405,11 +397,9 @@ I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript
 ### Additional Skills { collapsible="true" default-state="collapsed" }
 - Markdown
 - XML
-- Perforce
 - GitHub (actions, pull requests, branching, etc.)
 - JIRA (Agile project management)
 - Miro
-- CI/CD
 
 ---
 

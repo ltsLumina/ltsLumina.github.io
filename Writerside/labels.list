@@ -55,7 +55,7 @@
     
     <!-- Skill Labels -->
 
-    <secondary-label id="c#" name="C#" color="blue">
+    <secondary-label id="c#" name="C#" color="purple">
         C#
     </secondary-label>
 
@@ -69,6 +69,10 @@
 
     <secondary-label id="blueprint" name="Blueprint" color="blue">
         Blueprint
+    </secondary-label>
+
+    <secondary-label id="java" name="Java" color="tangerine">
+        Java
     </secondary-label>
 
     <secondary-label id="p4" name="Perforce" color="blue">
