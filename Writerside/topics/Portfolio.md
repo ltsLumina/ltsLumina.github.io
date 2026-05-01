@@ -392,7 +392,11 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <secondary-label ref="p4"></secondary-label>
 <secondary-label ref="jira"></secondary-label>
 
-I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working experience in **C++**. I also have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**, and **CI/CD** pipelines.
+I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working experience in **C++**. I also have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**, and **CI/CD** pipelines.  
+
+Additionally, I am experienced working with **netcode** (Unreal Replication and Unity's Netcode for GameObjects), especially for first-person shooters, including **GAS (Gameplay Ability System)** in Unreal Engine.
+
+I am also capable of developing **editor tools** in both Unity and Unreal Engine.
 
 ### Additional Skills { collapsible="true" default-state="collapsed" }
 - Markdown
