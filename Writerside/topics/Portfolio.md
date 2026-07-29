@@ -1,7 +1,7 @@
 # Portfolio
 
 <primary-label ref="lum"></primary-label>
-<secondary-label ref="gameplay-designer"></secondary-label>
+<secondary-label ref="tech-designer"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
@@ -24,7 +24,7 @@ I am a <b>Gameplay & Tech Designer</b> studying at <u>Futuregames</u>, specializ
 <p>&nbsp;</p>
 
 <p>
-I'm building on <b>5 years</b> of <b>Unity/C#</b> experience, over <b>3 years with Unreal Engine</b>, and over a year with C++, and Angelscript, where I have driven <b>successful projects</b> both independently and collaboratively.
+I'm building on <b>6 years</b> of <b>Unity/C#</b> experience, over <b>3 years with Unreal Engine</b>, and over a year with C++, and Angelscript, where I have driven <b>successful projects</b> both independently and collaboratively.
 </p>
     </td>
   </tr>
@@ -38,9 +38,67 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 
 ---
 
-<!-- 
-<img src="Side-by-Side FGA Award.png" alt="" width="400"/> 
--->
+## FATE
+
+<primary-label ref="fate"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="unreal"></secondary-label>
+<secondary-label ref="multiplayer"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
+<secondary-label ref="angelscript"></secondary-label>
+
+<note>Work-in-progress entry.</note>
+
+<procedure>
+  <table>
+    <tr>
+      <td>
+‘FATE’ is an online multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.
+<p>&nbsp;</p>
+
+**Platform:** Windows  
+**Engine:** Unreal Engine 5.7 (angelscript-fork)  
+**Genre:** 'Raid-like' (FPS)  
+**Team Size:** 10 (4 Designers, 4 Programmers, 2 VFX/Animators)  
+**Duration:** 7 weeks @ Futuregames (2026)
+</td>
+    </tr>
+  </table>
+</procedure>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" }
+
+Tech Designer
+
+- **GAS** (Gameplay Ability System)
+- **Guns, Abilities, and Weapons**
+- **Netcode** (Gunplay, Multiplayer Sessions, Puzzle Mechanics)
+- Interaction, **Gameplay Attributes**, UI, **Puzzle Subsystems**, Settings Options, and **Combat Systems**
+- C++ core architecture (extended in Angelscript by self and team members)
+- Main & Pause Menus (Session-handling, extensive settings options)
+- DLSS implementation
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_fate"}
+
+Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**, **Trello**, Miro.
+
+### <format style="bold" color="e14273">LINKS</format> {id="links_fate"}
+
+- [~~Itch.io~~](https://futuregames.itch.io/fate)
+
+### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_fate"}
+
+  <table width="790">
+    <tr>
+      <td><video src="../videos/8man-chaos-fate-short.mp4" alt="Gameplay" width="300" thumbnail="true"/></td>
+      <td><img src="../videos/fate-3tap.gif" alt="" width="245" thumbnail="true"/></td>
+      <td><img src="../videos/fate-pvp.gif" alt="" width="245" thumbnail="true"/></td>
+    </tr>
+  </table>
+
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_fate"}
+
+> [~~Click here to view a detailed breakdown of my work on FATE~~](Somnium.md)
 
 ---
 
@@ -55,7 +113,7 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
   <table>
     <tr>
       <td>
-‘Somnium’ is a retro inspired first person dungeon crawler.
+‘Somnium’ is a retro-inspired first-person dungeon crawler.
 
 **Platform:** Windows  
 **Engine:** Unity  
@@ -76,7 +134,7 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_som" }
 
-Lead Combat & Tech Designer, Programming Lead.
+Combat & Tech Designer, Programming.
 
 - 3C Design & Implementation
 - Combat System
@@ -173,7 +231,7 @@ and **[Angelscript](https://angelscript.hazelight.se)**.
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
 
-Lead Game Designer and Associate Programmer (C++).
+Game Designer and Associate Programmer (C++).
 
 - Level Design
 - Puzzle Design
@@ -208,6 +266,7 @@ Lead Game Designer and Associate Programmer (C++).
 <primary-label ref="neon-rivalry"></primary-label>
 <secondary-label ref="lbs"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
+<secondary-label ref="co-op"></secondary-label>
 
 <procedure>
   <table>
@@ -235,7 +294,7 @@ Lead Game Designer and Associate Programmer (C++).
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_nr"}
 
-Lead Game Designer, Product Owner, Scrum Master, Programmer (C#).
+Game Designer, Product Owner, Scrum Master, Programmer (C#).
 
 - State Machine
 - Combat System

@@ -27,6 +27,10 @@
         Dead Sector
     </primary-label>
 
+    <primary-label id="fate" short-name="FTE" name="" href="https://futuregames.itch.io/somnium" color="red">
+        FATE
+    </primary-label>
+
     <primary-label id="somnium" short-name="SOM" name="" href="https://futuregames.itch.io/somnium" color="purple">
         Somnium
     </primary-label>
@@ -51,6 +55,14 @@
 
     <secondary-label id="unity" name="Unity" color="blue">
         Made in Unity
+    </secondary-label>
+
+    <secondary-label id="multiplayer" name="Multiplayer" color="marine">
+        Online Multiplayer
+    </secondary-label>
+
+    <secondary-label id="co-op" name="Couch co-op" color="marine">
+        Co-op
     </secondary-label>
     
     <!-- Skill Labels -->
@@ -93,8 +105,8 @@
         I design game mechanics, systems, and features, with a focus on multiplayer games.
     </secondary-label>
 
-    <secondary-label id="gameplay-designer" name="Gameplay Designer" color="strawberry">
-        I specialize in gameplay design, which includes designing game mechanics, systems, and features.
+    <secondary-label id="tech-designer" name="Tech Designer" color="strawberry">
+        I specialize in gameplay design – designing and implementing game mechanics, systems, and features.
     </secondary-label>
 
     <secondary-label id="tech-designer" name="Tech Designer" color="strawberry">
