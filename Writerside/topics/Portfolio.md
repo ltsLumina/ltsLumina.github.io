@@ -5,12 +5,12 @@
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
-<table width="790">
+<table width="900">
   <tr>
-    <td>
+    <td width="205">
       <img src="polaroid profile picture.png" width="300" alt="Me!" border-effect="rounded"/>
     </td>
-    <td>
+    <td width="400">
 <p>
 Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockholm, Sweden</b>.
 </p>
@@ -18,7 +18,7 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockho
 <p>&nbsp;</p>
 
 <p>
-I am a <b>Gameplay & Tech Designer</b> studying at <u>Futuregames</u>, specializing in the <b>design and implementation</b> of gameplay mechanics.
+I am a <b>Gameplay & Tech Designer</b> studying at <i>Futuregames</i>, specializing in the <b>design and implementation</b> of gameplay mechanics.
 </p>
 
 <p>&nbsp;</p>
@@ -49,26 +49,19 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 
 <note>Work-in-progress entry.</note>
 
-<procedure>
-  <table>
-    <tr>
-      <td>
-‘FATE’ is an online multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.
-<p>&nbsp;</p>
+<tldr>
+<p>‘FATE’ is an online multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
 
 **Platform:** Windows  
 **Engine:** Unreal Engine 5.7 (angelscript-fork)  
 **Genre:** 'Raid-like' (FPS)  
 **Team Size:** 10 (4 Designers, 4 Programmers, 2 VFX/Animators)  
 **Duration:** 7 weeks @ Futuregames (2026)
-</td>
-    </tr>
-  </table>
-</procedure>
+</tldr>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" }
 
-Tech Designer
+**Tech Designer**
 
 - **GAS** (Gameplay Ability System)
 - **Guns, Abilities, and Weapons**
@@ -88,13 +81,19 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 
 ### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_fate"}
 
-  <table width="790">
-    <tr>
-      <td><video src="../videos/8man-chaos-fate-short.mp4" alt="Gameplay" width="300" thumbnail="true"/></td>
-      <td><img src="../videos/fate-3tap.gif" alt="" width="245" thumbnail="true"/></td>
-      <td><img src="../videos/fate-pvp.gif" alt="" width="245" thumbnail="true"/></td>
-    </tr>
-  </table>
+  <table width="900">
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <video src="../videos/8man-chaos-fate-short.mp4" width="280" thumbnail="true"/>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="../videos/fate-3tap.gif" alt="3-tap" width="280" thumbnail="true"/>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <img src="../videos/fate-pvp.gif" alt="PvP" width="280" thumbnail="true"/>
+    </td>
+  </tr>
+</table>
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_fate"}
 
@@ -112,7 +111,7 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 <procedure>
   <table>
     <tr>
-      <td>
+      <td width="385">
 ‘Somnium’ is a retro-inspired first-person dungeon crawler.
 
 **Platform:** Windows  
@@ -120,7 +119,8 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 **Genre:** Dungeon Crawler  
 **Team Size:** 11 (4 Designers, 4 Programmers, 3 VFX/Animators)  
 **Duration:** 2.5 weeks @ Futuregames (2025)
-<img src="Debut_Win25_White.png" alt="Winner of the Best Debut Game (2025) award!" width="300" style="block"/>
+<p>&nbsp;</p>
+<img src="Debut_Win25_White.png" alt="Winner of the Best Debut Game (2025) award!" width="275" style:="block"/>
 </td>
       <td>
         <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="300" height="400"
@@ -151,7 +151,7 @@ Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
 
 ### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_som"}
 
-  <table width="790">
+  <table width="900">
     <tr>
       <td><img src="../videos/somnium-trailer.gif" alt="Trailer" width="300" thumbnail="true"/></td>
       <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/></td>
@@ -184,16 +184,16 @@ and **[Angelscript](https://angelscript.hazelight.se)**.
 > Credits can be found in the project's [GitHub repository](https://github.com/ltsLumina/Angel) under
 > the ["Credits.txt"](https://github.com/ltsLumina/Angel/blob/main/Credits.txt) file. { style="note" }
 
-<table width="790">
+<table width="900">
   <tr>
-    <td>
-      <img src="../videos/angel_project_wip-gif.gif" alt="" thumbnail="true"/>
+    <td align="center" valign="top" width="33%">
+      <img src="../videos/angel_project_wip-gif.gif" alt="" width="280" thumbnail="true"/>
     </td>
-    <td>
-      <img src="../videos/abilities-gif.gif" alt="" thumbnail="true"/>
+    <td align="center" valign="top" width="33%">
+      <img src="../videos/abilities-gif.gif" alt="" width="280" thumbnail="true"/>
     </td>
-    <td>
-        <img src="../videos/drop_gun-gif.gif" alt="" thumbnail="true"/>
+    <td align="center" valign="top" width="33%">
+      <img src="../videos/drop_gun-gif.gif" alt="" width="280" thumbnail="true"/>
     </td>
   </tr>
 </table>
@@ -209,7 +209,7 @@ and **[Angelscript](https://angelscript.hazelight.se)**.
 <procedure>
   <table>
     <tr>
-      <td>
+      <td width="385">
         Palindra is an atmospheric puzzle game with a time-travel mechanic. The game was created as part of the Game Project 3 course at Futuregames, Malmö (2025).
 
 <p>&nbsp;</p>
@@ -247,7 +247,7 @@ Game Designer and Associate Programmer (C++).
 
 ### <format style="bold" color="e14273">SCREENSHOTS</format>
 
-  <table width="790">
+  <table width="900">
     <tr>
       <td><img src="palindra-bedroom-past.png" alt="Screenshot of the bedroom in Palindra, during the past timeline, holding the time-travel mirror." width="300" thumbnail="true"/></td>
       <td><img src="palindra-fireplace-present.png" alt="Screenshot of the fireplace in Palindra, during the present timeline." width="300" thumbnail="true"/></td>
@@ -271,7 +271,7 @@ Game Designer and Associate Programmer (C++).
 <procedure>
   <table>
     <tr>
-      <td>
+      <td width="385">
         Neon Rivalry is a couch co-op 3D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).
 
 <p>&nbsp;</p>
@@ -310,7 +310,7 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 
 ### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_nr"}
 
-  <table width="790">
+  <table width="900">
     <tr>
       <td><img src="nr2.png" alt="Character Select in Engine (Unity)" width="300" thumbnail="true"/></td>
       <td><img src="nr4.png" alt="Neon Rivalry Combat #1" width="300" thumbnail="true"/></td>
@@ -329,9 +329,9 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 <secondary-label ref="unity"></secondary-label>
 
 <procedure>
-  <table>
+  <table width="900">
     <tr>
-      <td>
+      <td width="300">
         PLORA is a 3D infinite runner with a 2D-perspective created in Unity by a 14-member team as part of Game Project 1.
 
 <p>&nbsp;</p>
@@ -370,7 +370,7 @@ Unity, JetBrains Rider, Perforce, GitHub, JIRA, Miro.
 
 ### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_plo"}
 
-  <table width="790">
+  <table width="900">
     <tr>
       <td><img src="plora intro.png" alt="Plora main menu screen." width="300" thumbnail="true"/></td>
       <td><img src="plora gameplay.png" alt="Early gameplay with dialogue showing." width="300" thumbnail="true"/></td>
@@ -388,7 +388,7 @@ Unity, JetBrains Rider, Perforce, GitHub, JIRA, Miro.
 <secondary-label ref="unity"></secondary-label>
 
 <procedure>
-  <table>
+  <table width="900">
     <tr>
       <td>
 Dead Sector was created as a month-long collaborative project between Futuregames Malmö and Warsaw. Scavenge for gear,
@@ -426,7 +426,7 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 
 ### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_ds"}
 
-  <table width="790">
+  <table width="900">
     <tr>
       <td><img src="ds-1.png" alt="Screenshot of a grenade exploding and killing multiple enemies." width="300" thumbnail="true"/></td>
       <td><img src="ds-6.png" alt="Screenshot representing the final boss fight of Dead Sector." width="300" thumbnail="true"/></td>
@@ -492,9 +492,9 @@ I am also capable of developing **editor tools** in both Unity and Unreal Engine
 <secondary-label ref="unity"></secondary-label>
 
 <procedure>
-  <table>
+  <table width="900">
     <tr>
-      <td>
+      <td width="300">
 STOKOS is a 2D celeste-like platformer created as part of a 3-day game jam with some friends at Futuregames.
 
 <p>&nbsp;</p>
@@ -538,9 +538,9 @@ Unity, JetBrains Rider, GitHub
 <secondary-label ref="unity"></secondary-label>
 
 <procedure>
-  <table>
+  <table width="900">
     <tr>
-      <td>
+<td width="300">
 This project was created as part of the Prototyping Course at Futuregames, where the goal is to prototype a game that focuses on the 3C's of game design. (Character, Camera, and Controls).  
 
 **A detailed breakdown is available as it was produced as part of the assignment.**

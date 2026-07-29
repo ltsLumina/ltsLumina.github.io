@@ -37,7 +37,7 @@ For reference, I have read through every single patch note released for each of 
 Each variable gives me insight into how the gun is intended to behave, and by implementing these values into my own system, I can closely mimic the behavior of the original guns.
 While I don't know exactly how Riot has implemented their guns, I can make educated guesses based on the data available to me, and through trial and error, I can refine my implementation to closely match the feel of the original guns.
 
-<table width="790">
+<table width="900">
   <tr>
     <td>
       <img src="angel-Phantom-BP-1.png" alt="A view of the first half of the details panel for the base gun class." width="300" thumbnail="true"/>

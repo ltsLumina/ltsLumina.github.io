@@ -27,7 +27,7 @@ The player can interact with the piano keys, which produce a corresponding note 
 notes is supplied through environmental storytelling, with sheet music locked behind a prior puzzle.  
 The note that each piano key corresponds to is shown on the HUD when looking at a key.
 
-<table width="600">
+<table width="900">
   <tr>
     <td>
       <img src="practice sheet.png" alt="Palindra Screenshot 1" width="300" thumbnail="true" border-effect="rounded"/>
@@ -59,7 +59,7 @@ The fireplace puzzle was one of our stretch-goal puzzles that we would love to i
 
 Conceptually, we wanted a puzzle that would physically alter the environment in some way; like hindering traversal, but revealing potential clues.  
 
-<table width="800">
+<table width="900">
   <tr>
     <td>
       <img src="palindra-fireplace-present.png" alt="A screenshot from the fireplace room in the 'PRESENT' timeline in Palindra." width="400" thumbnail="true" border-effect="rounded"></img>
@@ -84,7 +84,7 @@ After unlocking the safe, the clock stops chiming, indicating that the puzzle ha
 
 An issue that arose during playtesting was that it is not clear enough that the fireplace can be interacted with. This led to player frustration, and the player thinking that it's their fault that they cannot figure out how to progress, which was not the intended effect. In an attempt to remedy this issue, we added sparkle particle effects to anything interactable in the game world.
 
-<table width="800">
+<table width="900">
   <tr>
     <td>
       <img src="palindra-fireplace.png" alt="The fireplace in Palindra." width="400" thumbnail="false" border-effect="rounded"></img>

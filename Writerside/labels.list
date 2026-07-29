@@ -57,11 +57,11 @@
         Made in Unity
     </secondary-label>
 
-    <secondary-label id="multiplayer" name="Multiplayer" color="marine">
+    <secondary-label id="multiplayer" name="Multiplayer" color="purple">
         Online Multiplayer
     </secondary-label>
 
-    <secondary-label id="co-op" name="Couch co-op" color="marine">
+    <secondary-label id="co-op" name="Couch co-op" color="purple">
         Co-op
     </secondary-label>
     

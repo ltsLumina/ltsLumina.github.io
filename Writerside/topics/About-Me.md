@@ -6,7 +6,7 @@
 <secondary-label ref="in"></secondary-label>
 <secondary-label ref="location"></secondary-label>
 
-<table width="790">
+<table width="900">
   <tr>
     <td style="vertical-align: top;">
       <img src="polaroid profile picture.png" width="300" alt="Me!" border-effect="rounded"/>
