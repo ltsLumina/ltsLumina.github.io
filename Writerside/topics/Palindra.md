@@ -2,14 +2,14 @@
 switcher-label: Puzzle
 ---
 
-<show-structure for="chapter,procedure" depth="0"></show-structure>
-
 # Palindra
 <primary-label ref="palindra"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
-> Press the "Puzzle" switcher in the top right (or top centre on mobile), left of the "Reach out!" button to switch between different puzzle designs. { style = "note" }
+<include from="switcher-note.topic" element-id="switcher-note">
+    <var name="switcher-key" value="puzzle"/>
+</include>
 
 ## Piano Puzzle {switcher-key="Piano"}
 

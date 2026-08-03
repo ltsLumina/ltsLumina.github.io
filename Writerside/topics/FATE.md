@@ -11,7 +11,9 @@ switcher-label: Contribution
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-> Press the "Contribution" switcher in the top right (or top centre on mobile), left of the "Reach out!" button to switch between different contributions of mine. { style = "note" }
+<include from="switcher-note.topic" element-id="switcher-note">
+    <var name="switcher-key" value="contribution"/>
+</include>
 
 ## Leadership { switcher-key="Leadership"}
 

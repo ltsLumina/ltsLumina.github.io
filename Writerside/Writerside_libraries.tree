@@ -3,6 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="Writerside_libraries"
-                  name="Writerside_libraries" is-library="true">
+                  name="Writerside_libraries" is-library="true" start-page="switcher-note.topic">
 
+    <toc-element topic="switcher-note.topic"/>
 </instance-profile>

@@ -2,8 +2,6 @@
 switcher-label: Feature
 ---
 
-<show-structure for="chapter,procedure" depth="0"></show-structure>
-
 # Angel Project
 
 <primary-label ref="angel"></primary-label>
@@ -11,8 +9,9 @@ switcher-label: Feature
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-> Press the "Feature" switcher in the top right (or top centre on mobile), left of the "Reach out!" button to switch between
-different feature breakdowns. { style = "note" }
+<include from="switcher-note.topic" element-id="switcher-note">
+    <var name="switcher-key" value="feature"/>
+</include>
 
 This project is very early in development, and is very prototype-heavy at the moment. Nothing is final, nor is this page
 complete.
@@ -146,8 +145,6 @@ For now, that's all there is to the gun implementation.
 As mentioned earlier, this is still a work in progress, and there are many features and improvements that can be made to the system.  
 
 However, I believe this is a solid foundation for recreating Valorant's gun mechanics, and I look forward to continuing to refine and expand upon this system in the future.
-
-> To explore other features, select the "Feature" switcher in the top right (or top centre on mobile), left of the "Reach out!" button to switch between different feature breakdowns. { style = "note" }
 
 ## Abilities {switcher-key="Abilities"}
 
