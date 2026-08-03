@@ -47,7 +47,7 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-<video src="https://youtu.be/cMRGwG6g7GQ" width="600" preview-src="../videos/fate-3tap.gif" autoplay="true"/>
+<video src="https://youtu.be/cMRGwG6g7GQ" width="600" preview-src="../videos/8man-chaos-fate.gif"/>
 
 <table width="800">
     <tr>
