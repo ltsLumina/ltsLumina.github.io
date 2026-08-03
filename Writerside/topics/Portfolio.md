@@ -58,8 +58,8 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 <!-- at most 2 videos side-to-side for mobile! -->
 <table width="800">
     <tr>
-      <td><img src="../videos/fate-pvp.gif" width="300" thumbnail="true"/></td>
-      <td><img src="../videos/fate-3tap.gif" width="300" thumbnail="true"/></td>
+      <td><img src="../videos/fate-pvp.gif" width="300" thumbnail="true" alt="PvP Footage"/></td>
+      <td><img src="../videos/fate-3tap.gif" width="300" thumbnail="true" alt="Firing in the Shooting Range as Izanagi"/></td>
     </tr>
 </table>
 
