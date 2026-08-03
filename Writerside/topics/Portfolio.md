@@ -47,14 +47,13 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-[//]: # (<note>Work-in-progress entry.</note>)
-[//]: # (<img src="../videos/fate-3tap.gif" width="600" thumbnail="false"/>)
 <video src="https://youtu.be/cMRGwG6g7GQ" width="600" preview-src="../videos/fate-3tap.gif" autoplay="true"/>
 
 <quote>
 <p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
 </quote>
 
+<!-- at most 2 videos side-to-side for mobile! -->
 <table width="800">
     <tr>
       <td><img src="../videos/fate-pvp.gif" width="300" thumbnail="true"/></td>
@@ -64,11 +63,13 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_fate" collapsible="true" default-state="collapsed" }
 
-**Platform:** Windows  
-**Engine:** Unreal Engine 5.7 (custom angelscript fork)  
-**Genre:** 'Raid-like' (FPS + Destiny Raid + Rogue-lite)  
-**Team Size:** 10 (4 Designers, 4 Programmers, 2 VFX/Animators)  
-**Duration:** 7 weeks @ Futuregames (2026)
+<quote>
+<p><b>Platform:</b> Windows</p>  
+<p><b>Engine:</b> Unreal Engine 5.7 (custom angelscript fork)</p>
+<p><b>Genre:</b> 'Raid-like' (FPS + Destiny Raid + Rogue-lite)</p>
+<p><b>Team Size:</b> 10 (4 Designers, 4 Programmers, 2 VFX/Animators)</p>
+<p><b>Duration:</b> 7 weeks @ Futuregames (2026)</p>
+</quote>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" collapsible="true" default-state="collapsed"}
 
@@ -97,7 +98,7 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 
 Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**, **Trello**, Miro.
 
-### <format style="bold" color="e14273">LINKS</format> {id="links_fate"}
+### <format style="bold" color="e14273">LINKS</format> {id="links_fate" collapsible="true" default-state="collapsed" }
 
 - [~~Itch.io~~](https://futuregames.itch.io/fate)
 - [Enchantments List](https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing)
