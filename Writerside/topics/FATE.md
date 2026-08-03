@@ -11,6 +11,8 @@ switcher-label: Contribution
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
+> Press the "Contribution" switcher in the top right (or top centre on mobile), left of the "Reach out!" button to switch between different contributions of mine. { style = "note" }
+
 ## Leadership { switcher-key="Leadership"}
 
 FATE is a love-letter to Destiny (2), and an attempt at creating a new genre ("Raid-like").  

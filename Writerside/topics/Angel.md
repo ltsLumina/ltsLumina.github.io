@@ -11,7 +11,7 @@ switcher-label: Feature
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-> Press the "Feature" switcher in the top right of the website, left of the "Reach out!" button to switch between
+> Press the "Feature" switcher in the top right (or top centre on mobile), left of the "Reach out!" button to switch between
 different feature breakdowns. { style = "note" }
 
 This project is very early in development, and is very prototype-heavy at the moment. Nothing is final, nor is this page
@@ -147,7 +147,7 @@ As mentioned earlier, this is still a work in progress, and there are many featu
 
 However, I believe this is a solid foundation for recreating Valorant's gun mechanics, and I look forward to continuing to refine and expand upon this system in the future.
 
-> To explore other features, select the "Feature" switcher in the top right of the website, left of the "Reach out!" button to switch between different feature breakdowns. { style = "note" }
+> To explore other features, select the "Feature" switcher in the top right (or top centre on mobile), left of the "Reach out!" button to switch between different feature breakdowns. { style = "note" }
 
 ## Abilities {switcher-key="Abilities"}
 

@@ -9,7 +9,7 @@ switcher-label: Puzzle
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
-> Press the "Puzzle" switcher in the top right of the website, left of the "Reach out!" button to switch between different puzzle designs. { style = "note" }
+> Press the "Puzzle" switcher in the top right (or top centre on mobile), left of the "Reach out!" button to switch between different puzzle designs. { style = "note" }
 
 ## Piano Puzzle {switcher-key="Piano"}
 

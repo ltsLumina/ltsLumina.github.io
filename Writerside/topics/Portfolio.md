@@ -5,28 +5,12 @@
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
-<style>
-  @media (max-width: 767px) {
-    .portfolio-intro-table {
-      width: 100%;
-    }
-
-    .portfolio-profile-picture-cell {
-      display: none;
-    }
-
-    .portfolio-intro-cell {
-      width: auto;
-    }
-  }
-</style>
-
-<table width="800" class="portfolio-intro-table">
+<table width="800">
   <tr>
-    <td width="205" class="portfolio-profile-picture-cell">
+    <td width="205">
       <img src="polaroid profile picture.png" width="300" alt="Me!" border-effect="rounded"/>
     </td>
-    <td width="400" class="portfolio-intro-cell">
+    <td width="400">
 <p>
 Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockholm, Sweden</b>.
 </p>
