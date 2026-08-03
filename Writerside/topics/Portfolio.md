@@ -47,25 +47,48 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-<note>Work-in-progress entry.</note>
+[//]: # (<note>Work-in-progress entry.</note>)
+[//]: # (<img src="../videos/fate-3tap.gif" width="600" thumbnail="false"/>)
+<video src="../videos/8man-chaos-fate-short.mp4" width="600"/>
 
-<tldr>
-<p>‘FATE’ is an online multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
+<quote>
+<p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
+</quote>
+
+<table width="900">
+    <tr>
+      <td><img src="../videos/fate-pvp.gif" width="300" thumbnail="true"/></td>
+      <td><img src="../videos/fate-3tap.gif" width="300" thumbnail="true"/></td>
+      <td><video src="../videos/8man-chaos-fate-short.mp4" width="200"/></td>
+    </tr>
+  </table>
+
+### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_fate" collapsible="true" default-state="collapsed" }
 
 **Platform:** Windows  
-**Engine:** Unreal Engine 5.7 (angelscript-fork)  
-**Genre:** 'Raid-like' (FPS)  
+**Engine:** Unreal Engine 5.7 (custom angelscript fork)  
+**Genre:** 'Raid-like' (FPS + Destiny Raid + Rogue-lite)  
 **Team Size:** 10 (4 Designers, 4 Programmers, 2 VFX/Animators)  
 **Duration:** 7 weeks @ Futuregames (2026)
-</tldr>
 
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" }
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" collapsible="true" default-state="collapsed"}
 
-**Tech Designer**
+<deflist type="full">
+    <def title="GAS (Gameplay Ability System)">
+        Designed and implemented all GAS architecture including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
+    </def>
+    <def title="Guns, Abilities, and Weapons">
+        Studied Destiny's gunplay and implemented a similar gun-feel. Implemented core abilities including <b>shoot</b>, <b>reload</b>, <b>ADS</b>, and more.
+    </def>
+    <def title="Enchantments (upgrades)">
+        Designed and implemented 'enchantments' (rogue-lite upgrades). <p>A non-exhaustive list <a href="https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing">can be viewed here.</a></p>
+    </def>
+    <def title="Netcode">
+        <p>Worked with the AdvancedSessions plugin, SteamSockets, SteamSubsystem, and more to connect clients to each other.</p>
+        <p>RPCs and Replication was used for syncing game-state across clients.</p>
+    </def>
+</deflist>
 
-- **GAS** (Gameplay Ability System)
-- **Guns, Abilities, and Weapons**
-- **Netcode** (Gunplay, Multiplayer Sessions, Puzzle Mechanics)
 - Interaction, **Gameplay Attributes**, UI, **Puzzle Subsystems**, Settings Options, and **Combat Systems**
 - C++ core architecture (extended in Angelscript by self and team members)
 - Main & Pause Menus (Session-handling, extensive settings options)
@@ -79,25 +102,9 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 
 - [~~Itch.io~~](https://futuregames.itch.io/fate)
 
-### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_fate"}
-
-  <table width="900">
-  <tr>
-    <td align="center" valign="top" width="33%">
-      <video src="../videos/8man-chaos-fate-short.mp4" width="280" thumbnail="true"/>
-    </td>
-    <td align="center" valign="top" width="33%">
-      <img src="../videos/fate-3tap.gif" alt="3-tap" width="280" thumbnail="true"/>
-    </td>
-    <td align="center" valign="top" width="33%">
-      <img src="../videos/fate-pvp.gif" alt="PvP" width="280" thumbnail="true"/>
-    </td>
-  </tr>
-</table>
-
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_fate"}
 
-> [~~Click here to view a detailed breakdown of my work on FATE~~](Somnium.md)
+> [Click here to view a detailed breakdown of my work on FATE](FATE.md)
 
 ---
 
@@ -172,8 +179,8 @@ Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-A portfolio piece showcasing my work on a clone of Valorant.
-This project is intended to demonstrate my proficiency in **Hero & Ability Design**, **Unreal Engine**, **Blueprints**
+A portfolio piece showcasing my work on a clone of Valorant. This project is intended to demonstrate my proficiency in
+**Hero & Ability Design**, **Unreal Engine**, **Blueprints**
 and **[Angelscript](https://angelscript.hazelight.se)**.
 
 > **Work-in-Progress!** { style = warning }
@@ -451,13 +458,17 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <secondary-label ref="p4"></secondary-label>
 <secondary-label ref="jira"></secondary-label>
 
-I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working experience in **C++**. I also have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**, and **CI/CD** pipelines.  
+I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working
+experience in **C++**. I also have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**,
+and **CI/CD** pipelines.
 
-Additionally, I am experienced working with **netcode** (Unreal Replication and Unity's Netcode for GameObjects), especially for first-person shooters, including **GAS (Gameplay Ability System)** in Unreal Engine.
+Additionally, I am experienced working with **netcode** (Unreal Replication and Unity's Netcode for GameObjects),
+especially for first-person shooters, including **GAS (Gameplay Ability System)** in Unreal Engine.
 
 I am also capable of developing **editor tools** in both Unity and Unreal Engine.
 
 ### Additional Skills { collapsible="true" default-state="collapsed" }
+
 - Markdown
 - XML
 - GitHub (actions, pull requests, branching, etc.)
