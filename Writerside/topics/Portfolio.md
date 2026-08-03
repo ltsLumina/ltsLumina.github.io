@@ -53,6 +53,8 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 <p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
 </quote>
 
+<p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
+
 <!-- at most 2 videos side-to-side for mobile! -->
 <table width="800">
     <tr>
