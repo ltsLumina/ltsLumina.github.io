@@ -4,6 +4,13 @@ switcher-label: Contribution
 
 # FATE
 
+<primary-label ref="fate"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="unreal"></secondary-label>
+<secondary-label ref="multiplayer"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
+<secondary-label ref="angelscript"></secondary-label>
+
 ## Leadership { switcher-key="Leadership"}
 
 FATE is a love-letter to Destiny (2), and an attempt at creating a new genre ("Raid-like").  
