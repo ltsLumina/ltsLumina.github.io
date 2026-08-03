@@ -49,11 +49,11 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 
 <video src="https://youtu.be/cMRGwG6g7GQ" width="600" preview-src="../videos/fate-3tap.gif" autoplay="true"/>
 
-<quote>
-<p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
-</quote>
-
-<p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
+<table width="800">
+    <tr>
+        <td>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</td>
+    </tr>
+</table>
 
 <!-- at most 2 videos side-to-side for mobile! -->
 <table width="800">
@@ -61,17 +61,24 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
       <td><img src="../videos/fate-pvp.gif" width="300" thumbnail="true"/></td>
       <td><img src="../videos/fate-3tap.gif" width="300" thumbnail="true"/></td>
     </tr>
-  </table>
+</table>
 
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_fate" collapsible="true" default-state="collapsed" }
 
-<quote>
+<table width="800">
+<tr>
+<td>
+<p>Battle your way through challenging encounters featuring mechanics and puzzles that challenge you and up to two friends.
+Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i></p>
+<p>&nbsp;</p>
 <p><b>Platform:</b> Windows</p>  
 <p><b>Engine:</b> Unreal Engine 5.7 (custom angelscript fork)</p>
 <p><b>Genre:</b> 'Raid-like' (FPS + Destiny Raid + Rogue-lite)</p>
 <p><b>Team Size:</b> 10 (4 Designers, 4 Programmers, 2 VFX/Animators)</p>
 <p><b>Duration:</b> 7 weeks @ Futuregames (2026)</p>
-</quote>
+</td>
+</tr>
+</table>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" collapsible="true" default-state="collapsed"}
 
