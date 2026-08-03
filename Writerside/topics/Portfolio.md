@@ -235,13 +235,19 @@ All infringing assets serve only as references during development, and will be r
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
-<video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" width="600" preview-src="PosterPalindraSMALL.png">
-    <img src="PosterPalindra.png" alt="Palindra Cover Art" width="300" muted="true"/>
-</video>
+<video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" preview-src="PosterPalindraSMALL.png"/>
 
 <table width="800">
     <tr>
         <td>‘Palindra’ is an atmospheric puzzle game with a time-travel mechanic. The game was created as part of the Game Project 3 course at Futuregames, Malmö (2025).</td>
+    </tr>
+</table>
+
+<table width="600">
+    <tr>
+      <!--<td><img src="palindra-bedroom-past.png" alt="Screenshot of the bedroom in Palindra, during the past timeline, holding the time-travel mirror." width="300" thumbnail="true"/></td> -->
+      <td><img src="palindra-fireplace-present.png" alt="Screenshot of the fireplace in Palindra, during the present timeline." width="300" thumbnail="true"/></td>
+      <td><img src="palindra-piano-past.png" alt="Screenshot of the piano room in Palindra, during the past timeline." width="300" thumbnail="true"/></td>
     </tr>
 </table>
 
@@ -250,6 +256,8 @@ All infringing assets serve only as references during development, and will be r
 <table width="800">
 <tr>
 <td>
+<p>Traverse two distinct timelines, collecting information from the present, and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen.</p>
+<p>&nbsp;</p>
 <p><b>Platform:</b> Windows</p>
 <p><b>Engine:</b> Unreal Engine</p>
 <p><b>Genre:</b> Puzzle Adventure</p>
@@ -271,7 +279,7 @@ Game Designer and Associate Programmer (C++).
         Built and iterated on environmental puzzles that use past/present state changes to progress.
     </def>
     <def title="UI/UX Design">
-        Created interface and usability solutions to support puzzle readability and player guidance.
+        Created the interface to support puzzle readability and player guidance.
     </def>
 </deflist>
 
@@ -282,16 +290,6 @@ Game Designer and Associate Programmer (C++).
 ### <format style="bold" color="e14273">LINKS</format> {id="links_pal" collapsible="true" default-state="collapsed" }
 
 - [Itch.io](https://futuregames.itch.io/palindra)
-
-### <format style="bold" color="e14273">SCREENSHOTS</format>
-
-  <table width="900">
-    <tr>
-      <td><img src="palindra-bedroom-past.png" alt="Screenshot of the bedroom in Palindra, during the past timeline, holding the time-travel mirror." width="300" thumbnail="true"/></td>
-      <td><img src="palindra-fireplace-present.png" alt="Screenshot of the fireplace in Palindra, during the present timeline." width="300" thumbnail="true"/></td>
-      <td><img src="palindra-piano-past.png" alt="Screenshot of the piano room in Palindra, during the past timeline." width="300" thumbnail="true"/></td>
-    </tr>
-  </table>
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_pal"}
 
