@@ -56,7 +56,7 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 </table>
 
 <!-- at most 2 videos side-to-side for mobile! -->
-<table width="800">
+<table width="600">
     <tr>
       <td><img src="../videos/fate-pvp.gif" width="300" thumbnail="true" alt="PvP Footage"/></td>
       <td><img src="../videos/fate-3tap.gif" width="300" thumbnail="true" alt="Firing in the Shooting Range as Izanagi"/></td>
@@ -126,56 +126,64 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="award-best-debut-game"></secondary-label>
 
-<procedure>
-  <table>
-    <tr>
-      <td width="385">
-‘Somnium’ is a retro-inspired first-person dungeon crawler.
+<video src="https://www.youtube.com/watch?v=ZB1c6866ts8" preview-src="../videos/somnium-trailer.gif"/>
 
-**Platform:** Windows  
-**Engine:** Unity  
-**Genre:** Dungeon Crawler  
-**Team Size:** 11 (4 Designers, 4 Programmers, 3 VFX/Animators)  
-**Duration:** 2.5 weeks @ Futuregames (2025)
-<p>&nbsp;</p>
-<img src="Debut_Win25_White.png" alt="Winner of the Best Debut Game (2025) award!" width="275" style:="block"/>
-</td>
-      <td>
-        <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="300" height="400"
-                preview-src="somnium poster.png" muted="true">
-           <img src="somnium poster.png" alt="Somnium Poster" width="300" height="400"/>
-        </video>
-      </td>
+<table width="800">
+    <tr>
+        <td>‘Somnium’ is a retro-inspired first-person dungeon crawler.</td>
     </tr>
-  </table>
-</procedure>
+</table>
 
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_som" }
-
-Combat & Tech Designer, Programming.
-
-- 3C Design & Implementation
-- Combat System
-- Enemy AI & Attacks
-- Interaction System
-
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_som"}
-
-Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
-
-### <format style="bold" color="e14273">LINKS</format> {id="links_som"}
-
-- [Itch.io](https://futuregames.itch.io/somnium)
-
-### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_som"}
-
-  <table width="900">
+<table width="600">
     <tr>
-      <td><img src="../videos/somnium-trailer.gif" alt="Trailer" width="300" thumbnail="true"/></td>
       <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/></td>
       <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." width="300" thumbnail="true"/></td>
     </tr>
   </table>
+
+### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_som" collapsible="true" default-state="collapsed" }
+
+<table width="800">
+<tr>
+<td>
+<p>Crawl through a hand-crafted dungeon with two weapons and enemy types. Grab the dream, power-up, and make your escape.</p>
+<p>&nbsp;</p>
+<p><b>Platform:</b> Windows</p>  
+<p><b>Engine:</b> Unity 6</p>
+<p><b>Genre:</b> Dungeon-crawler</p>
+<p><b>Team Size:</b> 11 (4 Designers, 4 Programmers, 3 VFX/Animators)</p>
+<p><b>Duration:</b> 2.5 weeks @ Futuregames (2025)</p>
+</td>
+</tr>
+</table>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_som" collapsible="true" default-state="collapsed"}
+
+Combat & Tech Designer, Programming.
+
+<deflist type="full">
+    <def title="3C (Character, Camera, Controls)">
+        Designed and implemented the player's camera and controls, tuning the experience for the <a href="https://www.microsoft.com/sv-se/d/xbox-adaptive-controller/8NSDBHZ1N3D8/0002">XBOX adaptive controller</a>, and an audience of ages 4-9. 
+    </def>
+    <def title="Combat System">
+        <p>Designed and implemented two weapons: the Dagger, and the Staff.</p>
+        <p>Implemented the 'kick/force-push' mechanic, enabling the player to knock back enemies and environmental objects.</p>
+    </def>
+    <def title="Enemy AI and Combat">
+        Designed and implemented both enemy's AI and attack patterns.
+    </def>
+    <def title="Interaction System">
+        Designed and implemented the game's interaction mechanics, enabling players to pick up items and weapons.
+    </def>
+</deflist>
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_som" collapsible="true" default-state="collapsed"}
+
+Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
+
+### <format style="bold" color="e14273">LINKS</format> {id="links_som" collapsible="true" default-state="collapsed"}
+
+- [Itch.io](https://futuregames.itch.io/somnium)
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_som"}
 
@@ -190,28 +198,31 @@ Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-A portfolio piece showcasing my work on a clone of Valorant. This project is intended to demonstrate my proficiency in
-**Hero & Ability Design**, **Unreal Engine**, **Blueprints**
-and **[Angelscript](https://angelscript.hazelight.se)**.
+<img src="../videos/angel_project_wip-gif.gif" alt="WIP footage of the Angel Project"/>
 
-> **Work-in-Progress!** { style = warning }
+<table width="800">
+    <tr>
+        <td>A portfolio piece showcasing my work on a clone of Valorant. This project is intended to demonstrate my proficiency in
+            <b>Hero & Ability Design</b>, <b>Unreal Engine</b>, <b>Blueprints</b>
+            and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</td>
+    </tr>
+</table>
 
-> No copyright infringement is intended.  
-> All infringing assets serve only as references during development, and will be replaced by assets created by me or
-> friends, fan-made, or sourced from free asset libraries.  
-> Credits can be found in the project's [GitHub repository](https://github.com/ltsLumina/Angel) under
-> the ["Credits.txt"](https://github.com/ltsLumina/Angel/blob/main/Credits.txt) file. { style="note" }
+<warning>Work-in-Progress!</warning>
 
-<table width="900">
+<note>
+<p><b>No copyright infringement is intended.</b></p>  
+All infringing assets serve only as references during development, and will be replaced by assets created by me or friends, fan-made, or sourced from free asset libraries.
+<p>Credits can be found in the project's <a href="https://github.com/ltsLumina/Angel">GitHub repository</a> under the <a href="https://github.com/ltsLumina/Angel/blob/main/Credits.txt">"Credits.txt"</a> file.</p>
+</note>
+
+<table width="600">
   <tr>
-    <td align="center" valign="top" width="33%">
-      <img src="../videos/angel_project_wip-gif.gif" alt="" width="280" thumbnail="true"/>
+    <td>
+      <img src="../videos/abilities-gif.gif" alt="" width="300" thumbnail="true"/>
     </td>
-    <td align="center" valign="top" width="33%">
-      <img src="../videos/abilities-gif.gif" alt="" width="280" thumbnail="true"/>
-    </td>
-    <td align="center" valign="top" width="33%">
-      <img src="../videos/drop_gun-gif.gif" alt="" width="280" thumbnail="true"/>
+    <td>
+      <img src="../videos/drop_gun-gif.gif" alt="" width="300" thumbnail="true"/>
     </td>
   </tr>
 </table>
@@ -224,42 +235,51 @@ and **[Angelscript](https://angelscript.hazelight.se)**.
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
-<procedure>
-  <table>
+<video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" width="600" preview-src="PosterPalindraSMALL.png">
+    <img src="PosterPalindra.png" alt="Palindra Cover Art" width="300" muted="true"/>
+</video>
+
+<table width="800">
     <tr>
-      <td width="385">
-        Palindra is an atmospheric puzzle game with a time-travel mechanic. The game was created as part of the Game Project 3 course at Futuregames, Malmö (2025).
-
-<p>&nbsp;</p>
-
-**Platform:** Windows  
-**Engine:** Unreal Engine  
-**Genre:** Puzzle Adventure  
-**Team Size:** 10  
-**Duration:** 6 weeks @ Futuregames (2025)
-</td>
-      <td>
-        <video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" width="300" preview-src="PosterPalindraSMALL.png">
-            <img src="PosterPalindra.png" alt="Palindra Cover Art" width="300" muted="true"/>
-        </video>
-      </td>
+        <td>‘Palindra’ is an atmospheric puzzle game with a time-travel mechanic. The game was created as part of the Game Project 3 course at Futuregames, Malmö (2025).</td>
     </tr>
-  </table>
-</procedure>
+</table>
 
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
+### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_pal" collapsible="true" default-state="collapsed" }
+
+<table width="800">
+<tr>
+<td>
+<p><b>Platform:</b> Windows</p>
+<p><b>Engine:</b> Unreal Engine</p>
+<p><b>Genre:</b> Puzzle Adventure</p>
+<p><b>Team Size:</b> 10</p>
+<p><b>Duration:</b> 6 weeks @ Futuregames (2025)</p>
+</td>
+</tr>
+</table>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_pal" collapsible="true" default-state="collapsed"}
 
 Game Designer and Associate Programmer (C++).
 
-- Level Design
-- Puzzle Design
-- UI/UX Design
+<deflist type="full">
+    <def title="Level Design">
+        Designed the playable spaces and player flow around the game's time-travel mechanic.
+    </def>
+    <def title="Puzzle Design">
+        Built and iterated on environmental puzzles that use past/present state changes to progress.
+    </def>
+    <def title="UI/UX Design">
+        Created interface and usability solutions to support puzzle readability and player guidance.
+    </def>
+</deflist>
 
-### <format style="bold" color="e14273">TOOLS</format>
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_pal" collapsible="true" default-state="collapsed" }
 
 **Unreal Engine 5** (C++ & Blueprints), JetBrains Rider, **Perforce**, **JIRA**, **Miro**, Discord.
 
-### <format style="bold" color="e14273">LINKS</format>
+### <format style="bold" color="e14273">LINKS</format> {id="links_pal" collapsible="true" default-state="collapsed" }
 
 - [Itch.io](https://futuregames.itch.io/palindra)
 
@@ -273,9 +293,9 @@ Game Designer and Associate Programmer (C++).
     </tr>
   </table>
 
-### <format style="bold" color="e14273">BREAKDOWN</format>
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_pal"}
 
-> [Click here to view a detailed breakdown of my work on PALINDRA](Palindra.md)
+> [Click here to view a detailed breakdown of my work on Palindra](Palindra.md)
 
 ---
 
