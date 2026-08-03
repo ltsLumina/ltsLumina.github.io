@@ -55,11 +55,10 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 <p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
 </quote>
 
-<table width="900">
+<table width="800">
     <tr>
       <td><img src="../videos/fate-pvp.gif" width="300" thumbnail="true"/></td>
       <td><img src="../videos/fate-3tap.gif" width="300" thumbnail="true"/></td>
-      <td><video src="https://youtu.be/cMRGwG6g7GQ" width="200"></video></td>
     </tr>
   </table>
 
@@ -94,13 +93,15 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 - Main & Pause Menus (Session-handling, extensive settings options)
 - DLSS implementation
 
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_fate"}
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_fate" collapsible="true" default-state="collapsed" }
 
 Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**, **Trello**, Miro.
 
 ### <format style="bold" color="e14273">LINKS</format> {id="links_fate"}
 
 - [~~Itch.io~~](https://futuregames.itch.io/fate)
+- [Enchantments List](https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing)
+- [Enchantment Rarity Calculation](https://docs.google.com/spreadsheets/d/1d4uRtZOHxGTzWUpi4ebbzvki4Iu-aRwLK1duB4opFeU/edit?gid=1324727752#gid=1324727752)
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_fate"}
 
