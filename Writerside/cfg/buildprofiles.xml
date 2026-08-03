@@ -7,7 +7,7 @@
         <primary-color>ruby</primary-color>
         <color-preset>contrast</color-preset>
         <link-color>aqua</link-color>
-        <content-max-width>1280</content-max-width>
+        <content-max-width>1165</content-max-width>
         <custom-favicons>favicon.png</custom-favicons>
         <header-logo>favicon.png</header-logo>
         <download-title>Reach out!</download-title>
@@ -31,7 +31,7 @@
         <social type="github" href="https://github.com/ltsumina"/>
         <social type="linkedin" href="https://www.linkedin.com/in/itslumina"/>
         <social type="email" href="mailto:itsluminas@gmail.com"/>
-        <link href="https://riotgames.com/">Long-Term Goal</link>
+        <link href="https://alexanderseguin.com/">Made by a Human</link>
     </footer>
     <build-profile instance="in">
         <variables>

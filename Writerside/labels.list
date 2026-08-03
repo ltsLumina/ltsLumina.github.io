@@ -119,7 +119,7 @@
     
     <!-- Extra Labels for About Me page -->
 
-    <secondary-label id="age" name="20 y/o" color="tangerine"/>
+    <secondary-label id="age" name="21 y/o" color="tangerine"/>
     <secondary-label id="ethnicity" name="Canadian" color="red"/>
     <secondary-label id="in" name="in" color="purple"/>
     <secondary-label id="location" name="Stockholm, Sweden" color="blue"/>

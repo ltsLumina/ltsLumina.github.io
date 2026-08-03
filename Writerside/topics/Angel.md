@@ -1,5 +1,5 @@
 ---
-switcher-label: Mechanic
+switcher-label: Feature
 ---
 
 <show-structure for="chapter,procedure" depth="0"></show-structure>
@@ -11,8 +11,8 @@ switcher-label: Mechanic
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-> Press the "Mechanic" switcher in the top right of the website, left of the "Reach out!" button to switch between
-different mechanic breakdowns. { style = "note" }
+> Press the "Feature" switcher in the top right of the website, left of the "Reach out!" button to switch between
+different feature breakdowns. { style = "note" }
 
 This project is very early in development, and is very prototype-heavy at the moment. Nothing is final, nor is this page
 complete.
@@ -147,7 +147,7 @@ As mentioned earlier, this is still a work in progress, and there are many featu
 
 However, I believe this is a solid foundation for recreating Valorant's gun mechanics, and I look forward to continuing to refine and expand upon this system in the future.
 
-> To explore other mechanics, select the "Mechanic" switcher in the top right of the website, left of the "Reach out!" button to switch between different mechanic breakdowns. { style = "note" }
+> To explore other features, select the "Feature" switcher in the top right of the website, left of the "Reach out!" button to switch between different feature breakdowns. { style = "note" }
 
 ## Abilities {switcher-key="Abilities"}
 

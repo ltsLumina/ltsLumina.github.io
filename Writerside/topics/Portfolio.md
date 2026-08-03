@@ -5,7 +5,7 @@
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
-<table width="900">
+<table width="800">
   <tr>
     <td width="205">
       <img src="polaroid profile picture.png" width="300" alt="Me!" border-effect="rounded"/>
@@ -51,7 +51,9 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 
 <table width="800">
     <tr>
-        <td>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</td>
+        <td>
+        <p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
+        </td>
     </tr>
 </table>
 
@@ -71,7 +73,6 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 <p>Battle your way through challenging encounters featuring mechanics and puzzles that challenge you and up to two friends.
 Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i></p>
 <p>&nbsp;</p>
-<p><b>Platform:</b> Windows</p>  
 <p><b>Engine:</b> Unreal Engine 5.7 (custom angelscript fork)</p>
 <p><b>Genre:</b> 'Raid-like' (FPS + Destiny Raid + Rogue-lite)</p>
 <p><b>Team Size:</b> 10 (4 Designers, 4 Programmers, 2 VFX/Animators)</p>
@@ -126,11 +127,14 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="award-best-debut-game"></secondary-label>
 
-<video src="https://www.youtube.com/watch?v=ZB1c6866ts8" preview-src="../videos/somnium-trailer.gif"/>
+<video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="600" preview-src="../videos/somnium-trailer.gif"/>
 
 <table width="800">
     <tr>
-        <td>‘Somnium’ is a retro-inspired first-person dungeon crawler.</td>
+        <td>
+            <p>‘Somnium’ is a retro-inspired first-person dungeon crawler.</p>
+            <p>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards.</p>
+        </td>
     </tr>
 </table>
 
@@ -147,8 +151,7 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 <tr>
 <td>
 <p>Crawl through a hand-crafted dungeon with two weapons and enemy types. Grab the dream, power-up, and make your escape.</p>
-<p>&nbsp;</p>
-<p><b>Platform:</b> Windows</p>  
+<p>&nbsp;</p> 
 <p><b>Engine:</b> Unity 6</p>
 <p><b>Genre:</b> Dungeon-crawler</p>
 <p><b>Team Size:</b> 11 (4 Designers, 4 Programmers, 3 VFX/Animators)</p>
@@ -198,13 +201,15 @@ Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-<img src="../videos/angel_project_wip-gif.gif" alt="WIP footage of the Angel Project"/>
+<img src="../videos/angel_project_wip-gif.gif" alt="WIP footage of the Angel Project" width="600"/>
 
 <table width="800">
     <tr>
-        <td>A portfolio piece showcasing my work on a clone of Valorant. This project is intended to demonstrate my proficiency in
+        <td>A portfolio piece showcasing my work on a clone of Valorant. 
+            <p>This project is intended to demonstrate my proficiency in
             <b>Hero & Ability Design</b>, <b>Unreal Engine</b>, <b>Blueprints</b>
-            and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</td>
+            and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
+        </td>
     </tr>
 </table>
 
@@ -235,7 +240,7 @@ All infringing assets serve only as references during development, and will be r
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
-<video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" preview-src="PosterPalindraSMALL.png"/>
+<video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" preview-src="Palindra-Trailer.gif" width="600"/>
 
 <table width="800">
     <tr>
@@ -258,10 +263,9 @@ All infringing assets serve only as references during development, and will be r
 <td>
 <p>Traverse two distinct timelines, collecting information from the present, and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen.</p>
 <p>&nbsp;</p>
-<p><b>Platform:</b> Windows</p>
-<p><b>Engine:</b> Unreal Engine</p>
+<p><b>Engine:</b> Unreal 5.3</p>
 <p><b>Genre:</b> Puzzle Adventure</p>
-<p><b>Team Size:</b> 10</p>
+<p><b>Team Size:</b> 10 (1 Designer, 3 Programmers, 6 Artists)</p>
 <p><b>Duration:</b> 6 weeks @ Futuregames (2025)</p>
 </td>
 </tr>
@@ -304,11 +308,15 @@ Game Designer and Associate Programmer (C++).
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="co-op"></secondary-label>
 
-<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="NeonRivalry_COVERART.jpg"/>
+<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="NeonRivalry_COVERART.jpg" width="600"/>
 
 <table width="800">
     <tr>
-        <td>Neon Rivalry is a couch co-op 3D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).</td>
+        <td>
+        <p>Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).</p>
+        <p>&nbsp;</p>
+        <p>Winner of the <b>'Best Trailer'</b> award at the LBS Game Awards.</p>
+        </td>
     </tr>
 </table>
 
@@ -327,7 +335,7 @@ Game Designer and Associate Programmer (C++).
 <p>Pick a fighter and challenge your friend in this couch co-op fighting game. Utilize your light and heavy attacks or combo with aerial moves to best your opponent!</p>
 <p>Features licensed music from the band <a href="https://open.spotify.com/artist/1DFATttAHQi5zOPvZitP26?si=Xcvp5H_dQcaANu4R0-T_og">Anbaric.</a></p>
 <p>&nbsp;</p>
-<p><b>Platform:</b> Windows</p>
+
 <p><b>Engine:</b> Unity</p>
 <p><b>Genre:</b> Fighting</p>
 <p><b>Team Size:</b> 5 (1 Designer/Programmer, 4 Artists)</p>
@@ -485,9 +493,9 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 ## SKILLS
 
 <primary-label ref="skills"></primary-label>
+<secondary-label ref="java"></secondary-label>
 <secondary-label ref="c#"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
-<secondary-label ref="java"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="blueprint"></secondary-label>
 <secondary-label ref="p4"></secondary-label>
@@ -511,7 +519,6 @@ I am also capable of developing **editor tools** in both Unity and Unreal Engine
 - Miro
 
 ---
-
 
 <p>&nbsp;</p>
 
