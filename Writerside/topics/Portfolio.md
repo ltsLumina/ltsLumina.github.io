@@ -304,55 +304,61 @@ Game Designer and Associate Programmer (C++).
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="co-op"></secondary-label>
 
-<procedure>
-  <table>
+<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="NeonRivalry_COVERART.jpg"/>
+
+<table width="800">
     <tr>
-      <td width="385">
-        Neon Rivalry is a couch co-op 3D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).
-
-<p>&nbsp;</p>
-
-**Platform:** Windows  
-**Engine:** Unity  
-**Genre:** Fighting  
-**Team Size:** 5 (1 Designer/Programmer, 4 Artists)  
-**Duration:** 7.5 months (August 2023 – April 2024) @ LBS
-</td>
-      <td>
-        <video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" width="300" preview-src="NeonRivalry_COVERART.jpg">
-            <img src="NeonRivalry_COVERART.jpg" alt="The cover art of Neon Rivalry." width="300"/>
-        </video>
-        <img src="lbs-game-awards.png" alt="Winner of the Best Debut Game (2025) award!" width="200"/>
-      </td>
+        <td>Neon Rivalry is a couch co-op 3D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).</td>
     </tr>
-  </table>
-</procedure>
+</table>
 
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_nr"}
-
-Game Designer, Product Owner, Scrum Master, Programmer (C#).
-
-- State Machine
-- Combat System
-- 3C Design & Implementation
-
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_nr"}
-
-Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrains Space **(CI/CD)**.
-
-### <format style="bold" color="e14273">LINKS</format> {id="links_nr"}
-
-- [Trailer](https://www.youtube.com/watch?v=BDWqbVHXUpc)
-
-### <format style="bold" color="e14273">SCREENSHOTS</format> {id="screenshots_nr"}
-
-  <table width="900">
+<table width="600">
     <tr>
-      <td><img src="nr2.png" alt="Character Select in Engine (Unity)" width="300" thumbnail="true"/></td>
       <td><img src="nr4.png" alt="Neon Rivalry Combat #1" width="300" thumbnail="true"/></td>
       <td><img src="nr5.png" alt="Neon Rivalry Combat #2" width="300" thumbnail="true"/></td>
     </tr>
   </table>
+
+### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_nr" collapsible="true" default-state="collapsed" }
+
+<table width="800">
+<tr>
+<td>
+<p>Pick a fighter and challenge your friend in this couch co-op fighting game. Utilize your light and heavy attacks or combo with aerial moves to best your opponent!</p>
+<p>Features licensed music from the band <a href="https://open.spotify.com/artist/1DFATttAHQi5zOPvZitP26?si=Xcvp5H_dQcaANu4R0-T_og">Anbaric.</a></p>
+<p>&nbsp;</p>
+<p><b>Platform:</b> Windows</p>
+<p><b>Engine:</b> Unity</p>
+<p><b>Genre:</b> Fighting</p>
+<p><b>Team Size:</b> 5 (1 Designer/Programmer, 4 Artists)</p>
+<p><b>Duration:</b> 7.5 months (August 2023 – April 2024) @ LBS</p>
+</td>
+</tr>
+</table>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_nr" collapsible="true" default-state="collapsed"}
+
+Game Designer, Product Owner, Scrum Master, Programmer (C#).
+
+<deflist type="full">
+    <def title="State Machine">
+        Implemented the game state flow for menus, gameplay, and match transitions.
+    </def>
+    <def title="Combat System">
+        Designed and implemented the core combat logic and player-vs-player interactions.
+    </def>
+    <def title="3C (Character, Camera, Controls)">
+        Designed and implemented the player-facing controls and camera behavior for the fighting experience.
+    </def>
+</deflist>
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_nr" collapsible="true" default-state="collapsed" }
+
+Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrains Space **(CI/CD)**.
+
+### <format style="bold" color="e14273">LINKS</format> {id="links_nr" collapsible="true" default-state="collapsed" }
+
+- [Trailer](https://www.youtube.com/watch?v=BDWqbVHXUpc)
 
 <!--
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_nr"}
@@ -489,7 +495,7 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 
 I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working
 experience in **C++**. I also have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**,
-and **CI/CD** pipelines.
+and **CI/CD** pipelines (e.g. JetBrains Space).
 
 Additionally, I am experienced working with **netcode** (Unreal Replication and Unity's Netcode for GameObjects),
 especially for first-person shooters, including **GAS (Gameplay Ability System)** in Unreal Engine.
