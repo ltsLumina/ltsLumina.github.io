@@ -49,7 +49,7 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
 
 [//]: # (<note>Work-in-progress entry.</note>)
 [//]: # (<img src="../videos/fate-3tap.gif" width="600" thumbnail="false"/>)
-<video src="../videos/8man-chaos-fate-short.mp4" width="600"/>
+<video src="https://youtu.be/cMRGwG6g7GQ" width="600" preview-src="../videos/fate-3tap.gif" autoplay="true"/>
 
 <quote>
 <p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
@@ -59,7 +59,7 @@ View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.m
     <tr>
       <td><img src="../videos/fate-pvp.gif" width="300" thumbnail="true"/></td>
       <td><img src="../videos/fate-3tap.gif" width="300" thumbnail="true"/></td>
-      <td><video src="../videos/8man-chaos-fate-short.mp4" width="200"/></td>
+      <td><video src="https://youtu.be/cMRGwG6g7GQ" width="200"></video></td>
     </tr>
   </table>
 
