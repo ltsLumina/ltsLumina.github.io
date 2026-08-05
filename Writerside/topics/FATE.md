@@ -214,4 +214,7 @@ Having written 15,000+ lines of code, this is only a fraction of my work on this
     <category ref="angel">
         <a href="Angel.md" summary="This project served as a partial base for FATE."/>
     </category>
+    <category ref="credits">
+        <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
+    </category>
 </seealso>

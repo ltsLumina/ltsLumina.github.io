@@ -3,4 +3,5 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/categories.dtd">
 <categories>
     <category id="angel" name="Angel-project Breakdown" order="1"/>
+    <category id="credits" name="Credits" order="2"/>
 </categories>

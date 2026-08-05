@@ -16,4 +16,52 @@
             </p>
         </note>
     </snippet>
+    
+    <snippet id="project-structure">
+        <var name="video-src" value=""/>
+        <var name="preview-src" value=""/>
+        <primary-label ref="somnium"></primary-label>
+        <secondary-label ref="futuregames"></secondary-label>
+        <secondary-label ref="unity"></secondary-label>
+        <secondary-label ref="award-best-debut-game"></secondary-label>
+        <video src="%video-src%" width="600" preview-src="%preview-src%"/>
+        <table width="800">
+            <tr>
+                <td>
+                    <p>‘Somnium’ is a retro-inspired first-person dungeon crawler.</p>
+                    <p>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards.</p>
+                </td>
+            </tr>
+        </table>
+        <table width="600">
+            <tr>
+                <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/>
+                </td>
+                <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." width="300"
+                         thumbnail="true"/></td>
+            </tr>
+        </table>
+    </snippet>
+    
+    <snippet id="game-info">
+        <var name="description" value="project description"/>
+        <var name="engine" value="engine"/>
+        <var name="genre" value="genre"/>
+        <var name="team-size" value="team size"/>
+        <var name="duration" value="duration"/>
+        <table width="800">
+            <tr>
+                <td>
+                    <p>%description%</p>
+                    <p>&nbsp;</p>
+                    <p><b>Engine:</b> %engine%</p>
+                    <p><b>Genre:</b> %genre%</p>
+                    <p><b>Team Size:</b> %team-size%</p>
+                    <p><b>Duration:</b> %duration%</p>
+                </td>
+            </tr>
+        </table>
+    </snippet>
+    
+    
 </topic>

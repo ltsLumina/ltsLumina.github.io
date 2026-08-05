@@ -80,3 +80,9 @@ Having been such a short project, I never imagined we would create such a remark
 
 I am eternally grateful to all my teammates — my friends — who made this game into what it is.  
 An experience I will cherish, a highlight in my career, and a moment of personal growth.
+
+<seealso style="cards">
+    <category ref="credits">
+        <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
+    </category>
+</seealso>

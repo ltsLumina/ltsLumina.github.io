@@ -7,7 +7,7 @@
         Hey there!
     </primary-label>
     
-    <primary-label id="angel" short-name="ANG" name="" href="https://playvalorant.com/">
+    <primary-label id="angel" short-name="ANG" name="" href="https://playvalorant.com/" color="red">
         Angel Project
     </primary-label>
 
@@ -27,7 +27,7 @@
         Dead Sector
     </primary-label>
 
-    <primary-label id="fate" short-name="FTE" name="" href="https://futuregames.itch.io/somnium" color="red">
+    <primary-label id="fate" short-name="FTE" name="" href="https://futuregames.itch.io/somnium" color="primary">
         FATE
     </primary-label>
 

@@ -120,45 +120,62 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 
 ---
 
-## SOMNIUM
+## ANGEL
 
-<primary-label ref="somnium"></primary-label>
+<primary-label ref="angel"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
-<secondary-label ref="unity"></secondary-label>
-<secondary-label ref="award-best-debut-game"></secondary-label>
+<secondary-label ref="unreal"></secondary-label>
+<secondary-label ref="angelscript"></secondary-label>
 
-<video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="600" preview-src="../videos/somnium-trailer.gif"/>
+<img src="../videos/angel_project_wip-gif.gif" alt="WIP footage of the Angel Project" width="600"/>
 
 <table width="800">
     <tr>
-        <td>
-            <p>‘Somnium’ is a retro-inspired first-person dungeon crawler.</p>
-            <p>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards.</p>
+        <td>A portfolio piece showcasing my work on a clone of Valorant. 
+            <p>This project is intended to demonstrate my proficiency in
+            <b>Hero & Ability Design</b>, <b>Unreal Engine</b>, <b>Blueprints</b>
+            and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
         </td>
     </tr>
 </table>
 
+<warning>Work-in-Progress!</warning>
+
+<note>
+<p><b>No copyright infringement is intended.</b></p>  
+All infringing assets serve only as references during development and will be replaced by assets created by me or friends, fan-made, or sourced from free asset libraries.
+<p>Credits can be found in the project's <a href="https://github.com/ltsLumina/Angel">GitHub repository</a> under <a href="https://github.com/ltsLumina/Angel/blob/main/Credits.txt">"Credits.txt"</a></p>
+</note>
+
 <table width="600">
-    <tr>
-      <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/></td>
-      <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." width="300" thumbnail="true"/></td>
-    </tr>
-  </table>
+  <tr>
+    <td>
+      <img src="../videos/abilities-gif.gif" alt="" width="300" thumbnail="true"/>
+    </td>
+    <td>
+      <img src="../videos/drop_gun-gif.gif" alt="" width="300" thumbnail="true"/>
+    </td>
+  </tr>
+</table>
+
+> [Click here to view a work-in-progress breakdown of my work on this project.](Angel.md)
+
+## SOMNIUM
+
+<include from="switcher-note.topic" element-id="project-structure">
+    <var name="video-src" value="https://www.youtube.com/watch?v=ZB1c6866ts8"/>
+    <var name="video-preview-src" value="../videos/somnium-trailer.gif"/>
+</include>
 
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_som" collapsible="true" default-state="collapsed" }
 
-<table width="800">
-<tr>
-<td>
-<p>Crawl through a hand-crafted dungeon with two weapons and enemy types. Grab the dream, power-up, and make your escape.</p>
-<p>&nbsp;</p> 
-<p><b>Engine:</b> Unity 6</p>
-<p><b>Genre:</b> Dungeon-crawler</p>
-<p><b>Team Size:</b> 11 (4 Designers, 4 Programmers, 3 VFX/Animators)</p>
-<p><b>Duration:</b> 2.5 weeks @ Futuregames (2025)</p>
-</td>
-</tr>
-</table>
+<include from="switcher-note.topic" element-id="game-info">
+    <var name="description" value="Crawl through a hand-crafted dungeon with two weapons and enemy types. Grab the dream, power-up, and make your escape."/>
+    <var name="engine" value="Unity 6"/>
+    <var name="genre" value="Dungeon-crawler"/>
+    <var name="team-size" value="11 (4 Designers, 4 Programmers, 3 VFX/Animators)"/>
+    <var name="duration" value="2.5 weeks @ Futuregames (2025)"/>
+</include>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_som" collapsible="true" default-state="collapsed"}
 
@@ -194,46 +211,6 @@ Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
 
 ---
 
-## ANGEL
-
-<primary-label ref="angel"></primary-label>
-<secondary-label ref="futuregames"></secondary-label>
-<secondary-label ref="unreal"></secondary-label>
-<secondary-label ref="angelscript"></secondary-label>
-
-<img src="../videos/angel_project_wip-gif.gif" alt="WIP footage of the Angel Project" width="600"/>
-
-<table width="800">
-    <tr>
-        <td>A portfolio piece showcasing my work on a clone of Valorant. 
-            <p>This project is intended to demonstrate my proficiency in
-            <b>Hero & Ability Design</b>, <b>Unreal Engine</b>, <b>Blueprints</b>
-            and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
-        </td>
-    </tr>
-</table>
-
-<warning>Work-in-Progress!</warning>
-
-<note>
-<p><b>No copyright infringement is intended.</b></p>  
-All infringing assets serve only as references during development, and will be replaced by assets created by me or friends, fan-made, or sourced from free asset libraries.
-<p>Credits can be found in the project's <a href="https://github.com/ltsLumina/Angel">GitHub repository</a> under the <a href="https://github.com/ltsLumina/Angel/blob/main/Credits.txt">"Credits.txt"</a> file.</p>
-</note>
-
-<table width="600">
-  <tr>
-    <td>
-      <img src="../videos/abilities-gif.gif" alt="" width="300" thumbnail="true"/>
-    </td>
-    <td>
-      <img src="../videos/drop_gun-gif.gif" alt="" width="300" thumbnail="true"/>
-    </td>
-  </tr>
-</table>
-
-> [Click here to view a work-in-progress breakdown of my work on this project.](Angel.md)
-
 ## PALINDRA
 
 <primary-label ref="palindra"></primary-label>
@@ -258,18 +235,13 @@ All infringing assets serve only as references during development, and will be r
 
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_pal" collapsible="true" default-state="collapsed" }
 
-<table width="800">
-<tr>
-<td>
-<p>Traverse two distinct timelines, collecting information from the present, and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen.</p>
-<p>&nbsp;</p>
-<p><b>Engine:</b> Unreal 5.3</p>
-<p><b>Genre:</b> Puzzle Adventure</p>
-<p><b>Team Size:</b> 10 (1 Designer, 3 Programmers, 6 Artists)</p>
-<p><b>Duration:</b> 6 weeks @ Futuregames (2025)</p>
-</td>
-</tr>
-</table>
+<include from="switcher-note.topic" element-id="game-info">
+    <var name="description" value="Traverse two distinct timelines, collecting information from the present, and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen."/>
+    <var name="engine" value="Unreal Engine 5.3"/>
+    <var name="genre" value="Puzzle Adventure"/>
+    <var name="team-size" value="10 (1 Designers, 3 Programmers, 6 Artists)"/>
+    <var name="duration" value="6 weeks @ Futuregames (2025)"/>
+</include>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_pal" collapsible="true" default-state="collapsed"}
 
@@ -308,7 +280,7 @@ Game Designer and Associate Programmer (C++).
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="co-op"></secondary-label>
 
-<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="NeonRivalry_COVERART.jpg" width="600"/>
+<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="NeonRivalryTrailer.gif" width="600"/>
 
 <table width="800">
     <tr>
@@ -356,7 +328,7 @@ Game Designer, Product Owner, Scrum Master, Programmer (C#).
         Designed and implemented the core combat logic and player-vs-player interactions.
     </def>
     <def title="3C (Character, Camera, Controls)">
-        Designed and implemented the player-facing controls and camera behavior for the fighting experience.
+        Designed and implemented the player-facing controls and camera behaviour for the fighting experience.
     </def>
 </deflist>
 
@@ -502,8 +474,8 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <secondary-label ref="jira"></secondary-label>
 
 I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working
-experience in **C++**. I also have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**,
-and **CI/CD** pipelines (e.g. JetBrains Space).
+experience in **C++** and **Java**. I also have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**,
+and **CI/CD** pipelines (JetBrains Space, GitHub Actions).
 
 Additionally, I am experienced working with **netcode** (Unreal Replication and Unity's Netcode for GameObjects),
 especially for first-person shooters, including **GAS (Gameplay Ability System)** in Unreal Engine.
