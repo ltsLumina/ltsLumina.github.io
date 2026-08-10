@@ -10,7 +10,8 @@ To those I've missed, please contact me.
 ---
 
 This website was made by a human.  
-AI tools were used to a minimal degree.
+AI tools were used to a minimal degree.  
+View the source code [here](https://github.com/ltsLumina/ltsLumina.github.io).
 
 ## FATE
 <primary-label ref="fate"></primary-label>
