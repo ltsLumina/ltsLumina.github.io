@@ -79,12 +79,13 @@ Here's a list of games I enjoy, in no particular order.
 - NieR: Automata
 
 ## Tutorials
-I've made a bunch of tutorials for my friends and classmates throughout my education, and I have a lot of fun doing it. Here's a playlist:
-> [Futuregames Tutorials](https://www.youtube.com/playlist?list=PLY-ty403ysHTlh4AzxgBGEONXBIY9UANx)
+I've made a bunch of tutorials for my friends and classmates throughout my education.    
+Additionally, I've held lectures at Futuregames on Angelscript which where recorded and made available on YouTube.
+> [Futuregames Tutorials](https://www.youtube.com/playlist?list=PLY-ty403ysHTlh4AzxgBGEONXBIY9UANx)  
+> [Futuregames Lectures](https://www.youtube.com/playlist?list=PLYkS5X71nWoU)
 
 ### Fun Fact: 
-This website was made with the code-documentation tool "Writerside," rather than through traditional website-making means.  
-Using it was close enough to writing code that I figured I would try to make something out of it. With enough dedication, and reading a lot of documentation, I figured something out -- and I think it looks neat!
+This website was made with the code-documentation tool [Writerside](https://www.jetbrains.com/writerside/) by JetBrains, rather than through traditional website-making means.
 
 ## Thanks for reading about me!
 

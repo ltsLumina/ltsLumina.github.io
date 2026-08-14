@@ -474,20 +474,33 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <secondary-label ref="jira"></secondary-label>
 
 I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working
-experience in **C++** and **Java**. I also have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**,
+experience in **C++** and **Java**. 
+
+My experience with Angelscript can be measured by the **two lectures** at **Futuregames** that I planned and executed in 2026. [Lecture Recordings](https://www.youtube.com/playlist?list=PLYkS5X71nWoU)
+
+I have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**,
 and **CI/CD** pipelines (JetBrains Space, GitHub Actions).
 
-Additionally, I am experienced working with **netcode** (Unreal Replication and Unity's Netcode for GameObjects),
-especially for first-person shooters, including **GAS (Gameplay Ability System)** in Unreal Engine.
+Additionally, I am experienced working with **netcode** (Unreal Replication and Unity's Netcode for GameObjects), and **GAS (Gameplay Ability System)** in Unreal Engine.
 
-I am also capable of developing **editor tools** in both Unity and Unreal Engine.
+I regularly develop **editor tools** in both Unity and Unreal Engine.
 
-### Additional Skills { collapsible="true" default-state="collapsed" }
+### Additional Skills & Software { collapsible="true" default-state="collapsed" }
 
 - Markdown
 - XML
 - GitHub (actions, pull requests, branching, etc.)
-- JIRA (Agile project management)
+- Perforce
+- Visual Studio Code
+- JetBrains Rider
+- JetBrains Writerside
+- JetBrains Qodana
+- JetBrains Space
+- Trello
+- Machinations
+- Notion
+- Slack
+- JIRA
 - Miro
 
 ---
