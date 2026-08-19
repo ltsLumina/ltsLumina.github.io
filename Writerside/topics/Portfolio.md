@@ -162,10 +162,29 @@ All infringing assets serve only as references during development and will be re
 
 ## SOMNIUM
 
-<include from="switcher-note.topic" element-id="project-structure">
-    <var name="video-src" value="https://www.youtube.com/watch?v=ZB1c6866ts8"/>
-    <var name="video-preview-src" value="../videos/somnium-trailer.gif"/>
-</include>
+<primary-label ref="somnium"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="unity"></secondary-label>
+<secondary-label ref="award-best-debut-game"></secondary-label>
+
+<video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="600" preview-src="../videos/somnium-trailer.gif"/>
+
+<table width="800">
+            <tr>
+                <td>
+                    <p>‘Somnium’ is a retro-inspired first-person dungeon crawler.</p>
+                    <p>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards.</p>
+                </td>
+            </tr>
+</table>
+<table width="600">
+            <tr>
+                <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/>
+                </td>
+                <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." width="300"
+                         thumbnail="true"/></td>
+            </tr>
+</table>
 
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_som" collapsible="true" default-state="collapsed" }
 
@@ -474,14 +493,17 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <secondary-label ref="jira"></secondary-label>
 
 I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working
-experience in **C++** and **Java**. 
+experience in **C++** and **Java**.
 
-My experience with Angelscript can be measured by the **two lectures** at **Futuregames** that I planned and executed in 2026. [Lecture Recordings](https://www.youtube.com/playlist?list=PLYkS5X71nWoU)
+My experience with Angelscript can be measured by the **two lectures** at **Futuregames** that I planned and executed in
 
-I have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**,
-and **CI/CD** pipelines (JetBrains Space, GitHub Actions).
+2026. [Lecture Recordings](https://www.youtube.com/playlist?list=PLYkS5X71nWoU)
 
-Additionally, I am experienced working with **netcode** (Unreal Replication and Unity's Netcode for GameObjects), and **GAS (Gameplay Ability System)** in Unreal Engine.
+I have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**, and **CI/CD** pipelines
+(JetBrains Space, GitHub Actions).
+
+Additionally, I am experienced working with **netcode** (Unreal Replication and Unity's Netcode for GameObjects), and
+**GAS (Gameplay Ability System)** in Unreal Engine.
 
 I regularly develop **editor tools** in both Unity and Unreal Engine.
 
