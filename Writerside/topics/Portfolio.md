@@ -18,13 +18,13 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockho
 <p>&nbsp;</p>
 
 <p>
-I am a <b>Gameplay & Tech Designer</b> studying at <i>Futuregames</i>, specializing in the <b>design and implementation</b> of gameplay mechanics.
+I am a <b>Tech Designer</b> studying at <i>Futuregames</i>, specializing in the <b>design and implementation</b> of gameplay mechanics and complex systems.
 </p>
 
 <p>&nbsp;</p>
 
 <p>
-I'm building on <b>6 years</b> of <b>Unity/C#</b> experience, over <b>3 years with Unreal Engine</b>, and over a year with C++, and Angelscript, where I have driven <b>successful projects</b> both independently and collaboratively.
+I'm building on <b>6 years</b> of <b>Unity/C#</b> experience, over <b>3 years with Unreal Engine</b>, and 2 years with C++, and Angelscript, where I have driven <b>successful projects</b> both independently and collaboratively.
 </p>
     </td>
   </tr>
@@ -33,7 +33,7 @@ I'm building on <b>6 years</b> of <b>Unity/C#</b> experience, over <b>3 years wi
 <tip>
 <p>Reach out on <a href="https://www.linkedin.com/in/itslumina/">LinkedIn</a> or email me at: <a href="mailto:itsluminas@gmail.com">itsluminas@gmail.com</a>  
 <br></br>
-View my <resource src="Resume.pdf"></resource>, or read more <a href="About-Me.md"></a>.</p>
+View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.be/iHy7q9501lQ">Showreel</a>, or read more <a href="About-Me.md"></a>.</p>
 </tip>
 
 ---
