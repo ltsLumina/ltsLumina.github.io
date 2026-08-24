@@ -21,10 +21,6 @@ class UGunComponent : UActorComponent
 
 	// - end debug
 
-	UPROPERTY(Category = "Gun")
-	float ADSEventCooldown = 3.f;
-	float ADSEventCooldownCounter = 0.f;
-
 	UFUNCTION(BlueprintPure)
 	UWeaponDefinition GetWeaponDefinition() property
 	{
@@ -116,6 +112,13 @@ class UGunComponent : UActorComponent
 	UPROPERTY(Category = "Gun | Recoil", VisibleInstanceOnly, BlueprintReadOnly)
 	float RecoilPendingYaw = 0.0f;
 
+	// Running recoil offset currently applied to controller input that should be settled back to zero over time.
+	UPROPERTY(Category = "Gun | Recoil", VisibleInstanceOnly, BlueprintReadOnly)
+	float RecoilRecoveryPitchDebt = 0.0f;
+
+	UPROPERTY(Category = "Gun | Recoil", VisibleInstanceOnly, BlueprintReadOnly)
+	float RecoilRecoveryYawDebt = 0.0f;
+
 	// Random yaw offset applied per bullet (set by RecoilData.RandomDeviation)
 	float RandomYawOffsetMultiplier = 0.0f;
 
@@ -191,24 +194,13 @@ class UGunComponent : UActorComponent
 		if (OwningController.IsInputKeyDown(EKeys::RightMouseButton))
 			StartAimDownSights();
 
-		TickADSSendEventCooldown(DeltaSeconds);
 		UpdateRecoil(DeltaSeconds);
 		TimeSinceLastShot += DeltaSeconds;
 
 		if (WeaponDefinition.AltModeUsesZoom)
 		{
 			if (IsAltMode && !ASC.HasGameplayTag(GameplayTags::State_Sprinting))
-			{
 				ZoomIn(DeltaSeconds);
-
-				float32 Distance;
-				if (ADSEventCooldownCounter >= ADSEventCooldown)
-				{
-					AScriptEnemyBase Enemy = GetADSTarget(UGunComponent::TRACE_DISTANCE, Distance);
-					if (Enemy != nullptr)
-						SendADSEventToTarget(Enemy);
-				}
-			}
 			else
 				ZoomOut(DeltaSeconds);
 		}
@@ -462,17 +454,49 @@ class UGunComponent : UActorComponent
 
 		// MAGNETISM - Where the bullet gets dragged to, if applicable (an enemy was within magnetism/aim-assist range).
 		FHitResult MagnetismHit;
-		AActor TargetActor = SweepForTarget(MagnetismHit, Distance);
-		FVector MagnetizedPoint = GetMagnetizedPoint(TargetActor, MagnetismHit, SpreadPoint);
+		AActor MagnetismTargetActor = SweepForTarget(MagnetismHit, Distance);
+		FVector MagnetizedPoint = GetMagnetizedPoint(MagnetismTargetActor, MagnetismHit, SpreadPoint);
 
 		// The final impact point, affected by magnetism if applicable (i.e., only magnetize if we hit the body of the target. We dont want to magnetize the bullet away from the head.)
-		FVector ImpactPoint = TraceStart + (IsValid(TargetActor) && !FHitResult::IsPrecisionHitFromHitResult(HeadHit) ? MagnetizedPoint : SpreadPoint) * UGunComponent::TRACE_DISTANCE;
+		FVector ImpactPoint = TraceStart + (IsValid(MagnetismTargetActor) && !FHitResult::IsPrecisionHitFromHitResult(HeadHit) ? MagnetizedPoint : SpreadPoint) * UGunComponent::TRACE_DISTANCE;
 		TraceFinalHit(ImpactPoint, Hit);
 
 		if (GetOwner().HasAuthority())
 			BulletIndex++;
 
 		TimeSinceLastShot = 0;
+	}
+
+	AActor GetTargetActor(float Radius = 1000.f, FHitResult&out Hit = FHitResult())
+	{
+		TArray<EObjectTypeQuery> ObjTypes;
+		ObjTypes.Add(EObjectTypeQuery::Pawn);
+		ObjTypes.Add(EObjectTypeQuery::Enemy);
+
+		TArray<AActor> IgnoreActors;
+		IgnoreActors.Add(GetOwner());
+
+#if EDITOR
+		CapsuleDebugTrace = (GetOwner().AsPawn().IsLocallyControlled() && DevSettings.DrawLines && DevSettings.DrawAimAssistCapsule && DevSettings.DebugTraceType != EDrawDebugTrace::None) ? DevSettings.DebugTraceType : EDrawDebugTrace::None;
+#else
+		CapsuleDebugTrace = EDrawDebugTrace::None;
+#endif
+
+		System::CapsuleTraceSingleForObjects(TraceStart,
+											 TraceEnd,
+											 Radius,
+											 0,
+											 ObjTypes,
+											 false,
+											 IgnoreActors,
+											 CapsuleDebugTrace,
+											 Hit,
+											 true,
+											 FLinearColor::Blue,
+											 FLinearColor::Blue,
+											 TraceDuration);
+
+		return Hit.Actor;
 	}
 
 	float GetAimAssistTraceRadius(float Dist)
@@ -641,6 +665,11 @@ class UGunComponent : UActorComponent
 		Cosmetic_DrawDebugFinalPointTrace(TraceStart, FinalDir, TraceDuration);
 #endif
 
+		FVector MuzzleSocket = OwningHero.GunMesh.GetSocketLocation(n"muzzle_exit");
+
+		if (GetOwner().HasAuthority())
+			ExecuteImpactEffects(Hits, MuzzleSocket);
+
 		if (!BlockingHit)
 		{
 			Log("Trace did not hit anything!");
@@ -663,12 +692,6 @@ class UGunComponent : UActorComponent
 		// Notify self ASC that we shot (trigger OnShot enchants)
 		// Other actors -- such as the one we hit -- aren't notified.
 		ASC.SendGameplayEvent(GameplayTags::Ability_Enchant_Trigger_OnShot, Payload);
-
-		// ShootSFX();
-		// HitSFX();
-
-		if (GetOwner().HasAuthority())
-			ExecuteImpactEffects(Hits, TraceStart);
 
 		if (LastHit.Actor != nullptr)
 		{
@@ -799,25 +822,44 @@ class UGunComponent : UActorComponent
 		if (!IsValid(RecoilData))
 			return;
 
-		if (Math::Abs(RecoilPendingPitch) <= KINDA_SMALL_NUMBER && Math::Abs(RecoilPendingYaw) <= KINDA_SMALL_NUMBER)
-			return;
+		bool HasPendingKick = Math::Abs(RecoilPendingPitch) > KINDA_SMALL_NUMBER || Math::Abs(RecoilPendingYaw) > KINDA_SMALL_NUMBER;
+		bool HasRecoveryDebt = Math::Abs(RecoilRecoveryPitchDebt) > KINDA_SMALL_NUMBER || Math::Abs(RecoilRecoveryYawDebt) > KINDA_SMALL_NUMBER;
 
-		float LerpTime = Math::Max(RecoilData.RecoilLerpTime, 0.001f);
+		float LerpTime = Math::Max(!HasRecoveryDebt ? RecoilData.RecoilLerpTime : RecoilData.RecoilSettleTime, 0.001f);
 		float Alpha = Math::Clamp(DeltaSeconds / LerpTime, 0.0f, 1.0f);
-
-		float PitchStep = RecoilPendingPitch * Alpha;
-		float YawStep = RecoilPendingYaw * Alpha;
 
 		float MovementRecoilPenalty = OwningHero.GetVelocity().IsNearlyZero() ? 1 : WeaponDefinition.VerticalRecoilRunningMultiplier;
 		float AimDownSightsRecoilMultiplier = !IsAltMode ? 1 : WeaponDefinition.AimDownSightsRecoilMultiplier;
 
-		FVector2D Recoil;
-		Recoil.Y = PitchStep * MovementRecoilPenalty * AimDownSightsRecoilMultiplier;
-		Recoil.X = YawStep * RandomYawOffsetMultiplier * AimDownSightsRecoilMultiplier;
-		ApplyControlRecoil(Recoil.Y, Recoil.X);
+		if (HasPendingKick)
+		{
+			float PitchStep = RecoilPendingPitch * Alpha;
+			float YawStep = RecoilPendingYaw * Alpha;
 
-		RecoilPendingPitch -= PitchStep;
-		RecoilPendingYaw -= YawStep;
+			FVector2D Recoil;
+			Recoil.Y = PitchStep * MovementRecoilPenalty * AimDownSightsRecoilMultiplier;
+			Recoil.X = YawStep * RandomYawOffsetMultiplier * AimDownSightsRecoilMultiplier;
+			ApplyControlRecoil(Recoil.Y, Recoil.X);
+
+			// Track exactly what we injected this frame so recovery can continuously cancel it over time.
+			RecoilRecoveryPitchDebt += Recoil.Y;
+			RecoilRecoveryYawDebt += Recoil.X;
+
+			RecoilPendingPitch -= PitchStep;
+			RecoilPendingYaw -= YawStep;
+		}
+
+		if (HasRecoveryDebt)
+		{
+			float RecoveryPitchStep = RecoilRecoveryPitchDebt * Alpha;
+			float RecoveryYawStep = RecoilRecoveryYawDebt * Alpha;
+
+			// Apply opposite input so recoil settles while still allowing normal mouse/controller look input.
+			ApplyControlRecoil(-RecoveryPitchStep, -RecoveryYawStep);
+
+			RecoilRecoveryPitchDebt -= RecoveryPitchStep;
+			RecoilRecoveryYawDebt -= RecoveryYawStep;
+		}
 
 		// Cleanup after recoil has settled.
 
@@ -826,6 +868,12 @@ class UGunComponent : UActorComponent
 
 		if (Math::Abs(RecoilPendingYaw) <= KINDA_SMALL_NUMBER)
 			RecoilPendingYaw = 0.0f;
+
+		if (Math::Abs(RecoilRecoveryPitchDebt) <= KINDA_SMALL_NUMBER)
+			RecoilRecoveryPitchDebt = 0.0f;
+
+		if (Math::Abs(RecoilRecoveryYawDebt) <= KINDA_SMALL_NUMBER)
+			RecoilRecoveryYawDebt = 0.0f;
 
 		if (Math::Abs(RecoilPendingYaw) <= KINDA_SMALL_NUMBER)
 			RandomYawOffsetMultiplier = 0.0f;
@@ -848,8 +896,15 @@ class UGunComponent : UActorComponent
 	{
 		for (FHitResult Hit : InHits)
 		{
-			/* FRotator TracerRotation = (InShooterLocation - Hit.ImpactPoint).Rotation();
-			Niagara::SpawnSystemAtLocation(WeaponDefinition.TracerEffect, Hit.ImpactPoint, TracerRotation); */
+			FRotator TracerRotation = (InShooterLocation - Hit.ImpactPoint).Rotation();
+			float Dist = InShooterLocation.Distance(Hit.ImpactPoint);
+
+			auto Tracer = Niagara::SpawnSystemAtLocation(WeaponDefinition.TracerEffect, Hit.ImpactPoint, TracerRotation);
+			if (!IsValid(Tracer))
+				return;
+
+			Tracer.SetFloatParameter(n"Length", Dist);
+			Tracer.SetFloatParameter(n"Distance", Dist);
 
 			// If we hit a character, run it's assigned hit reaction gameplay cue,
 			// do not spawn a normal impact effect.
@@ -971,12 +1026,6 @@ class UGunComponent : UActorComponent
 	float ZoomMismatchElapsed = 0;
 	float ZoomInterpTolerance = 0.1f;
 	float ZoomFallbackTimeout = 3.0f;
-
-	UFUNCTION(NotBlueprintCallable)
-	private void SprintCancel()
-	{
-		// this actually does something -- DO NOT REMOVE!
-	}
 
 	/**
 	 * Divide-by-zero helper.

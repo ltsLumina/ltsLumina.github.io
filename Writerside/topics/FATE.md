@@ -132,6 +132,17 @@ Several rays are fired from the player's view that build a target profile, inclu
 3. The target the player is aiming at, if applicable. Used for bullet-magnetism (makes near-misses more likely to hit. This is what makes shooting feel so snappy in Bungie's games like Halo, Destiny, and Marathon.)
 4. The final calculated point in space the bullet will hit.
 
+#### Here's a visualization of the bullet-magnetism in effect. { collapsible="true" default-state="collapsed" }
+<img src="../videos/bullet-magnetism-visualization.gif" alt="Bullet Magnetism" width="800" thumbnail="true" style="block"/>
+Although I'm clearly aiming at the target closest to the wall, the bullet is pulled toward the closer target.  
+This is because the bullet-magnetism capsule trace detected the closer target, and pulled the bullet toward it.
+
+<img src="magnetism_img1-fix.png" alt="Bullet Magnetism" width="600" thumbnail="true" style="block"/>
+The dark blue line/capsule trace represents the exact point you were aiming at,  
+and the light blue line represents the path the final calculated bullet took.
+<img src="magnetism_img2-fix.png" alt="Bullet Magnetism" width="600" thumbnail="true" style="block"/>
+Although it looks like the furthest target was hit by the trace, the bullet stopped when it hit the closer target.
+
 There are a few more things happening behind the scenes to make the shooting feel as good as possible, but you can read up on that in the full script file.
 
 ### HealthAttributes

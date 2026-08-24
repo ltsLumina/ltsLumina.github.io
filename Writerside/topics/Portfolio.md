@@ -88,7 +88,8 @@ Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i>
         Designed and implemented all GAS architecture including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
     </def>
     <def title="Guns, Abilities, and Weapons">
-        Studied Destiny's gunplay and implemented a similar gun-feel. Implemented core abilities including <b>shoot</b>, <b>reload</b>, <b>ADS</b>, and more.
+        <p>Studied Destiny's gunplay and implemented a similar gun-feel. Implemented core abilities including <b>shoot</b>, <b>reload</b>, <b>ADS</b>, and more.</p>  
+        <p>View my most extensive script here: <resource src="GunComponent.as"/></p>
     </def>
     <def title="Enchantments (upgrades)">
         Designed and implemented 'enchantments' (rogue-lite upgrades). <p>A non-exhaustive list <a href="https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing">can be viewed here.</a></p>
