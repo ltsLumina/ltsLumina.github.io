@@ -49,7 +49,7 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 
 <video src="https://youtu.be/cMRGwG6g7GQ" width="600" preview-src="../videos/8man-chaos-fate.gif"/>
 
-<table width="800">
+<table width="600">
     <tr>
         <td>
         <p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
@@ -130,7 +130,7 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 
 <img src="../videos/angel_project_wip-gif.gif" alt="WIP footage of the Angel Project" width="600"/>
 
-<table width="800">
+<table width="600">
     <tr>
         <td>A portfolio piece showcasing my work on a clone of Valorant. 
             <p>This project is intended to demonstrate my proficiency in
@@ -161,136 +161,6 @@ All infringing assets serve only as references during development and will be re
 
 > [Click here to view a work-in-progress breakdown of my work on this project.](Angel.md)
 
-## SOMNIUM
-
-<primary-label ref="somnium"></primary-label>
-<secondary-label ref="futuregames"></secondary-label>
-<secondary-label ref="unity"></secondary-label>
-<secondary-label ref="award-best-debut-game"></secondary-label>
-
-<video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="600" preview-src="../videos/somnium-trailer.gif"/>
-
-<table width="800">
-            <tr>
-                <td>
-                    <p>‘Somnium’ is a retro-inspired first-person dungeon crawler.</p>
-                    <p>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards.</p>
-                </td>
-            </tr>
-</table>
-<table width="600">
-            <tr>
-                <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/>
-                </td>
-                <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." width="300"
-                         thumbnail="true"/></td>
-            </tr>
-</table>
-
-### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_som" collapsible="true" default-state="collapsed" }
-
-<include from="switcher-note.topic" element-id="game-info">
-    <var name="description" value="Crawl through a hand-crafted dungeon with two weapons and enemy types. Grab the dream, power-up, and make your escape."/>
-    <var name="engine" value="Unity 6"/>
-    <var name="genre" value="Dungeon-crawler"/>
-    <var name="team-size" value="11 (4 Designers, 4 Programmers, 3 VFX/Animators)"/>
-    <var name="duration" value="2.5 weeks @ Futuregames (2025)"/>
-</include>
-
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_som" collapsible="true" default-state="collapsed"}
-
-Combat & Tech Designer, Programming.
-
-<deflist type="full">
-    <def title="3C (Character, Camera, Controls)">
-        Designed and implemented the player's camera and controls, tuning the experience for the <a href="https://www.microsoft.com/sv-se/d/xbox-adaptive-controller/8NSDBHZ1N3D8/0002">XBOX adaptive controller</a>, and an audience of ages 4-9. 
-    </def>
-    <def title="Combat System">
-        <p>Designed and implemented two weapons: the Dagger, and the Staff.</p>
-        <p>Implemented the 'kick/force-push' mechanic, enabling the player to knock back enemies and environmental objects.</p>
-    </def>
-    <def title="Enemy AI and Combat">
-        Designed and implemented both enemy's AI and attack patterns.
-    </def>
-    <def title="Interaction System">
-        Designed and implemented the game's interaction mechanics, enabling players to pick up items and weapons.
-    </def>
-</deflist>
-
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_som" collapsible="true" default-state="collapsed"}
-
-Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
-
-### <format style="bold" color="e14273">LINKS</format> {id="links_som" collapsible="true" default-state="collapsed"}
-
-- [Itch.io](https://futuregames.itch.io/somnium)
-
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_som"}
-
-> [Click here to view a detailed breakdown of my work on Somnium](Somnium.md)
-
----
-
-## PALINDRA
-
-<primary-label ref="palindra"></primary-label>
-<secondary-label ref="futuregames"></secondary-label>
-<secondary-label ref="unreal"></secondary-label>
-
-<video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" preview-src="Palindra-Trailer.gif" width="600"/>
-
-<table width="800">
-    <tr>
-        <td>‘Palindra’ is an atmospheric puzzle game with a time-travel mechanic. The game was created as part of the Game Project 3 course at Futuregames, Malmö (2025).</td>
-    </tr>
-</table>
-
-<table width="600">
-    <tr>
-      <!--<td><img src="palindra-bedroom-past.png" alt="Screenshot of the bedroom in Palindra, during the past timeline, holding the time-travel mirror." width="300" thumbnail="true"/></td> -->
-      <td><img src="palindra-fireplace-present.png" alt="Screenshot of the fireplace in Palindra, during the present timeline." width="300" thumbnail="true"/></td>
-      <td><img src="palindra-piano-past.png" alt="Screenshot of the piano room in Palindra, during the past timeline." width="300" thumbnail="true"/></td>
-    </tr>
-</table>
-
-### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_pal" collapsible="true" default-state="collapsed" }
-
-<include from="switcher-note.topic" element-id="game-info">
-    <var name="description" value="Traverse two distinct timelines, collecting information from the present, and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen."/>
-    <var name="engine" value="Unreal Engine 5.3"/>
-    <var name="genre" value="Puzzle Adventure"/>
-    <var name="team-size" value="10 (1 Designers, 3 Programmers, 6 Artists)"/>
-    <var name="duration" value="6 weeks @ Futuregames (2025)"/>
-</include>
-
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_pal" collapsible="true" default-state="collapsed"}
-
-Game Designer and Associate Programmer (C++).
-
-<deflist type="full">
-    <def title="Level Design">
-        Designed the playable spaces and player flow around the game's time-travel mechanic.
-    </def>
-    <def title="Puzzle Design">
-        Built and iterated on environmental puzzles that use past/present state changes to progress.
-    </def>
-    <def title="UI/UX Design">
-        Created the interface to support puzzle readability and player guidance.
-    </def>
-</deflist>
-
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_pal" collapsible="true" default-state="collapsed" }
-
-**Unreal Engine 5** (C++ & Blueprints), JetBrains Rider, **Perforce**, **JIRA**, **Miro**, Discord.
-
-### <format style="bold" color="e14273">LINKS</format> {id="links_pal" collapsible="true" default-state="collapsed" }
-
-- [Itch.io](https://futuregames.itch.io/palindra)
-
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_pal"}
-
-> [Click here to view a detailed breakdown of my work on Palindra](Palindra.md)
-
 ---
 
 ## NEON RIVALRY
@@ -302,7 +172,7 @@ Game Designer and Associate Programmer (C++).
 
 <video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="NeonRivalryTrailer.gif" width="600"/>
 
-<table width="800">
+<table width="600">
     <tr>
         <td>
         <p>Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).</p>
@@ -363,6 +233,138 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_nr"}
 
 > [Click here to read more about Neon Rivalry](Neon-Rivalry.md)
+
+## PALINDRA
+
+<primary-label ref="palindra"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="unreal"></secondary-label>
+
+<video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" preview-src="Palindra-Trailer.gif" width="600"/>
+
+<table width="600">
+    <tr>
+        <td>‘Palindra’ is an atmospheric puzzle game with a time-travel mechanic. The game was created as part of the Game Project 3 course at Futuregames, Malmö (2025).</td>
+    </tr>
+</table>
+
+<table width="600">
+    <tr>
+      <!--<td><img src="palindra-bedroom-past.png" alt="Screenshot of the bedroom in Palindra, during the past timeline, holding the time-travel mirror." width="300" thumbnail="true"/></td> -->
+      <td><img src="palindra-fireplace-present.png" alt="Screenshot of the fireplace in Palindra, during the present timeline." width="300" thumbnail="true"/></td>
+      <td><img src="palindra-piano-past.png" alt="Screenshot of the piano room in Palindra, during the past timeline." width="300" thumbnail="true"/></td>
+    </tr>
+</table>
+
+### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_pal" collapsible="true" default-state="collapsed" }
+
+<include from="switcher-note.topic" element-id="game-info">
+    <var name="description" value="Traverse two distinct timelines, collecting information from the present, and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen."/>
+    <var name="engine" value="Unreal Engine 5.3"/>
+    <var name="genre" value="Puzzle Adventure"/>
+    <var name="team-size" value="10 (1 Designers, 3 Programmers, 6 Artists)"/>
+    <var name="duration" value="6 weeks @ Futuregames (2025)"/>
+</include>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_pal" collapsible="true" default-state="collapsed"}
+
+Game Designer and Associate Programmer (C++).
+
+<deflist type="full">
+    <def title="Level Design">
+        Designed the playable spaces and player flow around the game's time-travel mechanic.
+    </def>
+    <def title="Puzzle Design">
+        Built and iterated on environmental puzzles that use past/present state changes to progress.
+    </def>
+    <def title="UI/UX Design">
+        Created the interface to support puzzle readability and player guidance.
+    </def>
+</deflist>
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_pal" collapsible="true" default-state="collapsed" }
+
+**Unreal Engine 5** (C++ & Blueprints), JetBrains Rider, **Perforce**, **JIRA**, **Miro**, Discord.
+
+### <format style="bold" color="e14273">LINKS</format> {id="links_pal" collapsible="true" default-state="collapsed" }
+
+- [Itch.io](https://futuregames.itch.io/palindra)
+
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_pal"}
+
+> [Click here to view a detailed breakdown of my work on Palindra](Palindra.md)
+
+---
+
+## SOMNIUM
+
+<primary-label ref="somnium"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="unity"></secondary-label>
+<secondary-label ref="award-best-debut-game"></secondary-label>
+
+<video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="600" preview-src="../videos/somnium-trailer.gif"/>
+
+<table width="600">
+            <tr>
+                <td>
+                    <p>‘Somnium’ is a retro-inspired first-person dungeon crawler.</p>
+                    <p>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards.</p>
+                </td>
+            </tr>
+</table>
+<table width="600">
+            <tr>
+                <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/>
+                </td>
+                <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." width="300"
+                         thumbnail="true"/></td>
+            </tr>
+</table>
+
+### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_som" collapsible="true" default-state="collapsed" }
+
+<include from="switcher-note.topic" element-id="game-info">
+    <var name="description" value="Crawl through a hand-crafted dungeon with two weapons and enemy types. Grab the dream, power-up, and make your escape."/>
+    <var name="engine" value="Unity 6"/>
+    <var name="genre" value="Dungeon-crawler"/>
+    <var name="team-size" value="11 (4 Designers, 4 Programmers, 3 VFX/Animators)"/>
+    <var name="duration" value="2.5 weeks @ Futuregames (2025)"/>
+</include>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_som" collapsible="true" default-state="collapsed"}
+
+Combat & Tech Designer, Programming.
+
+<deflist type="full">
+    <def title="3C (Character, Camera, Controls)">
+        Designed and implemented the player's camera and controls, tuning the experience for the <a href="https://www.microsoft.com/sv-se/d/xbox-adaptive-controller/8NSDBHZ1N3D8/0002">XBOX adaptive controller</a>, and an audience of ages 4-9. 
+    </def>
+    <def title="Combat System">
+        <p>Designed and implemented two weapons: the Dagger, and the Staff.</p>
+        <p>Implemented the 'kick/force-push' mechanic, enabling the player to knock back enemies and environmental objects.</p>
+    </def>
+    <def title="Enemy AI and Combat">
+        Designed and implemented both enemy's AI and attack patterns.
+    </def>
+    <def title="Interaction System">
+        Designed and implemented the game's interaction mechanics, enabling players to pick up items and weapons.
+    </def>
+</deflist>
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_som" collapsible="true" default-state="collapsed"}
+
+Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
+
+### <format style="bold" color="e14273">LINKS</format> {id="links_som" collapsible="true" default-state="collapsed"}
+
+- [Itch.io](https://futuregames.itch.io/somnium)
+
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_som"}
+
+> [Click here to view a detailed breakdown of my work on Somnium](Somnium.md)
+
+---
 
 <!--
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_plo"}
@@ -486,7 +488,7 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 
 -->
 
-## SKILLS
+## Skills & Tools
 
 <primary-label ref="skills"></primary-label>
 <secondary-label ref="java"></secondary-label>
@@ -494,41 +496,37 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="blueprint"></secondary-label>
-<secondary-label ref="p4"></secondary-label>
 <secondary-label ref="jira"></secondary-label>
+<secondary-label ref="p4"></secondary-label>
 
-I am proficient in **C#**, **Blueprint** and **[Angelscript](https://angelscript.hazelight.se)**, with limited working
-experience in **C++** and **Java**.
+I am experienced in **C#**, **Blueprint Visual Scripting**, and **Angelscript**, with limited working experience in **C++** and **Java**.
+for example. Having studied game programming and developed games for 5+ years, I have developed extensive technical skills.
 
-My experience with Angelscript can be measured by the **two lectures** at **Futuregames** that I planned and executed in
+Concerning Angelscript, **I held [two official lectures](https://www.youtube.com/playlist?list=PLYkS5X71nWoU) at Futuregames Stockholm** in March of 2026. I **planned** and **organized** the lectures in **collaboration with the [teaching staff at the time.](https://www.linkedin.com/in/hanna-fridén-6b9506191/)**
 
-2026. [Lecture Recordings](https://www.youtube.com/playlist?list=PLYkS5X71nWoU)
+I am well-versed in Unreal's **Gameplay Ability System** (GAS), **data-driven development**, and developing **interconnected systems** in a multiplayer network setting using **replication**.
 
-I have experience as a **product owner** and **scrum master**, using **Perforce**, **JIRA**, and **CI/CD** pipelines
-(JetBrains Space, GitHub Actions).
-
-Additionally, I am experienced working with **netcode** (Unreal Replication and Unity's Netcode for GameObjects), and
-**GAS (Gameplay Ability System)** in Unreal Engine.
-
-I regularly develop **editor tools** in both Unity and Unreal Engine.
+**Rapid prototyping** and **iteration** on levels, mechanics, and gameplay are all facets of my work, and something I am very comfortable doing.
 
 ### Additional Skills & Software { collapsible="true" default-state="collapsed" }
 
 - Markdown
-- XML
-- GitHub (actions, pull requests, branching, etc.)
-- Perforce
-- Visual Studio Code
-- JetBrains Rider
-- JetBrains Writerside
-- JetBrains Qodana
-- JetBrains Space
-- Trello
+- GitHub (CI/CD)
 - Machinations
-- Notion
-- Slack
-- JIRA
+- XML
+- Perforce
 - Miro
+- Visual Studio Code
+- JIRA
+- Figma
+- JetBrains Rider
+- Slack
+- Notion
+- Autodesk Maya
+- Trello
+- Lucidchart
+
+{ columns="3" }
 
 ---
 
@@ -587,7 +585,6 @@ Unity, JetBrains Rider, GitHub
 
 ### <format style="bold" color="e14273">LINKS</format> {id="links_sto"}
 
-- <resource src="STOKOS.zip"></resource>
 - [Itch.io](https://itslumina.itch.io/stokos)
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_sto"}
@@ -633,10 +630,6 @@ Solo Developer (Designer/Programmer/Artist)
 ### <format style="bold" color="e14273">TOOLS</format> {id="tools_prototyping"}
 
 Unity, JetBrains Rider, GitHub, Notion
-
-### <format style="bold" color="e14273">LINKS</format> {id="links_prototyping"}
-
-- <resource src="Prototyping.zip"></resource>
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_prototyping"}
 

@@ -7,7 +7,7 @@
         Hey there!
     </primary-label>
     
-    <primary-label id="angel" short-name="ANG" name="" href="https://playvalorant.com/" color="red">
+    <primary-label id="angel" short-name="ANG" name="" href="https://playvalorant.com/" color="blue">
         Angel Project
     </primary-label>
 
@@ -35,7 +35,7 @@
         Somnium
     </primary-label>
 
-    <primary-label id="skills" short-name="SKL" name="" href="" color="blue">
+    <primary-label id="skills" short-name=">" name="" href="" color="primary">
         My Skills
     </primary-label>
 
@@ -87,7 +87,7 @@
         Java
     </secondary-label>
 
-    <secondary-label id="p4" name="Perforce" color="blue">
+    <secondary-label id="p4" name="Perforce" color="purple">
         Perforce
     </secondary-label>
 
