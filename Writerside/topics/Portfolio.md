@@ -1,17 +1,3 @@
-<!--
-Source - https://stackoverflow.com/a/59844733
-Posted by Humboldt123, modified by community. See post 'Timeline' for change history
-Retrieved 2026-08-25, License - CC BY-SA 4.0
--->
-<head>
-<meta content="Portfolio" property="og:title" />
-<meta content="My Portfolio" property="og:description" />
-<meta content="https://alexanderseguin.com" property="og:url" />
-<meta content="Discord-Embed.png" property="og:image" />
-<meta content="#DE3358" data-react-helmet="true" name="theme-color" />
-<meta name="twitter:card" content="summary_large_image" />
-</head>
-
 # Portfolio
 
 <primary-label ref="lum"></primary-label>

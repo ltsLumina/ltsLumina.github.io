@@ -6,6 +6,7 @@
     <variables>
         <product-web-url>https://alexanderseguin.com</product-web-url>
         <code-soft-wrap>true</code-soft-wrap>
+<!--        <custom-banner label="Testing" link="https://kotlinconf.com/" date="2026-09-20" bg-theme="marine">KotlinConf, Munich</custom-banner>-->
         <primary-color>ruby</primary-color>
         <color-preset>contrast</color-preset>
         <link-color>aqua</link-color>
