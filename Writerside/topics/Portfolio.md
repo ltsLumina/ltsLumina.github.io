@@ -5,12 +5,12 @@
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
-<table width="800">
+<table width="auto">
   <tr>
-    <td width="205">
-      <img src="polaroid profile picture.png" width="300" alt="Me!" border-effect="rounded"/>
+    <td width="auto">
+      <img src="polaroid profile picture.png" width="200" alt="Me!" border-effect="rounded"/>
     </td>
-    <td width="400">
+    <td width="auto">
 <p>
 Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockholm, Sweden</b>.
 </p>
@@ -47,21 +47,17 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-<video src="https://youtu.be/cMRGwG6g7GQ" width="600" preview-src="../videos/8man-chaos-fate.gif"/>
+<video src="https://youtu.be/cMRGwG6g7GQ" preview-src="../videos/8man-chaos-fate.gif"/>
 
-<table width="600">
-    <tr>
-        <td>
-        <p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
-        </td>
-    </tr>
-</table>
+<quote>
+<p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
+</quote>
 
 <!-- at most 2 videos side-to-side for mobile! -->
-<table width="600">
+<table width="auto">
     <tr>
-      <td><img src="../videos/fate-pvp.gif" width="300" thumbnail="true" alt="PvP Footage"/></td>
-      <td><img src="../videos/fate-3tap.gif" width="300" thumbnail="true" alt="Firing in the Shooting Range as Izanagi"/></td>
+      <td><img src="../videos/fate-pvp.gif" thumbnail="true" alt="PvP Footage"/></td>
+      <td><img src="../videos/fate-3tap.gif"  thumbnail="true" alt="Firing in the Shooting Range as Izanagi"/></td>
     </tr>
 </table>
 

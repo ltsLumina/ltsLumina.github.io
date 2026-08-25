@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
-    <sitemap priority="0.5" change-frequency="monthly"/>
+    <sitemap priority="0.5" change-frequency="weekly"/>
 
     <variables>
         <product-web-url>https://alexanderseguin.com</product-web-url>
         <code-soft-wrap>true</code-soft-wrap>
-        <custom-banner label="" link="https://www.linkedin.com/in/itslumina/" date="" bg-theme="strawberry">Looking for Internship</custom-banner>
+        <custom-banner label="" link="https://www.linkedin.com/in/itslumina/" date="" bg-theme="strawberry">Open to Internships</custom-banner>
         <og-image>Discord-Embed.png</og-image>
         <resizable-sidebar>false</resizable-sidebar>
         <web-root>https://alexanderseguin.com/portfolio</web-root>
         <primary-color>ruby</primary-color>
         <color-preset>contrast</color-preset>
         <link-color>aqua</link-color>
-        <content-max-width>1165</content-max-width>
+        <content-max-width>1280</content-max-width>
         <custom-favicons>favicon.png</custom-favicons>
         <header-logo>favicon.png</header-logo>
         <download-title>Reach out!</download-title>
         <download-page>https://www.linkedin.com/in/itslumina</download-page>
         <showDownloadButton>true</showDownloadButton>
-        <sidebar-width>250</sidebar-width>
+        <sidebar-width>150</sidebar-width>
         <noindex-content>false</noindex-content>
     </variables>
     <footer>
