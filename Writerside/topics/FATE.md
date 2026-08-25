@@ -15,29 +15,6 @@ switcher-label: Contribution
     <var name="switcher-key" value="contribution"/>
 </include>
 
-## Leadership { switcher-key="Leadership"}
-
-FATE is a love-letter to Destiny (2), and an attempt at creating a new genre ("Raid-like").  
-Our combined efforts across 7 weeks brought us a product we were over-joyed to play, and especially to see others enjoying it and its marvels.
-
-### Vision
-
-The project went through many iterations, including a drastic pivot on the day of our Alpha deadline. I was leading the charge on this pivot: directing our new game vision, rethinking our thought-process, and down-scoping our engineering.  
-
-Our initial vision was of a semi-procedurally-generated map -- consisting of sublevels that we would stitch together procedurally -- as you progress through 2 puzzles and a boss fight.
-
-### Pivot
-
-Realizing the difficulty of making this work in a multiplayer setting (after dozens of hours of troubleshooting), I announced to our team that our current vision and workflow would not be sustainable. The team was in unanimous agreement.  
-
-Later that day, we pivoted to a hand-crafted experience with 3 characters (down from 4), more thought-provoking puzzles, more cooperation, and far more sustainable workflows. Workflow changes included better communication about working hours, scoping down areas where we were lacking in raw workforce (e.g. Animations), and focusing on polishing our core experience, rather than opting for more content -- even though we felt it was doable -- aiming for more healthy and sustainable work.
-
-### End Result
-
-The pivot was often discussed in retrospectives as the saving-grace moment, and most pivotal reason behind the success of our game.
-
-I am very glad I stepped up and led the pivot and project moving forward, and see this as a milestone in my time as a student, showcasing strong ownership and respect for the project and my team.
-
 ## Implementation { switcher-key="Implementation"}
 
 FATE's technical implementation is my most ambitious project yet, stretching 15,000+ lines of code across Angelscript and C++. Over 300+ hours spent coding (by hand -- AI was not used to generate large chunks of code. Occasionally used for refactoring.)
@@ -217,7 +194,41 @@ Alongside the implementation of GAS -- which comes with client-predicted replica
 My primary role on the replication side of things was replicating game state to the UI, such as healthbars, nametags, and boss-bars.  
 However, as the most experienced with replication, I still remained the primary source of information and assistance on the topic.
 
-### Closing Thoughts
+## Leadership { switcher-key="Leadership"}
+
+FATE is a love-letter to Destiny (2), and an attempt at creating a new genre ("Raid-like").  
+Our combined efforts across 7 weeks brought us a product we were over-joyed to play, and especially to see others
+enjoying it and its marvels.
+
+### Vision
+
+The project went through many iterations, including a drastic pivot on the day of our Alpha deadline. I was leading the
+charge on this pivot: directing our new game vision, rethinking our thought-process, and down-scoping our engineering.
+
+Our initial vision was of a semi-procedurally-generated map -- consisting of sublevels that we would stitch together
+procedurally -- as you progress through 2 puzzles and a boss fight.
+
+### Pivot
+
+Realizing the difficulty of making this work in a multiplayer setting (after dozens of hours of troubleshooting), I
+announced to our team that our current vision and workflow would not be sustainable. The team was in unanimous
+agreement.
+
+Later that day, we pivoted to a hand-crafted experience with 3 characters (down from 4), more thought-provoking puzzles,
+more cooperation, and far more sustainable workflows. Workflow changes included better communication about working
+hours, scoping down areas where we were lacking in raw workforce (e.g. Animations), and focusing on polishing our core
+experience, rather than opting for more content -- even though we felt it was doable -- aiming for more healthy and
+sustainable work.
+
+### End Result
+
+The pivot was often discussed in retrospectives as the saving-grace moment, and most pivotal reason behind the success
+of our game.
+
+I am very glad I stepped up and led the pivot and project moving forward, and see this as a milestone in my time as a
+student, showcasing strong ownership and respect for the project and my team.
+
+## Closing Thoughts
 
 Having written 15,000+ lines of code, this is only a fraction of my work on this project, but should you want to hear more, please do not hesitate to reach out to me on [LinkedIn](https://www.linkedin.com/in/itslumina), [Discord](https://discordapp.com/users/287272193946288129), [email](mailto:itsluminas@gmail.com), or elsewhere.
 
