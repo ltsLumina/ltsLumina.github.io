@@ -360,8 +360,12 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 
 - [Trailer](https://www.youtube.com/watch?v=BDWqbVHXUpc)
 
-<!--
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_nr"}
+
+> [Click here to read more about Neon Rivalry](Neon-Rivalry.md)
+
+<!--
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_plo"}
 
  > [Click here to view a detailed breakdown of my work on Neon Rivalry](Neon-Rivalry.md)
 ## PLORA

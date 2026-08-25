@@ -12,12 +12,9 @@
         <toc-element topic="Somnium.md"/>
         <toc-element topic="Angel.md"/>
         <toc-element topic="Palindra.md"/>
-        <toc-element toc-title="Neon Rivalry"/>
-        <toc-element toc-title="Dead Sector"/>
+        <toc-element topic="Neon-Rivalry.md"/>
         <toc-element topic="Prototyping.md"/>
-        <toc-element toc-title="Other Projects">
         </toc-element>
-    </toc-element>
     <toc-element topic="About-Me.md"/>
     <toc-element topic="Credits.md"/>
 </instance-profile>
