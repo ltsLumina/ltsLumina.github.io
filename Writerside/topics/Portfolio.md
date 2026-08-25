@@ -5,10 +5,10 @@
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
-<table width="auto">
+<table width="820">
   <tr>
     <td width="auto">
-      <img src="polaroid profile picture.png" width="200" alt="Me!" border-effect="rounded"/>
+      <img src="polaroid profile picture.png" alt="Me!" border-effect="rounded"/>
     </td>
     <td width="auto">
 <p>
@@ -63,9 +63,7 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_fate" collapsible="true" default-state="collapsed" }
 
-<table width="800">
-<tr>
-<td>
+<quote>
 <p>Battle your way through challenging encounters featuring mechanics and puzzles that challenge you and up to two friends.
 Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i></p>
 <p>&nbsp;</p>
@@ -73,9 +71,7 @@ Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i>
 <p><b>Genre:</b> 'Raid-like' (FPS + Destiny Raid + Rogue-lite)</p>
 <p><b>Team Size:</b> 10 (4 Designers, 4 Programmers, 2 VFX/Animators)</p>
 <p><b>Duration:</b> 7 weeks @ Futuregames (2026)</p>
-</td>
-</tr>
-</table>
+</quote>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" collapsible="true" default-state="collapsed"}
 
@@ -126,16 +122,12 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 
 <img src="../videos/angel_project_wip-gif.gif" alt="WIP footage of the Angel Project" width="600"/>
 
-<table width="600">
-    <tr>
-        <td>A portfolio piece showcasing my work on a clone of Valorant. 
-            <p>This project is intended to demonstrate my proficiency in
-            <b>Hero & Ability Design</b>, <b>Unreal Engine</b>, <b>Blueprints</b>
-            and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
-        </td>
-    </tr>
-</table>
-
+<quote>
+<p>A portfolio piece showcasing my work on a clone of Valorant.</p> 
+<p>This project is intended to demonstrate my proficiency in
+<b>Hero & Ability Design</b>, <b>Unreal Engine</b>, <b>Blueprints</b>
+and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
+</quote>
 <warning>Work-in-Progress!</warning>
 
 <note>
@@ -144,13 +136,13 @@ All infringing assets serve only as references during development and will be re
 <p>Credits can be found in the project's <a href="https://github.com/ltsLumina/Angel">GitHub repository</a> under <a href="https://github.com/ltsLumina/Angel/blob/main/Credits.txt">"Credits.txt"</a></p>
 </note>
 
-<table width="600">
+<table width="auto">
   <tr>
     <td>
-      <img src="../videos/abilities-gif.gif" alt="" width="300" thumbnail="true"/>
+      <img src="../videos/abilities-gif.gif" thumbnail="true" alt=""/>
     </td>
     <td>
-      <img src="../videos/drop_gun-gif.gif" alt="" width="300" thumbnail="true"/>
+      <img src="../videos/drop_gun-gif.gif" thumbnail="true" alt=""/>
     </td>
   </tr>
 </table>
@@ -168,28 +160,21 @@ All infringing assets serve only as references during development and will be re
 
 <video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="NeonRivalryTrailer.gif" width="600"/>
 
-<table width="600">
+<quote>
+<p>Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).</p>
+<p>&nbsp;</p>
+<p>Winner of the <b>'Best Trailer'</b> award at the LBS Game Awards.</p>
+</quote>
+<table width="auto">
     <tr>
-        <td>
-        <p>Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).</p>
-        <p>&nbsp;</p>
-        <p>Winner of the <b>'Best Trailer'</b> award at the LBS Game Awards.</p>
-        </td>
-    </tr>
-</table>
-
-<table width="600">
-    <tr>
-      <td><img src="nr4.png" alt="Neon Rivalry Combat #1" width="300" thumbnail="true"/></td>
-      <td><img src="nr5.png" alt="Neon Rivalry Combat #2" width="300" thumbnail="true"/></td>
+      <td><img src="nr4.png" alt="Neon Rivalry Combat #1" thumbnail="true"/></td>
+      <td><img src="nr5.png" alt="Neon Rivalry Combat #2" thumbnail="true"/></td>
     </tr>
   </table>
 
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_nr" collapsible="true" default-state="collapsed" }
 
-<table width="800">
-<tr>
-<td>
+<quote>
 <p>Pick a fighter and challenge your friend in this couch co-op fighting game. Utilize your light and heavy attacks or combo with aerial moves to best your opponent!</p>
 <p>Features licensed music from the band <a href="https://open.spotify.com/artist/1DFATttAHQi5zOPvZitP26?si=Xcvp5H_dQcaANu4R0-T_og">Anbaric.</a></p>
 <p>&nbsp;</p>
@@ -198,9 +183,7 @@ All infringing assets serve only as references during development and will be re
 <p><b>Genre:</b> Fighting</p>
 <p><b>Team Size:</b> 5 (1 Designer/Programmer, 4 Artists)</p>
 <p><b>Duration:</b> 7.5 months (August 2023 – April 2024) @ LBS</p>
-</td>
-</tr>
-</table>
+</quote>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_nr" collapsible="true" default-state="collapsed"}
 
@@ -238,29 +221,28 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 
 <video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" preview-src="Palindra-Trailer.gif" width="600"/>
 
-<table width="600">
-    <tr>
-        <td>‘Palindra’ is an atmospheric puzzle game with a time-travel mechanic. The game was created as part of the Game Project 3 course at Futuregames, Malmö (2025).</td>
-    </tr>
-</table>
+<quote>
+<p>‘Palindra’ is an atmospheric puzzle game with a time-travel mechanic. The game was created as part of the Game Project 3 course at Futuregames, Malmö (2025).</p>
+</quote>
 
-<table width="600">
+<table width="auto">
     <tr>
       <!--<td><img src="palindra-bedroom-past.png" alt="Screenshot of the bedroom in Palindra, during the past timeline, holding the time-travel mirror." width="300" thumbnail="true"/></td> -->
-      <td><img src="palindra-fireplace-present.png" alt="Screenshot of the fireplace in Palindra, during the present timeline." width="300" thumbnail="true"/></td>
-      <td><img src="palindra-piano-past.png" alt="Screenshot of the piano room in Palindra, during the past timeline." width="300" thumbnail="true"/></td>
+      <td><img src="palindra-fireplace-present.png" alt="Screenshot of the fireplace in Palindra, during the present timeline."  thumbnail="true"/></td>
+      <td><img src="palindra-piano-past.png" alt="Screenshot of the piano room in Palindra, during the past timeline."  thumbnail="true"/></td>
     </tr>
 </table>
 
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_pal" collapsible="true" default-state="collapsed" }
 
-<include from="switcher-note.topic" element-id="game-info">
-    <var name="description" value="Traverse two distinct timelines, collecting information from the present, and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen."/>
-    <var name="engine" value="Unreal Engine 5.3"/>
-    <var name="genre" value="Puzzle Adventure"/>
-    <var name="team-size" value="10 (1 Designers, 3 Programmers, 6 Artists)"/>
-    <var name="duration" value="6 weeks @ Futuregames (2025)"/>
-</include>
+<quote>
+<p>Traverse two distinct timelines, collecting information from the present, and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen.</p>
+<p>&nbsp;</p>
+<p><b>Engine:</b> Unreal Engine 5.3</p>
+<p><b>Genre:</b> Puzzle Adventure</p>
+<p><b>Team Size:</b> 10 (1 Designers, 3 Programmers, 6 Artists)</p>
+<p><b>Duration:</b> 6 weeks @ Futuregames (2025)</p>
+</quote>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_pal" collapsible="true" default-state="collapsed"}
 
@@ -301,32 +283,30 @@ Game Designer and Associate Programmer (C++).
 
 <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="600" preview-src="../videos/somnium-trailer.gif"/>
 
-<table width="600">
+<quote>
+<p>‘Somnium’ is a retro-inspired first-person dungeon crawler.</p>
+<p>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards.</p>
+</quote>
+
+<table width="auto">
             <tr>
-                <td>
-                    <p>‘Somnium’ is a retro-inspired first-person dungeon crawler.</p>
-                    <p>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards.</p>
+                <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock."  thumbnail="true"/>
                 </td>
-            </tr>
-</table>
-<table width="600">
-            <tr>
-                <td><img src="somnium-2.png" alt="Screenshot of the staff weapon unlock." width="300" thumbnail="true"/>
-                </td>
-                <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." width="300"
+                <td><img src="somnium-3.png" alt="Screenshot of multiple enemies on screen at once." 
                          thumbnail="true"/></td>
             </tr>
 </table>
 
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_som" collapsible="true" default-state="collapsed" }
 
-<include from="switcher-note.topic" element-id="game-info">
-    <var name="description" value="Crawl through a hand-crafted dungeon with two weapons and enemy types. Grab the dream, power-up, and make your escape."/>
-    <var name="engine" value="Unity 6"/>
-    <var name="genre" value="Dungeon-crawler"/>
-    <var name="team-size" value="11 (4 Designers, 4 Programmers, 3 VFX/Animators)"/>
-    <var name="duration" value="2.5 weeks @ Futuregames (2025)"/>
-</include>
+<quote>
+<p>Crawl through a hand-crafted dungeon with two weapons and enemy types. Grab the dream, power-up, and make your escape.</p>
+<p>&nbsp;</p>
+<p><b>Engine:</b> Unity 6</p>
+<p><b>Genre:</b> Dungeon-crawler</p>
+<p><b>Team Size:</b> 11 (4 Designers, 4 Programmers, 3 VFX/Animators)</p>
+<p><b>Duration:</b> 2.5 weeks @ Futuregames (2025)</p>
+</quote>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_som" collapsible="true" default-state="collapsed"}
 
@@ -495,12 +475,14 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <secondary-label ref="jira"></secondary-label>
 <secondary-label ref="p4"></secondary-label>
 
-I am experienced in **C#**, **Blueprint Visual Scripting**, and **Angelscript**, with limited working experience in **C++** and **Java**.
-for example. Having studied game programming and developed games for 5+ years, I have developed extensive technical skills.
+I am experienced in **C#**, **Blueprint Visual Scripting**, and **Angelscript**, with limited working experience in **C++** and **Java**. for example. Having studied game
+programming and developed games for 5+ years, I have developed extensive technical skills.
 
-Concerning Angelscript, **I held [two official lectures](https://www.youtube.com/playlist?list=PLYkS5X71nWoU) at Futuregames Stockholm** in March of 2026. I **planned** and **organized** the lectures in **collaboration with the [teaching staff at the time.](https://www.linkedin.com/in/hanna-fridén-6b9506191/)**
+Concerning Angelscript, **I held [two official lectures](https://www.youtube.com/playlist?list=PLYkS5X71nWoU) at Futuregames Stockholm** in March of 2026. I **planned** and
+**organized** the lectures in **collaboration with the [teaching staff at the time.](https://www.linkedin.com/in/hanna-fridén-6b9506191/)**
 
-I am well-versed in Unreal's **Gameplay Ability System** (GAS), **data-driven development**, and developing **interconnected systems** in a multiplayer network setting using **replication**.
+I am well-versed in Unreal's **Gameplay Ability System** (GAS), **data-driven development**, and developing **interconnected systems** in a multiplayer network setting using
+**replication**.
 
 **Rapid prototyping** and **iteration** on levels, mechanics, and gameplay are all facets of my work, and something I am very comfortable doing.
 
@@ -532,7 +514,7 @@ I am well-versed in Unreal's **Gameplay Ability System** (GAS), **data-driven de
 
 <primary-label ref="lum"></primary-label>
 
-> [Click here to learn more about me!](About-Me.md) { style="note" }
+> [Click here to learn more about me!](About-Me.md)
 
 <p>&nbsp;</p>
 
@@ -550,30 +532,20 @@ I am well-versed in Unreal's **Gameplay Ability System** (GAS), **data-driven de
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
 
-<procedure>
-  <table width="900">
-    <tr>
-      <td width="300">
-STOKOS is a 2D celeste-like platformer created as part of a 3-day game jam with some friends at Futuregames.
+<img src="stokos.png" alt="STOKOS cover art" width="600"/>
 
+<quote>
+<p>STOKOS is a 2D celeste-like platformer created as part of a 3-day game jam with some friends at Futuregames.</p>
 <p>&nbsp;</p>
-
-**Platform:** Windows  
-**Engine:** Unity  
-**Genre:** 2D Platformer  
-**Team Size:** 3 Programmers  
-**Duration:** 3 days @ Futuregames (2024)
-</td>
-<td>
-<img src="stokos.png" alt="STOKOS cover art" width="800"/>
-</td>
-</tr>
-  </table>
-</procedure>
+<p><b>Engine:</b> Unity 5</p>
+<p><b>Genre:</b> 2D Platformer</p>
+<p><b>Team Size:</b> 3 Programmers</p>
+<p><b>Duration:</b> 3 days @ Futuregames (2024)</p>
+</quote>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_sto"}
 
-Technical Designer, Level Designer
+Tech & Level Designer
 
 ### <format style="bold" color="e14273">TOOLS</format> {id="tools_sto"}
 
@@ -583,10 +555,6 @@ Unity, JetBrains Rider, GitHub
 
 - [Itch.io](https://itslumina.itch.io/stokos)
 
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_sto"}
-
-> No breakdown available for this project.
-
 ---
 
 ### Prototyping Course
@@ -595,29 +563,16 @@ Unity, JetBrains Rider, GitHub
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
 
-<procedure>
-  <table width="900">
-    <tr>
-<td width="300">
-This project was created as part of the Prototyping Course at Futuregames, where the goal is to prototype a game that focuses on the 3C's of game design. (Character, Camera, and Controls).  
+<video src="../videos/Prototype.mp4" width="600" preview-src="prototyping.png"/>
 
-**A detailed breakdown is available as it was produced as part of the assignment.**
-
-<p>&nbsp;</p>
-
-**Platform:** Windows  
-**Engine:** Unity  
-**Genre:** 3D Platformer  
-**Team Size:** Solo  
-**Duration:** 7 days @ Futuregames (2025)
-</td>
-<td>
-<video src="../../Writerside/videos/Prototype.mp4" width="300" preview-src="prototyping.png">
-    <img src="prototyping.png" alt="Prototyping Course Preview" width="300"/></video>
-</td>
-</tr>
-  </table>
-</procedure>
+<quote>
+<p>This project was created as part of the Prototyping Course at Futuregames, where the goal is to prototype a game that focuses on the 3C's of game design. (Character, Camera, and Controls).</p>
+<p><b>A detailed breakdown is available as it was produced as part of the assignment.</b></p>
+<p><b>Engine:</b> Unity 6</p>
+<p><b>Genre:</b> 3D Platformer</p>
+<p><b>Team Size:</b> Solo</p>
+<p><b>Duration:</b> 7 days @ Futuregames (2025)</p>
+</quote>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_prototyping"}
 

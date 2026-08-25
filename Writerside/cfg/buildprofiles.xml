@@ -19,7 +19,7 @@
         <download-title>Reach out!</download-title>
         <download-page>https://www.linkedin.com/in/itslumina</download-page>
         <showDownloadButton>true</showDownloadButton>
-        <sidebar-width>150</sidebar-width>
+        <sidebar-width>200</sidebar-width>
         <noindex-content>false</noindex-content>
     </variables>
     <footer>

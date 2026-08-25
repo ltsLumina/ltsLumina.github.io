@@ -43,25 +43,5 @@
         </table>
     </snippet>
     
-    <snippet id="game-info">
-        <var name="description" value="project description"/>
-        <var name="engine" value="engine"/>
-        <var name="genre" value="genre"/>
-        <var name="team-size" value="team size"/>
-        <var name="duration" value="duration"/>
-        <table width="800">
-            <tr>
-                <td>
-                    <p>%description%</p>
-                    <p>&nbsp;</p>
-                    <p><b>Engine:</b> %engine%</p>
-                    <p><b>Genre:</b> %genre%</p>
-                    <p><b>Team Size:</b> %team-size%</p>
-                    <p><b>Duration:</b> %duration%</p>
-                </td>
-            </tr>
-        </table>
-    </snippet>
-    
     
 </topic>
