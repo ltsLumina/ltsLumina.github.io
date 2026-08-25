@@ -62,9 +62,6 @@ jobs:
       - name: Unzip artifact
         run: unzip -O UTF-8 -qq ${{ env.ARTIFACT }} -d dir
 
-      - name: Replace redirect stub with portfolio content
-        run: cp dir/portfolio.html dir/index.html
-
       - name: Setup Pages
         uses: actions/configure-pages@v4.0.0
       
