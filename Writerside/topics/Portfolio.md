@@ -5,12 +5,7 @@
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
-<table width="820">
-  <tr>
-    <td width="auto">
-      <img src="polaroid profile picture.png" alt="Me!" border-effect="rounded"/>
-    </td>
-    <td width="auto">
+<quote>
 <p>
 Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockholm, Sweden</b>.
 </p>
@@ -26,9 +21,7 @@ I am a <b>Tech Designer</b> studying at <i>Futuregames</i>, specializing in the 
 <p>
 I'm building on <b>6 years</b> of <b>Unity/C#</b> experience, over <b>3 years with Unreal Engine</b>, and 2 years with C++, and Angelscript, where I have driven <b>successful projects</b> both independently and collaboratively.
 </p>
-    </td>
-  </tr>
-</table>
+</quote>
 
 <tip>
 <p>Reach out on <a href="https://www.linkedin.com/in/itslumina/">LinkedIn</a> or email me at: <a href="mailto:itsluminas@gmail.com">itsluminas@gmail.com</a>  
