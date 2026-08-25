@@ -4,6 +4,8 @@
     <sitemap priority="0.5" change-frequency="monthly"/>
 
     <variables>
+        <product-web-url>https://alexanderseguin.com</product-web-url>
+        <code-soft-wrap>true</code-soft-wrap>
         <primary-color>ruby</primary-color>
         <color-preset>contrast</color-preset>
         <link-color>aqua</link-color>
