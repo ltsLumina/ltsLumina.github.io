@@ -17,7 +17,7 @@ switcher-label: Contribution
 
 ## Implementation { switcher-key="Implementation"}
 
-FATE's technical implementation is my most ambitious project yet, stretching 15,000+ lines of code across Angelscript and C++. Over 300+ hours spent coding (by hand -- AI was not used to generate large chunks of code. Occasionally used for refactoring.)
+FATE's technical implementation is my most ambitious project yet, stretching **15,000+ lines of code** across **Angelscript** and **C++**. Over **300+** hours spent coding (by hand – AI was **not** used to generate large chunks of code. Occasionally used for refactoring.)
 
 [![wakatime](https://wakatime.com/badge/user/018b0c84-c3a0-4f65-b3b0-741d40b02439/project/4fa5f7c0-6d66-4188-85c3-1e207ee6bcad.svg)](https://wakatime.com/badge/user/018b0c84-c3a0-4f65-b3b0-741d40b02439/project/4fa5f7c0-6d66-4188-85c3-1e207ee6bcad)
 <img src="FATE-as-metrics.png" alt="FATE Angelscript metrics" style="block"/>
@@ -39,9 +39,9 @@ You can view the related files in their entirety here:
 <br></br>
 <resource src="HealthAttributes.as"/>
 </p>
-<code>
+<quote>
 The up-to-date files are hosted on a private repository, so these files are dated to August 3rd 2026.
-</code>
+</quote>
 
 My thought process in the development of most scripts was to write clean, self-documenting code, with additional documentation when applicable, or to clarify tips/tricks with the language that my in-learning teammates would appreciate.
 

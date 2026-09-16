@@ -26,7 +26,7 @@ I'm building on <b>6 years</b> of <b>Unity/C#</b> experience, over <b>3 years wi
 <tip>
 <p>Reach out on <a href="https://www.linkedin.com/in/itslumina/">LinkedIn</a> or email me at: <a href="mailto:itsluminas@gmail.com">itsluminas@gmail.com</a>  
 <br></br>
-View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.be/iHy7q9501lQ">Showreel</a>, or read more <a href="About-Me.md"></a>.</p>
+View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.be/1d3kRUk4NzA">Showreel</a>, or read more <a href="About-Me.md"></a>.</p>
 </tip>
 
 ---
@@ -151,7 +151,7 @@ All infringing assets serve only as references during development and will be re
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="co-op"></secondary-label>
 
-<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="NeonRivalryTrailer.gif" width="600"/>
+<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="neon-rivalry-trailer-short.gif" width="600"/>
 
 <quote>
 <p>Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).</p>
@@ -331,7 +331,10 @@ Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_som"}
 
-> [Click here to view a detailed breakdown of my work on Somnium](Somnium.md)
+<a href="Somnium.md" as="button" mode="classic">Breakdown</a>
+
+<!-- > [Click here to view a detailed breakdown of my work on Somnium](Somnium.md) -->
+
 
 ---
 
