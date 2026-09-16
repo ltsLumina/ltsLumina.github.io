@@ -467,13 +467,12 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 <secondary-label ref="jira"></secondary-label>
 <secondary-label ref="p4"></secondary-label>
 
-I am experienced in **C#**, **Blueprint Visual Scripting**, and **Angelscript**, with limited working experience in **C++** and **Java**. for example. Having studied game
-programming and developed games for 5+ years, I have developed extensive technical skills.
+I am experienced in **C#**, **Blueprint Visual Scripting**, and **Angelscript**, with limited working experience in **C++** and **Java**.
 
-Concerning Angelscript, **I held [two official lectures](https://www.youtube.com/playlist?list=PLYkS5X71nWoU) at Futuregames Stockholm** in March of 2026. I **planned** and
-**organized** the lectures in **collaboration with the [teaching staff at the time.](https://www.linkedin.com/in/hanna-fridén-6b9506191/)**
+**I held [two official lectures](https://www.youtube.com/playlist?list=PLYkS5X71nWoU) at Futuregames Stockholm** in March of 2026 where I **planned** and
+**organized** two lectures on [Angelscript](https://angelscript.hazelight.se) in **collaboration with the [teaching staff at the time.](https://www.linkedin.com/in/hanna-fridén-6b9506191/)**
 
-I am well-versed in Unreal's **Gameplay Ability System** (GAS), **data-driven development**, and developing **interconnected systems** in a multiplayer network setting using
+I am well-versed in Unreal's **Gameplay Ability System** (GAS), **data-driven development**, developing **systems and tooling**, and making networked multiplayer games using
 **replication**.
 
 **Rapid prototyping** and **iteration** on levels, mechanics, and gameplay are all facets of my work, and something I am very comfortable doing.
