@@ -72,22 +72,23 @@ Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i>
     <def title="GAS (Gameplay Ability System)">
         Designed and implemented all GAS architecture including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
     </def>
-    <def title="Guns, Abilities, and Weapons">
-        <p>Studied Destiny's gunplay and implemented a similar gun-feel. Implemented core abilities including <b>shoot</b>, <b>reload</b>, <b>ADS</b>, and more.</p>  
+    <def title="Guns, Abilities, and Heroes">
+        <p>Designed and implemented gun-feel akin to Destiny and Halo. Implemented core abilities including <b>shoot</b>, <b>reload</b>, <b>ADS</b>, and more.</p>
         <p>View my most extensive script here: <resource src="GunComponent.as"/></p>
     </def>
     <def title="Enchantments (upgrades)">
-        Designed and implemented 'enchantments' (rogue-lite upgrades). <p>A non-exhaustive list <a href="https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing">can be viewed here.</a></p>
+        Designed and implemented 'enchantments' (rogue-lite upgrades). The design of each was catered toward each hero's playstyle, including some that were <b>unique</b> to the hero.
+        <p>A non-exhaustive list <a href="https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing">can be viewed here.</a></p>
     </def>
     <def title="Netcode">
         <p>Worked with the AdvancedSessions plugin, SteamSockets, SteamSubsystem, and more to connect clients to each other.</p>
-        <p>RPCs and Replication was used for syncing game-state across clients.</p>
+        <p>RPCs and Replication were used for syncing game-state across clients.</p>
     </def>
 </deflist>
 
-- Interaction, **Gameplay Attributes**, UI, **Puzzle Subsystems**, Settings Options, and **Combat Systems**
+- **Combat Systems**, Interaction, **(GAS) Attributes, Abilities, Effects**, UI, **Puzzle Subsystems**
 - C++ core architecture (extended in Angelscript by self and team members)
-- Main & Pause Menus (Session-handling, extensive settings options)
+- Main & Pause menus (Session-handling, extensive settings options)
 - DLSS implementation
 
 ### <format style="bold" color="e14273">TOOLS</format> {id="tools_fate" collapsible="true" default-state="collapsed" }
@@ -118,8 +119,7 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 <quote>
 <p>A portfolio piece showcasing my work on a clone of Valorant.</p> 
 <p>This project is intended to demonstrate my proficiency in
-<b>Hero & Ability Design</b>, <b>Unreal Engine</b>, <b>Blueprints</b>
-and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
+<b>Hero & Ability Design</b>, <b>Unreal Engine</b>, <b>Blueprints,</b> and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
 </quote>
 <warning>Work-in-Progress!</warning>
 
@@ -330,11 +330,7 @@ Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
 - [Itch.io](https://futuregames.itch.io/somnium)
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_som"}
-
-<a href="Somnium.md" as="button" mode="classic">Breakdown</a>
-
-<!-- > [Click here to view a detailed breakdown of my work on Somnium](Somnium.md) -->
-
+> [Click here to view a detailed breakdown of my work on Somnium](Somnium.md)
 
 ---
 
