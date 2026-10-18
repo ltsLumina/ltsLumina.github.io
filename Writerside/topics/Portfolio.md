@@ -221,15 +221,15 @@ All infringing assets serve only as references during development and will be re
 <secondary-label ref="jira"></secondary-label>
 <secondary-label ref="p4"></secondary-label>
 
-I am experienced in **C#**, **Blueprint Visual Scripting**, and **Angelscript**, with limited experience in **C++** and **Java**.
+<quote>
+<p>I am experienced in <b>C#</b>, <b>Blueprint</b>, and <b>Angelscript</b>, with limited experience in <b>C++</b> and <b>Java</b>.</p>
 
-In March 2026, **I held [two official lectures](https://www.youtube.com/playlist?list=PLYkS5X71nWoU) at Futuregames Stockholm** where I **planned** and **organized** lectures
-on [Angelscript](https://angelscript.hazelight.se) in **collaboration** with the [teaching staff at the time.](https://www.linkedin.com/in/hanna-fridén-6b9506191/)
+<p>In March 2026, <b>I held <a href="https://www.youtube.com/playlist?list=PLYkS5X71nWoU">two official lectures</a> at Futuregames Stockholm</b> where I <b>planned</b> and <b>organized</b> lectures on <a href="https://angelscript.hazelight.se">Angelscript</a> in <b>collaboration</b> with the <a href="https://www.linkedin.com/in/hanna-fridén-6b9506191/">teaching staff at the time.</a></p>
 
-I am well-versed in Unreal's **Gameplay Ability System** (GAS), **data-driven development**, developing **systems and tooling**, and making networked multiplayer games using
-**replication**.
+<p>I am well-versed in Unreal's <b>Gameplay Ability System</b> (GAS), <b>data-driven development</b>, developing <b>systems and tooling</b>, and making networked multiplayer games using <b>replication</b>.</p>
 
-I can **rapidly prototype**, **iterate**, and **develop gameplay mechanics and systems**, engine divergences, and tooling.
+<p>I can <b>rapidly prototype</b>, <b>iterate</b>, and <b>develop</b> gameplay mechanics and systems, and I often make <a href="https://github.com/Hazelight/UnrealEngine-Angelscript/commits?author=ltsLumina">engine divergences</a> and tooling.</p>
+</quote>
 
 ### Additional Skills & Software { collapsible="true" default-state="collapsed" }
 
