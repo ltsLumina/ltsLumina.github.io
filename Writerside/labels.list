@@ -31,6 +31,10 @@
         FATE
     </primary-label>
 
+    <primary-label id="ryft" short-name="RFT" name="" href="https://futuregames.itch.io/somnium" color="purple">
+        RYFT
+    </primary-label>
+
     <primary-label id="somnium" short-name="SOM" name="" href="https://futuregames.itch.io/somnium" color="purple">
         Somnium
     </primary-label>
@@ -49,7 +53,7 @@
         Made at LBS (A game development high school in Gothenburg, Sweden)
     </secondary-label>
 
-    <secondary-label id="unreal" name="Unreal Engine" color="tangerine">
+    <secondary-label id="unreal" name="Unreal Engine" color="purple">
         Made in Unreal Engine
     </secondary-label>
 
@@ -57,7 +61,7 @@
         Made in Unity
     </secondary-label>
 
-    <secondary-label id="multiplayer" name="Multiplayer" color="purple">
+    <secondary-label id="multiplayer" name="Multiplayer" color="tangerine">
         Online Multiplayer
     </secondary-label>
 
@@ -105,12 +109,8 @@
         I design game mechanics, systems, and features, with a focus on multiplayer games.
     </secondary-label>
 
-    <secondary-label id="tech-designer" name="Tech Designer" color="strawberry">
-        I specialize in gameplay design – designing and implementing game mechanics, systems, and features.
-    </secondary-label>
-
-    <secondary-label id="tech-designer" name="Tech Designer" color="strawberry">
-        With a background in programming, I also design technical systems and features.
+    <secondary-label id="tech-designer" name="Game Designer" color="strawberry">
+        Gameplay, Tech, and Systems.
     </secondary-label>
 
     <secondary-label id="award-best-debut-game" name="Best Debut Game" color="strawberry">

@@ -36,6 +36,25 @@ Theodor Fransson
 
 ---
 
+## RYFT
+
+<primary-label ref="ryft"></primary-label>
+
+### <format style="bold" color="e14273">DESIGNERS</format> {id="designers_4"}
+
+[Alexander Andrejeff](https://www.linkedin.com/in/itslumina/)  
+[Samuel Lücke](https://www.linkedin.com/in/samuel-lücke-8159a1320/)  
+[Ege Barış Öncü](https://www.linkedin.com/in/egebarisoncu)  
+[Trausti Steinn Gunnarsson](https://www.linkedin.com/in/trausti-steinn-gunnarsson-8a882b1a6)
+
+### <format style="bold" color="e14273">PROGRAMMERS</format> {id="programmers_4"}
+ 
+[Gabriel Eder](https://www.linkedin.com/in/gabriel-eder-278a1b381/)   
+[Erik Kubershtein](https://www.linkedin.com/in/erik-kubershtein/)  
+[Yağız Selek](https://www.linkedin.com/in/yselek/)
+
+---
+
 ## ANGEL
 <primary-label ref="angel"></primary-label>
 

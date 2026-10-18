@@ -2,25 +2,22 @@
 
 <primary-label ref="lum"></primary-label>
 <secondary-label ref="tech-designer"></secondary-label>
-<secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
+<secondary-label ref="angelscript"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
 
 <quote>
 <p>
 Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockholm, Sweden</b>.
 </p>
 
-<p>&nbsp;</p>
+<p>I study at <i>Futuregames</i>, specializing in the <b>design and development</b> of <b>gameplay mechanics</b>, <b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
 
-<p>
-I am a <b>Tech Designer</b> studying at <i>Futuregames</i>, specializing in the <b>design and implementation</b> of gameplay mechanics and complex systems.
-</p>
+<p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years in Unreal</b>, and 2 years with <b>C++, and Angelscript</b>.</p>
 
 <p>&nbsp;</p>
 
-<p>
-I'm building on <b>6 years</b> of <b>Unity/C#</b> experience, over <b>3 years with Unreal Engine</b>, and 2 years with C++, and Angelscript, where I have driven <b>successful projects</b> both independently and collaboratively.
-</p>
+<p>Through my background in programming, I bring a unique perspective on game design, tying engineers, gameplay programmers, and designers together.</p>
 </quote>
 
 <tip>
@@ -97,13 +94,82 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 
 ### <format style="bold" color="e14273">LINKS</format> {id="links_fate" collapsible="true" default-state="collapsed" }
 
-- [~~Itch.io~~](https://futuregames.itch.io/fate)
+- [Itch.io](https://futuregames.itch.io/fate)
 - [Enchantments List](https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing)
 - [Enchantment Rarity Calculation](https://docs.google.com/spreadsheets/d/1d4uRtZOHxGTzWUpi4ebbzvki4Iu-aRwLK1duB4opFeU/edit?gid=1324727752#gid=1324727752)
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_fate"}
 
 > [Click here to view a detailed breakdown of my work on FATE](FATE.md)
+
+---
+
+## RYFT
+
+<primary-label ref="ryft"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="unreal"></secondary-label>
+<secondary-label ref="angelscript"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
+
+<video src="https://youtu.be/GO6zLJVXBX8" preview-src="ryft_showcase.gif"/>
+
+<quote>
+<p>‘RYFT’ is a first-person parkour speedgame set in a retro synthwave world. </p>
+<p><a href="https://store.steampowered.com">Available on steam soon!</a></p>
+</quote>
+
+<!-- at most 2 videos side-to-side for mobile! -->
+<table width="auto">
+    <tr>
+      <td><img src="ryft_thrash_fast.gif"  thumbnail="true" alt="Chopped-up gameplay footage of RYFT."/></td>
+      <td><img src="ryft_ui_demonstration.gif" thumbnail="true" alt="UI created by me."/></td>
+    </tr>
+</table>
+
+### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_ryft" collapsible="true" default-state="collapsed" }
+
+<quote>
+<p>Dash, grapple, and jump your way through a retro synthwave world where the only goal is to go FAST!</p>
+<p>&nbsp;</p>
+<p><b>Engine:</b> Unreal Engine 5.8 (custom angelscript fork)</p>
+<p><b>Genre:</b> Parkour/Speedgame</p>
+<p><b>Team Size:</b> 6 (3 Designers, 3 Programmers)</p>
+<p><b>Duration:</b> 4 weeks (+2 pre prod.) @ Futuregames (2026)</p>
+</quote>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_ryft" collapsible="true" default-state="collapsed"}
+
+<deflist type="full">
+    <def title="GAS (Gameplay Ability System)">
+        Designed and implemented all GAS architecture including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
+    </def>
+    <def title="Player Movement">
+        <p>Designed, prototyped, iterated, and fully developed the movement abilities including <b>dash</b>, <b>grapple</b>, <b>mantle</b>, and more.</p>
+        <p>Movement went through half a dozen iterations, built on <a href="https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing">over 25 playtests.</a></p>
+    </def>
+    <def title="UI/UX">
+        <p>Designed, implemented, and iterated on <b>all the user interfaces</b>.</p>
+        <p>Read more about my work on the UI in the design breakdown.</p>
+    </def>
+    <def title="Subsystems">
+        <p>Designed, unit tested, and fully developed the architecture and systems that the game runs on, including <b>six different subsystems</b> which control game logic, level transitions, and more.</p>
+    </def>
+</deflist>
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_ryft" collapsible="true" default-state="collapsed" }
+
+Unreal Engine 5.8, JetBrains Rider, Visual Studio Code, Diversion, Trello.
+
+### <format style="bold" color="e14273">LINKS</format> {id="links_ryft" collapsible="true" default-state="collapsed" }
+
+- [~~Itch.io~~](https://futuregames.itch.io/ryft)
+- [~~Steam~~ (coming soon)](https://store.steampowered.com)
+- [Playtest Document](https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing)
+
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ryft"}
+
+> [Click here to view a detailed breakdown of my work on RYFT](RYFT.md)
 
 ---
 
@@ -144,126 +210,46 @@ All infringing assets serve only as references during development and will be re
 
 ---
 
-## NEON RIVALRY
+## Skills & Tools
 
-<primary-label ref="neon-rivalry"></primary-label>
-<secondary-label ref="lbs"></secondary-label>
-<secondary-label ref="unity"></secondary-label>
-<secondary-label ref="co-op"></secondary-label>
+<primary-label ref="skills"></primary-label>
+<secondary-label ref="java"></secondary-label>
+<secondary-label ref="c#"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
+<secondary-label ref="angelscript"></secondary-label>
+<secondary-label ref="blueprint"></secondary-label>
+<secondary-label ref="jira"></secondary-label>
+<secondary-label ref="p4"></secondary-label>
 
-<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="neon-rivalry-trailer-short.gif" width="600"/>
+I am experienced in **C#**, **Blueprint Visual Scripting**, and **Angelscript**, with limited experience in **C++** and **Java**.
 
-<quote>
-<p>Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).</p>
-<p>&nbsp;</p>
-<p>Winner of the <b>'Best Trailer'</b> award at the LBS Game Awards.</p>
-</quote>
-<table width="auto">
-    <tr>
-      <td><img src="nr4.png" alt="Neon Rivalry Combat #1" thumbnail="true"/></td>
-      <td><img src="nr5.png" alt="Neon Rivalry Combat #2" thumbnail="true"/></td>
-    </tr>
-  </table>
+In March 2026, **I held [two official lectures](https://www.youtube.com/playlist?list=PLYkS5X71nWoU) at Futuregames Stockholm** where I **planned** and **organized** lectures
+on [Angelscript](https://angelscript.hazelight.se) in **collaboration** with the [teaching staff at the time.](https://www.linkedin.com/in/hanna-fridén-6b9506191/)
 
-### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_nr" collapsible="true" default-state="collapsed" }
+I am well-versed in Unreal's **Gameplay Ability System** (GAS), **data-driven development**, developing **systems and tooling**, and making networked multiplayer games using
+**replication**.
 
-<quote>
-<p>Pick a fighter and challenge your friend in this couch co-op fighting game. Utilize your light and heavy attacks or combo with aerial moves to best your opponent!</p>
-<p>Features licensed music from the band <a href="https://open.spotify.com/artist/1DFATttAHQi5zOPvZitP26?si=Xcvp5H_dQcaANu4R0-T_og">Anbaric.</a></p>
-<p>&nbsp;</p>
+I can **rapidly prototype**, **iterate**, and **develop gameplay mechanics and systems**, engine divergences, and tooling.
 
-<p><b>Engine:</b> Unity</p>
-<p><b>Genre:</b> Fighting</p>
-<p><b>Team Size:</b> 5 (1 Designer/Programmer, 4 Artists)</p>
-<p><b>Duration:</b> 7.5 months (August 2023 – April 2024) @ LBS</p>
-</quote>
+### Additional Skills & Software { collapsible="true" default-state="collapsed" }
 
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_nr" collapsible="true" default-state="collapsed"}
+- Markdown
+- GitHub (CI/CD)
+- Machinations
+- XML
+- Perforce
+- Miro
+- Visual Studio Code
+- JIRA
+- Figma
+- JetBrains Rider
+- Slack
+- Notion
+- Autodesk Maya
+- Trello
+- Lucidchart
 
-Game Designer, Product Owner, Scrum Master, Programmer (C#).
-
-<deflist type="full">
-    <def title="State Machine">
-        Implemented the game state flow for menus, gameplay, and match transitions.
-    </def>
-    <def title="Combat System">
-        Designed and implemented the core combat logic and player-vs-player interactions.
-    </def>
-    <def title="3C (Character, Camera, Controls)">
-        Designed and implemented the player-facing controls and camera behaviour for the fighting experience.
-    </def>
-</deflist>
-
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_nr" collapsible="true" default-state="collapsed" }
-
-Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrains Space **(CI/CD)**.
-
-### <format style="bold" color="e14273">LINKS</format> {id="links_nr" collapsible="true" default-state="collapsed" }
-
-- [Trailer](https://www.youtube.com/watch?v=BDWqbVHXUpc)
-
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_nr"}
-
-> [Click here to read more about Neon Rivalry](Neon-Rivalry.md)
-
-## PALINDRA
-
-<primary-label ref="palindra"></primary-label>
-<secondary-label ref="futuregames"></secondary-label>
-<secondary-label ref="unreal"></secondary-label>
-
-<video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" preview-src="Palindra-Trailer.gif" width="600"/>
-
-<quote>
-<p>‘Palindra’ is an atmospheric puzzle game with a time-travel mechanic. The game was created as part of the Game Project 3 course at Futuregames, Malmö (2025).</p>
-</quote>
-
-<table width="auto">
-    <tr>
-      <!--<td><img src="palindra-bedroom-past.png" alt="Screenshot of the bedroom in Palindra, during the past timeline, holding the time-travel mirror." width="300" thumbnail="true"/></td> -->
-      <td><img src="palindra-fireplace-present.png" alt="Screenshot of the fireplace in Palindra, during the present timeline."  thumbnail="true"/></td>
-      <td><img src="palindra-piano-past.png" alt="Screenshot of the piano room in Palindra, during the past timeline."  thumbnail="true"/></td>
-    </tr>
-</table>
-
-### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_pal" collapsible="true" default-state="collapsed" }
-
-<quote>
-<p>Traverse two distinct timelines, collecting information from the present, and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen.</p>
-<p>&nbsp;</p>
-<p><b>Engine:</b> Unreal Engine 5.3</p>
-<p><b>Genre:</b> Puzzle Adventure</p>
-<p><b>Team Size:</b> 10 (1 Designers, 3 Programmers, 6 Artists)</p>
-<p><b>Duration:</b> 6 weeks @ Futuregames (2025)</p>
-</quote>
-
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_pal" collapsible="true" default-state="collapsed"}
-
-Game Designer and Associate Programmer (C++).
-
-<deflist type="full">
-    <def title="Level Design">
-        Designed the playable spaces and player flow around the game's time-travel mechanic.
-    </def>
-    <def title="Puzzle Design">
-        Built and iterated on environmental puzzles that use past/present state changes to progress.
-    </def>
-    <def title="UI/UX Design">
-        Created the interface to support puzzle readability and player guidance.
-    </def>
-</deflist>
-
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_pal" collapsible="true" default-state="collapsed" }
-
-**Unreal Engine 5** (C++ & Blueprints), JetBrains Rider, **Perforce**, **JIRA**, **Miro**, Discord.
-
-### <format style="bold" color="e14273">LINKS</format> {id="links_pal" collapsible="true" default-state="collapsed" }
-
-- [Itch.io](https://futuregames.itch.io/palindra)
-
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_pal"}
-
-> [Click here to view a detailed breakdown of my work on Palindra](Palindra.md)
+{ columns="3" }
 
 ---
 
@@ -330,7 +316,132 @@ Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
 - [Itch.io](https://futuregames.itch.io/somnium)
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_som"}
+
 > [Click here to view a detailed breakdown of my work on Somnium](Somnium.md)
+
+---
+
+## NEON RIVALRY
+
+<primary-label ref="neon-rivalry"></primary-label>
+<secondary-label ref="lbs"></secondary-label>
+<secondary-label ref="unity"></secondary-label>
+<secondary-label ref="co-op"></secondary-label>
+
+<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="neon-rivalry-trailer-short.gif" width="600"/>
+
+<quote>
+<p>Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).</p>
+<p>&nbsp;</p>
+<p>Winner of the <b>'Best Trailer'</b> award at the LBS Game Awards.</p>
+</quote>
+<table width="auto">
+    <tr>
+      <td><img src="nr4.png" alt="Neon Rivalry Combat #1" thumbnail="true"/></td>
+      <td><img src="nr5.png" alt="Neon Rivalry Combat #2" thumbnail="true"/></td>
+    </tr>
+  </table>
+
+### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_nr" collapsible="true" default-state="collapsed" }
+
+<quote>
+<p>Pick a fighter and challenge your friend in this couch co-op fighting game. Utilize your light and heavy attacks or combo with aerial moves to best your opponent!</p>
+<p>Features licensed music from the band <a href="https://open.spotify.com/artist/1DFATttAHQi5zOPvZitP26?si=Xcvp5H_dQcaANu4R0-T_og">Anbaric.</a></p>
+<p>&nbsp;</p>
+
+<p><b>Engine:</b> Unity</p>
+<p><b>Genre:</b> Fighting</p>
+<p><b>Team Size:</b> 5 (1 Designer/Programmer, 4 Artists)</p>
+<p><b>Duration:</b> 7.5 months (August 2023 – April 2024) @ LBS</p>
+</quote>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_nr" collapsible="true" default-state="collapsed"}
+
+Game Designer, Product Owner, Scrum Master, Programmer (C#).
+
+<deflist type="full">
+    <def title="State Machine">
+        Implemented the game state flow for menus, gameplay, and match transitions.
+    </def>
+    <def title="Combat System">
+        Designed and implemented the core combat logic and player-vs-player interactions.
+    </def>
+    <def title="3C (Character, Camera, Controls)">
+        Designed and implemented the player-facing controls and camera behaviour for the fighting experience.
+    </def>
+</deflist>
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_nr" collapsible="true" default-state="collapsed" }
+
+Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrains Space **(CI/CD)**.
+
+### <format style="bold" color="e14273">LINKS</format> {id="links_nr" collapsible="true" default-state="collapsed" }
+
+- [Trailer](https://www.youtube.com/watch?v=BDWqbVHXUpc)
+
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_nr"}
+
+> [Click here to read more about Neon Rivalry](Neon-Rivalry.md)
+
+---
+
+## PALINDRA
+
+<primary-label ref="palindra"></primary-label>
+<secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="unreal"></secondary-label>
+
+<video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" preview-src="Palindra-Trailer.gif" width="600"/>
+
+<quote>
+<p>‘Palindra’ is an atmospheric puzzle game with a time-travel mechanic. The game was created as part of the Game Project 3 course at Futuregames, Malmö (2025).</p>
+</quote>
+
+<table width="auto">
+    <tr>
+      <td><img src="palindra-fireplace-present.png" alt="Screenshot of the fireplace in Palindra, during the present timeline."  thumbnail="true"/></td>
+      <td><img src="palindra-piano-past.png" alt="Screenshot of the piano room in Palindra, during the past timeline."  thumbnail="true"/></td>
+    </tr>
+</table>
+
+### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_pal" collapsible="true" default-state="collapsed" }
+
+<quote>
+<p>Traverse two distinct timelines, collecting information from the present, and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen.</p>
+<p>&nbsp;</p>
+<p><b>Engine:</b> Unreal Engine 5.3</p>
+<p><b>Genre:</b> Puzzle Adventure</p>
+<p><b>Team Size:</b> 10 (1 Designers, 3 Programmers, 6 Artists)</p>
+<p><b>Duration:</b> 6 weeks @ Futuregames (2025)</p>
+</quote>
+
+### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_pal" collapsible="true" default-state="collapsed"}
+
+Game Designer and Associate Programmer (C++).
+
+<deflist type="full">
+    <def title="Level Design">
+        Designed the playable spaces and player flow around the game's time-travel mechanic.
+    </def>
+    <def title="Puzzle Design">
+        Built and iterated on environmental puzzles that use past/present state changes to progress.
+    </def>
+    <def title="UI/UX Design">
+        Created the interface to support puzzle readability and player guidance.
+    </def>
+</deflist>
+
+### <format style="bold" color="e14273">TOOLS</format> {id="tools_pal" collapsible="true" default-state="collapsed" }
+
+**Unreal Engine 5** (C++ & Blueprints), JetBrains Rider, **Perforce**, **JIRA**, **Miro**, Discord.
+
+### <format style="bold" color="e14273">LINKS</format> {id="links_pal" collapsible="true" default-state="collapsed" }
+
+- [Itch.io](https://futuregames.itch.io/palindra)
+
+### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_pal"}
+
+> [Click here to view a detailed breakdown of my work on Palindra](Palindra.md)
 
 ---
 
@@ -455,47 +566,6 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
 > [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md)
 
 -->
-
-## Skills & Tools
-
-<primary-label ref="skills"></primary-label>
-<secondary-label ref="java"></secondary-label>
-<secondary-label ref="c#"></secondary-label>
-<secondary-label ref="c++"></secondary-label>
-<secondary-label ref="angelscript"></secondary-label>
-<secondary-label ref="blueprint"></secondary-label>
-<secondary-label ref="jira"></secondary-label>
-<secondary-label ref="p4"></secondary-label>
-
-I am experienced in **C#**, **Blueprint Visual Scripting**, and **Angelscript**, with limited working experience in **C++** and **Java**.
-
-**I held [two official lectures](https://www.youtube.com/playlist?list=PLYkS5X71nWoU) at Futuregames Stockholm** in March of 2026 where I **planned** and
-**organized** two lectures on [Angelscript](https://angelscript.hazelight.se) in **collaboration with the [teaching staff at the time.](https://www.linkedin.com/in/hanna-fridén-6b9506191/)**
-
-I am well-versed in Unreal's **Gameplay Ability System** (GAS), **data-driven development**, developing **systems and tooling**, and making networked multiplayer games using
-**replication**.
-
-**Rapid prototyping** and **iteration** on levels, mechanics, and gameplay are all facets of my work, and something I am very comfortable doing.
-
-### Additional Skills & Software { collapsible="true" default-state="collapsed" }
-
-- Markdown
-- GitHub (CI/CD)
-- Machinations
-- XML
-- Perforce
-- Miro
-- Visual Studio Code
-- JIRA
-- Figma
-- JetBrains Rider
-- Slack
-- Notion
-- Autodesk Maya
-- Trello
-- Lucidchart
-
-{ columns="3" }
 
 ---
 
