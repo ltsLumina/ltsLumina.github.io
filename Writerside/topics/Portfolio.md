@@ -316,7 +316,7 @@ Combat & Tech Designer, Programming.
 
 ### <format style="bold" color="e14273">TOOLS</format> {id="tools_som" collapsible="true" default-state="collapsed"}
 
-Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
+Unity, JetBrains Rider, Perforce, Trello, Miro.
 
 ### <format style="bold" color="e14273">LINKS</format> {id="links_som" collapsible="true" default-state="collapsed"}
 
