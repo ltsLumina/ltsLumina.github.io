@@ -1,10 +1,14 @@
 # Portfolio
 
 <primary-label ref="lum"></primary-label>
-<secondary-label ref="tech-designer"></secondary-label>
+<secondary-label ref="game-designer"></secondary-label>
+<secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
+<secondary-label ref="c#"></secondary-label>
+<secondary-label ref="p4"></secondary-label>
+<secondary-label ref="jira"></secondary-label>
 
 <quote>
 <p>
@@ -13,9 +17,8 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockho
 
 <p>I study at <i>Futuregames</i>, specializing in the <b>design and development</b> of <b>gameplay mechanics</b>, <b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
 
-<p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years in Unreal</b>, and 2 years with <b>C++, and Angelscript</b>.</p>
-
-<p>&nbsp;</p>
+<p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years in Unreal</b>, and 2 years with <b>C++, and Angelscript</b>.
+<br></br>Experienced using <b>CI/CD pipelines</b>, <b>AGILE</b> project workflows, and as a <b>product-owner</b>.</p>
 
 <p>Through my background in programming, I bring a unique perspective on game design, tying engineers, gameplay programmers, and designers together.</p>
 </quote>
@@ -32,8 +35,9 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 
 <primary-label ref="fate"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
-<secondary-label ref="unreal"></secondary-label>
+<secondary-label ref="group"></secondary-label>
 <secondary-label ref="multiplayer"></secondary-label>
+<secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
@@ -108,6 +112,7 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 
 <primary-label ref="ryft"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="group"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
@@ -177,6 +182,7 @@ Unreal Engine 5.8, JetBrains Rider, Visual Studio Code, Diversion, Trello.
 
 <primary-label ref="angel"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="solo"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
@@ -257,8 +263,9 @@ All infringing assets serve only as references during development and will be re
 
 <primary-label ref="somnium"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="group"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
-<secondary-label ref="award-best-debut-game"></secondary-label>
+<secondary-label ref="award"></secondary-label>
 
 <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="600" preview-src="../videos/somnium-trailer.gif"/>
 
@@ -325,8 +332,10 @@ Unity, JetBrains Rider, **Perforce**, **Trello**, Miro.
 
 <primary-label ref="neon-rivalry"></primary-label>
 <secondary-label ref="lbs"></secondary-label>
+<secondary-label ref="solo"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="co-op"></secondary-label>
+<secondary-label ref="award"></secondary-label>
 
 <video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="neon-rivalry-trailer-short.gif" width="600"/>
 
@@ -389,6 +398,7 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 
 <primary-label ref="palindra"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="group"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
 <video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" preview-src="Palindra-Trailer.gif" width="600"/>

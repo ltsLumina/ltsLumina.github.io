@@ -57,7 +57,7 @@
         Made in Unreal Engine
     </secondary-label>
 
-    <secondary-label id="unity" name="Unity" color="blue">
+    <secondary-label id="unity" name="Unity" color="purple">
         Made in Unity
     </secondary-label>
 
@@ -68,10 +68,20 @@
     <secondary-label id="co-op" name="Couch co-op" color="purple">
         Co-op
     </secondary-label>
+
+    <!-- Group Labels -->
+
+    <secondary-label id="solo" name="Solo Project" color="marine">
+        Solo Project
+    </secondary-label>
+
+    <secondary-label id="group" name="Group Project" color="marine">
+        Group Project
+    </secondary-label>
     
     <!-- Skill Labels -->
 
-    <secondary-label id="c#" name="C#" color="purple">
+    <secondary-label id="c#" name="C#" color="blue">
         C#
     </secondary-label>
 
@@ -91,11 +101,11 @@
         Java
     </secondary-label>
 
-    <secondary-label id="p4" name="Perforce" color="purple">
+    <secondary-label id="p4" name="Perforce" color="green">
         Perforce
     </secondary-label>
 
-    <secondary-label id="jira" name="JIRA" color="blue">
+    <secondary-label id="jira" name="JIRA" color="green">
         JIRA
     </secondary-label>
     
@@ -115,6 +125,10 @@
 
     <secondary-label id="award-best-debut-game" name="Best Debut Game" color="strawberry">
         Winner of the Best Debut Game award at the 2025 Future Game Awards. 
+    </secondary-label> 
+    
+    <secondary-label id="award" name="Award-Winning" color="strawberry">
+
     </secondary-label>
     
     <!-- Extra Labels for About Me page -->
