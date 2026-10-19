@@ -8,8 +8,8 @@
 
     <toc-element topic="Portfolio.md"/>
         <toc-element toc-title="Breakdowns">
-        <toc-element topic="RYFT.md"/>
         <toc-element topic="FATE.md"/>
+        <toc-element topic="RYFT.md"/>
         <toc-element topic="Somnium.md"/>
         <toc-element topic="Angel.md"/>
         <toc-element topic="Palindra.md"/>
