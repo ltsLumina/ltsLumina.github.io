@@ -41,7 +41,7 @@ The note that each piano key corresponds to is shown on the HUD when looking at 
 Originally, the sheet music was designed to be part of a larger cryptographic puzzle, but due to time constraints, it was simplified to a direct note sequence.
 In the end, the player must play "In the End" by Linkin Park to solve the puzzle, which is a funny tie-in to my personal love for Linkin Park, the piano puzzle being the final puzzle, and also as a nod to the theme of time present in Palindra.
 
-After conducting some playtests, we received mostly positive feedback about this puzzle. The only playtester who struggled to understand and complete the puzzle was an older gentleman who played very little games.  
+After conducting some playtests, we received mostly positive feedback about this puzzle. The only playtester who struggled to understand and complete the puzzle was an older gentleman who played few games.  
 
 Positive feedback consisted of applauds in adding a functioning piano, the background music being dynamic (when you leave the room the piano plays music on its own, and when you leave it stops), and the sound design, which was also done by me. 
 
