@@ -70,19 +70,20 @@ Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i>
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" collapsible="true" default-state="collapsed"}
 
 <deflist type="full">
-    <def title="Guns and Abilities">
+    <def title="Gunplay and Abilities">
         <p>Designed <b>distinct PvE and PvP gunplay, akin to Destiny and Halo</b>. Achieved by breaking down what makes those games fun and how they implement it.</p>
         <p>Developed the <b>gun logic and all related abilities</b>: <b>shoot</b>, <b>reload</b>, <b>ADS</b>, etc.
         <br></br>View my most extensive script here: <resource src="GunComponent.as"/></p>
     </def>
-    <def title="Heroes">
+    <def title="Heroes and Guns">
         <p>Concepted, pitched, and iterated on <b>three hero designs</b>: <b>Hawkmoon</b>, <b>Izanagi</b>, and <b>Bastion</b>.</p>
         <p><b>Hawkmoon:</b> <b>Short-range forgiving</b> revolver with a medium magazine and fire-rate.</p>
         <p><b>Izanagi:</b> <b>Long-range precision</b> sniper with a burst hip-fire mode.</p>
         <p><b>Bastion:</b> <b>Medium-range run-and-gun</b> machine-gun with a large magazine and high fire-rate.</p>
     </def>
     <def title="Enchantments (upgrades)">
-        Designed and implemented <b>'enchantments' (rogue-lite upgrades)</b>. The design of each was catered toward each hero's playstyle, including some that were <b>unique</b> to each hero.
+        <p>Designed and implemented <b>'enchantments' (rogue-lite upgrades)</b>. The design of each was catered toward each hero's playstyle, including some that were <b>unique</b> to each hero.</p>
+        <p>Each enchantment is a GameplayAbility granted upon picking up the enchantment orb. <br/>The ability auto-activates when granted, executing its logic (stat buffs, VFX/SFX, deal damage, etc.) </p>
         <p>A non-exhaustive list <a href="https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing">can be viewed here.</a></p>
     </def>
     <def title="GAS (Gameplay Ability System)">
@@ -91,11 +92,12 @@ Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i>
     </def>
     <def title="Netcode">
         <p>Worked with the <b>AdvancedSessions plugin</b>, <b>SteamSockets</b>, <b>SteamSubsystem</b>, and more to connect clients to each other.</p>
-        <p><b>RPCs and Replication</b> were used for syncing game-state across clients.</p>
+        <p><b>RPCs, Replication, and custom</b> <code>async</code> <b>nodes</b> were used for synchronizing state across clients.</p>
     </def>
 </deflist>
 
 #### Additional Responsibilities
+
 - **Combat Systems**, Interaction, UI, **Puzzle Subsystems**
 - C++ core architecture (extended in Angelscript by self and team members)
 - Main & Pause menus (Session-handling, extensive settings options)
@@ -144,7 +146,7 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Tre
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_ryft" collapsible="true" default-state="collapsed" }
 
 <quote>
-<p>Dash, grapple, and jump your way through a retro synthwave world where the only goal is to go FAST!</p>
+<p>Traverse through a retro synthwave world where the only goal is to go FAST!</p>
 <p>&nbsp;</p>
 <p><b>Engine:</b> Unreal Engine 5.8 (custom angelscript fork)</p>
 <p><b>Genre:</b> Parkour/Speedgame</p>
@@ -157,17 +159,22 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Tre
 <deflist type="full">
     <def title="Player Movement">
         <p>Designed, prototyped, iterated, and fully developed the movement abilities including <b>dash</b>, <b>grapple</b>, <b>mantle</b>, and more.</p>
-        <p>Movement went through <a href="RYFT.md">half a dozen iterations</a>, built on <a href="https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing">over 25 playtests.</a></p>
+        <p>Movement went through <a href="RYFT.md" summary="Read more about each iteration.">half a dozen iterations</a>, built on <a href="https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing" summary="Link to a compilation of all our playtest feedback.">over 25 playtests.</a></p>
     </def>
     <def title="UI/UX">
         <p>Designed, implemented, and iterated on <b>all the user interfaces</b>.</p>
         <p>Read more about my work on the UI in the design breakdown.</p>
     </def>
-<def title="GAS (Gameplay Ability System)">
-        Designed and implemented all GAS architecture including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
-    </def>
     <def title="Subsystems">
-        <p>Designed, unit tested, and fully developed the architecture and systems that the game runs on, including <b>six different subsystems</b> which control game logic, level transitions, and more.</p>
+        <p>Designed, unit tested, and fully developed the architecture and systems that the game runs on, including <b>nine different subsystems</b> which control game logic, level transitions, and more.</p>
+            <chapter title="View a few subsystem scripts" id="ryft-scripts" collapsible="true" default-state="collapsed">
+                <resource src="StageSubsystem.as"/>
+                <resource src="MixtapeSubsystem.as"/>
+                <resource src="RemixSubsystem.as"/>
+            </chapter>
+    </def>
+    <def title="GAS (Gameplay Ability System)">
+        Designed and implemented all GAS architecture including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
     </def>
 </deflist>
 
