@@ -18,7 +18,7 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockho
 <p>I study at <i>Futuregames</i>, specializing in the <b>design and development</b> of <b>gameplay mechanics</b>, <b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
 
 <p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years in Unreal</b>, and 2 years with <b>C++, and Angelscript</b>.
-<br></br>Experienced using <b>CI/CD pipelines</b>, <b>AGILE</b> project workflows, and as a <b>product-owner</b>.</p>
+<br></br>Experienced with <b>CI/CD pipelines</b>, <b>AGILE</b> project workflows, and as a <b>product-owner</b>.</p>
 
 <p>Through my background in programming, I bring a unique perspective on game design, tying engineers, gameplay programmers, and designers together.</p>
 </quote>
@@ -36,8 +36,8 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 <primary-label ref="fate"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="group"></secondary-label>
-<secondary-label ref="multiplayer"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
+<secondary-label ref="multiplayer"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
@@ -70,31 +70,40 @@ Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i>
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" collapsible="true" default-state="collapsed"}
 
 <deflist type="full">
-    <def title="GAS (Gameplay Ability System)">
-        Designed and implemented all GAS architecture including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
+    <def title="Guns and Abilities">
+        <p>Designed <b>distinct PvE and PvP gunplay, akin to Destiny and Halo</b>. Achieved by breaking down what makes those games fun and how they implement it.</p>
+        <p>Developed the <b>gun logic and all related abilities</b>: <b>shoot</b>, <b>reload</b>, <b>ADS</b>, etc.
+        <br></br>View my most extensive script here: <resource src="GunComponent.as"/></p>
     </def>
-    <def title="Guns, Abilities, and Heroes">
-        <p>Designed and implemented gun-feel akin to Destiny and Halo. Implemented core abilities including <b>shoot</b>, <b>reload</b>, <b>ADS</b>, and more.</p>
-        <p>View my most extensive script here: <resource src="GunComponent.as"/></p>
+    <def title="Heroes">
+        <p>Concepted, pitched, and iterated on <b>three hero designs</b>: <b>Hawkmoon</b>, <b>Izanagi</b>, and <b>Bastion</b>.</p>
+        <p><b>Hawkmoon:</b> <b>Short-range forgiving</b> revolver with a medium magazine and fire-rate.</p>
+        <p><b>Izanagi:</b> <b>Long-range precision</b> sniper with a burst hip-fire mode.</p>
+        <p><b>Bastion:</b> <b>Medium-range run-and-gun</b> machine-gun with a large magazine and high fire-rate.</p>
     </def>
     <def title="Enchantments (upgrades)">
-        Designed and implemented 'enchantments' (rogue-lite upgrades). The design of each was catered toward each hero's playstyle, including some that were <b>unique</b> to the hero.
+        Designed and implemented <b>'enchantments' (rogue-lite upgrades)</b>. The design of each was catered toward each hero's playstyle, including some that were <b>unique</b> to each hero.
         <p>A non-exhaustive list <a href="https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing">can be viewed here.</a></p>
     </def>
+    <def title="GAS (Gameplay Ability System)">
+        <p>Designed and implemented <b>all GAS architecture</b> including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc.</p>
+        <p>Parts of the implementation were handled in C++, such as custom GameplayEffectContext properties.</p>
+    </def>
     <def title="Netcode">
-        <p>Worked with the AdvancedSessions plugin, SteamSockets, SteamSubsystem, and more to connect clients to each other.</p>
-        <p>RPCs and Replication were used for syncing game-state across clients.</p>
+        <p>Worked with the <b>AdvancedSessions plugin</b>, <b>SteamSockets</b>, <b>SteamSubsystem</b>, and more to connect clients to each other.</p>
+        <p><b>RPCs and Replication</b> were used for syncing game-state across clients.</p>
     </def>
 </deflist>
 
-- **Combat Systems**, Interaction, **(GAS) Attributes, Abilities, Effects**, UI, **Puzzle Subsystems**
+#### Additional Responsibilities
+- **Combat Systems**, Interaction, UI, **Puzzle Subsystems**
 - C++ core architecture (extended in Angelscript by self and team members)
 - Main & Pause menus (Session-handling, extensive settings options)
 - DLSS implementation
 
 ### <format style="bold" color="e14273">TOOLS</format> {id="tools_fate" collapsible="true" default-state="collapsed" }
 
-Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**, **Trello**, Miro.
+Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Trello, Miro.
 
 ### <format style="bold" color="e14273">LINKS</format> {id="links_fate" collapsible="true" default-state="collapsed" }
 
@@ -146,16 +155,16 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, **Perforce**,
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_ryft" collapsible="true" default-state="collapsed"}
 
 <deflist type="full">
-    <def title="GAS (Gameplay Ability System)">
-        Designed and implemented all GAS architecture including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
-    </def>
     <def title="Player Movement">
         <p>Designed, prototyped, iterated, and fully developed the movement abilities including <b>dash</b>, <b>grapple</b>, <b>mantle</b>, and more.</p>
-        <p>Movement went through half a dozen iterations, built on <a href="https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing">over 25 playtests.</a></p>
+        <p>Movement went through <a href="RYFT.md">half a dozen iterations</a>, built on <a href="https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing">over 25 playtests.</a></p>
     </def>
     <def title="UI/UX">
         <p>Designed, implemented, and iterated on <b>all the user interfaces</b>.</p>
         <p>Read more about my work on the UI in the design breakdown.</p>
+    </def>
+<def title="GAS (Gameplay Ability System)">
+        Designed and implemented all GAS architecture including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
     </def>
     <def title="Subsystems">
         <p>Designed, unit tested, and fully developed the architecture and systems that the game runs on, including <b>six different subsystems</b> which control game logic, level transitions, and more.</p>
@@ -189,9 +198,8 @@ Unreal Engine 5.8, JetBrains Rider, Visual Studio Code, Diversion, Trello.
 <img src="../videos/angel_project_wip-gif.gif" alt="WIP footage of the Angel Project" width="600"/>
 
 <quote>
-<p>A portfolio piece showcasing my work on a clone of Valorant.</p> 
-<p>This project is intended to demonstrate my proficiency in
-<b>Hero & Ability Design</b>, <b>Unreal Engine</b>, <b>Blueprints,</b> and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
+<p>A work-in-progress clone of Valorant.</p> 
+<p>This project demonstrates my proficiency in <b>Hero & Ability Design</b>, <b>Unreal Engine</b>, and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
 </quote>
 <warning>Work-in-Progress!</warning>
 
@@ -219,22 +227,27 @@ All infringing assets serve only as references during development and will be re
 ## Skills & Tools
 
 <primary-label ref="skills"></primary-label>
-<secondary-label ref="java"></secondary-label>
 <secondary-label ref="c#"></secondary-label>
-<secondary-label ref="c++"></secondary-label>
-<secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="blueprint"></secondary-label>
+<secondary-label ref="angelscript"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
+<secondary-label ref="java"></secondary-label>
+<secondary-label ref="blank"></secondary-label>
 <secondary-label ref="jira"></secondary-label>
+<secondary-label ref="miro"></secondary-label>
+<secondary-label ref="ms-office"></secondary-label>
 <secondary-label ref="p4"></secondary-label>
 
 <quote>
-<p>I am experienced in <b>C#</b>, <b>Blueprint</b>, and <b>Angelscript</b>, with limited experience in <b>C++</b> and <b>Java</b>.</p>
+<p> I design for <b>different player types</b>, and for <b>how they play together</b>, using <b><a href ="https://selfdeterminationtheory.org/theory/" summary="Self-determination theory holds that people are most motivated, perform best, and are healthiest when their environment supports three basic psychological needs: autonomy, competence, and relatedness.">self-determination theory</a></b>.
+<br></br>Read more about my <b><a href="Prototyping.md">design thinking and decision-making.</a></b></p>
 
-<p>In March 2026, <b>I held <a href="https://www.youtube.com/playlist?list=PLYkS5X71nWoU">two official lectures</a> at Futuregames Stockholm</b> where I <b>planned</b> and <b>organized</b> lectures on <a href="https://angelscript.hazelight.se">Angelscript</a> in <b>collaboration</b> with the <a href="https://www.linkedin.com/in/hanna-fridén-6b9506191/">teaching staff at the time.</a></p>
+<p>• Experienced in <b>C#</b>, <b>Blueprint</b>, and <b>Angelscript</b>, with limited experience in <b>C++</b> and <b>Java</b>.</p>
 
-<p>I am well-versed in Unreal's <b>Gameplay Ability System</b> (GAS), <b>data-driven development</b>, developing <b>systems and tooling</b>, and making networked multiplayer games using <b>replication</b>.</p>
+<p>• Well-versed in Unreal's <b>Gameplay Ability System</b> (GAS), <b>data-driven development</b>, <b>systems and tooling</b>, and making <b>networked multiplayer</b> games using <b>replication</b>.</p>
 
-<p>I can <b>rapidly prototype</b>, <b>iterate</b>, and <b>develop</b> gameplay mechanics and systems, and I often make <a href="https://github.com/Hazelight/UnrealEngine-Angelscript/commits?author=ltsLumina">engine divergences</a> and tooling.</p>
+<p>• <b>Rapid prototyping</b>, <b>iteration</b>, and <b>ownership</b> of <b>gameplay mechanics and systems</b>, <a href="https://github.com/Hazelight/UnrealEngine-Angelscript/commits?author=ltsLumina" summary="Contribution page of Hazelight/UnrealEngine-Angelscript. Link may 404 if you are not signed in to an 'Epic Games'-linked account.">engine divergences</a>, and tooling.</p>
+
 </quote>
 
 ### Additional Skills & Software { collapsible="true" default-state="collapsed" }
@@ -271,7 +284,7 @@ All infringing assets serve only as references during development and will be re
 
 <quote>
 <p>‘Somnium’ is a retro-inspired first-person dungeon crawler.</p>
-<p>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards.</p>
+<p>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards (2025)</p>
 </quote>
 
 <table width="auto">
@@ -341,7 +354,6 @@ Unity, JetBrains Rider, Perforce, Trello, Miro.
 
 <quote>
 <p>Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).</p>
-<p>&nbsp;</p>
 <p>Winner of the <b>'Best Trailer'</b> award at the LBS Game Awards.</p>
 </quote>
 <table width="auto">
@@ -455,11 +467,25 @@ Game Designer and Associate Programmer (C++).
 
 ---
 
-<!--
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_plo"}
+<p>&nbsp;</p>
 
- > [Click here to view a detailed breakdown of my work on Neon Rivalry](Neon-Rivalry.md)
-## PLORA
+## About Me
+
+<primary-label ref="lum"></primary-label>
+
+> [Click here to learn more about me!](About-Me.md)
+
+<p>&nbsp;</p>
+
+---
+
+## Other Projects { collapsible="true" default-state="collapsed" }
+
+> The projects listed below are smaller games and prototypes I have worked on either solo or in small teams.
+> They are included here to showcase a broader range of my skills and experiences, but aren't intended as portfolio
+> pieces.
+
+### PLORA
 
 <primary-label ref="plora"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
@@ -515,14 +541,14 @@ Unity, JetBrains Rider, Perforce, GitHub, JIRA, Miro.
     </tr>
   </table>
 
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_plo"}
+---
 
-> [Click here to view a detailed breakdown of my work on PLORA](PLORA.md)
-## DEAD SECTOR
+### DEAD SECTOR
 
 <primary-label ref="dead-sector"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
+<secondary-label ref="group"></secondary-label>
 
 <procedure>
   <table width="900">
@@ -571,37 +597,15 @@ Unity, JetBrains Rider, Perforce, JIRA, Miro.
     </tr>
   </table>
 
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ds"}
-
-> [Click here to view a detailed breakdown of my work on Dead Sector](Dead-Sector.md)
-
--->
-
 ---
-
-<p>&nbsp;</p>
-
-## About Me
-
-<primary-label ref="lum"></primary-label>
-
-> [Click here to learn more about me!](About-Me.md)
-
-<p>&nbsp;</p>
-
----
-
-## Other Projects { collapsible="true" default-state="collapsed" }
-
-> The projects listed below are smaller games and prototypes I have worked on either solo or in small teams.
-> They are included here to showcase a broader range of my skills and experiences, but aren't intended as portfolio
-> pieces.
 
 ### STOKOS
 
 <primary-label ref="dead-sector"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
+<secondary-label ref="group"></secondary-label>
+<secondary-label ref="gamejam"></secondary-label>
 
 <img src="stokos.png" alt="STOKOS cover art" width="600"/>
 
@@ -633,6 +637,7 @@ Unity, JetBrains Rider, GitHub
 <primary-label ref="plora"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
+<secondary-label ref="solo"></secondary-label>
 
 <video src="../videos/Prototype.mp4" width="600" preview-src="prototyping.png"/>
 
@@ -661,6 +666,7 @@ Unity, JetBrains Rider, GitHub, Notion
 
 <primary-label ref="palindra"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="group"></secondary-label>
 
 We created a board game entirely from scratch, designed as part of the Board Game Design Course at Futuregames.
 

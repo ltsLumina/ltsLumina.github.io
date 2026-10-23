@@ -3,7 +3,7 @@
 <labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
 
-    <primary-label id="lum" short-name=">" name="Alexander Andrejeff" href="https://ltslumina.github.io">
+    <primary-label id="lum" short-name=">" name="Alexander Andrejeff" href="https://www.linkedin.com/in/itslumina/">
         Hey there!
     </primary-label>
     
@@ -71,12 +71,16 @@
 
     <!-- Group Labels -->
 
-    <secondary-label id="solo" name="Solo Project" color="marine">
+    <secondary-label id="solo" name="Solo" color="marine">
         Solo Project
     </secondary-label>
 
-    <secondary-label id="group" name="Group Project" color="marine">
+    <secondary-label id="group" name="Group" color="marine">
         Group Project
+    </secondary-label>
+
+    <secondary-label id="gamejam" name="Gamejam" color="marine">
+        Made in a Gamejam
     </secondary-label>
     
     <!-- Skill Labels -->
@@ -104,9 +108,29 @@
     <secondary-label id="p4" name="Perforce" color="green">
         Perforce
     </secondary-label>
+    
+    <secondary-label id="github" name="GitHub" color="green">
+        GitHub
+    </secondary-label>
+
+    <secondary-label id="diversion" name="Diversion" color="green">
+        Diversion
+    </secondary-label>
 
     <secondary-label id="jira" name="JIRA" color="green">
         JIRA
+    </secondary-label>
+
+    <secondary-label id="miro" name="Miro" color="green">
+        MIRO
+    </secondary-label>
+
+    <secondary-label id="lucidchart" name="Lucidchart" color="green">
+        Lucidchart (flowcharts)
+    </secondary-label>
+    
+    <secondary-label id="ms-office" name="Office Suite" color="green">
+        The full Microsoft Office suite.
     </secondary-label>
     
     <!-- End Skill Labels -->
@@ -137,6 +161,12 @@
     <secondary-label id="ethnicity" name="Canadian" color="red"/>
     <secondary-label id="in" name="in" color="purple"/>
     <secondary-label id="location" name="Stockholm, Sweden" color="blue"/>
+    
+    <!-- Blank Label -->
+
+    <secondary-label id="blank" name="" color="black">
+        
+    </secondary-label>
     
     <!-- built-in/default -->
 

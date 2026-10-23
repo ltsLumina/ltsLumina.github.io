@@ -11,55 +11,120 @@ switcher-label: Contribution
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-<include from="switcher-note.topic" element-id="switcher-note">
-    <var name="switcher-key" value="contribution"/>
-</include>
-
-## Implementation { switcher-key="Implementation"}
-
-FATE's technical implementation is my most ambitious project yet, stretching **15,000+ lines of code** across **Angelscript** and **C++**. Over **300+** hours spent coding (by hand – AI was **not** used to generate large chunks of code. Occasionally used for refactoring.)
-
-[![wakatime](https://wakatime.com/badge/user/018b0c84-c3a0-4f65-b3b0-741d40b02439/project/4fa5f7c0-6d66-4188-85c3-1e207ee6bcad.svg)](https://wakatime.com/badge/user/018b0c84-c3a0-4f65-b3b0-741d40b02439/project/4fa5f7c0-6d66-4188-85c3-1e207ee6bcad)
-<img src="FATE-as-metrics.png" alt="FATE Angelscript metrics" style="block"/>
-<img src="FATE-cpp-metrics.png" alt="FATE C++ metrics" style="block"/>
-
-We used a combination of **Angelscript**, **GAS** (Gameplay Ability System), [network] **Replication**, and the **AdvancedSessions** plugin in this project.  
-As the lead programmer (and designer), I built the core functionality of our game's entire framework through a combination of these parts.  
-
-The first couple weeks for the programmers and designers consisted of getting caught up to speed on how to work with GAS and Replication, two things no one else had worked with previously. I acted as the primary source of information on how these systems worked on their own, as well as how I had implemented it for our project.
-
-[Tranek's unofficial GAS documentation](https://github.com/tranek/GASDocumentation), Epic Games' own GAS tutorials, and a handful of GDC talks were used as starting points for everyone (including myself when I began researching these topics.)
-
-Two scripts that did a lot of heavy-lifting were the GunComponent and HealthAttributes scripts. I held sole ownership of these scripts. (As the most proficient at angelscript during development, I held ownership of all script files, barring a couple.)
-
-<p>
-You can view the related files in their entirety here:
-<br></br>
-<resource src="GunComponent.as"/>
-<br></br>
-<resource src="HealthAttributes.as"/>
-</p>
-<quote>
-The up-to-date files are hosted on a private repository, so these files are dated to August 3rd 2026.
-</quote>
-
-My thought process in the development of most scripts was to write clean, self-documenting code, with additional documentation when applicable, or to clarify tips/tricks with the language that my in-learning teammates would appreciate.
-
-### GunComponent
-
-<code-block lang="actionscript" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - Fire() function" emphasize-lines="4,5,6,7,16,24,39,40,43">
-<![CDATA[
+<tabs>
+        <tab title="Leadership" id="leadership">
+            <quote>
+                <p>
+                    FATE is a love-letter to Destiny (2), and an attempt at creating a new genre ("Raid-like").
+                    <br/>
+                    Our combined efforts across 7 weeks brought us a product we were over-joyed to play, and especially to
+                    see others enjoying it and its marvels.
+                </p>
+            </quote>
+            <chapter title="Vision" id="vision">
+                <p>
+                    The project went through many iterations, including a drastic pivot on the day of our Alpha
+                    deadline. I was leading the charge on this pivot: directing our new game vision, rethinking our
+                    thought-process, and down-scoping our engineering.
+                </p>
+                <p>
+                    Our initial vision was of a semi-procedurally-generated map -- consisting of sublevels that we
+                    would stitch together procedurally -- as you progress through 2 puzzles and a boss fight.
+                </p>
+            </chapter>
+            <chapter title="Pivot" id="pivot">
+                <p>
+                    Realizing the difficulty of making this work in a multiplayer setting (after dozens of hours of
+                    troubleshooting), I announced to our team that our current vision and workflow would not be
+                    sustainable. The team was in unanimous agreement.
+                </p>
+                <p>
+                    Later that day, we pivoted to a hand-crafted experience with 3 characters (down from 4), more
+                    thought-provoking puzzles, more cooperation, and far more sustainable workflows. Workflow changes
+                    included better communication about working hours, scoping down areas where we were lacking in raw
+                    workforce (e.g. Animations), and focusing on polishing our core experience, rather than opting for
+                    more content -- even though we felt it was doable -- aiming for more healthy and sustainable work.
+                </p>
+            </chapter>
+            <chapter title="End Result" id="end-result">
+                <p>
+                    The pivot was often discussed in retrospectives as the saving-grace moment, and most pivotal reason
+                    behind the success of our game.
+                </p>
+                <p>
+                    I am very glad I stepped up and led the pivot and project moving forward, and see this as a
+                    milestone in my time as a student, showcasing strong ownership and respect for the project and my
+                    team.
+                </p>
+            </chapter>
+        </tab>
+<tab title="Implementation" id="implementation">
+            <quote>
+                <p>
+                FATE's technical implementation is my most ambitious project yet, stretching
+                <b>15,000+ lines of code</b> across <b>Angelscript</b> and <b>C++</b>. Over <b>300+</b> hours spent
+                coding (by hand – AI was <b>not</b> used to generate large chunks of code. Occasionally used for
+                refactoring.)
+                </p>
+            </quote>
+            <p>
+                <a href="https://wakatime.com/badge/user/018b0c84-c3a0-4f65-b3b0-741d40b02439/project/4fa5f7c0-6d66-4188-85c3-1e207ee6bcad.svg">
+                    <img src="https://wakatime.com/badge/user/018b0c84-c3a0-4f65-b3b0-741d40b02439/project/4fa5f7c0-6d66-4188-85c3-1e207ee6bcad.svg" alt="wakatime"/>
+                </a>
+            </p>
+            <img src="FATE-as-metrics.png" alt="FATE Angelscript metrics" style:="block"/>
+            <img src="FATE-cpp-metrics.png" alt="FATE C++ metrics" style:="block"/>
+            <p>
+                We used a combination of <b>Angelscript</b>, <b>GAS</b> (Gameplay Ability System), [network]
+                <b>Replication</b>, and the <b>AdvancedSessions</b> plugin in this project.
+                <br/>
+                As the lead programmer (and designer), I built the core functionality of our game's entire framework
+                through a combination of these parts.
+            </p>
+            <p>
+                The first couple weeks for the programmers and designers consisted of getting caught up to speed on how
+                to work with GAS and Replication, two things no one else had worked with previously. I acted as the
+                primary source of information on how these systems worked on their own, as well as how I had
+                implemented it for our project.
+            </p>
+            <p>
+                <a href="https://github.com/tranek/GASDocumentation">Tranek's unofficial GAS documentation</a>, Epic
+                Games' own GAS tutorials, and a handful of GDC talks were used as starting points for everyone
+                (including myself when I began researching these topics.)
+            </p>
+            <p>
+                Two scripts that did a lot of heavy-lifting were the GunComponent and HealthAttributes scripts. I held
+                sole ownership of these scripts. (As the most proficient at angelscript during development, I held
+                ownership of all script files, barring a couple.)
+            </p>
+            <p>
+                You can view the related files in their entirety here:
+                <br/>
+                <resource src="GunComponent.as"/>
+                <br/>
+                <resource src="HealthAttributes.as"/>
+            </p>
+            <quote>
+                The up-to-date files are hosted on a private repository, so these files are dated to August 3rd 2026.
+            </quote>
+            <p>
+                My thought process in the development of most scripts was to write clean, self-documenting code, with
+                additional documentation when applicable, or to clarify tips/tricks with the language that my
+                in-learning teammates would appreciate.
+            </p>
+            <chapter title="GunComponent" id="guncomponent">
+<code-block lang="actionscript" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - Fire() function" emphasize-lines="4,5,6,7,16,24,39,40,43"><![CDATA[
 /**
-	 * Fires four traces, which each serve a separate purpose toward calculating where a bullet will hit.
-	 * Each trace returns a point in space that is used to calculate the end result.
-	 * - `TargetPoint`: The vector point hit from the player's eyes to the center of the player's view across `MaxDistance`units.
-	 * - `SpreadPoint`: Vector point at which the bullet would hit when accounting for added spread from `BulletIndex` (recoil), `MovementError` (penalty) and crouch/standing coefficient.
-	 * - `MagnetizedPoint` Vector point that the `BulletMagnetism` stat 'pulled' the `SpreadPoint` toward, based on the `ErrorAngle` of the `SpreadPoint`.
-	 * - `FinalPoint`: The final point in space that the bullet will hit, accounting for `TargetPoint`, `SpreadPoint`, and `MagnetizedPoint` (if a target was hit by the magnetism capsule trace).
-	 */
-	void Fire(FHitResult&out Hit)
-	{
-		ApplyRecoilImpulse();
+* Fires four traces, which each serve a separate purpose toward calculating where a bullet will hit.
+* Each trace returns a point in space that is used to calculate the end result.
+* - `TargetPoint`: The vector point hit from the player's eyes to the center of the player's view across `MaxDistance`units.
+* - `SpreadPoint`: Vector point at which the bullet would hit when accounting for added spread from `BulletIndex` (recoil), `MovementError` (penalty) and crouch/standing coefficient.
+* - `MagnetizedPoint` Vector point that the `BulletMagnetism` stat 'pulled' the `SpreadPoint` toward, based on the `ErrorAngle` of the `SpreadPoint`.
+* - `FinalPoint`: The final point in space that the bullet will hit, accounting for `TargetPoint`, `SpreadPoint`, and `MagnetizedPoint` (if a target was hit by the magnetism capsule trace).
+*/
+void Fire (FHitResult&out Hit)
+{
+ ApplyRecoilImpulse ();
 
 		// Distance from the player to the point hit.
 		float32 Distance;
@@ -70,7 +135,7 @@ My thought process in the development of most scripts was to write clean, self-d
 		float ConeExtents;
 		FVector SpreadPoint = GetSpreadPoint(TargetPoint, ConeExtents);
 
-		TArray<AActor> IgnoreActors;
+		TArray&lt;AActor&gt; IgnoreActors;
 		IgnoreActors.Add(GetOwner());
 		FVector SpreadEnd = TraceStart + SpreadPoint * 10000.0f;
 
@@ -97,56 +162,78 @@ My thought process in the development of most scripts was to write clean, self-d
 		if (GetOwner().HasAuthority())
 			BulletIndex++;
 
-		TimeSinceLastShot = 0;
-	}
+        TimeSinceLastShot = 0;
+
+}
 ]]>
+
 </code-block>
+<warning>Clarification: Although the variables are named e.g. 'Spread<b>Point</b>', most of them are actually unit vectors, and do not represent a world location. Some time during development the variables' purpose changed, but their names unfortunately did not.</warning>
+<p>
+                    The highlighted lines of code in the code block emphasize the core calculations that build toward
+                    the final bullet impact location.
+                    <br/>
+                    Several rays are fired from the player's view that build a target profile, including:
+                </p>
+                <list type="decimal">
+                    <li>The exact point in space the player was aiming at.</li>
+                    <li>A deviation from the target point (1.) -- the 'spread point' (or bloom.)</li>
+                    <li>
+                        The target the player is aiming at, if applicable. Used for bullet-magnetism (makes near-misses
+                        more likely to hit. This is what makes shooting feel so snappy in Bungie's games like Halo,
+                        Destiny, and Marathon.)
+                    </li>
+                    <li>The final calculated point in space the bullet will hit.</li>
+                </list>
+                <chapter title="Here's a visualization of bullet-magnetism." id="bullet-magnetism-visualization" collapsible="true" default-state="collapsed">
+                    <img src="../videos/bullet-magnetism-visualization.gif" alt="Bullet Magnetism" width="800" thumbnail="true" style:="block"/>
+                    <p>
+                        Although I'm clearly aiming at the target closest to the wall, the bullet is pulled toward the
+                        closer target.
+                        <br/>
+                        This is because the bullet-magnetism capsule trace detected the closer target, and pulled the
+                        bullet toward it.
+                    </p>
+                    <img src="magnetism_img1-fix.png" alt="Bullet Magnetism" width="600" thumbnail="true" style:="block"/>
+                    <p>
+                        The dark blue line/capsule trace represents the exact point you were aiming at,
+                        <br/>
+                        and the light blue line represents the path the final calculated bullet took.
+                    </p>
+                    <img src="magnetism_img2-fix.png" alt="Bullet Magnetism" width="600" thumbnail="true" style:="block"/>
+                    <p>
+                        Although it looks like the furthest target was hit by the trace, the bullet stopped when it hit
+                        the closer target.
+                    </p>
+                </chapter>
+                <p>
+                    There are a few more things happening behind the scenes to make the shooting feel as good as
+                    possible, but you can read up on that in the full script file.
+                </p>
+            </chapter>
+            <chapter title="HealthAttributes" id="healthattributes">
+                <p>Finally, the HealthAttributes script is the backbone of taking/dealing damage.</p>
 
-The highlighted lines of code in the code block emphasize the core calculations that build toward the final bullet impact location.  
-Several rays are fired from the player's view that build a target profile, including:
-1. The exact point in space the player was aiming at.
-2. A deviation from the target point (1.) -- the 'spread point' (or bloom.)
-3. The target the player is aiming at, if applicable. Used for bullet-magnetism (makes near-misses more likely to hit. This is what makes shooting feel so snappy in Bungie's games like Halo, Destiny, and Marathon.)
-4. The final calculated point in space the bullet will hit.
-
-#### Here's a visualization of the bullet-magnetism in effect. { collapsible="true" default-state="collapsed" }
-<img src="../videos/bullet-magnetism-visualization.gif" alt="Bullet Magnetism" width="800" thumbnail="true" style="block"/>
-Although I'm clearly aiming at the target closest to the wall, the bullet is pulled toward the closer target.  
-This is because the bullet-magnetism capsule trace detected the closer target, and pulled the bullet toward it.
-
-<img src="magnetism_img1-fix.png" alt="Bullet Magnetism" width="600" thumbnail="true" style="block"/>
-The dark blue line/capsule trace represents the exact point you were aiming at,  
-and the light blue line represents the path the final calculated bullet took.
-<img src="magnetism_img2-fix.png" alt="Bullet Magnetism" width="600" thumbnail="true" style="block"/>
-Although it looks like the furthest target was hit by the trace, the bullet stopped when it hit the closer target.
-
-There are a few more things happening behind the scenes to make the shooting feel as good as possible, but you can read up on that in the full script file.
-
-### HealthAttributes
-
-Finally, the HealthAttributes script is the backbone of taking/dealing damage.
-
-<code-block lang="actionscript" collapsible="true" default-state="collapsed" collapsed-title="HealthAttributes.as - PostGameplayEffectExecute()">
-<![CDATA[
+<code-block lang="actionscript" collapsible="true" default-state="collapsed" collapsed-title="HealthAttributes.as - PostGameplayEffectExecute ()"><![CDATA[
 if (Health.CurrentValue == OldHealth && !IsDamageImmune)
 {
-    // health didnt change.
-    Log(n"PostApply", f"GameplayEffect: {EffectSpec.ToSimpleString()} - VALUE HAD NO CHANGE.");
-    return;
+// health didnt change.
+Log (n"PostApply", f"GameplayEffect: {EffectSpec.ToSimpleString ()} - VALUE HAD NO CHANGE.");
+return;
 }
 else if (WasHealed)
 {
-    // receiving healing doesn't do anything special here.
+// receiving healing doesn't do anything special here.
 }
 // we want to continue the on-hit logic if we're damage immune,
 // but overwriting `TookDamage = true` would potentially lead to side effects like enchantment triggers,
 // hence why we do this odd check.
 else if (TookDamage || (IsDamageImmune))
 {
-    // DamageDealt according to Calculation Class.
-    float DamageDealt = AppliedMagnitude;
-    float AbsDamageDealt = Math::Abs(DamageDealt);
-    float DamageCapped = Math::Clamp(AbsDamageDealt, 0, UGenericGunAttributes::DAMAGE_CAP);
+// DamageDealt according to Calculation Class.
+float DamageDealt = AppliedMagnitude;
+float AbsDamageDealt = Math::Abs (DamageDealt);
+float DamageCapped = Math::Clamp (AbsDamageDealt, 0, UGenericGunAttributes::DAMAGE_CAP);
 
     // Apply hit reactions (e.g. regen-block)
 
@@ -177,66 +264,86 @@ else if (TookDamage || (IsDamageImmune))
     }
 
     // A lot more happens above and below here, but for the sake of brevity I've cut it down.
-    // You can view the file in its entirety from the link above. 
+    // You can view the file in its entirety from the link above.
+
 }
 ]]>
 </code-block>
+<p>
+                    Something we did to make the GameplayAbility/Effect workflow more tailored to our project was to
+                    extend the built-in EffectContext with our own fields like IsPrecisionHit.
+                    <br/>
+                    This gave both script and blueprint an easy way to ask: "was this a precision hit?", and even
+                    overwrite it for special enchantments -- allowing them to deal precision damage -- proccing other
+                    enchantments.
+                </p>
+                <p>
+                    A small change like this quickly builds the feeling of a rogue-lite when one headshot activates
+                    multiples effects and chains across enemies.
+                </p>
+                <p>
+                    Many changes like these that gave us extended functionality in script or blueprint were often made
+                    on the C++ side.
+                    <br/>
+                    I also extended our editor through C++ and Angelscript to improve our workflow (examples include
+                    linking directly to documentation in the toolbar.)
+                </p>
+                <p>
+                    Alongside the implementation of GAS -- which comes with client-predicted replication -- we also had
+                    a lot of manual replication to handle.
+                    <br/>
+                    My primary role on the replication side of things was replicating game state to the UI, such as
+                    healthbars, nametags, and boss-bars.
+                    <br/>
+                    However, as the most experienced with replication, I still remained the primary source of
+                    information and assistance on the topic.
+                </p>
+            </chapter>
+        </tab>
+<tab title="What I Learned" id="what-i-learned">
+            <warning> Under Construction!</warning>
+            <deflist>
+                <def title="Designing for different player types">
+<p>
+                TBD.
+</p>
+                </def>
+            <def title="Dependencies">
+    <p>
+        As the lead designer <emphasis>and</emphasis> programmer, all team members were dependent on me in some capacity.
+        While it was very flattering – being trusted by so many in such a pivotal project – it was also a burden that I learned a lot from.
+    </p>
+    <p>
+        &nbsp;
+        <br/>I was often needed somewhere, either in a design meeting or helping the programmers, which meant I was unable to work on my own responsibilities as much and as undisturbed as I would like.
+    </p>
+    <p>
+        &nbsp;
+        <br/>Furthermore, being so dependent by the whole team meant that if I was ever unavailable – such as during week three of seven – the project grinds to a halt on many fronts, as designs I've written are interpreted without supervision, and systems are modified without proper review.
+    </p>
+    <p>
+        &nbsp;
+        <br/>The takeaway is to <b>scope according to your overall team's capacity</b>, not that of one (or a few) developer(s), <b>account for unavailability</b>, and <b>defer responsibilities throughout your team</b>.
+    </p>
+</def>
 
-Something we did to make the GameplayAbility/Effect workflow more tailored to our project was to extend the built-in EffectContext with our own fields like IsPrecisionHit.   
-This gave both script and blueprint an easy way to ask: "was this a precision hit?", and even overwrite it for special enchantments -- allowing them to deal precision damage -- proccing other enchantments.   
-
-A small change like this quickly builds the feeling of a rogue-lite when one headshot activates multiples effects and chains across enemies.
-
-Many changes like these that gave us extended functionality in script or blueprint were often made on the C++ side.  
-I also extended our editor through C++ and Angelscript to improve our workflow (examples include linking directly to documentation in the toolbar.)
-
-Alongside the implementation of GAS -- which comes with client-predicted replication -- we also had a lot of manual replication to handle.  
-My primary role on the replication side of things was replicating game state to the UI, such as healthbars, nametags, and boss-bars.  
-However, as the most experienced with replication, I still remained the primary source of information and assistance on the topic.
-
-## Leadership { switcher-key="Leadership"}
-
-FATE is a love-letter to Destiny (2), and an attempt at creating a new genre ("Raid-like").  
-Our combined efforts across 7 weeks brought us a product we were over-joyed to play, and especially to see others
-enjoying it and its marvels.
-
-### Vision
-
-The project went through many iterations, including a drastic pivot on the day of our Alpha deadline. I was leading the
-charge on this pivot: directing our new game vision, rethinking our thought-process, and down-scoping our engineering.
-
-Our initial vision was of a semi-procedurally-generated map -- consisting of sublevels that we would stitch together
-procedurally -- as you progress through 2 puzzles and a boss fight.
-
-### Pivot
-
-Realizing the difficulty of making this work in a multiplayer setting (after dozens of hours of troubleshooting), I
-announced to our team that our current vision and workflow would not be sustainable. The team was in unanimous
-agreement.
-
-Later that day, we pivoted to a hand-crafted experience with 3 characters (down from 4), more thought-provoking puzzles,
-more cooperation, and far more sustainable workflows. Workflow changes included better communication about working
-hours, scoping down areas where we were lacking in raw workforce (e.g. Animations), and focusing on polishing our core
-experience, rather than opting for more content -- even though we felt it was doable -- aiming for more healthy and
-sustainable work.
-
-### End Result
-
-The pivot was often discussed in retrospectives as the saving-grace moment, and most pivotal reason behind the success
-of our game.
-
-I am very glad I stepped up and led the pivot and project moving forward, and see this as a milestone in my time as a
-student, showcasing strong ownership and respect for the project and my team.
-
-## Closing Thoughts
-
-Having written 15,000+ lines of code, this is only a fraction of my work on this project, but should you want to hear more, please do not hesitate to reach out to me on [LinkedIn](https://www.linkedin.com/in/itslumina), [Discord](https://discordapp.com/users/287272193946288129), [email](mailto:itsluminas@gmail.com), or elsewhere.
-
-<seealso style="cards">
-    <category ref="angel">
-        <a href="Angel.md" summary="This project served as a partial base for FATE."/>
-    </category>
-    <category ref="credits">
-        <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
-    </category>
-</seealso>
+</deflist>
+        </tab>
+    </tabs>
+    <chapter title="Closing Thoughts" id="closing-thoughts">
+        <p>
+            Having written 15,000+ lines of code, this is only a fraction of my work on this project, but should you
+            want to hear more, please do not hesitate to reach out to me on
+            <a href="https://www.linkedin.com/in/itslumina">LinkedIn</a>,
+            <a href="https://discordapp.com/users/287272193946288129">Discord</a>,
+            <a href="mailto:itsluminas@gmail.com">email</a>, or elsewhere.
+        </p>
+    </chapter>
+    <seealso style="cards">
+        <category ref="angel">
+            <a href="Angel.md" summary="This project served as a partial base for FATE."/>
+        </category>
+        <category ref="credits">
+            <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
+        </category>
+    </seealso>
