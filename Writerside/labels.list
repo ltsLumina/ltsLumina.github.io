@@ -23,6 +23,10 @@
         PLORA 
     </primary-label>
 
+    <primary-label id="prototyping" short-name="" name="" href="https://futuregames.itch.io/plora" color="blue">
+        Prototyping Course
+    </primary-label>
+
     <primary-label id="dead-sector" short-name="DS" name="" href="https://futuregames.itch.io/dead-sector" color="purple">
         Dead Sector
     </primary-label>

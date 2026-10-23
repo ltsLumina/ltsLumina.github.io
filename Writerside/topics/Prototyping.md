@@ -1,6 +1,6 @@
 # Design Thinking
 
-<primary-label ref="plora"></primary-label>
+<primary-label ref="prototyping"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
 > This breakdown details my design process and thinking through an example project I developed.
