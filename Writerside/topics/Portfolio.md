@@ -1,18 +1,19 @@
 # Portfolio
 
 <primary-label ref="lum"></primary-label>
-<secondary-label ref="game-designer"></secondary-label>
+<secondary-label ref="tech-designer"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="c#"></secondary-label>
 <secondary-label ref="p4"></secondary-label>
+<secondary-label ref="github"></secondary-label>
 <secondary-label ref="jira"></secondary-label>
 
 <quote>
 <p>
-Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockholm, Sweden</b>.
+Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>Stockholm, Sweden</b>.
 </p>
 
 <p>I study at <i>Futuregames</i>, specializing in the <b>design and development</b> of <b>gameplay mechanics</b>, <b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
@@ -20,7 +21,7 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Game Designer based in <b>Stockho
 <p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years in Unreal</b>, and 2 years with <b>C++, and Angelscript</b>.
 <br></br>Experienced with <b>CI/CD pipelines</b>, <b>AGILE</b> project workflows, and as a <b>product-owner</b>.</p>
 
-<p>Through my background in programming, I bring a unique perspective on game design, tying engineers, gameplay programmers, and designers together.</p>
+<p>Through my background in programming, I bring a <a href="Prototyping.md">unique perspective on game design</a>, tying engineers, gameplay programmers, and designers together.</p>
 </quote>
 
 <tip>
@@ -38,10 +39,10 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 <secondary-label ref="group"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="multiplayer"></secondary-label>
-<secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
 
-<video src="https://youtu.be/cMRGwG6g7GQ" preview-src="../videos/8man-chaos-fate.gif"/>
+<video src="https://youtu.be/cMRGwG6g7GQ" preview-src="8man-chaos-fate.gif"/>
 
 <quote>
 <p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
@@ -50,8 +51,8 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 <!-- at most 2 videos side-to-side for mobile! -->
 <table width="auto">
     <tr>
-      <td><img src="../videos/fate-pvp.gif" thumbnail="true" alt="PvP Footage"/></td>
-      <td><img src="../videos/fate-3tap.gif"  thumbnail="true" alt="Firing in the Shooting Range as Izanagi"/></td>
+      <td><img src="fate-pvp.gif" thumbnail="true" alt="PvP Footage"/></td>
+      <td><img src="fate-3tap.gif"  thumbnail="true" alt="Firing in the Shooting Range as Izanagi"/></td>
     </tr>
 </table>
 
@@ -115,7 +116,7 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Tre
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_fate"}
 
-> [Click here to view a detailed breakdown of my work on FATE](FATE.md)
+<a href="FATE.md" as="button" mode="classic" icon="info">View a detailed breakdown of my work on FATE</a>
 
 ---
 
@@ -132,7 +133,7 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Tre
 
 <quote>
 <p>‘RYFT’ is a first-person parkour speedgame set in a retro synthwave world. </p>
-<p><a href="https://store.steampowered.com">Available on steam soon!</a></p>
+<p><a href="https://store.steampowered.com" as="button" mode="transparent">Available on Steam (soon)</a></p>
 </quote>
 
 <!-- at most 2 videos side-to-side for mobile! -->
@@ -190,7 +191,7 @@ Unreal Engine 5.8, JetBrains Rider, Visual Studio Code, Diversion, Trello.
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ryft"}
 
-> [Click here to view a detailed breakdown of my work on RYFT](RYFT.md)
+<a href="RYFT.md" as="button" mode="classic" icon="info">View a detailed breakdown of my work on RYFT</a>
 
 ---
 
@@ -206,7 +207,7 @@ Unreal Engine 5.8, JetBrains Rider, Visual Studio Code, Diversion, Trello.
 
 <quote>
 <p>A work-in-progress clone of Valorant.</p> 
-<p>This project demonstrates my proficiency in <b>Hero & Ability Design</b>, <b>Unreal Engine</b>, and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
+<p>This project demonstrates my proficiency in <b>Unreal Engine</b>, and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
 </quote>
 <warning>Work-in-Progress!</warning>
 
@@ -227,7 +228,7 @@ All infringing assets serve only as references during development and will be re
   </tr>
 </table>
 
-> [Click here to view a work-in-progress breakdown of my work on this project.](Angel.md)
+<a href="Angel.md" as="button" mode="classic" icon="info">View an outdated breakdown on the Angel Project</a>
 
 ---
 
@@ -235,15 +236,16 @@ All infringing assets serve only as references during development and will be re
 
 <primary-label ref="skills"></primary-label>
 <secondary-label ref="c#"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
 <secondary-label ref="blueprint"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
-<secondary-label ref="c++"></secondary-label>
 <secondary-label ref="java"></secondary-label>
 <secondary-label ref="blank"></secondary-label>
 <secondary-label ref="jira"></secondary-label>
 <secondary-label ref="miro"></secondary-label>
 <secondary-label ref="ms-office"></secondary-label>
 <secondary-label ref="p4"></secondary-label>
+<secondary-label ref="github"></secondary-label>
 
 <quote>
 <p> I design for <b>different player types</b>, and for <b>how they play together</b>, using <b><a href ="https://selfdeterminationtheory.org/theory/" summary="Self-determination theory holds that people are most motivated, perform best, and are healthiest when their environment supports three basic psychological needs: autonomy, competence, and relatedness.">self-determination theory</a></b>.
@@ -257,7 +259,7 @@ All infringing assets serve only as references during development and will be re
 
 </quote>
 
-### Additional Skills & Software { collapsible="true" default-state="collapsed" }
+### Tools & Software { collapsible="true" default-state="collapsed" }
 
 - Markdown
 - GitHub (CI/CD)
@@ -344,7 +346,7 @@ Unity, JetBrains Rider, Perforce, Trello, Miro.
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_som"}
 
-> [Click here to view a detailed breakdown of my work on Somnium](Somnium.md)
+<a href="Somnium.md" as="button" mode="classic" icon="info">View a detailed breakdown of my work on Somnium</a>
 
 ---
 
@@ -357,7 +359,7 @@ Unity, JetBrains Rider, Perforce, Trello, Miro.
 <secondary-label ref="co-op"></secondary-label>
 <secondary-label ref="award"></secondary-label>
 
-<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="neon-rivalry-trailer-short.gif" width="600"/>
+<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" width="600" preview-src="neon-rivalry-trailer-short.gif"/>
 
 <quote>
 <p>Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a game project course in High School (LBS Kreativa Gymnasiet, Gothenburg, 2024).</p>
@@ -409,7 +411,7 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_nr"}
 
-> [Click here to read more about Neon Rivalry](Neon-Rivalry.md)
+<a href="Neon-Rivalry.md" as="button" mode="classic" icon="info">Read about my retrospective on Neon Rivalry</a>
 
 ---
 
@@ -470,7 +472,7 @@ Game Designer and Associate Programmer (C++).
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_pal"}
 
-> [Click here to view a detailed breakdown of my work on Palindra](Palindra.md)
+<a href="Palindra.md" as="button" mode="classic" icon="info">View a detailed breakdown of my work on Palindra</a>
 
 ---
 
@@ -480,7 +482,7 @@ Game Designer and Associate Programmer (C++).
 
 <primary-label ref="lum"></primary-label>
 
-> [Click here to learn more about me!](About-Me.md)
+<a href="About-Me.md" as="button" mode="classic" icon="person">Read more about me!</a>
 
 <p>&nbsp;</p>
 
@@ -667,7 +669,7 @@ Unity, JetBrains Rider, GitHub, Notion
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_prototyping"}
 
-> [Click here to view a detailed breakdown of my work on the Prototyping Course](Prototyping.md)
+<a href="Prototyping.md" as="button" mode="classic" icon="info">Read more about my design thinking.</a>
 
 ### Board Game Design Course
 

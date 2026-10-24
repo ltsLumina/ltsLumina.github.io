@@ -1,7 +1,9 @@
 # Somnium
 <primary-label ref="somnium"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="group"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
+<secondary-label ref="award"></secondary-label>
 
 <quote>
 <p>

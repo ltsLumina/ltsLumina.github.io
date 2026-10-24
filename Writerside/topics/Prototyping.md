@@ -78,7 +78,7 @@ tread a path to the goal in whichever way is the quickest.
 
 A known consequence of targeting this specific niche is that the game may not be “for
 everyone”. Some players may not enjoy the game at all, while others find it exactly “their
-cup of tea”. I was aware of this, and even had it confirmed during playtests.
+cup of tea”. However, to quote Arrowhead Studios: "*A game for everyone is a game for no one.*"
 
 The game provides you with a vague path to the end, but how you tread it and how
 quickly is up to you. A conscious design decision was that any path other than the

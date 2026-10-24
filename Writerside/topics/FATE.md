@@ -6,58 +6,59 @@ switcher-label: Contribution
 
 <primary-label ref="fate"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
+<secondary-label ref="group"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="multiplayer"></secondary-label>
-<secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
 
 <tabs>
-        <tab title="Leadership" id="leadership">
-            <quote>
-                <p>
-                    FATE is a love-letter to Destiny (2), and an attempt at creating a new genre ("Raid-like").
-                    <br/>
-                    Our combined efforts across 7 weeks brought us a product we were over-joyed to play, and especially to
-                    see others enjoying it and its marvels.
-                </p>
-            </quote>
-            <chapter title="Vision" id="vision">
-                <p>
-                    The project went through many iterations, including a drastic pivot on the day of our Alpha
-                    deadline. I was leading the charge on this pivot: directing our new game vision, rethinking our
-                    thought-process, and down-scoping our engineering.
-                </p>
-                <p>
-                    Our initial vision was of a semi-procedurally-generated map -- consisting of sublevels that we
-                    would stitch together procedurally -- as you progress through 2 puzzles and a boss fight.
-                </p>
-            </chapter>
-            <chapter title="Pivot" id="pivot">
-                <p>
-                    Realizing the difficulty of making this work in a multiplayer setting (after dozens of hours of
-                    troubleshooting), I announced to our team that our current vision and workflow would not be
-                    sustainable. The team was in unanimous agreement.
-                </p>
-                <p>
-                    Later that day, we pivoted to a hand-crafted experience with 3 characters (down from 4), more
-                    thought-provoking puzzles, more cooperation, and far more sustainable workflows. Workflow changes
-                    included better communication about working hours, scoping down areas where we were lacking in raw
-                    workforce (e.g. Animations), and focusing on polishing our core experience, rather than opting for
-                    more content -- even though we felt it was doable -- aiming for more healthy and sustainable work.
-                </p>
-            </chapter>
-            <chapter title="End Result" id="end-result">
-                <p>
-                    The pivot was often discussed in retrospectives as the saving-grace moment, and most pivotal reason
-                    behind the success of our game.
-                </p>
-                <p>
-                    I am very glad I stepped up and led the pivot and project moving forward, and see this as a
-                    milestone in my time as a student, showcasing strong ownership and respect for the project and my
-                    team.
-                </p>
-            </chapter>
-        </tab>
+    <tab title="Leadership" id="leadership">
+    <quote>
+        <p>
+            FATE is a <b>love-letter to Destiny (2)</b>, and an attempt at creating a <b>new genre ("Raid-like")</b>.
+            <br/>
+            Our combined efforts across <b>7 weeks</b> brought us a product we were over-joyed to play, and especially to
+            see others enjoying it and its marvels.
+        </p>
+    </quote>
+    <chapter title="Vision" id="vision">
+        <p>
+            The project went through many iterations, including <b>a drastic pivot on the day of our Alpha
+            deadline</b>. <br/><b>I was leading the charge on this pivot</b>: <b>directing our new game vision</b>, <b>rethinking our
+            thought-process</b>, and <b>down-scoping our engineering</b>.
+        </p>
+        <p>
+            Our initial vision was of a <b>semi-procedurally-generated map</b> – consisting of sublevels that we
+            would stitch together procedurally – as you progress through <b>two puzzles and a boss fight</b>.
+        </p>
+    </chapter>
+    <chapter title="Pivot" id="pivot">
+        <p>
+            Realizing the difficulty of making this work in a <b>multiplayer setting</b> (after <b>dozens of hours of
+            troubleshooting</b>), <b>I announced to our team that our current vision and workflow would not be
+            sustainable</b>. The team was in <b>unanimous agreement</b>.
+        </p>
+        <p>
+            Later that day, we pivoted to a <b>hand-crafted experience with 3 characters</b> (down from 4), <b>more
+            thought-provoking puzzles</b>, <b>more cooperation</b>, and <b>far more sustainable workflows</b>. Workflow changes
+            included <b>better communication about working hours</b>, <b>scoping down areas where we were lacking in raw
+            workforce</b> (e.g. Animations), and <b>focusing on polishing our core experience</b>, rather than opting for
+            more content – even though we felt it was doable – aiming for <b>more healthy and sustainable work</b>.
+        </p>
+    </chapter>
+    <chapter title="End Result" id="end-result">
+        <p>
+            The pivot was often discussed in retrospectives as <b>the saving-grace moment</b>, and <b>most pivotal reason
+            behind the success of our game</b>.
+        </p>
+        <p>
+            I am happy I <b>stepped up and led the pivot</b> and project moving forward, and see this as a
+            <b>milestone in my time as a student</b>, showcasing <b>strong ownership</b> and <b>respect for the project and my
+            team</b>.
+        </p>
+    </chapter>
+</tab>
 <tab title="Implementation" id="implementation">
             <quote>
                 <p>
@@ -112,7 +113,8 @@ switcher-label: Contribution
                 additional documentation when applicable, or to clarify tips/tricks with the language that my
                 in-learning teammates would appreciate.
             </p>
-            <chapter title="GunComponent" id="guncomponent">
+            <chapter title="GunComponent" id="guncomponent"> 
+            <img src="fate-pvp.gif" thumbnail="true" alt="PvP Footage" width="400"/>
 <code-block lang="actionscript" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - Fire() function" emphasize-lines="4,5,6,7,16,24,39,40,43"><![CDATA[
 /**
 * Fires four traces, which each serve a separate purpose toward calculating where a bullet will hit.
@@ -332,8 +334,8 @@ float DamageCapped = Math::Clamp (AbsDamageDealt, 0, UGenericGunAttributes::DAMA
     </tabs>
     <chapter title="Closing Thoughts" id="closing-thoughts">
         <p>
-            Having written 15,000+ lines of code, this is only a fraction of my work on this project, but should you
-            want to hear more, please do not hesitate to reach out to me on
+            Having written over 15,000+ lines of code, this is only a fraction of my work on this project, and should you
+            want to hear more, please reach out to me on
             <a href="https://www.linkedin.com/in/itslumina">LinkedIn</a>,
             <a href="https://discordapp.com/users/287272193946288129">Discord</a>,
             <a href="mailto:itsluminas@gmail.com">email</a>, or elsewhere.

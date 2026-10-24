@@ -9,11 +9,7 @@ switcher-label: Feature
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-<include from="switcher-note.topic" element-id="switcher-note">
-    <var name="switcher-key" value="feature"/>
-</include>
-
-<warning> This project is heavily outdated and no longer represents how I would implement much of the described logic. Please refer to <a href="FATE.md"></a>for an updated implementation and reasoning.</warning>
+<warning> This project is heavily outdated and no longer represents how I would implement much of the described logic. Please refer to <a href="FATE.md"></a> for updated implementation and reasoning.</warning>
 
 This project is very early in development, and is very prototype-heavy at the moment. Nothing is final, nor is this page
 complete.

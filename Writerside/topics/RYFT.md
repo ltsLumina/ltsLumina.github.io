@@ -18,6 +18,7 @@
             I was <b>solely responsible</b> for the design and implementation of the movement: The <b>character controller</b>, <b>abilities</b> (dash, grapple, wallrun, double-jump, slide, etc.),
             sense of speed, <b>speed-tech</b>, and more.
         </p>
+        <img src="ryft_showcase.gif" thumbnail="true" alt=""/>
         <chapter title="Iteration 1" id="iteration-1">
             <p>
                 Our first iteration was 'inspired' by Neon White. To say inspired is a bit equivocal, since I tried my best to replicate it one-to-one (aside from the movement abilities).
@@ -33,6 +34,8 @@
                     Speedlines and modulating field of view based on your actions and velocity were added to sell the sense of speed.
                 </p>
             </chapter>
+        <video src="../videos/RYFT_MovementComparison.mp4"></video>
+        <quote>A comparison between the second iteration of movement and the latest version of the game.</quote>
         </chapter>
         <chapter title="Iteration 3" id="iteration-3">
             <p>
@@ -43,26 +46,26 @@
                 <br/>
                 The first addition in iteration 3 was sliding:
             </p>
-            <p><img src="ryft_sliding.gif" thumbnail="true" alt=""/></p>
+                <img src="ryft_sliding.gif" thumbnail="true" alt=""/>
             <quote>Early development footage of sliding.</quote>
             <p>Sliding was added for two reasons:</p>
             <list>
                 <li>
-                    I really wanted sliding in the game. Perhaps not the strongest argument, but after prototyping it, the rest of the development team liked it enough for us to keep it.
+                    We needed a way to carry momentum after a long fall (and while moving especially fast (iteration 4))
                 </li>
                 <li>
-                    We needed a way to carry momentum after a long fall, *or while moving especially fast (*iteration 4).
+                    I thought sliding would be a great addition to the game – promoting agency and momentum – but we were skeptical how it fits the original design, which feared sliding may become too prominent. <br/>After prototyping it, however, the rest of the development team liked it, and we decided to lean into it more.
                 </li>
             </list>
             <chapter title="Inertia" id="inertia">
                 <p>
                     The identifying feature of iteration three was the addition of 'inertia'.
                     <br/>
-                    'Inertia' is the system behind gaining and carrying momentum through the level. It also affects your speed quite drastically, depending on your actions and how you combine them.
+                    'Inertia' is the system behind gaining and carrying momentum through the level. It also affects the player's speed quite drastically, depending on the actions and how the player combines them.
                 </p>
                 <p>
-                    Performing actions like sliding or using your abilities grants a stack of inertia for a duration (depending on the action), for a maximum of 3 stacks and a maximum duration of 2.5s
-                    (at the time). While you have any inertia stacks, you gain +650 units of speed (base speed = 1000 units, max = 2000).
+                    Performing actions like sliding or using abilities grants a stack of inertia for a duration (depending on the action), for a maximum of three stacks and a maximum duration of 2.5s
+                    (at the time). <br/>While the player has any inertia stacks, gain +650 units of speed (base speed = 1000 units, max = 2000).
                 </p>
                 <p>
                     However, inertia needs to be managed and considered with every jump and ability used. If your inertia expires, you lose all the benefits and slow down drastically. Not too slow to
@@ -72,6 +75,8 @@
                     This effect alone enabled players to travel far quicker than they ever could before, and created new skips on all existing levels, which saw the game receive even more traction
                     during development.
                 </p>
+                <video src="../videos/inertia-demonstration-v2.mp4"></video>
+                <quote>Demonstration of iteration 3 compared to iteration 2.<br/>When inertia is enabled, you have infinitely more momentum and control compared to iteration 2.</quote>
             </chapter>
         </chapter>
         <chapter title="Iteration 4" id="iteration-4">
@@ -107,7 +112,7 @@
                     <li>Added view bobbing while walking.</li>
                 </list>
             </chapter>
-            <chapter title="Iteration 4 (continued)" id="iteration-4-continued">
+            <chapter title="&af;" id="iteration-4-continued">
                 <p>
                     As you can see, there are a lot of changes, and far too many to reason each one.
                     <br/>
@@ -128,7 +133,7 @@
                 <p><img src="zweek_videos_transparent.png" thumbnail="true" alt=""/></p>
                 <p>I wanted to see if any of Titanfall's movement tech could work in ours, beginning with air-strafing:</p>
             </chapter>
-            <chapter title="Air-Strafing" id="air-strafing">
+            <chapter title="Air-Strafing" id="air-strafing" collapsible="true">
                 <p>
                     My fellow designer <a href="https://www.linkedin.com/in/egebarisoncu">Ege Barış Öncü</a> and I looked into the Quake source code and Zweek's video on air strafing to get a better
                     understanding of how it works.
@@ -143,7 +148,7 @@
                     We realized after a couple of hours of tinkering, however, that this was not the right fit for our game, and I moved on to the next mechanic:
                 </p>
             </chapter>
-            <chapter title="Wall Kicks" id="wall-kicks">
+            <chapter title="Wall Kicks" id="wall-kicks" collapsible="true">
                 <p>
                     Wall Kicks are my favourite movement mechanic in Titanfall, as they are your main source of maintaining and gaining speed in the speedrun.
                 </p>
@@ -161,7 +166,7 @@
                     never a requirement for the best medal.
                 </p>
             </chapter>
-            <chapter title="Air Control" id="air-control">
+            <chapter title="Air Control" id="air-control" collapsible="true">
                 <p>
                     Air Control is a common variable in all games with vertical movement: The speed at which you move in the air relative to your grounded walk speed, or put simpler: The amount of
                     control you have in the air (0–1).
@@ -176,7 +181,7 @@
                     You will need to plan out your route in finer detail, accounting for the reduced mobility if you wish to move at a faster rate.
                 </p>
             </chapter>
-            <chapter title="Strafe Lurch" id="strafe-lurch">
+            <chapter title="Strafe Lurch" id="strafe-lurch" collapsible="true">
                 <p>
                     An odd mechanic we adopted from Titanfall 2 that gives you a slight lateral boost on initial button press while airborne.
                 </p>
@@ -195,6 +200,8 @@
                     A very minor, but interesting mechanic that players can master to reach unintended speed.
                 </p>
             </chapter>
+        <img src="ryft_thrash_fast.gif" thumbnail="true" alt=""/>
+        <quote>Gameplay footage of speedrunning a stage using all the aforementioned movement tech.</quote>
         </chapter>
         <chapter title="Iteration 5" id="iteration-5">
             <p>
