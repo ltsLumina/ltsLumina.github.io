@@ -34,7 +34,7 @@
                     Speedlines and modulating field of view based on your actions and velocity were added to sell the sense of speed.
                 </p>
             </chapter>
-        <video src="../videos/RYFT_MovementComparison.mp4"></video>
+        <video src="../videos/RYFT_MovementComparison.mp4" preview-src="RYFT_MovementComparison.gif" width="800"></video>
         <quote>A comparison between the second iteration of movement and the latest version of the game.</quote>
         </chapter>
         <chapter title="Iteration 3" id="iteration-3">
@@ -75,8 +75,10 @@
                     This effect alone enabled players to travel far quicker than they ever could before, and created new skips on all existing levels, which saw the game receive even more traction
                     during development.
                 </p>
-                <video src="../videos/inertia-demonstration-v2.mp4"></video>
-                <quote>Demonstration of iteration 3 compared to iteration 2.<br/>When inertia is enabled, you have infinitely more momentum and control compared to iteration 2.</quote>
+                <video src="../videos/inertia-demonstration-v2.mp4" preview-src="inertia-demonstration-v2.gif"></video>
+                <quote>Demonstration of iteration 3 compared to iteration 2.<br/>When inertia is enabled, you have infinitely more momentum and control compared to iteration 2.
+                        <br/>Conversely, when inertia is disabled (iteration 2), only your movement speed is increased.
+                </quote>
             </chapter>
         </chapter>
         <chapter title="Iteration 4" id="iteration-4">
@@ -205,7 +207,7 @@
         </chapter>
         <chapter title="Iteration 5" id="iteration-5">
             <p>
-                As of writing, we are on iteration 5, which doesn't make nearly as many changes as the previous two iterations.
+                As of writing, we are on iteration 5, which doesn't make as many changes as the previous two iterations.
                 <br/>
                 For example, inertia no longer has a cap and can be stacked infinitely, so long as you have the resource necessary to use your abilities. Actions like sliding use a derived version
                 of inertia which has its own stacking, so you can't infinitely stack it by spamming the slide.
