@@ -113,7 +113,7 @@
         Perforce
     </secondary-label>
     
-    <secondary-label id="github" name="GitHub" color="green">
+    <secondary-label id="github" name="GitHub (CI/CD)" color="green">
         GitHub
     </secondary-label>
 
@@ -135,6 +135,10 @@
     
     <secondary-label id="ms-office" name="Office Suite" color="green">
         The full Microsoft Office suite.
+    </secondary-label>
+    
+    <secondary-label id="maya" name="Maya" color="green">
+        3D modelling, rigging, weight-painting, and animation.
     </secondary-label>
     
     <!-- End Skill Labels -->

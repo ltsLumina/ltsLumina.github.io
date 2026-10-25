@@ -4,12 +4,12 @@
 <secondary-label ref="tech-designer"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
-<secondary-label ref="angelscript"></secondary-label>
-<secondary-label ref="c++"></secondary-label>
 <secondary-label ref="c#"></secondary-label>
+<secondary-label ref="c++"></secondary-label>
+<secondary-label ref="angelscript"></secondary-label>
+<secondary-label ref="jira"></secondary-label>
 <secondary-label ref="p4"></secondary-label>
 <secondary-label ref="github"></secondary-label>
-<secondary-label ref="jira"></secondary-label>
 
 <quote>
 <p>
@@ -21,7 +21,7 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>St
 <p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years in Unreal</b>, and 2 years with <b>C++, and Angelscript</b>.
 <br></br>Experienced with <b>CI/CD pipelines</b>, <b>AGILE</b> project workflows, and as a <b>product-owner</b>.</p>
 
-<p>Through my background in programming, I bring a <a href="Prototyping.md">unique perspective on game design</a>, tying engineers, gameplay programmers, and designers together.</p>
+<p>I bring a <b><a href="Prototyping.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying engineers, gameplay programmers, and designers together.</p>
 </quote>
 
 <tip>
@@ -207,7 +207,7 @@ Unreal Engine 5.8, JetBrains Rider, Visual Studio Code, Diversion, Trello.
 
 <quote>
 <p>A work-in-progress clone of Valorant.</p> 
-<p>This project demonstrates my proficiency in <b>Unreal Engine</b>, and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
+<p>This project demonstrates my proficiency in <b>Gun & Ability Systems</b>, and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
 </quote>
 <warning>Work-in-Progress!</warning>
 
@@ -244,6 +244,7 @@ All infringing assets serve only as references during development and will be re
 <secondary-label ref="jira"></secondary-label>
 <secondary-label ref="miro"></secondary-label>
 <secondary-label ref="ms-office"></secondary-label>
+<secondary-label ref="maya"></secondary-label>
 <secondary-label ref="p4"></secondary-label>
 <secondary-label ref="github"></secondary-label>
 
@@ -287,6 +288,7 @@ All infringing assets serve only as references during development and will be re
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="group"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
+<secondary-label ref="c#"></secondary-label>
 <secondary-label ref="award"></secondary-label>
 
 <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="600" preview-src="../videos/somnium-trailer.gif"/>
