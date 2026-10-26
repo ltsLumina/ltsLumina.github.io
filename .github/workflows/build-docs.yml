@@ -17,8 +17,8 @@ env:
   INSTANCE: Writerside/pf
   # Replace XX with the ID of the instance in capital letters
   ARTIFACT: webHelpPF2-all.zip
-  # Docker image version (prev. 2026.09.0357)
-  DOCKER_VERSION: 2026.10.0423
+  # Docker image version
+  DOCKER_VERSION: 2026.09.0357
 
 jobs:
   build:
