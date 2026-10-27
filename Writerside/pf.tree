@@ -15,12 +15,14 @@
         <toc-element topic="Neon-Rivalry.md"/>
         <toc-element topic="Palindra.md"/>
         </toc-element>
-    <toc-element/>
-    <toc-element topic="Prototyping.md" wip="true"/>
-    <toc-element/>
+    
+    <toc-element toc-title="Process">
+        <toc-element topic="Prototyping.md"/>
+    </toc-element>
+    
     <toc-element topic="About-Me.md"/>
     <toc-element topic="Credits.md"/>
     
     <!-- HIDDEN -->
-    <toc-element topic="GAS-Architecture.md" hidden="true" toc-title="GAS Architecture"/>
+    <toc-element topic="GAS-Architecture.md" hidden="true"/>
 </instance-profile>

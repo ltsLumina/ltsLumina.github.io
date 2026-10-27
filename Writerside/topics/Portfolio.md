@@ -16,12 +16,12 @@
 Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>Stockholm, Sweden</b>.
 </p>
 
-<p>I study at <i>Futuregames</i>, specializing in the <b>design and development</b> of <b>gameplay mechanics</b>, <b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
+<p>At <a href="https://futuregames.se/se/" summary="Futuregames is a top-ranked, international game development and tech education school.">Futuregames</a> I specialize in the <b>design <u>and</u> development</b> of <b>gameplay mechanics</b>, <br/><b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
 
 <p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years in Unreal</b>, and 2 years with <b>C++, and Angelscript</b>.
-<br/>Experienced with <b>CI/CD pipelines</b>, <b>AGILE</b> project workflows, and as a <b>product-owner</b>.</p>
+<br/>Experienced with <b>CI/CD</b>, <b>AGILE</b>, and as a <b>product-owner</b>.</p>
 
-<p>I bring a <b><a href="Prototyping.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying engineers, gameplay programmers, and designers together.</p>
+<p>I bring a <b><a href="Prototyping.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying together engineers, gameplay programmers, and designers.</p>
 </quote>
 
 <tip>
@@ -45,7 +45,7 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 <video src="https://youtu.be/cMRGwG6g7GQ" preview-src="8man-chaos-fate.gif"/>
 
 <quote>
-<p>‘FATE’ is an online-multiplayer Destiny-inspired "Raid-like", combining the best parts of Destiny's gunplay with its raid mechanics.</p>
+<p>‘FATE’ is an online-multiplayer "Raid-like", building on <a href="https://en.wikipedia.org/wiki/Destiny_(video_game)">Destiny's</a> gunplay and raid mechanics.</p>
 </quote>
 
 <!-- at most 2 videos side-to-side for mobile! -->
@@ -71,16 +71,18 @@ Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i>
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" collapsible="true" default-state="collapsed"}
 
 <deflist type="full">
-    <def title="Gunplay and Abilities">
+    <def title="Gunplay &amp; Abilities">
         <p>Designed <b>distinct PvE and PvP gunplay, akin to Destiny and Halo</b>. Achieved by breaking down what makes those games fun and how they implement it.</p>
         <p>Developed the <b>gun logic and all related abilities</b>: <b>shoot</b>, <b>reload</b>, <b>ADS</b>, etc.
         <br/>View my most extensive script here: <resource src="GunComponent.as"/></p>
     </def>
-    <def title="Heroes and Guns">
+    <def title="Guns &amp; Heroes">
         <p>Concepted, pitched, and iterated on <b>three hero designs</b>: <b>Hawkmoon</b>, <b>Izanagi</b>, and <b>Bastion</b>.</p>
-        <p><b>Hawkmoon:</b> <b>Short-range forgiving</b> revolver with a medium magazine and fire-rate.</p>
-        <p><b>Izanagi:</b> <b>Long-range precision</b> sniper with a burst hip-fire mode.</p>
-        <p><b>Bastion:</b> <b>Medium-range run-and-gun</b> machine-gun with a large magazine and high fire-rate.</p>
+        <p><b>Hawkmoon: Short-range forgiving</b> revolver with a medium magazine and fire-rate.</p>
+        <p><b>Izanagi: Long-range precision</b> sniper with an alternate burst-fire mode.</p>
+        <p><b>Bastion: Medium-range machine-gun</b> with a large magazine and high fire-rate.</p>
+        <br/>
+        <p><a href="FATE.md#guns-and-heroes">Read more about their design and implementation here.</a></p>
     </def>
     <def title="Enchantments (upgrades)">
         <p>Designed and implemented <b>'enchantments' (rogue-lite upgrades)</b>. The design of each was catered toward each hero's playstyle, including some that were <b>unique</b> to each hero.</p>
@@ -97,7 +99,7 @@ Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i>
     </def>
 </deflist>
 
-#### Additional Responsibilities
+#### <format style="bold" color="e14273">Additional Responsibilities</format> { collapsible="true" default-state="collapsed"}
 
 - **Combat Systems**, Interaction, UI, **Puzzle Subsystems**
 - C++ core architecture (extended in Angelscript by self and team members)
@@ -249,7 +251,7 @@ All infringing assets serve only as references during development and will be re
 
 <quote>
 <p> I design for <b>different player types</b>, and for <b>how they play together</b>, using <b><a href ="https://selfdeterminationtheory.org/theory/" summary="Self-determination theory holds that people are most motivated, perform best, and are healthiest when their environment supports three basic psychological needs: autonomy, competence, and relatedness.">self-determination theory</a></b>.
-<br/>Read more about my <b><a href="Prototyping.md">design thinking and decision-making.</a></b></p>
+<br/>Read more about my <b><a href="Prototyping.md">design process and decision-making.</a></b></p>
 
 <p>• Experienced in <b>C#</b>, <b>Blueprint</b>, and <b>Angelscript</b>, with limited experience in <b>C++</b> and <b>Java</b>.</p>
 
@@ -670,7 +672,7 @@ Unity, JetBrains Rider, GitHub, Notion
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_prototyping"}
 
-<a href="Prototyping.md" as="button" mode="classic" icon="info">Read more about my design thinking.</a>
+<a href="Prototyping.md" as="button" mode="classic" icon="info">Read more about my design process.</a>
 
 ### Board Game Design Course
 

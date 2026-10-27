@@ -3,6 +3,10 @@
 <labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
 
+    <primary-label id="theme" short-name=">" name="&nbsp;" href="">
+        Hey there!
+    </primary-label>
+
     <primary-label id="lum" short-name=">" name="Alexander Andrejeff" href="https://www.linkedin.com/in/itslumina/">
         Hey there!
     </primary-label>

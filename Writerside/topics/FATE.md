@@ -47,7 +47,7 @@ switcher-label: Contribution
             more content – even though we felt it was doable – aiming for <b>more healthy and sustainable work</b>.
         </p>
     </chapter>
-    <chapter title="End Result" id="end-result">
+    <chapter title="Result" id="end-result">
         <p>
             The pivot was often discussed in retrospectives as <b>the saving-grace moment</b>, and <b>most pivotal reason
             behind the success of our game</b>.
@@ -59,6 +59,15 @@ switcher-label: Contribution
         </p>
     </chapter>
 </tab>
+
+<tab title="Guns &amp; Heroes" id="guns-and-heroes">
+    <chapter title="Guns &amp; Heroes">
+        <warning>
+            Under Construction.
+        </warning>
+    </chapter>
+</tab>
+
 <tab title="Implementation" id="implementation">
             <quote>
                 <p>
@@ -330,22 +339,25 @@ float DamageCapped = Math::Clamp (AbsDamageDealt, 0, UGenericGunAttributes::DAMA
 </def>
 
 </deflist>
-        </tab>
-    </tabs>
-    <chapter title="Closing Thoughts" id="closing-thoughts">
-        <p>
-            Having written over 15,000+ lines of code, this is only a fraction of my work on this project, and should you
-            want to hear more, please reach out to me on
+</tab>
+</tabs>
+
+<chapter title="Closing Thoughts" id="closing-thoughts">
+    <p>
+            Having designed <b>3 heroes and guns, raid puzzles, written 15,000+ lines of code, and spent over 300 hours</b> on the project, 
+            I am only able to reflect on so much, so should you want to hear more, please reach out to me on
             <a href="https://www.linkedin.com/in/itslumina">LinkedIn</a>,
             <a href="https://discordapp.com/users/287272193946288129">Discord</a>,
-            <a href="mailto:itsluminas@gmail.com">email</a>, or elsewhere.
-        </p>
-    </chapter>
-    <seealso style="cards">
-        <category ref="angel">
-            <a href="Angel.md" summary="This project served as a partial base for FATE."/>
-        </category>
-        <category ref="credits">
-            <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
-        </category>
-    </seealso>
+            <a href="mailto:itsluminas@gmail.com">Email</a>
+            , or elsewhere to hear more.
+    </p>
+</chapter>
+
+<seealso style="cards">
+    <category ref="angel">
+        <a href="Angel.md" summary="This project served as a partial base for FATE."/>
+    </category>
+    <category ref="credits">
+        <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
+    </category>
+</seealso>

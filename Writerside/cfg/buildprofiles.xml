@@ -50,7 +50,7 @@
     <build-profile instance="pf">
         <variables>
             <noindex-content>false</noindex-content>
-            <og-image>https://images-ext-1.discordapp.net/external/lWBFxTK4PzT2rWK4IfGlrMhwEctaGmRxMwoP0kgcVx8/https/repository-images.githubusercontent.com/793788455/8d8ffa08-6013-45ee-9e13-35703b32d006?format=webp</og-image>
+            <og-image>https://raw.githubusercontent.com/ltsLumina/ltsLumina.github.io/refs/heads/main/portfolio-embed.png</og-image>
             <product-web-url>https://alexanderseguin.com/portfolio.html</product-web-url>
         </variables>
     </build-profile>
