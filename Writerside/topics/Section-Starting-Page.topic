@@ -3,106 +3,67 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Section Starting Page" id="Section-Starting-Page">
-
-<!--    A section combines multiple topics dedicated to a specific subject.
-            Add a starting page to provide an overview of the topics in the section.
-            Start with two topics you want to promote in the <spotlight> group,
-            several important topics in the <primary> group (for example, where to start),
-            several less important topics in the <secondary> group (for example, more advanced topics),
-            and optionally add any other relevant topics in the <misc> group as cards and lists of links
-            (maybe related topics from other sections).
-            Only the spotlight section is limited to two topics.
-            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+       title="Hub" id="Section-Starting-Page">
 
     <section-starting-page>
-        <title>Section starting page title</title>
+        <title>Hub</title>
         <description>
-            Add an introductory paragraph: explain what this section is about in 2-3 short sentences.
+            Explore my work as a technical designer, gameplay programmer, and systems designer.
+            Browse shipped projects, detailed breakdowns, and the design process behind them.
         </description>
 
-        <!--    Add up to 2 topics that you want to promote. Use the "bagde", "image", or "icon" attribute to set an icon.    -->
         <spotlight>
-            <card href="" badge="account" summary="This overrides the card summary of the topic">Custom card title</card>
-            <card href="" badge="search" summary="This overrides the card summary of the topic">Another custom title</card>
+            <card href="Portfolio.md" image="portfolio-embed.png" summary="An overview of my portfolio, projects, responsibilities, and experience.">Portfolio</card>
+            <card href="Prototyping.md" image="design-process.png" summary="My iterative approach to designing, prototyping, and solving interaction problems.">Design Process</card>
         </spotlight>
 
-        <!--    Add several topics that are most important for this section.    -->
         <primary>
-            <title>Get started</title>
-            <card href=""/>
-            <card href="" summary="With a custom card summary"/>
-            <card href="">Custom card title</card>
-            <card href="" summary="With a custom card summary">Custom card title</card>
+            <title>Projects</title>
+            <card href="Portfolio.md#fate" image="8man-chaos-fate.gif" summary="Online multiplayer raid-like project built in Unreal Engine 5.">FATE</card>
+            <card href="Portfolio.md#ryft" image="ryft_thrash_fast.gif" summary="First-person parkour speedgame set in a retro synthwave world.">RYFT</card>
+            <card href="Portfolio.md#angel" image="../videos/angel_project_wip-gif.gif" summary="Work-in-progress Valorant-inspired project demonstrating gun and ability systems.">Angel</card>
+            <card href="Portfolio.md#somnium" image="../videos/somnium-trailer.gif" summary="Award-winning retro-inspired first-person dungeon crawler.">Somnium</card>
+            <card href="Portfolio.md#neon-rivalry" image="neon-rivalry-trailer-short.gif" summary="Couch co-op 2.5D fighting game created in Unity.">Neon Rivalry</card>
+            <card href="Portfolio.md#palindra" image="Palindra-Trailer.gif" summary="Atmospheric puzzle game built around a time-travel mechanic.">Palindra</card>
         </primary>
 
-        <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
         <secondary>
-            <title>Explore advanced features</title>
-            <card href=""/>
-            <card href="" summary="With a custom card summary"/>
-            <card href="">Custom card title</card>
-            <card href="" summary="With a custom card summary">Custom card title</card>
+            <title>More Information</title>
+            <card href="About-Me.md" badge="account" summary="Learn more about my background, interests, and experience.">About Me</card>
+            <card href="Credits.md" badge="community" summary="Contact information for current and former collaborators.">Credits</card>
         </secondary>
 
-        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
         <misc>
             <cards>
-                <title>Other relevant topics as wide cards</title>
-                <card href=""/>
-                <card href="" summary="With a custom card summary"/>
-                <card href="">Custom card title</card>
-                <card href="" summary="With a custom card summary">Custom card title</card>
+                <title>Breakdowns</title>
+                <card href="FATE.md" summary="Detailed breakdown of FATE's design, implementation, and systems.">FATE Breakdown</card>
+                <card href="RYFT.md" summary="Detailed breakdown of RYFT's movement design and iteration process.">RYFT Breakdown</card>
+                <card href="Angel.md" summary="Implementation details for Angel's guns, abilities, and game phases.">Angel Breakdown</card>
+                <card href="Somnium.md" summary="Detailed breakdown of Somnium's combat, interaction, and character systems.">Somnium Breakdown</card>
+                <card href="Neon-Rivalry.md" summary="Retrospective on the design and development of Neon Rivalry.">Neon Rivalry Breakdown</card>
+                <card href="Palindra.md" summary="Detailed breakdown of Palindra's puzzle implementation.">Palindra Breakdown</card>
             </cards>
-
-            <cards narrow="true">
-                <title>Other relevant topics as narrow cards</title>
-                <card href=""/>
-                <card href=""/>
-                <card href="" summary="With a custom card summary"/>
-                <card href="">Custom card title</card>
-                <card href="">Custom card title</card>
-                <card href="" summary="With a custom card summary">Custom card title</card>
+            <cards>
+                <title>Additional Projects</title>
+                <card href="Portfolio.md#plora" summary="3D infinite runner created in Unity as part of Game Project 1.">PLORA</card>
+                <card href="Portfolio.md#dead-sector" summary="Collaborative action roguelike-style scavenging game.">Dead Sector</card>
+                <card href="Portfolio.md#stokos" summary="2D Celeste-like platformer created during a three-day game jam.">STOKOS</card>
+                <card href="Portfolio.md#prototyping-course" summary="Solo 3D platformer created during the Prototyping Course.">Prototyping Course</card>
+                <card href="Portfolio.md#board-game-design-course" summary="Board game created from scratch during the Board Game Design Course.">Board Game Design Course</card>
             </cards>
 
             <links>
                 <group>
-                    <title>Other related topics as links</title>
-                    <a href=""/>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
+                    <title>Professional links</title>
+                    <a href="https://www.linkedin.com/in/itslumina/" summary="Connect with me on LinkedIn.">LinkedIn</a>
+                    <a href="https://youtu.be/1d3kRUk4NzA" summary="Watch my showreel.">Showreel</a>
+                    <a href="mailto:itsluminas@gmail.com" summary="Contact me via email.">Email</a>
                 </group>
                 <group>
-                    <title>Two in a row</title>
-                    <a href=""/>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
-                </group>
-            </links>
-
-            <links narrow="true">
-                <group>
-                    <title>More related topics</title>
-                    <a href=""/>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
-                </group>
-                <group>
-                    <title>Three in a row</title>
-                    <a href=""/>
-                    <a href=""/>
-                    <a href="">Custom card title</a>
-                    <a href="">Custom card title</a>
-                </group>
-                <group>
-                    <title>Each group is narrow</title>
-                    <a href=""/>
-                    <a href=""/>
-                    <a href="">Custom card title</a>
-                    <a href="">Custom card title</a>
+                    <title>Referenced resources</title>
+                    <a href="https://angelscript.hazelight.se" summary="UnrealEngine-Angelscript is a set of engine modifications and a plugin for UE5 that integrates a full-featured scripting language.">Angelscript</a>
+                    <a href="https://dev.epicgames.com/documentation/unreal-engine/gameplay-ability-system-for-unreal-engine" summary="Unreal's Gameplay Ability System (GAS)">Unreal Gameplay Ability System</a>
+                    <a href="https://www.riotgames.com/darkroom/original/1b58ddf664999d1e51c7a5ee3908f3e3:aedf85c30ef9072a3f1530b2d05706dc/riot-games-fact-sheet-2023.pdf" summary="Riot Games Fact Sheet">Riot Games Fact Sheet</a>
                 </group>
             </links>
         </misc>

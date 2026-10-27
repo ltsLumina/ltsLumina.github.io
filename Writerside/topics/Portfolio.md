@@ -20,9 +20,6 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>St
 
 <p>At <tooltip term="Futuregames">Futuregames</tooltip> I specialize in the <b>design <u>and</u> development</b> of <b>gameplay mechanics</b>, <br/><b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
 
-<p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years</b> in <b>Unreal</b>, and 2 years with <b>C++ and Angelscript</b>.
-<br/>Experienced with <b>CI/CD</b>, <b>AGILE</b>, and as a <b>product-owner</b>.</p>
-
 <p>I bring a <b><a href="Prototyping.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying together engineers, gameplay programmers, and designers.</p>
 </quote>
 

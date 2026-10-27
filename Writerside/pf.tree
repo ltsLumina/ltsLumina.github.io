@@ -6,6 +6,7 @@
                   name="Alexander Andrejeff"
                   start-page="Portfolio.md">
 
+    <toc-element topic="Section-Starting-Page.topic"/>
     <toc-element topic="Portfolio.md"/>
         <toc-element toc-title="Breakdowns">
         <toc-element topic="FATE.md"/>
@@ -23,7 +24,6 @@
     
     <toc-element topic="About-Me.md"/>
     <toc-element topic="Credits.md"/>
-    <toc-element topic="Section-Starting-Page.topic"/>
 
     <!-- HIDDEN -->
     
