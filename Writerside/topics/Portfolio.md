@@ -18,7 +18,7 @@
 Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>Stockholm, Sweden</b>.
 </p>
 
-<p>At <a href="https://futuregames.se/se/" summary="Futuregames is a top-ranked, international game development and tech education school.">Futuregames</a> I specialize in the <b>design <u>and</u> development</b> of <b>gameplay mechanics</b>, <br/><b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
+<p>At <tooltip term="Futuregames">Futuregames</tooltip> I specialize in the <b>design <u>and</u> development</b> of <b>gameplay mechanics</b>, <br/><b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
 
 <p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years</b> in <b>Unreal</b>, and 2 years with <b>C++ and Angelscript</b>.
 <br/>Experienced with <b>CI/CD</b>, <b>AGILE</b>, and as a <b>product-owner</b>.</p>
@@ -58,8 +58,10 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
     </tr>
 </table>
 
-### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_fate" collapsible="true" default-state="collapsed" }
-
+<chapter id="game-info-fate" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">GAME INFO</format>
+</title>
 <quote>
 <p>
 Battle your way through challenging encounters featuring mechanics and puzzles that challenge you and up to two friends.
@@ -72,9 +74,12 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
 <br/><b>Duration:</b> 7 weeks @ Futuregames (2026)
 </p>
 </quote>
+</chapter>
 
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" collapsible="true" default-state="collapsed"}
-
+<chapter id="roles-and-responsibilities_fate" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
+</title>
 <deflist type="full">
     <def title="Gunplay &amp; Abilities">
         <p>Designed <b>distinct PvE and PvP gunplay, akin to Destiny and Halo</b>. Achieved by breaking down what makes those games fun and how they implement them.</p>
@@ -104,26 +109,38 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
     </def>
 </deflist>
 
-#### <format style="bold" color="e14273">Additional Responsibilities</format> { collapsible="true" default-state="collapsed"}
+<chapter id="additional-responsibilities" collapsible="true" default-state="collapsed" level="4">
+<title>
+<format style="bold" color="e14273">Additional Responsibilities</format>
+</title>
+<list>
+<li><p><control>Combat Systems</control>, Interaction, UI, <control>Puzzle Subsystems</control></p></li>
+<li><p>C++ core architecture (extended in Angelscript by self and team members)</p></li>
+<li><p>Main &amp; Pause menus (Session-handling, extensive settings options)</p></li>
+<li><p>DLSS implementation</p></li>
+</list>
+</chapter>
 
-- **Combat Systems**, Interaction, UI, **Puzzle Subsystems**
-- C++ core architecture (extended in Angelscript by self and team members)
-- Main & Pause menus (Session-handling, extensive settings options)
-- DLSS implementation
+</chapter>
 
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_fate" collapsible="true" default-state="collapsed" }
+<chapter id="tools_fate" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">TOOLS</format>
+</title>
+<p>Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Trello, Miro.</p>
+</chapter>
 
-Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Trello, Miro.
-
-### <format style="bold" color="e14273">LINKS</format> {id="links_fate" collapsible="true" default-state="collapsed" }
-
-- [Itch.io](https://futuregames.itch.io/fate)
-- [Enchantments List](https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing)
-- [Enchantment Rarity Calculation](https://docs.google.com/spreadsheets/d/1d4uRtZOHxGTzWUpi4ebbzvki4Iu-aRwLK1duB4opFeU/edit?gid=1324727752#gid=1324727752)
-
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_fate"}
-
-<a href="FATE.md" as="button" mode="classic" icon="info">View the detailed breakdown on FATE</a>
+<chapter id="links_fate" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">LINKS</format>
+</title>
+<list>
+<li><p><a href="https://futuregames.itch.io/fate">Itch.io</a></p></li>
+<li><p><a href="https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing">Enchantments List</a></p></li>
+<li><p><a href="https://docs.google.com/spreadsheets/d/1d4uRtZOHxGTzWUpi4ebbzvki4Iu-aRwLK1duB4opFeU/edit?gid=1324727752#gid=1324727752">Enchantment Rarity Calculation</a></p></li>
+</list>
+</chapter>
+<a href="FATE.md" as="button" mode="classic" icon="info">View the detailed breakdown</a>
 
 ---
 
@@ -151,7 +168,10 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Tre
     </tr>
 </table>
 
-### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_ryft" collapsible="true" default-state="collapsed" }
+<chapter id="game_info_ryft" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">GAME INFO</format>
+</title>
 
 <quote>
 <p>Traverse through a retro synthwave world where the only goal is to go FAST!</p>
@@ -163,8 +183,12 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Tre
 </p>
 <p>Features licensed music from <a href="https://epidemicsound.com">Epidemic Sound.</a></p>
 </quote>
+</chapter>
 
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_ryft" collapsible="true" default-state="collapsed"}
+<chapter id="roles-and-responsibilities_ryft" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
+</title>
 
 <deflist type="full">
     <def title="Player Movement">
@@ -187,18 +211,27 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Tre
         Designed and implemented all <b><a href="GAS-Architecture.md" summary="Read more about how and why I structured the GAS architecture.">GAS architecture</a></b> including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
     </def>
 </deflist>
+</chapter>
 
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_ryft" collapsible="true" default-state="collapsed" }
+<chapter id="tools_ryft" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">TOOLS</format>
+</title>
 
 Unreal Engine 5.8, JetBrains Rider, Visual Studio Code, Diversion, Trello.
+</chapter>
 
-### <format style="bold" color="e14273">LINKS</format> {id="links_ryft" collapsible="true" default-state="collapsed" }
+<chapter id="links_ryft" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">LINKS</format>
+</title>
 
-- [~~Itch.io~~](https://futuregames.itch.io/ryft)
-- [~~Steam~~ (coming soon)](https://store.steampowered.com)
-- [Playtest Document](https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing)
-
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ryft"}
+<list>
+<li><p><a href="https://futuregames.itch.io/ryft"><format style="strikethrough">Itch.io</format></a></p></li>
+<li><p><a href="https://store.steampowered.com"><format style="strikethrough">Steam</format> (coming soon)</a></p></li>
+<li><p><a href="https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing">Playtest Document</a></p></li>
+</list>
+</chapter>
 
 <a href="RYFT.md" as="button" mode="classic" icon="info">View the detailed breakdown on RYFT</a>
 
@@ -236,11 +269,11 @@ All infringing assets serve only as references during development and will be re
   </tr>
 </table>
 
-<a href="Angel.md" as="button" mode="classic" icon="info">View an outdated breakdown on the Angel Project</a>
+<a href="Angel.md" as="button" mode="classic" icon="info">Read about the Implementation</a>
 
 ---
 
-## Skills & Tools
+## Skills & Process
 
 <primary-label ref="skills"></primary-label>
 <secondary-label ref="c#"></secondary-label>
@@ -257,18 +290,20 @@ All infringing assets serve only as references during development and will be re
 <secondary-label ref="github"></secondary-label>
 
 <quote>
-<p> I design for <b>different player types</b>, and for <b>how they play together</b>, using <b><a href ="https://selfdeterminationtheory.org/theory/" summary="Self-determination theory holds that people are most motivated, perform best, and are healthiest when their environment supports three basic psychological needs: autonomy, competence, and relatedness.">self-determination theory</a></b>.
-<br/><b>Read more</b> about my <b><a href="Prototyping.md">design process and decision-making.</a></b></p>
+<p>
+I design for <b><tooltip term="Bartle's Taxonomy">different player types</tooltip></b> and for how they play together, and I <b>balance intrinsic and extrinsic rewards</b> using <b><tooltip term="Self-Determination Theory">self-determination theory</tooltip>.</b>
+</p>
 
-<p>• Experienced in <b>C#</b>, <b>Blueprint</b>, and <b>Angelscript</b>, with limited experience in <b>C++</b> and <b>Java</b>.</p>
+<p>• Experienced in <b>C#</b>, <b>Blueprint</b>, and <b><tooltip term="Angelscript">Angelscript</tooltip></b>, with limited experience in <b>C++</b> and <b>Java</b>.</p>
 
-<p>• Well-versed in Unreal's <b>Gameplay Ability System</b> (GAS), <b>data-driven development</b>, <b>systems and tooling</b>, and making <b>networked multiplayer</b> games using <b>replication</b>.</p>
+<p>• Well-versed in Unreal's <b><a href="GAS-Architecture.md">Gameplay Ability System</a></b> (GAS), <b>data-driven development</b>, <b>complex systems</b>, and making <b>networked multiplayer</b> games using <b>replication</b>.</p>
 
 <p>• <b>Rapid prototyping</b>, <b>iteration</b>, and <b>ownership</b> of <b>gameplay mechanics and systems</b>, <a href="https://github.com/Hazelight/UnrealEngine-Angelscript/commits?author=ltsLumina" summary="Contribution page of Hazelight/UnrealEngine-Angelscript. Link may 404 if you are not signed in to an 'Epic Games'-linked account.">engine divergences</a>, and tooling.</p>
-
 </quote>
+<a href="Prototyping.md" as="button" mode="classic" icon="pen">View my design process</a>
+<a href="GAS-Architecture.md" as="button" mode="classic" icon="projects">View my GAS Architecture</a>
 
-<chapter title="Tools &amp; Software" collapsible="true" default-state="collapsed" level="3">
+<chapter title="Tools &amp; Software" collapsible="true" default-state="collapsed" level="4">
 <list columns="3">
 <li><p>Markdown</p></li>
 <li><p>GitHub (CI/CD)</p></li>
@@ -317,7 +352,10 @@ All infringing assets serve only as references during development and will be re
             </tr>
 </table>
 
-### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_som" collapsible="true" default-state="collapsed" }
+<chapter id="game_info_som" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">GAME INFO</format>
+</title>
 
 <quote>
 <p>Crawl through a hand-crafted dungeon with two weapons and enemy types. Grab the dream, power-up, and make your escape.</p>
@@ -327,8 +365,12 @@ All infringing assets serve only as references during development and will be re
 <p><b>Team Size:</b> 11 (4 Designers, 4 Programmers, 3 VFX/Animators)</p>
 <p><b>Duration:</b> 2.5 weeks @ Futuregames (2025)</p>
 </quote>
+</chapter>
 
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_som" collapsible="true" default-state="collapsed"}
+<chapter id="roles-and-responsibilities_som" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
+</title>
 
 Combat & Tech Designer, Programming.
 
@@ -347,17 +389,24 @@ Combat & Tech Designer, Programming.
         Designed and implemented the game's interaction mechanics, enabling players to pick up items and weapons.
     </def>
 </deflist>
+</chapter>
 
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_som" collapsible="true" default-state="collapsed"}
-
+<chapter id="tools_som" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">TOOLS</format>
+</title>
 Unity, JetBrains Rider, Perforce, Trello, Miro.
+</chapter>
 
-### <format style="bold" color="e14273">LINKS</format> {id="links_som" collapsible="true" default-state="collapsed"}
+<chapter id="links_som" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">LINKS</format>
+</title>
 
-- [Itch.io](https://futuregames.itch.io/somnium)
-
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_som"}
-
+<list>
+<li><p><a href="https://futuregames.itch.io/somnium">Itch.io</a></p></li>
+</list>
+</chapter>
 <a href="Somnium.md" as="button" mode="classic" icon="info">View the detailed breakdown on Somnium</a>
 
 ---
@@ -384,7 +433,10 @@ Unity, JetBrains Rider, Perforce, Trello, Miro.
     </tr>
   </table>
 
-### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_nr" collapsible="true" default-state="collapsed" }
+<chapter id="game_info_nr" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">GAME INFO</format>
+</title>
 
 <quote>
 <p>Pick a fighter and challenge your friend in this couch co-op fighting game. Utilize your light and heavy attacks or combo with aerial moves to best your opponent!</p>
@@ -396,8 +448,12 @@ Unity, JetBrains Rider, Perforce, Trello, Miro.
 <p><b>Team Size:</b> 5 (1 Designer/Programmer, 4 Artists)</p>
 <p><b>Duration:</b> 7.5 months (August 2023 – April 2024) @ LBS</p>
 </quote>
+</chapter>
 
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_nr" collapsible="true" default-state="collapsed"}
+<chapter id="roles-and-responsibilities_nr" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
+</title>
 
 Game Designer, Product Owner, Scrum Master, Programmer (C#).
 
@@ -412,16 +468,25 @@ Game Designer, Product Owner, Scrum Master, Programmer (C#).
         Designed and implemented the player-facing controls and camera behaviour for the fighting experience.
     </def>
 </deflist>
+</chapter>
 
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_nr" collapsible="true" default-state="collapsed" }
+<chapter id="tools_nr" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">TOOLS</format>
+</title>
 
-Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrains Space **(CI/CD)**.
+Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrains Space <b>(CI/CD)</b>.
+</chapter>
 
-### <format style="bold" color="e14273">LINKS</format> {id="links_nr" collapsible="true" default-state="collapsed" }
+<chapter id="links_nr" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">LINKS</format>
+</title>
 
-- [Trailer](https://www.youtube.com/watch?v=BDWqbVHXUpc)
-
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_nr"}
+<list>
+<li><p><a href="https://www.youtube.com/watch?v=BDWqbVHXUpc">Trailer</a></p></li>
+</list>
+</chapter>
 
 <a href="Neon-Rivalry.md" as="button" mode="classic" icon="info">Read my retrospective on Neon Rivalry</a>
 
@@ -447,7 +512,10 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
     </tr>
 </table>
 
-### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_pal" collapsible="true" default-state="collapsed" }
+<chapter id="game_info_pal" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">GAME INFO</format>
+</title>
 
 <quote>
 <p>Traverse two distinct timelines, collecting information from the present and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen.</p>
@@ -457,8 +525,12 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 <p><b>Team Size:</b> 10 (1 Designers, 3 Programmers, 6 Artists)</p>
 <p><b>Duration:</b> 6 weeks @ Futuregames (2025)</p>
 </quote>
+</chapter>
 
-### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_pal" collapsible="true" default-state="collapsed"}
+<chapter id="roles-and-responsibilities_pal" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
+</title>
 
 Game Designer and Associate Programmer (C++).
 
@@ -473,16 +545,25 @@ Game Designer and Associate Programmer (C++).
         Created the interface to support puzzle readability and player guidance.
     </def>
 </deflist>
+</chapter>
 
-### <format style="bold" color="e14273">TOOLS</format> {id="tools_pal" collapsible="true" default-state="collapsed" }
+<chapter id="tools_pal" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">TOOLS</format>
+</title>
 
-**Unreal Engine 5** (C++ & Blueprints), JetBrains Rider, **Perforce**, **JIRA**, **Miro**, Discord.
+<b>Unreal Engine 5</b> (C++ &amp; Blueprints), JetBrains Rider, <b>Perforce</b>, <b>JIRA</b>, <b>Miro</b>, Discord.
+</chapter>
 
-### <format style="bold" color="e14273">LINKS</format> {id="links_pal" collapsible="true" default-state="collapsed" }
+<chapter id="links_pal" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">LINKS</format>
+</title>
 
-- [Itch.io](https://futuregames.itch.io/palindra)
-
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_pal"}
+<list>
+<li><p><a href="https://futuregames.itch.io/palindra">Itch.io</a></p></li>
+</list>
+</chapter>
 
 <a href="Palindra.md" as="button" mode="classic" icon="info">View the detailed breakdown on Palindra</a>
 
@@ -679,9 +760,13 @@ Solo Developer (Designer/Programmer/Artist)
 
 Unity, JetBrains Rider, GitHub, Notion
 
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_prototyping"}
+<chapter id="breakdown_prototyping">
+<title>
+<format style="bold" color="e14273">BREAKDOWN</format>
+</title>
 
-<a href="Prototyping.md" as="button" mode="classic" icon="info">Read more about my design process.</a>
+<a href="Prototyping.md#v1" as="button" mode="classic" icon="info">Read more about my design process.</a>
+</chapter>
 
 ### Board Game Design Course
 
@@ -700,7 +785,5 @@ Designer, Playtester, Documenter
 ### <format style="bold" color="e14273">TOOLS</format> {id="tools_bgd"}
 
 Google Sheets (Excel), Google Docs, Miro
-
-### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_bgd"}
 
 - <resource src="Board Game Design - Personal Reflection - Alexander Andrejeff.pdf"></resource>

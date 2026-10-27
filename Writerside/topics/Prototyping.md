@@ -8,8 +8,8 @@
 </quote>
 
 <p>
-Game Design is fundamentally about <a href="https://youtu.be/HqUbpJUiJFI?si=w4aYcasQNCvXvKY5" summary="A talk by Paul Bellezza (of Riot Games) on his journey as a game designer. An early inspiration and professional contact of mine.">solving interaction problems</a>.<br/>
-As <a href="https://lizengland.com/blog/the-door-problem/" summary="Highlights the stark contrast between how simple a trivial feature (like a door) appears to players and how complex, multifaceted, and coordinated it actually is to build in a video game.">the door problem</a> shows, game design means answering questions like:
+Game Design is fundamentally about <a href="https://youtu.be/HqUbpJUiJFI?si=w4aYcasQNCvXvKY5" summary="A talk by Paul Bellezza (of Riot Games) on his journey as a game designer. An early inspiration and professional contact of mine.">solving interaction problems.</a><br/>
+<tooltip term="The Door Problem">The door problem</tooltip> presents these problems as questions:
 </p>
 <list>
 <li><p>Are there doors in your game?</p></li>
@@ -33,9 +33,9 @@ This process closely resembles an <a href="https://wishdesk.com/blog/what-is-ite
 
 <chapter title="Elaboration" level="4" collapsible="true" default-state="expanded" hide-from-structure="true">
 <deflist type="full">
-<def title="1. Consider the Problems around whom I design for">
+<def title="1. Consider the Players' Problems" collapsible="true">
 <p>
-I design for <b><a href="https://en.wikipedia.org/wiki/Bartle_taxonomy_of_player_types" summary="Bartle's taxonomy classifies players as achievers, explorers, socializers, and killers.">different player types</a></b> and for how they play together, and I balance intrinsic and extrinsic rewards using <b><a href="https://en.wikipedia.org/wiki/Self-determination_theory" summary="Self-determination theory holds that people are most motivated, perform best, and are healthiest when their environment supports three basic psychological needs: autonomy, competence, and relatedness.">self-determination theory.</a></b>
+I design for <b><tooltip term="Bartle's Taxonomy">different player types</tooltip></b> and for how they play together, and I <b>balance intrinsic and extrinsic rewards</b> using <b><tooltip term="Self-Determination Theory">self-determination theory.</tooltip></b>
 </p>
 <p>
 Given the player type, I list as many potential interaction problems as I can imagine to give myself a broad overview of what I'm designing.
@@ -43,7 +43,7 @@ This is the first step because it takes the <b>least time and effort</b> – far
 </p>
 <p>
 Problems that <i>seem</i> unlikely are <b>especially important to consider</b>: the more players there are, the more likely it is that someone hits them.
-At scale, <i><a href="https://en.wikipedia.org/wiki/Murphy%27s_law" summary="Murphy's Law">"anything that can go wrong will go wrong"</a></i>.
+At scale, <i>"<tooltip term="Murphy's Law">anything that can go wrong will go wrong</tooltip>."</i>
 </p>
 </def>
 
@@ -89,7 +89,7 @@ A prototype is <b>only useful if what it teaches feeds back into the design</b>,
 Each pass irons out kinks and leaves a more polished design, which the team and I iterate on further, starting the cycle anew.
 </p>
 <p>
-This is the <a href="https://wishdesk.com/blog/what-is-iterative-design-approach">iterative design loop</a> from the start of this section. Repeating it is what <b>keeps problems cheap to find and fix</b>.
+This is the <a href="https://wishdesk.com/blog/what-is-iterative-design-approach">iterative design loop</a> from the start of this section. <br/>Repeating it is what <b>keeps problems cheap to find and fix</b>.
 </p>
 </def>
 

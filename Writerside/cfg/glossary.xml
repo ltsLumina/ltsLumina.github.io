@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE terms SYSTEM "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
+<terms>
+    <term name="foo">
+        Description of what "foo" is.
+    </term>
+    <term name="Bartle's Taxonomy">
+        Bartle's taxonomy classifies players as achievers, explorers, socializers, and killers – a way to class players by their preferred actions and motivations.
+    </term>
+    <term name="Self-Determination Theory">
+        Self-determination theory holds that people are most motivated, perform best, and are healthiest when their environment supports three basic psychological needs: autonomy, competence, and relatedness.
+    </term>
+    <term name="The Door Problem">
+        Highlights the stark contrast between how simple a trivial feature (like a door) appears to players and how complex, multifaceted, and coordinated it actually is to build in a video game.
+    </term>
+    <term name="Futuregames">
+        Futuregames is a top-ranked, international game development and tech education school.
+    </term>
+    <term name="Murphy's Law">
+        "Anything that can go wrong will go wrong."
+    </term>
+    <term name="Angelscript">
+        UnrealEngine-Angelscript is a set of engine modifications and a plugin for UE5 that integrates a full-featured scripting language.
+        It is actively developed by Hazelight, creators of Split Fiction and It Takes Two.
+    </term>
+</terms>
