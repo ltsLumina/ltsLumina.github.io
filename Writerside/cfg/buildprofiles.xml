@@ -4,12 +4,17 @@
     <sitemap priority="0.5" change-frequency="weekly"/>
 
     <variables>
-        <product-web-url>https://alexanderseguin.com</product-web-url>
+        <product-web-url>https://alexanderseguin.com/portfolio.html</product-web-url>
         <code-soft-wrap>true</code-soft-wrap>
         <custom-banner label="" link="https://www.linkedin.com/in/itslumina/" date="" bg-theme="strawberry">Open to Internships</custom-banner>
-        <og-image>Discord-Embed.png</og-image>
-        <resizable-sidebar>false</resizable-sidebar>
-        <web-root>https://alexanderseguin.com/portfolio</web-root>
+        <web-root>https://alexanderseguin.com</web-root>
+        <webmaster>itsluminas@gmail.com</webmaster>
+        
+        <!-- FEEDBACK -->
+        <feedback-widget>true</feedback-widget>
+        <config-feedback-require-email>false</config-feedback-require-email>
+        <feedback-recaptcha-enabled>false</feedback-recaptcha-enabled>
+        
         <primary-color>ruby</primary-color>
         <color-preset>contrast</color-preset>
         <link-color>aqua</link-color>
@@ -20,38 +25,33 @@
         <download-page>https://www.linkedin.com/in/itslumina</download-page>
         <showDownloadButton>true</showDownloadButton>
         <sidebar-width>200</sidebar-width>
+        <resizable-sidebar>false</resizable-sidebar>
         <noindex-content>false</noindex-content>
     </variables>
+    
     <footer>
         <copyright>2026 Alexander Andrejeff.</copyright>
         <social type="youtube" href="https://www.youtube.com/@ItsLumina"/>
-        <social type="instagram"
-                href="https://instagram.com/korv.stroganof/">
+        <social type="instagram" href="https://instagram.com/korv.stroganof/">
             Personal Instagram account.
         </social>
 <!--        <social type="twitter" href="https://twitter.com/ltsLumina"/>-->
-        <social type="discord"
-                href="https://discordapp.com/users/287272193946288129">
+        <social type="discord" href="https://discordapp.com/users/287272193946288129">
             Personal and Business Discord.
         </social>
         <social type="github" href="https://github.com/ltsumina"/>
         <social type="linkedin" href="https://www.linkedin.com/in/itslumina"/>
-        <social type="email" href="mailto:itsluminas@gmail.com"/>
-        <link href="https://alexanderseguin.com/">Made by a Human</link>
+        <social type="email" href="itsluminas@gmail.com"/>
+        <link href="https://alexanderseguin.com/about-me.html">
+            Made by a Human
+        </link>
     </footer>
-    <build-profile instance="in">
-        <variables>
-            <noindex-content>false</noindex-content>
-        </variables>
-    </build-profile>
+    
     <build-profile instance="pf">
         <variables>
             <noindex-content>false</noindex-content>
-        </variables>
-    </build-profile>
-    <build-profile instance="">
-        <variables>
-            <noindex-content>false</noindex-content>
+            <og-image>https://images-ext-1.discordapp.net/external/lWBFxTK4PzT2rWK4IfGlrMhwEctaGmRxMwoP0kgcVx8/https/repository-images.githubusercontent.com/793788455/8d8ffa08-6013-45ee-9e13-35703b32d006?format=webp</og-image>
+            <product-web-url>https://alexanderseguin.com/portfolio.html</product-web-url>
         </variables>
     </build-profile>
 

@@ -5,6 +5,8 @@
 <secondary-label ref="unity"></secondary-label>
 > This breakdown details my design process and thinking through an example project I developed.
 
+<warning>This page is actively being re-written (oct. 27th, 2026)</warning>
+
 <video src="../../Writerside/videos/Prototype.mp4" width="500" preview-src="prototyping.png"/>
 
 > This breakdown was written for the **prototyping course** at Futuregames and therefore has a different structure from my usual breakdowns. { style = "note" }

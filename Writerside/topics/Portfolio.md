@@ -19,14 +19,14 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>St
 <p>I study at <i>Futuregames</i>, specializing in the <b>design and development</b> of <b>gameplay mechanics</b>, <b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
 
 <p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years in Unreal</b>, and 2 years with <b>C++, and Angelscript</b>.
-<br></br>Experienced with <b>CI/CD pipelines</b>, <b>AGILE</b> project workflows, and as a <b>product-owner</b>.</p>
+<br/>Experienced with <b>CI/CD pipelines</b>, <b>AGILE</b> project workflows, and as a <b>product-owner</b>.</p>
 
 <p>I bring a <b><a href="Prototyping.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying engineers, gameplay programmers, and designers together.</p>
 </quote>
 
 <tip>
 <p>Reach out on <a href="https://www.linkedin.com/in/itslumina/">LinkedIn</a> or email me at: <a href="mailto:itsluminas@gmail.com">itsluminas@gmail.com</a>  
-<br></br>
+<br/>
 View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.be/1d3kRUk4NzA">Showreel</a>, or read more <a href="About-Me.md"></a>.</p>
 </tip>
 
@@ -74,7 +74,7 @@ Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i>
     <def title="Gunplay and Abilities">
         <p>Designed <b>distinct PvE and PvP gunplay, akin to Destiny and Halo</b>. Achieved by breaking down what makes those games fun and how they implement it.</p>
         <p>Developed the <b>gun logic and all related abilities</b>: <b>shoot</b>, <b>reload</b>, <b>ADS</b>, etc.
-        <br></br>View my most extensive script here: <resource src="GunComponent.as"/></p>
+        <br/>View my most extensive script here: <resource src="GunComponent.as"/></p>
     </def>
     <def title="Heroes and Guns">
         <p>Concepted, pitched, and iterated on <b>three hero designs</b>: <b>Hawkmoon</b>, <b>Izanagi</b>, and <b>Bastion</b>.</p>
@@ -88,7 +88,7 @@ Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i>
         <p>A non-exhaustive list <a href="https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing">can be viewed here.</a></p>
     </def>
     <def title="GAS (Gameplay Ability System)">
-        <p>Designed and implemented <b>all GAS architecture</b> including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc.</p>
+        <p>Designed and implemented all <b><a href="GAS-Architecture.md" summary="Read more about how and why I structured the GAS architecture.">GAS architecture</a></b> including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc.</p>
         <p>Parts of the implementation were handled in C++, such as custom GameplayEffectContext properties.</p>
     </def>
     <def title="Netcode">
@@ -116,7 +116,7 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Tre
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_fate"}
 
-<a href="FATE.md" as="button" mode="classic" icon="info">View a detailed breakdown of my work on FATE</a>
+<a href="FATE.md" as="button" mode="classic" icon="info">View the detailed breakdown on FATE</a>
 
 ---
 
@@ -175,7 +175,7 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Tre
             </chapter>
     </def>
     <def title="GAS (Gameplay Ability System)">
-        Designed and implemented all GAS architecture including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
+        Designed and implemented all <b><a href="GAS-Architecture.md" summary="Read more about how and why I structured the GAS architecture.">GAS architecture</a></b> including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
     </def>
 </deflist>
 
@@ -191,14 +191,13 @@ Unreal Engine 5.8, JetBrains Rider, Visual Studio Code, Diversion, Trello.
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_ryft"}
 
-<a href="RYFT.md" as="button" mode="classic" icon="info">View a detailed breakdown of my work on RYFT</a>
+<a href="RYFT.md" as="button" mode="classic" icon="info">View the detailed breakdown on RYFT</a>
 
 ---
 
 ## ANGEL
 
 <primary-label ref="angel"></primary-label>
-<secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="solo"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
@@ -250,7 +249,7 @@ All infringing assets serve only as references during development and will be re
 
 <quote>
 <p> I design for <b>different player types</b>, and for <b>how they play together</b>, using <b><a href ="https://selfdeterminationtheory.org/theory/" summary="Self-determination theory holds that people are most motivated, perform best, and are healthiest when their environment supports three basic psychological needs: autonomy, competence, and relatedness.">self-determination theory</a></b>.
-<br></br>Read more about my <b><a href="Prototyping.md">design thinking and decision-making.</a></b></p>
+<br/>Read more about my <b><a href="Prototyping.md">design thinking and decision-making.</a></b></p>
 
 <p>• Experienced in <b>C#</b>, <b>Blueprint</b>, and <b>Angelscript</b>, with limited experience in <b>C++</b> and <b>Java</b>.</p>
 
@@ -348,7 +347,7 @@ Unity, JetBrains Rider, Perforce, Trello, Miro.
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_som"}
 
-<a href="Somnium.md" as="button" mode="classic" icon="info">View a detailed breakdown of my work on Somnium</a>
+<a href="Somnium.md" as="button" mode="classic" icon="info">View the detailed breakdown on Somnium</a>
 
 ---
 
@@ -413,7 +412,7 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_nr"}
 
-<a href="Neon-Rivalry.md" as="button" mode="classic" icon="info">Read about my retrospective on Neon Rivalry</a>
+<a href="Neon-Rivalry.md" as="button" mode="classic" icon="info">Read my retrospective on Neon Rivalry</a>
 
 ---
 
@@ -474,7 +473,7 @@ Game Designer and Associate Programmer (C++).
 
 ### <format style="bold" color="e14273">BREAKDOWN</format> {id="breakdown_pal"}
 
-<a href="Palindra.md" as="button" mode="classic" icon="info">View a detailed breakdown of my work on Palindra</a>
+<a href="Palindra.md" as="button" mode="classic" icon="info">View the detailed breakdown on Palindra</a>
 
 ---
 
