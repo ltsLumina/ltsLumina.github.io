@@ -2,7 +2,7 @@
 <primary-label ref="lum"></primary-label>
 
 <tabs>
-<tab title="V2">
+<tab title="Process" id="v2">
 <quote>
 <p>I always design <a href="https://www.riotgames.com/darkroom/original/1b58ddf664999d1e51c7a5ee3908f3e3:aedf85c30ef9072a3f1530b2d05706dc/riot-games-fact-sheet-2023.pdf" summary="Riot Games' mission statement, which I follow wholeheartedly.">in favour of the player</a>, because once shipped, it's no longer my/our game, but the players', and the best we can do is serve them well.</p>
 </quote>
@@ -23,7 +23,7 @@ As <a href="https://lizengland.com/blog/the-door-problem/">the door problem</a> 
     <step>Consider as many interaction problems as possible (writing them down, making flowcharts)</step>
     <step>Decide the relevance of designing around a given problem</step>
     <step>Account for the implementation's complexity and estimated time to develop</step>
-    <step>Prototype the first iteration quickly and efficiently</step>
+    <step>Prototype the first iteration quickly to uncover unexpected problems</step>
     <step>Iterate on the original design through feedback and evaluation.</step>
 </procedure>
 <p>
@@ -36,11 +36,11 @@ This process closely resembles an <a href="https://wishdesk.com/blog/what-is-ite
 <def title="1. Consider the Possibilities">
 <p>
 I list as many potential interaction problems as I can imagine (written down, flowcharts) to give myself a broad overview of what I'm designing.
-This is the first step because it takes the least time and effort – far less than testing each problem in a prototype, for example.
+This is the first step because it takes the <b>least time and effort</b> – far less than testing each problem in a prototype, for example.
 </p>
 
 <p>
-Problems that <i>seem</i> unlikely are especially important to consider: the more players there are, the more likely it is that someone hits them.
+Problems that <i>seem</i> unlikely are <b>especially important to consider</b>: the more players there are, the more likely it is that someone hits them.
 At scale, <i><a href="https://en.wikipedia.org/wiki/Murphy%27s_law" summary="Murphy's Law">"anything that can go wrong will go wrong"</a></i>.
 </p>
 </def>
@@ -48,13 +48,13 @@ At scale, <i><a href="https://en.wikipedia.org/wiki/Murphy%27s_law" summary="Mur
 <def title="2. Decide the Relevance">
 <p>
 Many of the interaction problems I come up with turn out to be irrelevant to design around.
-<br/>Since time and effort are finite, I decide which ones are worth the cost.
+<br/>Since <b>time and effort are finite</b>, I decide which ones are worth the cost.
 </p>
 <p>
 The question <code>What happens if there are two players?</code> can be safely disregarded in a single-player game with no plans for multiplayer.
 </p>
 <p>
-More often than not, though, something I disregarded ends up resurfacing later.
+More often than not, though, something I disregarded <b>ends up resurfacing later</b>.
 This is usually because the original design has changed, and I have to revisit things I had previously dismissed.
 When that happens, I communicate the issue to the design team, and we debate the possibilities together.
 </p>
@@ -62,32 +62,32 @@ When that happens, I communicate the issue to the design team, and we debate the
 
 <def title="3. Account for the Implementation">
 <p>
-A design is only useful if it can be built in the time available, so I weigh each design against what it would cost to implement.
+A design is <b>only useful if it can be built in the time available</b>, so I weigh each design against what it would cost to implement.
 My programming background (gameplay and engine/tooling) lets me do this comfortably for the technical side, and I'm familiar enough with art workflows like animation and 3D modelling to judge those fairly as well.
 </p>
 <p>
-Because I know the time, tools, and effort it takes to develop something, I can give reliable time and difficulty estimates.
-This benefits the whole team through less stress and less crunch, and it has held up in group projects such as <a href="FATE.md" summary="In FATE, a result of this step was a healthier work environment."/> and <a href="RYFT.md" summary="In RYFT, we were able to add more content because I was confident I could create the systems in time."/>.
+Because I know the time, tools, and effort it takes to develop something, I can give <b>reliable time and difficulty estimates</b>.
+This benefits the whole team through less stress and less crunch, and it has held up in group projects such as <a href="FATE.md" summary="In FATE, a result of this step was a healthier work environment."/> and <a href="RYFT.md" summary="In RYFT, we were able to add more content because I was confident I could create the systems in time."/> (hover the links for examples)
 </p>
 </def>
 
 <def title="4. Prototype">
 <p>
-Some problems only appear once a design is playable, and no amount of planning on paper will surface them, so I make a prototype to find them.
-My programming background lets me prototype and iterate on game features rapidly, so each iteration costs little and teaches me a lot.
+Some problems <b>only appear once a design is playable</b>, and no amount of planning on paper will surface them, so I make a prototype to find them.
+My programming background lets me prototype and iterate on game features rapidly, so <b>each iteration costs little and teaches me a lot</b>.
 </p>
 <p>
-This is the step where I iterate the most, since it's where I discover both tech <u>and</u> design problems I hadn't accounted for, or ones that resurfaced from step 2.
+This is the step where I iterate the design the most, since it's where I discover both tech <u>and</u> design problems I hadn't accounted for, or ones that resurfaced from step 2.
 </p>
 </def>
 
 <def title="5. Iterate through Feedback and Evaluation">
 <p>
-A prototype is only useful if what it teaches feeds back into the design, so I gather feedback from the team, evaluate the design myself, and fix problems as soon as I find them.
+A prototype is <b>only useful if what it teaches feeds back into the design</b>, so I gather feedback from the team, evaluate the design myself, and fix problems as soon as I find them.
 Each pass irons out kinks and leaves a more polished design, which the team and I iterate on further, starting the cycle anew.
 </p>
 <p>
-This is the <a href="https://wishdesk.com/blog/what-is-iterative-design-approach">iterative design loop</a> from the start of this section. Repeating it is what keeps problems cheap to find and fix.
+This is the <a href="https://wishdesk.com/blog/what-is-iterative-design-approach">iterative design loop</a> from the start of this section. Repeating it is what <b>keeps problems cheap to find and fix</b>.
 </p>
 </def>
 
@@ -95,7 +95,7 @@ This is the <a href="https://wishdesk.com/blog/what-is-iterative-design-approach
 </chapter>
 </tab>
 
-<tab title="V1">
+<tab title="Example Project" id="v1">
 
 > This breakdown details my design process and thinking through an example project I developed.
 

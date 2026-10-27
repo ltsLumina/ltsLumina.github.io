@@ -3,5 +3,9 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/categories.dtd">
 <categories>
     <category id="angel" name="Angel-project Breakdown" order="1"/>
-    <category id="credits" name="Credits" order="2"/>
+    <category id="fate" name="FATE" order="1"/>
+    <category id="ryft" name="RYFT" order="1"/>
+    <category id="prototyping" name="Prototyping Course" order="1"/>
+    <category id="design-process" name="Design Process" order="2"/>
+    <category id="credits" name="Credits" order="3"/>
 </categories>

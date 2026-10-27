@@ -1,3 +1,8 @@
+<include from="see-also.topic" element-id="see-also">
+    <var name="topic" value="Prototyping.md#v1"/>
+    <var name="topic-summary" value="RYFT is the spiritual successor to this project."/>
+</include>
+
 # RYFT
 
 <primary-label ref="ryft"></primary-label>
@@ -260,9 +265,3 @@
 
 Very proud of myself and the team for this achievement.  
 Reach out on [LinkedIn](https://www.linkedin.com/in/itslumina), [Discord](https://discordapp.com/users/287272193946288129), or via [email](mailto:itsluminas@gmail.com).
-
-<seealso style="cards">
-    <category ref="credits">
-        <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
-    </category>
-</seealso>
