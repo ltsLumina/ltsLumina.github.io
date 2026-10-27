@@ -21,10 +21,10 @@
         <content-max-width>1280</content-max-width>
         <custom-favicons>favicon.png</custom-favicons>
         <header-logo>favicon.png</header-logo>
-        <download-title>Reach out!</download-title>
-        <download-page>https://www.linkedin.com/in/itslumina</download-page>
+        <download-title>CV/Resume</download-title>
+        <download-page>https://alexanderseguin.com/resources/Resume.pdf</download-page>
         <showDownloadButton>true</showDownloadButton>
-        <sidebar-width>200</sidebar-width>
+        <sidebar-width>210</sidebar-width>
         <resizable-sidebar>false</resizable-sidebar>
         <noindex-content>false</noindex-content>
     </variables>

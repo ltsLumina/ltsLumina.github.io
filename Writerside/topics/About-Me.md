@@ -25,7 +25,7 @@ I also go by Alexander <b>Seguin</b> as a pen name, in respect to my mother and 
 <p>&nbsp;</p>
 
 <p>
-I am a Gameplay Designer, with a background in game programming, in part thanks to my education at LBS (High School), and Futuregames Malmö.  
+I am a Technical Designer, with a background in game programming, in part thanks to my education at LBS (High School), and Futuregames Malmö.  
 Although I have an education in programming, I am mostly self-taught.
 </p>
     </td>

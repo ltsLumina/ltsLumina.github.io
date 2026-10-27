@@ -18,7 +18,7 @@
     
     <toc-element toc-title="Process">
         <toc-element topic="Prototyping.md"/>
-        <toc-element topic="GAS-Architecture.md"/>
+        <toc-element topic="GAS-Architecture.md" wip="true"/>
     </toc-element>
     
     <toc-element topic="About-Me.md"/>

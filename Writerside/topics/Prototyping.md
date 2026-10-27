@@ -4,12 +4,12 @@
 <tabs>
 <tab title="Process" id="v2">
 <quote>
-<p>I always design <a href="https://www.riotgames.com/darkroom/original/1b58ddf664999d1e51c7a5ee3908f3e3:aedf85c30ef9072a3f1530b2d05706dc/riot-games-fact-sheet-2023.pdf" summary="Riot Games' mission statement, which I follow wholeheartedly.">in favour of the player</a>, because once shipped, it's no longer my/our game, but the players', and the best we can do is serve them well.</p>
+<p>I always design <a href="https://www.riotgames.com/darkroom/original/1b58ddf664999d1e51c7a5ee3908f3e3:aedf85c30ef9072a3f1530b2d05706dc/riot-games-fact-sheet-2023.pdf" summary="Riot Games' mission statement, which I follow wholeheartedly.">in favour of the player</a>, because once shipped, it's no longer my/our game – it's the players' – and the best we can do is serve them well.</p>
 </quote>
 
 <p>
-Game Design is fundamentally about <a href="https://youtu.be/HqUbpJUiJFI?si=w4aYcasQNCvXvKY5">solving interaction problems</a>.<br/>
-As <a href="https://lizengland.com/blog/the-door-problem/">the door problem</a> shows, game design means answering questions like:
+Game Design is fundamentally about <a href="https://youtu.be/HqUbpJUiJFI?si=w4aYcasQNCvXvKY5" summary="A talk by Paul Bellezza (of Riot Games) on his journey as a game designer. An early inspiration and professional contact of mine.">solving interaction problems</a>.<br/>
+As <a href="https://lizengland.com/blog/the-door-problem/" summary="Highlights the stark contrast between how simple a trivial feature (like a door) appears to players and how complex, multifaceted, and coordinated it actually is to build in a video game.">the door problem</a> shows, game design means answering questions like:
 </p>
 <list>
 <li><p>Are there doors in your game?</p></li>
@@ -33,12 +33,14 @@ This process closely resembles an <a href="https://wishdesk.com/blog/what-is-ite
 
 <chapter title="Elaboration" level="4" collapsible="true" default-state="expanded" hide-from-structure="true">
 <deflist type="full">
-<def title="1. Consider the Possibilities">
+<def title="1. Consider the Problems around whom I design for">
 <p>
-I list as many potential interaction problems as I can imagine (written down, flowcharts) to give myself a broad overview of what I'm designing.
+I design for <b><a href="https://en.wikipedia.org/wiki/Bartle_taxonomy_of_player_types" summary="Bartle's taxonomy classifies players as achievers, explorers, socializers, and killers.">different player types</a></b> and for how they play together, and I balance intrinsic and extrinsic rewards using <b><a href="https://en.wikipedia.org/wiki/Self-determination_theory" summary="Self-determination theory holds that people are most motivated, perform best, and are healthiest when their environment supports three basic psychological needs: autonomy, competence, and relatedness.">self-determination theory.</a></b>
+</p>
+<p>
+Given the player type, I list as many potential interaction problems as I can imagine to give myself a broad overview of what I'm designing.
 This is the first step because it takes the <b>least time and effort</b> – far less than testing each problem in a prototype, for example.
 </p>
-
 <p>
 Problems that <i>seem</i> unlikely are <b>especially important to consider</b>: the more players there are, the more likely it is that someone hits them.
 At scale, <i><a href="https://en.wikipedia.org/wiki/Murphy%27s_law" summary="Murphy's Law">"anything that can go wrong will go wrong"</a></i>.
@@ -51,12 +53,12 @@ Many of the interaction problems I come up with turn out to be irrelevant to des
 <br/>Since <b>time and effort are finite</b>, I decide which ones are worth the cost.
 </p>
 <p>
-The question <code>What happens if there are two players?</code> can be safely disregarded in a single-player game with no plans for multiplayer.
+For example; the question <code>What happens if there are two players?</code> can be safely disregarded in a single-player game with no plans for multiplayer.
 </p>
 <p>
 More often than not, though, something I disregarded <b>ends up resurfacing later</b>.
 This is usually because the original design has changed, and I have to revisit things I had previously dismissed.
-When that happens, I communicate the issue to the design team, and we debate the possibilities together.
+When that happens, I communicate the issue to the design team, and we debate the problems together.
 </p>
 </def>
 
@@ -83,7 +85,7 @@ This is the step where I iterate the design the most, since it's where I discove
 
 <def title="5. Iterate through Feedback and Evaluation">
 <p>
-A prototype is <b>only useful if what it teaches feeds back into the design</b>, so I gather feedback from the team, evaluate the design myself, and fix problems as soon as I find them.
+A prototype is <b>only useful if what it teaches feeds back into the design</b>, so I gather feedback from players and the team, evaluate the design myself, and fix problems as soon as I find them.
 Each pass irons out kinks and leaves a more polished design, which the team and I iterate on further, starting the cycle anew.
 </p>
 <p>

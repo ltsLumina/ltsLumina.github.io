@@ -1,3 +1,5 @@
+<include from="see-also.topic" element-id="see-also-defaults"></include>
+
 # Portfolio
 
 <primary-label ref="lum"></primary-label>
@@ -18,7 +20,7 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>St
 
 <p>At <a href="https://futuregames.se/se/" summary="Futuregames is a top-ranked, international game development and tech education school.">Futuregames</a> I specialize in the <b>design <u>and</u> development</b> of <b>gameplay mechanics</b>, <br/><b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
 
-<p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years in Unreal</b>, and 2 years with <b>C++, and Angelscript</b>.
+<p>Over <b>6 years</b> in <b>Unity/C#</b>, <b>3 years</b> in <b>Unreal</b>, and 2 years with <b>C++ and Angelscript</b>.
 <br/>Experienced with <b>CI/CD</b>, <b>AGILE</b>, and as a <b>product-owner</b>.</p>
 
 <p>I bring a <b><a href="Prototyping.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying together engineers, gameplay programmers, and designers.</p>
@@ -39,10 +41,10 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 <secondary-label ref="group"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="multiplayer"></secondary-label>
-<secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
+<secondary-label ref="angelscript"></secondary-label>
 
-<video src="https://youtu.be/cMRGwG6g7GQ" preview-src="8man-chaos-fate.gif"/>
+<video src="https://youtu.be/cMRGwG6g7GQ" preview-src="8man-chaos-fate.gif" muted="true"/>
 
 <quote>
 <p>‘FATE’ is an online-multiplayer "Raid-like", building on <a href="https://en.wikipedia.org/wiki/Destiny_(video_game)">Destiny's</a> gunplay and raid mechanics.</p>
@@ -59,20 +61,23 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_fate" collapsible="true" default-state="collapsed" }
 
 <quote>
-<p>Battle your way through challenging encounters featuring mechanics and puzzles that challenge you and up to two friends.
-Battle swarms of enemies, grow stronger, and conquer <i>The Ruined Guardian.</i></p>
-<p>&nbsp;</p>
-<p><b>Engine:</b> Unreal Engine 5.7 (custom angelscript fork)</p>
-<p><b>Genre:</b> 'Raid-like' (FPS + Destiny Raid + Rogue-lite)</p>
-<p><b>Team Size:</b> 10 (4 Designers, 4 Programmers, 2 VFX/Animators)</p>
-<p><b>Duration:</b> 7 weeks @ Futuregames (2026)</p>
+<p>
+Battle your way through challenging encounters featuring mechanics and puzzles that challenge you and up to two friends.
+Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
+</p>
+<p>
+<b>Engine:</b> Unreal Engine 5.7 (custom angelscript fork)
+<br/><b>Genre:</b> 'Raid-like' (FPS + Destiny Raid + Rogue-lite)
+<br/><b>Team Size:</b> 10 (4 Designers, 4 Programmers, 2 VFX/Animators)
+<br/><b>Duration:</b> 7 weeks @ Futuregames (2026)
+</p>
 </quote>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_fate" collapsible="true" default-state="collapsed"}
 
 <deflist type="full">
     <def title="Gunplay &amp; Abilities">
-        <p>Designed <b>distinct PvE and PvP gunplay, akin to Destiny and Halo</b>. Achieved by breaking down what makes those games fun and how they implement it.</p>
+        <p>Designed <b>distinct PvE and PvP gunplay, akin to Destiny and Halo</b>. Achieved by breaking down what makes those games fun and how they implement them.</p>
         <p>Developed the <b>gun logic and all related abilities</b>: <b>shoot</b>, <b>reload</b>, <b>ADS</b>, etc.
         <br/>View my most extensive script here: <resource src="GunComponent.as"/></p>
     </def>
@@ -150,11 +155,13 @@ Unreal Engine 5.7, JetBrains Rider, Visual Studio Code, Diversion, Perforce, Tre
 
 <quote>
 <p>Traverse through a retro synthwave world where the only goal is to go FAST!</p>
-<p>&nbsp;</p>
-<p><b>Engine:</b> Unreal Engine 5.8 (custom angelscript fork)</p>
-<p><b>Genre:</b> Parkour/Speedgame</p>
-<p><b>Team Size:</b> 6 (3 Designers, 3 Programmers)</p>
-<p><b>Duration:</b> 4 weeks (+2 pre prod.) @ Futuregames (2026)</p>
+<p>
+<b>Engine:</b> Unreal Engine 5.8 (custom angelscript fork)
+<br/><b>Genre:</b> Parkour/Speedgame
+<br/><b>Team Size:</b> 6 (3 Designers, 3 Programmers)
+<br/><b>Duration:</b> 4 weeks (+2 pre prod.) @ Futuregames (2026)
+</p>
+<p>Features licensed music from <a href="https://epidemicsound.com">Epidemic Sound.</a></p>
 </quote>
 
 ### <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format> {id="roles-and-responsibilities_ryft" collapsible="true" default-state="collapsed"}
@@ -251,7 +258,7 @@ All infringing assets serve only as references during development and will be re
 
 <quote>
 <p> I design for <b>different player types</b>, and for <b>how they play together</b>, using <b><a href ="https://selfdeterminationtheory.org/theory/" summary="Self-determination theory holds that people are most motivated, perform best, and are healthiest when their environment supports three basic psychological needs: autonomy, competence, and relatedness.">self-determination theory</a></b>.
-<br/>Read more about my <b><a href="Prototyping.md">design process and decision-making.</a></b></p>
+<br/><b>Read more</b> about my <b><a href="Prototyping.md">design process and decision-making.</a></b></p>
 
 <p>• Experienced in <b>C#</b>, <b>Blueprint</b>, and <b>Angelscript</b>, with limited experience in <b>C++</b> and <b>Java</b>.</p>
 
@@ -261,29 +268,29 @@ All infringing assets serve only as references during development and will be re
 
 </quote>
 
-### Tools & Software { collapsible="true" default-state="collapsed" }
-
-- Markdown
-- GitHub (CI/CD)
-- Machinations
-- XML
-- Perforce
-- Miro
-- Visual Studio Code
-- JIRA
-- Figma
-- JetBrains Rider
-- Slack
-- Notion
-- Autodesk Maya
-- Trello
-- Lucidchart
-
-{ columns="3" }
+<chapter title="Tools &amp; Software" collapsible="true" default-state="collapsed" level="3">
+<list columns="3">
+<li><p>Markdown</p></li>
+<li><p>GitHub (CI/CD)</p></li>
+<li><p>Machinations</p></li>
+<li><p>XML</p></li>
+<li><p>Perforce</p></li>
+<li><p>Miro</p></li>
+<li><p>Visual Studio Code</p></li>
+<li><p>JIRA</p></li>
+<li><p>Figma</p></li>
+<li><p>JetBrains Rider</p></li>
+<li><p>Slack</p></li>
+<li><p>Notion</p></li>
+<li><p>Autodesk Maya</p></li>
+<li><p>Trello</p></li>
+<li><p>Lucidchart</p></li>
+</list>
+</chapter>
 
 ---
 
-## SOMNIUM
+## SOMNIUM <format><img src="Debut_Win25_White.png" alt="" style="inline" width="125"/></format>
 
 <primary-label ref="somnium"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
@@ -295,8 +302,10 @@ All infringing assets serve only as references during development and will be re
 <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" width="600" preview-src="../videos/somnium-trailer.gif"/>
 
 <quote>
-<p>‘Somnium’ is a retro-inspired first-person dungeon crawler.</p>
-<p>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards (2025)</p>
+<p>
+‘Somnium’ is a retro-inspired first-person dungeon crawler.
+<br/>Winner of the <b>'Best Debut Game'</b> award at the Future Game Awards (2025)
+</p>
 </quote>
 
 <table width="auto">
@@ -441,7 +450,7 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 ### <format style="bold" color="e14273">GAME INFO</format> {id="game_info_pal" collapsible="true" default-state="collapsed" }
 
 <quote>
-<p>Traverse two distinct timelines, collecting information from the present, and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen.</p>
+<p>Traverse two distinct timelines, collecting information from the present and applying it in the past to alter the other time, leading you one step closer to solving what happened to the old queen.</p>
 <p>&nbsp;</p>
 <p><b>Engine:</b> Unreal Engine 5.3</p>
 <p><b>Genre:</b> Puzzle Adventure</p>

@@ -73,7 +73,7 @@
         Online Multiplayer
     </secondary-label>
 
-    <secondary-label id="co-op" name="Couch co-op" color="purple">
+    <secondary-label id="co-op" name="Couch co-op" color="tangerine">
         Co-op
     </secondary-label>
 

@@ -19,5 +19,16 @@
         </category>
     </seealso>
     </snippet>
+
+    <snippet id="see-also-defaults">
+        <seealso style="cards">
+            <category ref="design-process">
+                <a href="Prototyping.md" summary="A breakdown of my thought process."/>
+            </category>
+            <category ref="credits">
+                <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
+            </category>
+        </seealso>
+    </snippet>
     
 </topic>
