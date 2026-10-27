@@ -3,12 +3,13 @@ name: Build documentation
 on:
   push:
     # To trigger the workflow once you push to the `main` branch
-    # Replace `main` with your branch’s name
+    # Replace `main` with your branch's name
     branches: ["main"]
   # Specify to run a workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
 permissions:
+  contents: read
   id-token: write
   pages: write
 
@@ -17,13 +18,20 @@ env:
   INSTANCE: Writerside/pf
   # Replace XX with the ID of the instance in capital letters
   ARTIFACT: webHelpPF2-all.zip
+  # Algolia index archive produced by the builder (algolia-indexes-<INSTANCE ID UPPERCASE>.zip)
+  ALGOLIA_ARTIFACT: algolia-indexes-PF.zip
   # Docker image version
   DOCKER_VERSION: 2026.09.0357
+  # Algolia config
+  ALGOLIA_APP_NAME: 'D4DQH8HNXS'
+  ALGOLIA_INDEX_NAME: 'Index'
+  CONFIG_JSON_PRODUCT: 'PF'   # instance ID from the .tree file, or web-path from writerside.cfg if different
+  CONFIG_JSON_VERSION: '1.0'  # the version set in writerside.cfg
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -36,13 +44,14 @@ jobs:
           instance: ${{ env.INSTANCE }}
           artifact: ${{ env.ARTIFACT }}
           docker-version: ${{ env.DOCKER_VERSION }}
-        
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: docs
           path: |
             artifacts/${{ env.ARTIFACT }}
+            artifacts/${{ env.ALGOLIA_ARTIFACT }}
           retention-days: 7
 
   deploy:
@@ -64,12 +73,43 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v4.0.0
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: dir
-      
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4.0.4
+
+  publish-indexes:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    container:
+      image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: docs
+          path: artifacts
+
+      - name: Unzip Algolia artifact
+        run: unzip -O UTF-8 -qq "artifacts/${{ env.ALGOLIA_ARTIFACT }}" -d algolia-indexes
+
+      - name: Update Algolia Index
+        run: |
+          if [ -z "${{ secrets.ALGOLIA_KEY }}" ]; then
+            echo "ALGOLIA_KEY secret is not set in GitHub Secrets"
+            exit 1
+          else
+            env "algolia-key=${{ secrets.ALGOLIA_KEY }}" java -jar /opt/builder/help-publication-agent.jar \
+              update-index \
+              --application-name ${{ env.ALGOLIA_APP_NAME }} \
+              --index-name ${{ env.ALGOLIA_INDEX_NAME }} \
+              --product ${{ env.CONFIG_JSON_PRODUCT }} \
+              --version ${{ env.CONFIG_JSON_VERSION }} \
+              --index-directory algolia-indexes/ \
+              2>&1 | tee algolia-update-index-log.txt
+          fi
