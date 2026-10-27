@@ -3,12 +3,12 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Hub" id="Section-Starting-Page">
+       title="Hub" id="Hub">
 
     <section-starting-page>
         <title>Hub</title>
         <description>
-            Explore my work as a technical designer, gameplay programmer, and systems designer.
+            Explore my work as a technical designer.
             Browse shipped projects, detailed breakdowns, and the design process behind them.
         </description>
 
@@ -52,7 +52,7 @@
                 <card href="Portfolio.md#board-game-design-course" summary="Board game created from scratch during the Board Game Design Course.">Board Game Design Course</card>
             </cards>
 
-            <links>
+            <links narrow="true">
                 <group>
                     <title>Professional links</title>
                     <a href="https://www.linkedin.com/in/itslumina/" summary="Connect with me on LinkedIn.">LinkedIn</a>
@@ -64,6 +64,12 @@
                     <a href="https://angelscript.hazelight.se" summary="UnrealEngine-Angelscript is a set of engine modifications and a plugin for UE5 that integrates a full-featured scripting language.">Angelscript</a>
                     <a href="https://dev.epicgames.com/documentation/unreal-engine/gameplay-ability-system-for-unreal-engine" summary="Unreal's Gameplay Ability System (GAS)">Unreal Gameplay Ability System</a>
                     <a href="https://www.riotgames.com/darkroom/original/1b58ddf664999d1e51c7a5ee3908f3e3:aedf85c30ef9072a3f1530b2d05706dc/riot-games-fact-sheet-2023.pdf" summary="Riot Games Fact Sheet">Riot Games Fact Sheet</a>
+                </group>
+                <group>
+                    <title>Concepts</title>
+                    <a href="https://en.wikipedia.org/wiki/Bartle_taxonomy_of_player_types" summary="Bartle's taxonomy classifies players as achievers, explorers, socializers, and killers – a way to class players by their preferred actions and motivations.">Bartle's Taxonomy</a>
+                    <a href="https://en.wikipedia.org/wiki/Self-determination_theory" summary="Self-determination theory holds that people are most motivated, perform best, and are healthiest when their environment supports three basic psychological needs: autonomy, competence, and relatedness.">Self-determination Theory</a>
+                    <a href="https://lizengland.com/blog/the-door-problem/" summary="Highlights the stark contrast between how simple a trivial feature (like a door) appears to players and how complex, multifaceted, and coordinated it actually is to build in a video game.">The Door Problem</a>
                 </group>
             </links>
         </misc>

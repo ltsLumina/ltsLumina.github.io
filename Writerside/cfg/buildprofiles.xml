@@ -27,6 +27,12 @@
         <sidebar-width>210</sidebar-width>
         <resizable-sidebar>false</resizable-sidebar>
         <noindex-content>false</noindex-content>
+        
+        <!-- SEARCH -->
+        <algolia-id>D4DQH8HNXS</algolia-id>
+        <algolia-index>Index</algolia-index>
+        <algolia-api-key>9b075743026abe7303cc2d7477a98193</algolia-api-key>
+        <algolia-show-logo>true</algolia-show-logo>
     </variables>
     
     <footer>

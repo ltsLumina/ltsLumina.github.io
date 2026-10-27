@@ -77,7 +77,8 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
 <title>
 <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
 </title>
-<deflist type="full">
+<tip>Press a step to expand/collapse it.</tip>
+<deflist type="full" collapsible="true" default-state="collapsed">
     <def title="Gunplay &amp; Abilities">
         <p>Designed <b>distinct PvE and PvP gunplay, akin to Destiny and Halo</b>. Achieved by breaking down what makes those games fun and how they implement them.</p>
         <p>Developed the <b>gun logic and all related abilities</b>: <b>shoot</b>, <b>reload</b>, <b>ADS</b>, etc.
@@ -186,8 +187,8 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
 <title>
 <format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
 </title>
-
-<deflist type="full">
+<tip>Press a step to expand/collapse it.</tip>
+<deflist type="full" collapsible="true" default-state="collapsed">
     <def title="Player Movement">
         <p>Designed, prototyped, iterated, and fully developed the movement abilities including <b>dash</b>, <b>grapple</b>, <b>mantle</b>, and more.</p>
         <p>Movement went through <a href="RYFT.md" summary="Read more about each iteration.">half a dozen iterations</a>, built on <a href="https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing" summary="Link to a compilation of all our playtest feedback.">over 25 playtests.</a></p>
@@ -287,7 +288,7 @@ All infringing assets serve only as references during development and will be re
 <secondary-label ref="github"></secondary-label>
 
 <quote>
-<p>
+<p id="i-design-for">
 I design for <b><tooltip term="Bartle's Taxonomy">different player types</tooltip></b> and for how they play together, and I <b>balance intrinsic and extrinsic rewards</b> using <b><tooltip term="Self-Determination Theory">self-determination theory</tooltip>.</b>
 </p>
 
@@ -371,7 +372,7 @@ I design for <b><tooltip term="Bartle's Taxonomy">different player types</toolti
 
 Combat & Tech Designer, Programming.
 
-<deflist type="full">
+<deflist type="full" collapsible="true" default-state="collapsed">
     <def title="3C (Character, Camera, Controls)">
         Designed and implemented the player's camera and controls, tuning the experience for the <a href="https://www.microsoft.com/sv-se/d/xbox-adaptive-controller/8NSDBHZ1N3D8/0002">XBOX adaptive controller</a>, and an audience of ages 4-9. 
     </def>
@@ -454,7 +455,7 @@ Unity, JetBrains Rider, Perforce, Trello, Miro.
 
 Game Designer, Product Owner, Scrum Master, Programmer (C#).
 
-<deflist type="full">
+<deflist type="full" collapsible="true" default-state="collapsed">
     <def title="State Machine">
         Implemented the game state flow for menus, gameplay, and match transitions.
     </def>
@@ -531,7 +532,7 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 
 Game Designer and Associate Programmer (C++).
 
-<deflist type="full">
+<deflist type="full" collapsible="true" default-state="collapsed">
     <def title="Level Design">
         Designed the playable spaces and player flow around the game's time-travel mechanic.
     </def>

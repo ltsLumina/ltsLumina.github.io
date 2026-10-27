@@ -27,16 +27,16 @@ Game Design is fundamentally about <a href="https://youtu.be/HqUbpJUiJFI?si=w4aY
     <step>Iterate on the original design through feedback and evaluation.</step>
 </procedure>
 <p>
-This process closely resembles an <a href="https://wishdesk.com/blog/what-is-iterative-design-approach">iterative design loop.</a>
+This process closely resembles an <tooltip term="Iterative Design Loop">iterative design loop.</tooltip>
 <br/>The goal is to find problems as early and cheaply as possible.
 </p>
 
-<chapter title="Elaboration" level="4" collapsible="true" default-state="expanded" hide-from-structure="true">
-<deflist type="full">
-<def title="1. Consider the Players' Problems" collapsible="true">
-<p>
-I design for <b><tooltip term="Bartle's Taxonomy">different player types</tooltip></b> and for how they play together, and I <b>balance intrinsic and extrinsic rewards</b> using <b><tooltip term="Self-Determination Theory">self-determination theory.</tooltip></b>
-</p>
+<chapter title="Elaboration" level="2" hide-from-structure="true">
+<tip> Press a step to expand/collapse it.</tip>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<def title="1. Consider the Players' Problems">
+
+<include from="Portfolio.md" element-id="i-design-for"/>
 <p>
 Given the player type, I list as many potential interaction problems as I can imagine to give myself a broad overview of what I'm designing.
 This is the first step because it takes the <b>least time and effort</b> – far less than testing each problem in a prototype, for example.
@@ -62,7 +62,7 @@ When that happens, I communicate the issue to the design team, and we debate the
 </p>
 </def>
 
-<def title="3. Account for the Implementation">
+<def title="3. Account for Implementation">
 <p>
 A design is <b>only useful if it can be built in the time available</b>, so I weigh each design against what it would cost to implement.
 My programming background (gameplay and engine/tooling) lets me do this comfortably for the technical side, and I'm familiar enough with art workflows like animation and 3D modelling to judge those fairly as well.
@@ -89,7 +89,7 @@ A prototype is <b>only useful if what it teaches feeds back into the design</b>,
 Each pass irons out kinks and leaves a more polished design, which the team and I iterate on further, starting the cycle anew.
 </p>
 <p>
-This is the <a href="https://wishdesk.com/blog/what-is-iterative-design-approach">iterative design loop</a> from the start of this section. <br/>Repeating it is what <b>keeps problems cheap to find and fix</b>.
+This is the <tooltip term="Iterative Design Loop">iterative design loop</tooltip> from the start of this section. <br/>Repeating it is what <b>keeps problems cheap to find and fix</b>.
 </p>
 </def>
 

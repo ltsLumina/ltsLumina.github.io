@@ -1,7 +1,3 @@
----
-switcher-label: Feature
----
-
 # Angel Project
 
 <primary-label ref="angel"></primary-label>
@@ -14,7 +10,7 @@ switcher-label: Feature
 This project is very early in development, and is very prototype-heavy at the moment. Nothing is final, nor is this page
 complete.
 
-## Guns {switcher-key="Guns"}
+## Guns
 
 Each gun has been recreated to closely mimic the feel and behavior of their counterparts in Valorant.  
 This includes aspects such as recoil patterns, fire and reload speeds, as well as sound and visual effects.  
@@ -52,7 +48,7 @@ Lastly, the system I have built is modular and extensible, allowing for easy add
 This was a design decision I made early on, as I always do, to ensure that my systems are flexible and adaptable to future needs, even if the current project is small in scope.  
 I see this as a valuable learning experience.
 
-## Implementation { switcher-key="Guns" id="implementation_guns" }
+## Implementation { id = "implementation_guns" }
 
 > This section is on the technical side of recreating Valorant's guns. { style = "note" }
 
@@ -143,37 +139,6 @@ For now, that's all there is to the gun implementation.
 As mentioned earlier, this is still a work in progress, and there are many features and improvements that can be made to the system.  
 
 However, I believe this is a solid foundation for recreating Valorant's gun mechanics, and I look forward to continuing to refine and expand upon this system in the future.
-
-## Abilities {switcher-key="Abilities"}
-
-WIP.
-
-## Implementation { switcher-key="Abilities" id="implementation_abilities" }
-
-WIP.
-
-## Agents {switcher-key="Agents"}
-
-WIP.
-
-## Implementation { switcher-key="Agents" id="implementation_agents" }
-
-WIP.
-
-## Buy Phase {switcher-key="Phases"}
-> [Skip to the round phase](#round-phase) { style = "note" }
-
-WIP.
-
-## Implementation { switcher-key="Phases" id="implementation_buy_phase" }
-
-WIP.
-
-## Round Phase {switcher-key="Phases"}
-
-WIP.
-
-## Implementation { switcher-key="Phases" id="implementation_round" }
 
 <seealso style="cards">
     <category ref="credits">
