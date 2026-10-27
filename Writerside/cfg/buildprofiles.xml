@@ -11,7 +11,7 @@
         <webmaster>itsluminas@gmail.com</webmaster>
         
         <!-- FEEDBACK -->
-        <feedback-widget>true</feedback-widget>
+        <feedback-widget>false</feedback-widget>
         <config-feedback-require-email>false</config-feedback-require-email>
         <feedback-recaptcha-enabled>false</feedback-recaptcha-enabled>
         
