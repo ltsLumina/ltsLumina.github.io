@@ -30,7 +30,7 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 </procedure>
 
 <tip>
-For a complete overview of my portfolio, visit the <b><a href="Hub.topic">Hub page.</a></b>
+For a complete overview of my portfolio, visit the <b><a href="Hub.topic" summary="A complete overview of my portfolio, including projects, processes, breakdowns, and more.">Hub page.</a></b>
 </tip>
 
 ---
@@ -250,7 +250,7 @@ Unreal Engine 5.8, JetBrains Rider, Visual Studio Code, Diversion, Trello.
 
 <quote>
 <p>A work-in-progress clone of Valorant.</p> 
-<p>This project demonstrates my proficiency in <b>Gun & Ability Systems</b>, and <b><a href="https://angelscript.hazelight.se">Angelscript</a></b>.</p>
+<p>This project demonstrates my proficiency in <b>Gun & Ability Systems</b>, and <tooltip term="Angelscript">Angelscript</tooltip>.</p>
 </quote>
 <warning>Work-in-Progress!</warning>
 
