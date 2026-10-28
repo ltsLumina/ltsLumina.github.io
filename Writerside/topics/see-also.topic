@@ -11,8 +11,11 @@
         <category ref="angel">
             <a href="%topic%" summary="%topic-summary%"/>
         </category>
+        <category ref="hub">
+            <a href="Hub.topic" summary="An overview of my Portfolio."/>
+        </category>
         <category ref="design-process">
-            <a href="Prototyping.md" summary="A breakdown of my thought process."/>
+            <a href="Prototyping.md" summary="A breakdown of my process."/>
         </category>
         <category ref="credits">
             <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
@@ -37,8 +40,11 @@
 
     <snippet id="see-also-defaults">
         <seealso style="cards">
+            <category ref="hub">
+                <a href="Hub.topic" summary="An overview of my Portfolio."/>
+            </category>
             <category ref="design-process">
-                <a href="Prototyping.md" summary="A breakdown of my thought process."/>
+                <a href="Prototyping.md" summary="A breakdown of my process."/>
             </category>
             <category ref="credits">
                 <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>

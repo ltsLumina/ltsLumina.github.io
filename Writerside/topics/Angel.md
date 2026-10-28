@@ -1,3 +1,5 @@
+<include from="see-also.topic" element-id="see-also-defaults"/>
+
 # Angel Project
 
 <primary-label ref="angel"></primary-label>
@@ -139,9 +141,3 @@ For now, that's all there is to the gun implementation.
 As mentioned earlier, this is still a work in progress, and there are many features and improvements that can be made to the system.  
 
 However, I believe this is a solid foundation for recreating Valorant's gun mechanics, and I look forward to continuing to refine and expand upon this system in the future.
-
-<seealso style="cards">
-    <category ref="credits">
-        <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
-    </category>
-</seealso>

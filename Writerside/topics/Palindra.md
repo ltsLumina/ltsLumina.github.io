@@ -1,3 +1,5 @@
+<include from="see-also.topic" element-id="see-also-defaults"></include>
+
 ---
 switcher-label: Puzzle
 ---
@@ -112,9 +114,3 @@ I was not responsible for coding the fireplace puzzle, but I did design the puzz
 ## Painting Puzzle {switcher-key="Paintings"}
 
 This section is not available yet - coming soon!
-
-<seealso style="cards">
-    <category ref="credits">
-        <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
-    </category>
-</seealso>

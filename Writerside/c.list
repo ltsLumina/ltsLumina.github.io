@@ -6,6 +6,7 @@
     <category id="fate" name="FATE" order="1"/>
     <category id="ryft" name="RYFT" order="1"/>
     <category id="prototyping" name="Prototyping Course" order="1"/>
-    <category id="design-process" name="Design Process" order="2"/>
-    <category id="credits" name="Credits" order="3"/>
+    <category id="hub" name="Hub" order="2"/>
+    <category id="design-process" name="Design Process" order="3"/>
+    <category id="credits" name="Credits" order="4"/>
 </categories>

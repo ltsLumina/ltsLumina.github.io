@@ -1,4 +1,4 @@
-<show-structure for="chapter,procedure" depth="0"></show-structure>
+<include from="see-also.topic" element-id="see-also-defaults"/>
 
 # Neon Rivalry
 <primary-label ref="neon-rivalry"></primary-label>
@@ -22,9 +22,3 @@ mentality, I have become a natural leader who emphasizes communication (especial
 <img src="nr3.png" alt="" width="600" thumbnail="true" style="block"/>
 <img src="nr4.png" alt="" width="600" thumbnail="true" style="block"/>
 <img src="nr5.png" alt="" width="600" thumbnail="true" style="block"/>
-
-<seealso style="cards">
-    <category ref="credits">
-        <a href="Credits.md" summary="Contact info for all my current and former colleagues."/>
-    </category>
-</seealso>
