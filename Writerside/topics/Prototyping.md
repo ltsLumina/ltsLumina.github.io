@@ -273,9 +273,9 @@ iterate, and polish it with playtest feedback.
 </chapter>
 <chapter title="Links" hide-from-structure="true">
 <p>
-[Zipper.cs | Update ()](https://gist.github.com/ltsLumina/2e44ae880536ec335c62e398ac34bc03) - The main function for grappling. Horribly coded, and all in Update (), but it works,
+<a href="https://gist.github.com/ltsLumina/2e44ae880536ec335c62e398ac34bc03">Zipper.cs | Update()</a> - The main function for grappling. Horribly coded, and all in Update (), but it works,
 and it only took 2.5 minutes to make.  
-[Dash Logic and some Audio | Update ()](https://gist.github.com/ltsLumina/55a63627dfe3f4f5e1b8d724a1f5c875) - Another example of terrible coding practices, but it doesn’t matter
+<br/><a href="https://gist.github.com/ltsLumina/55a63627dfe3f4f5e1b8d724a1f5c875">Dash Logic and some Audio | Update ()</a> - Another example of terrible coding practices, but it doesn’t matter
 because it’s for a prototype, and therefore only took a few minutes to implement into a playable state. There’s even some leftover code from when
 crouching was a thing.
 </p>
