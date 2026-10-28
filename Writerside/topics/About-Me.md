@@ -1,40 +1,22 @@
 # About Me
 <primary-label ref="lum"></primary-label>
-<secondary-label ref="age"></secondary-label>
 <secondary-label ref="ethnicity"></secondary-label>
 <secondary-label ref="game-designer"></secondary-label>
 <secondary-label ref="in"></secondary-label>
 <secondary-label ref="location"></secondary-label>
 
-<table width="900">
-  <tr>
-    <td style="vertical-align: top;">
-      <img src="polaroid profile picture.png" width="300" alt="Me!" border-effect="rounded"/>
-    </td>
-    <td style="vertical-align: top; padding-left: 1rem;">
+
+<tldr>
 <p>
-Hello, I'm Alexander "<b>Lum</b>" Andrejeff.
+<img src="polaroid profile picture.png" width="325" alt="Me!" border-effect="rounded" style="inline"/>
+&nbsp;
+Hello! I'm Alexander "<b>Lum</b>" Andrejeff.
 </p>
-
-<p>&nbsp;</p>
-
-<p>
-I also go by Alexander <b>Seguin</b> as a pen name, in respect to my mother and grandmother.
-</p>
-
-<p>&nbsp;</p>
-
-<p>
-I am a Technical Designer, with a background in game programming, in part thanks to my education at LBS (High School), and Futuregames Malmö.  
-Although I have an education in programming, I am mostly self-taught.
-</p>
-    </td>
-  </tr>
-</table>
+</tldr>
 
 ## Who am I?
 
-I'm a Swedish-_born_ **Finnish-Canadian**, with an unmatched dedication and drive to **learn**, **improve**, **teach**, and **create**. I have a growth mindset, which pushes me to iterate on existing skills, and to always be willing to learn new things.  
+I'm a Swedish-_born_ **Finnish-Canadian**, with an unmatched dedication and drive to **learn**, **improve**, **teach**, and **create**. I have a growth mindset, which pushes me to iterate on existing skills and to always be willing to learn new things.  
 
 In my spare time I like to work on personal projects, spend time with friends and family, listen to music (Linkin Park), and teach whatever I can to those around me.
 
@@ -48,7 +30,7 @@ I am very often walking around the campus, socializing with the other discipline
 
 ## Why do I make games, and for whom do I make them?
 
-> [Mats "Ibelin" Steen](https://en.wikipedia.org/wiki/The_Remarkable_Life_of_Ibelin)
+> [Mats "Ibelin" Steen](https://en.wikipedia.org/wiki/The_Remarkable_Life_of_Ibelin) {style=quote}
 
 Games are a medium unlike any other, providing people of all kinds with a place to feel accepted and build friendships and
 communities, regardless of disability, sexual orientation, gender identity, race, ethnicity, religion, or age.
@@ -57,7 +39,7 @@ A man who was unable to live a regular life due to a condition he was born with,
 fulfilling life through World of Warcraft, experiencing friendship, love, and all other kinds of experiences and
 feelings he otherwise could not.
 
-This is why I make games -- to provide those people who need them most with an outlet to connect.
+This is why I make games – to provide those people who need them most with an outlet to connect.
 
 The primary reason why Riot Games is so appealing to me is because of the unmatched outreach and sheer number of people
 that their games reach and affect every day.  

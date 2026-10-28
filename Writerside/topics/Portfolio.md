@@ -23,10 +23,14 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>St
 <p>I bring a <b><a href="Prototyping.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying together engineers, gameplay programmers, and designers.</p>
 </quote>
 
-<tip>
+<procedure>
 <p>Reach out on <a href="https://www.linkedin.com/in/itslumina/">LinkedIn</a> or email me at: <a href="mailto:itsluminas@gmail.com">itsluminas@gmail.com</a>  
 <br/>
-View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.be/1d3kRUk4NzA">Showreel</a>, or read more <a href="About-Me.md"></a>.</p>
+View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.be/1d3kRUk4NzA">Showreel</a>, or read more <b><a href="About-Me.md">About Me.</a></b></p>
+</procedure>
+
+<tip>
+For a complete overview of my portfolio, visit the <b><a href="Hub.topic">Hub page.</a></b>
 </tip>
 
 ---

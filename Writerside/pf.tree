@@ -23,6 +23,7 @@
     </toc-element>
     
     <toc-element topic="About-Me.md"/>
+    <toc-element topic="Career.topic" hidden="true" wip="true"/>
     <toc-element topic="Credits.md"/>
 
     <!-- HIDDEN -->

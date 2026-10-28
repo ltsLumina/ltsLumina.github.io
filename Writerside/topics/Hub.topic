@@ -19,7 +19,7 @@
 
         <primary>
             <title>Projects</title>
-            <card href="Portfolio.md#fate" image="8man-chaos-fate.gif" summary="Online multiplayer raid-like project built in Unreal Engine 5.">FATE</card>
+            <card href="Portfolio.md#fate" image="8man-chaos-fate.gif" summary="Online multiplayer 'raid-like' with emphasis on gunplay and collaboration.">FATE</card>
             <card href="Portfolio.md#ryft" image="ryft_thrash_fast.gif" summary="First-person parkour speedgame set in a retro synthwave world.">RYFT</card>
             <card href="Portfolio.md#angel" image="../videos/angel_project_wip-gif.gif" summary="Work-in-progress Valorant-inspired project demonstrating gun and ability systems.">Angel</card>
             <card href="Portfolio.md#somnium" image="../videos/somnium-trailer.gif" summary="Award-winning retro-inspired first-person dungeon crawler.">Somnium</card>
