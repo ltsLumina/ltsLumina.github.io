@@ -20,7 +20,7 @@
     
     <toc-element toc-title="Process">
         <toc-element topic="Prototyping.md"/>
-        <toc-element topic="GAS-Architecture.md" wip="true"/>
+        <toc-element toc-title="GAS Architecture" wip="true"/>
     </toc-element>
     
     <toc-element toc-title="Information">
@@ -30,4 +30,5 @@
 
     <!-- HIDDEN -->
     <toc-element topic="Professional-Projects.md" hidden="true"/>
+    <toc-element topic="GAS-Architecture.md" hidden="true"/>
 </instance-profile>

@@ -1,3 +1,10 @@
+<include from="see-also.topic" element-id="see-also-2params">
+    <var name="topic1" value="FATE.md"/>
+    <var name="topic1-summary" value="We got a healthier work environment as a result of step 3."/>
+    <var name="topic2" value="RYFT.md"/>
+    <var name="topic2-summary" value="We added more content because I gave reliable estimates."/>
+</include>
+
 # Design Process
 <primary-label ref="lum"></primary-label>
 
@@ -69,7 +76,7 @@ My programming background (gameplay and engine/tooling) lets me do this comforta
 </p>
 <p>
 Because I know the time, tools, and effort it takes to develop something, I can give <b>reliable time and difficulty estimates</b>.
-This benefits the whole team through less stress and less crunch, and it has held up in group projects such as <a href="FATE.md" summary="In FATE, a result of this step was a healthier work environment."/> and <a href="RYFT.md" summary="In RYFT, we were able to add more content because I was confident I could create the systems in time."/> (hover the links for examples)
+This benefits the whole team through less stress and less crunch, and it has held up in group projects such as <tooltip term="FATE-Example">FATE</tooltip> and <tooltip term="RYFT-Example">RYFT</tooltip> (hover/tap for examples)
 </p>
 </def>
 

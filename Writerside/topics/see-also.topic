@@ -20,6 +20,21 @@
     </seealso>
     </snippet>
 
+    <snippet id="see-also-2params">
+        <var name="topic1"/>
+        <var name="topic1-summary"/> 
+        <var name="topic2"/>
+        <var name="topic2-summary"/>
+        <seealso style="cards">
+            <category ref="angel">
+                <a href="%topic1%" summary="%topic1-summary%"/>
+            </category>
+            <category ref="angel">
+                <a href="%topic2%" summary="%topic2-summary%"/>
+            </category>
+        </seealso>
+    </snippet>
+
     <snippet id="see-also-defaults">
         <seealso style="cards">
             <category ref="design-process">
