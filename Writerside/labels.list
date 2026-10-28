@@ -51,6 +51,12 @@
         My Skills
     </primary-label>
 
+    <!-- Colour Labels -->
+
+    <primary-label id="black" color="black" name="" short-name=""/>
+    <primary-label id="yellow" color="yellow" name="" short-name=""/>
+    <primary-label id="purple" color="purple" name="" short-name=""/>
+
     <!-- Secondary Labels -->
     
     <secondary-label id="futuregames" name="Futuregames" color="red">

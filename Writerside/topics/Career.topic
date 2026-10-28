@@ -12,8 +12,8 @@
         </description>
         
         <spotlight>
-            <card href="Portfolio.md" badge="academy" summary="A look at my rookie portfolio.">Rookie</card>
-            <card href="Portfolio.md" badge="world" summary="Professional projects I've been part of.">Professional</card>
+            <card href="Portfolio.md" image="portfolio-embed.png" summary="A look at my rookie portfolio.">Rookie</card>
+            <card href="Professional-Projects.md" image="professional-career.png" summary="Professional projects I've been part of.">Professional</card>
         </spotlight>
         
     </section-starting-page>

@@ -8,6 +8,7 @@
     
     <toc-element topic="Hub.topic"/>
     <toc-element topic="Portfolio.md"/>
+    <toc-element topic="About-Me.md"/>
         <toc-element toc-title="Breakdowns">
         <toc-element topic="FATE.md"/>
         <toc-element topic="RYFT.md"/>
@@ -22,10 +23,11 @@
         <toc-element topic="GAS-Architecture.md" wip="true"/>
     </toc-element>
     
-    <toc-element topic="About-Me.md"/>
-    <toc-element topic="Career.topic" hidden="true" wip="true"/>
-    <toc-element topic="Credits.md"/>
+    <toc-element toc-title="Information">
+        <toc-element topic="Career.topic"/>
+        <toc-element topic="Credits.md"/>
+    </toc-element>
 
     <!-- HIDDEN -->
-    
+    <toc-element topic="Professional-Projects.md" hidden="true"/>
 </instance-profile>
