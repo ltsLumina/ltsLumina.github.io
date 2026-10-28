@@ -23,7 +23,7 @@
         <toc-element toc-title="GAS Architecture" wip="true"/>
     </toc-element>
     
-    <toc-element toc-title="Information">
+    <toc-element toc-title="About">
         <toc-element topic="Career.topic"/>
         <toc-element topic="Credits.md"/>
     </toc-element>
