@@ -6,8 +6,8 @@
                   name="Alexander Andrejeff"
                   start-page="Portfolio.topic">
     
-    <toc-element topic="Portfolio.topic" accepts-web-file-names="Overview.html"/>
-    <toc-element topic="Project-Summaries.md" accepts-web-file-names="Project-Summaries.md"/>
+    <toc-element topic="Portfolio.topic"/>
+    <toc-element topic="Project-Summaries.md" accepts-web-file-names="Project-Summaries.html"/>
     <toc-element topic="About-Me.md"/>
         <toc-element toc-title="Breakdowns">
         <toc-element topic="FATE.md"/>
@@ -19,6 +19,7 @@
         </toc-element>
     
     <toc-element toc-title="Process">
+        <toc-element topic="Skills-and-Process.md"/>
         <toc-element topic="Design-Process.md"/>
         <toc-element toc-title="GAS Architecture" wip="true"/>
     </toc-element>

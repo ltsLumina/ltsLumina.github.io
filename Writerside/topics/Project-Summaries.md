@@ -11,12 +11,11 @@ Summaries
 <secondary-label ref="c#"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
-<secondary-label ref="jira"></secondary-label>
 <secondary-label ref="p4"></secondary-label>
 <secondary-label ref="github"></secondary-label>
 
 <tldr>
-This page provides short project summaries of my responsibilities, tools used, game info, and more.
+This page provides short summaries of my projects, responsibilities, tools, and game information.
 </tldr>
 
 ## FATE
@@ -80,7 +79,7 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
         <br/>
         <p><a href="FATE.md#guns-and-heroes">Read more about their design and implementation here.</a></p>
     </def>
-    <def title="Enchantments (upgrades)">
+    <def title="Enchantments (upgrades)" id="enchantments">
         <p>Designed and implemented <b>'enchantments' (rogue-lite upgrades)</b>. The design of each was catered toward each hero's playstyle, including some that were <b>unique</b> to each hero.</p>
         <p>Each enchantment is a GameplayAbility granted upon picking up the enchantment orb. <br/>The ability auto-activates when granted, executing its logic (stat buffs, VFX/SFX, deal damage, etc.) </p>
         <p>A non-exhaustive list <a href="https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing">can be viewed here.</a></p>
@@ -256,58 +255,6 @@ All infringing assets serve only as references during development and will be re
 </table>
 
 <a href="Angel.md" as="button" mode="classic" icon="info">Read about the Implementation</a>
-
----
-
-## Skills & Process { id="skills-and-process" }
-
-<primary-label ref="skills"></primary-label>
-<secondary-label ref="c#"></secondary-label>
-<secondary-label ref="c++"></secondary-label>
-<secondary-label ref="blueprint"></secondary-label>
-<secondary-label ref="angelscript"></secondary-label>
-<secondary-label ref="java"></secondary-label>
-<secondary-label ref="blank"></secondary-label>
-<secondary-label ref="jira"></secondary-label>
-<secondary-label ref="miro"></secondary-label>
-<secondary-label ref="ms-office"></secondary-label>
-<secondary-label ref="maya"></secondary-label>
-<secondary-label ref="p4"></secondary-label>
-<secondary-label ref="github"></secondary-label>
-
-<quote>
-<p id="i-design-for">
-I design for <b><tooltip term="Bartle's Taxonomy">different player types</tooltip></b> and for how they play together, and I <b>balance intrinsic and extrinsic rewards</b> using <b><tooltip term="Self-Determination Theory">self-determination theory</tooltip>.</b>
-</p>
-
-<p>• Experienced in <b>C#</b>, <b>Blueprint</b>, and <b><tooltip term="Angelscript">Angelscript</tooltip></b>, with limited experience in <b>C++</b> and <b>Java</b>.</p>
-
-<p>• Well-versed in Unreal's <b><a href="GAS-Architecture.md">Gameplay Ability System</a></b> (GAS), <b>data-driven development</b>, <b>complex systems</b>, and making <b>networked multiplayer</b> games using <b>replication</b>.</p>
-
-<p>• <b>Rapid prototyping</b>, <b>iteration</b>, and <b>ownership</b> of <b>gameplay mechanics and systems</b>, <a href="https://github.com/Hazelight/UnrealEngine-Angelscript/commits?author=ltsLumina" summary="Contribution page of Hazelight/UnrealEngine-Angelscript. Link may 404 if you are not signed in to an 'Epic Games'-linked account.">engine divergences</a>, and tooling.</p>
-</quote>
-<a href="Prototyping.md" as="button" mode="classic" icon="pen">View my design process</a>
-<a href="GAS-Architecture.md" as="button" mode="classic" icon="projects">View my GAS Architecture</a>
-
-<chapter title="Tools &amp; Software" collapsible="true" default-state="collapsed" level="4">
-<list columns="3">
-<li><p>Markdown</p></li>
-<li><p>GitHub (CI/CD)</p></li>
-<li><p>Machinations</p></li>
-<li><p>XML</p></li>
-<li><p>Perforce</p></li>
-<li><p>Miro</p></li>
-<li><p>Visual Studio Code</p></li>
-<li><p>JIRA</p></li>
-<li><p>Figma</p></li>
-<li><p>JetBrains Rider</p></li>
-<li><p>Slack</p></li>
-<li><p>Notion</p></li>
-<li><p>Autodesk Maya</p></li>
-<li><p>Trello</p></li>
-<li><p>Lucidchart</p></li>
-</list>
-</chapter>
 
 ---
 

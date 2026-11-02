@@ -44,7 +44,7 @@ This process closely resembles an <tooltip term="Iterative Design Loop">iterativ
 <deflist type="full" collapsible="true" default-state="collapsed">
 <def title="1. Consider the Players' Problems">
 
-<include from="Project-Summaries.md" element-id="i-design-for"/>
+<include from="Skills-and-Process.md" element-id="i-design-for"/>
 <p>
 Given the player type, I list as many potential interaction problems as I can imagine to give myself a broad overview of what I'm designing.
 This is the first step because it takes the <b>least time and effort</b> – far less than testing each problem in a prototype, for example.

@@ -25,9 +25,9 @@
         </primary>
 
         <secondary>
-            <title>Information</title>
+            <title>Process</title>
+            <card href="Skills-and-Process.md" image="skills-and-process-embed.png" summary="Overview of my skills, tools, and development process.">Skills and Process</card>
             <card href="Design-Process.md" image="design-process.png" summary="My iterative approach to designing, prototyping, and solving problems.">Design Process</card>
-            <card href="Project-Summaries.md" image="summaries-embed.png" summary="Summaries of projects, responsibilities, skills, and process.">Project Summaries</card>
         </secondary>
 
         <misc>

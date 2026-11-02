@@ -9,18 +9,19 @@
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="group"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
-<secondary-label ref="multiplayer"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
+<secondary-label ref="miro"></secondary-label>
+<secondary-label ref="figma"></secondary-label>
 
 <tldr>
     <p>
-        FATE is a <b>love-letter to Destiny (2)</b>, and an attempt at creating a <b>new genre ("Raid-like")</b>.
-        <br/>Our combined efforts across <b>7 weeks</b> brought us a game we were overjoyed to see others play.
+        FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("Raid-like")</b>.
+        <br/>Across <b>7 weeks</b>, our combined efforts produced a game we were overjoyed to see others play.
     </p>
 <quote>
 <p>
-Additionally, FATE's technical implementation is my most ambitious project, stretching <b>15,000+ lines of code</b> across <b><tooltip term="Angelscript" id="angelscript">Angelscript</tooltip> and C++</b>, with over <b>300</b> hours spent coding.
+Additionally, FATE's technical implementation is my most ambitious project: <b>15,000+ lines of code</b> across <b><tooltip term="Angelscript" id="angelscript">Angelscript</tooltip> and C++</b>, with over <b>300</b> coding hours.
 </p>
 <img src="FATE-as-metrics.png" alt="FATE Angelscript metrics" style:="block"/>
 <img src="FATE-cpp-metrics.png" alt="FATE C++ metrics" style:="block"/>
@@ -30,27 +31,26 @@ Additionally, FATE's technical implementation is my most ambitious project, stre
 <chapter title="Design direction" id="design-direction">
     <p>
         FATE is a Destiny-inspired <b><tooltip term="Rogue-lite" id="rogue-lite">rogue-lite</tooltip> FPS puzzle
-        game</b> about collaborating with up to two friends in encounter-based levels. Players must solve puzzle
-        mechanics while repeatedly-spawning enemies create <b>constant pressure</b>. The goal was to capture the
-        communication, coordination, and combat tension of a traditional Destiny raid in a smaller experience.
+        game</b> about collaborating with up to two friends in encounter-based levels. Players solve puzzles while
+        repeatedly-spawning enemies create <b>constant pressure</b>, capturing the communication, coordination, and
+        combat tension of a traditional Destiny raid in a smaller experience.
     </p>
 <procedure>
     <p>The design was guided by three pillars:</p>
     <list>
         <li>
-            <b>Collaborative:</b> Each encounter requires at least two players to complete without debug tools.
-            This was an intentional constraint: players should have to <b>communicate and solve problems
-            together</b> while enemy combatants threaten to overwhelm them.
+            <b>Collaborative:</b> Each encounter requires at least two players without debug tools. Players must
+            <b>communicate and solve problems together</b> while enemy combatants threaten to overwhelm them.
         </li>
         <li>
-            <b>Great gunplay:</b> A Bungie-inspired game needed responsive, meaty, and distinctive weapons.
-            Bullet magnetism makes shots feel responsive, hit VFX and SFX give them impact, and three heroes with
-            different guns and playstyles make the combat uniquely interesting and rewarding.
+            <b>Great gunplay:</b> A Bungie-inspired game needed responsive, meaty, distinctive weapons. Bullet
+            magnetism makes shots feel responsive, hit VFX and SFX add impact, and three heroes with different guns
+            and playstyles make combat interesting and rewarding.
         </li>
         <li>
-            <b>Environmental:</b> We had a limited art budget, so the level itself had to carry much of the
-            storytelling and guidance. The environment needed to <b>lead players through the level</b> and
-            communicate puzzle solutions clearly without making them obvious.
+            <b>Environmental:</b> With a limited art budget, the level had to carry much of the storytelling and
+            guidance, <b>leading players through the level</b> and communicating puzzle solutions without making them
+            obvious.
         </li>
     </list>
 </procedure>
@@ -60,52 +60,44 @@ Additionally, FATE's technical implementation is my most ambitious project, stre
 <tab title="GunComponent" id="implementation">
     <chapter title="GunComponent" id="gun-component">
     <tldr>
-        The up-to-date files are hosted on a private repository, so snippets are dated to August 3rd 2026.
+        The up-to-date files are private, so snippets date to August 3rd 2026.
     </tldr>
 <img src="fate-pvp.gif" thumbnail="true" alt="PvP Footage" width="400"/>
         <p>
-            I designed and implemented the GunComponent, which is a pillar of the project: <b>every shot a player
-            fires goes through it</b>. FATE's weapons are <b><tooltip term="Hitscan" id="hitscan">hitscan</tooltip></b>,
-            so there are no projectiles to simulate. Instead, the component answers a handful of questions every
-            time the trigger is pulled:
+            I designed and implemented the GunComponent, a project pillar: <b>every shot a player fires goes through
+            it</b>. FATE's weapons are <b><tooltip term="Hitscan" id="hitscan">hitscan</tooltip></b>, so there are
+            no projectiles to simulate. The component answers four questions per trigger pull:
         </p>
         <list>
             <li>
-                <b>May this shot fire?</b> It checks the fire rate, the fire mode (semi, burst or auto), ammo,
-                and the shot cooldown.
+                <b>May this shot fire?</b> It checks fire rate, fire mode (semi, burst or auto), ammo, and cooldown.
             </li>
             <li>
-                <b>Where does the bullet go?</b> It calculates the final direction of the shot. It starts from
-                where the player is aiming, widens or tightens the spread depending on movement and how long
-                they have been firing, and then nudges near-misses toward a nearby target with bullet-magnetism.
+                <b>Where does the bullet go?</b> It starts from the player's aim, adjusts spread for movement and
+                firing duration, then nudges near-misses toward a nearby target with bullet-magnetism.
             </li>
             <li>
-                <b>What did it hit?</b> It traces that final direction, hands the hit to the damage pipeline,
-                and plays tracer and impact effects for every player.
+                <b>What did it hit?</b> It traces that direction, sends the hit through the damage pipeline, and
+                plays tracer and impact effects for every player.
             </li>
             <li>
-                <b>How should it feel?</b> It kicks the player's view with recoil and eases it back again, and
-                handles aim-down-sights zoom.
+                <b>How should it feel?</b> It applies recoil, eases the view back, and handles aim-down-sights zoom.
             </li>
         </list>
         <p>
-            That is a lot for a single component, and it is a direct result of our time constraints. We had a great
-            deal to develop, which left little to no time for abstraction and refactoring, so new behaviour mostly
-            went into the component that already owned shooting. <b>It's something I learned from:</b> on bigger
-            projects I now take into account that I may need to refactor and design my implementation around that
-            from the start.
+            This is a lot for one component, a direct result of our time constraints. With little time for
+            abstraction or refactoring, new behaviour went into the component that already owned shooting.
+            <b>It's something I learned from:</b> on larger projects I now design for likely refactoring from the start.
         </p>
         <p>
-            Values like spread, recoil, aim-assist, and fire rate are data rather than code, so each gun and hero
-            can be tuned on its own. The rest of this section covers the parts that shape <b>how shooting feels
-            the most</b>, and the thinking behind each of them.
+            Spread, recoil, aim-assist, and fire rate are data rather than code, so each gun and hero can be tuned
+            independently. The rest of this section covers what most shapes <b>how shooting feels</b>, and why.
         </p>
 <procedure>
         <deflist type="full" collapsible="true" default-state="collapsed">
         <def title="Following one shot" id="one-shot">
             <p>
-                When the player fires, <code>Fire()</code> builds the bullet's final direction in four steps, each
-                one building on the last:
+                When the player fires, <code>Fire()</code> builds the bullet's final direction in four steps:
             </p>
             <list type="decimal">
                 <li>The exact point in space the player was aiming at.</li>
@@ -123,35 +115,33 @@ Additionally, FATE's technical implementation is my most ambitious project, stre
      </def>
      <def title="Bullet magnetism" id="bullet-magnetism">
          <p>
-             Bullet magnetism bends a shot that would have narrowly missed toward a target the player was aiming
-             near, so near-misses are more likely to hit. I added it because it is one of the foundational parts
-             of Bungie shooters, and a big reason shooting in Halo, Destiny and Marathon feels so snappy and
-             responsive. FATE is a Destiny-inspired game, so it needed to feel that way.
+             Bullet magnetism bends a near-miss toward a nearby target, making it more likely to hit. I added it
+             because it is foundational to Bungie shooters and helps Halo, Destiny, and Marathon feel responsive.
+             FATE needed the same feel.
          </p>
          <p>
-             The tension I designed around is that <b>accuracy should still matter, but a near-miss should not feel
-             needlessly brittle</b>. Small aiming errors are common during movement, recoil, and hectic encounters,
-             so I wanted the system to preserve what the player was trying to do while still rewarding them for
-             aiming near the target. The player still has to aim in the right direction; the system simply makes
-             the edge of that accuracy more forgiving.
+             The goal is that <b>accuracy should still matter, but a near-miss should not feel needlessly brittle</b>.
+             Movement, recoil, and hectic encounters cause small errors, so the system preserves the player's intent
+             while rewarding aim near the target. The player must still aim in the right direction.
          </p>
          <p>
-             Studying how Destiny's (and Marathon's) shooting is designed helped enormously. Two videos were instrumental in learning how it works:
+             Studying Destiny's and Marathon's shooting helped enormously. Two videos were instrumental:
              <br/>• <a href="https://www.youtube.com/watch?v=qrJv7mj7Ab4">Accuracy, Aim Assist &amp; Range Explained In-Depth</a> by Drewsky
              <br/>• <a href="https://www.youtube.com/watch?v=LTVi3owxttc">How Aim Assist & Accuracy REALLY Work in Marathon</a> by CoolGuy
          </p>
          <p>
-             To implement it, each shot sweeps a capsule trace along the line the player is aiming. The capsule's
-             radius comes from the weapon's aim-assist angle (<code>tan(angle) × distance</code>), so the
-             forgiveness is the same angular amount whether the target is close or far away. This decision was
-             because our levels are large and open, and punishing shooting at targets at a distance didn't feel
-             great. The same principle applies to why we don't use any damage-or-bullet falloff.</p>
+             Each shot sweeps a capsule along the player's aim. Its radius comes from the weapon's aim-assist angle
+             (<code>tan(angle) × distance</code>), keeping forgiveness angularly consistent at any range. Our levels
+             are large and open, so punishing distant targets felt bad; the same principle explains why we use no
+             damage-or-bullet falloff.</p>
 
 <p>
-If the capsule finds a target, the spread direction is pulled toward the point it hit on that target, by at most that many degrees. Because the pull is capped by an angle instead of snapping to the target, aiming still matters.
+If the capsule finds a target, the spread direction is pulled toward its hit point by at most that angle. Because
+the pull is capped rather than snapping to the target, aiming still matters.
 </p>
 <p>
-There is one exception: if the shot's spread trace already lands on a precision hit (a head), magnetism is skipped. It can never pull a shot away from a headshot the player already earned – a bug we discovered during testing.
+There is one exception: if the spread trace already lands on a precision hit (a head), magnetism is skipped. It
+cannot pull a shot away from an earned headshot, a bug discovered during testing.
 </p>
 &nbsp;
 <code-block lang="c#" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - bullet magnetism (capsule sweep and pull)" emphasize-lines="3,19,27-39,60,66-67" src="../resources/GunComponent.as" include-lines="502-510,512-549,572-604"/>
@@ -160,26 +150,21 @@ There is one exception: if the shot's spread trace already lands on a precision 
 <def title="Click to view a visualization in-engine" id="bullet-magnetism-visualization">
     <img src="../videos/bullet-magnetism-visualization.gif" alt="Bullet Magnetism" width="800" thumbnail="true" style:="block"/>
                <p>
-                   Although I'm clearly aiming at the target closest to the wall, the bullet is pulled toward the
-                   closer target.
-                   <br/>
-                   This is because the bullet-magnetism capsule trace detected the closer target, and pulled the
-                   bullet toward it.
+                   Although I'm aiming at the target closest to the wall, the bullet is pulled toward the closer
+                   target because the bullet-magnetism capsule trace detected it.
                </p>
                <img src="magnetism_img1-fix.png" alt="Bullet Magnetism" width="600" thumbnail="true" style:="block"/>
                <p>
-                   The dark blue line/capsule trace represents the exact point you were aiming at,
-                   <br/>
-                   and the light blue line represents the path the final calculated bullet took.
+                   The dark blue line/capsule trace is the exact aim point; the light blue line is the final bullet
+                   path.
                </p>
                <img src="magnetism_img2-fix.png" alt="Bullet Magnetism" width="600" thumbnail="true" style:="block"/>
                <p>
-                   Although it looks like the furthest target was hit by the trace, the bullet stopped when it hit
-                   the closer target.
+                   Although the trace appears to hit the furthest target, the bullet stopped at the closer target.
                </p>
                <p>
-                   While it wasn't how I learned how it works, the video <a href="https://www.youtube.com/watch?v=yv3lRNAxA0o">"How Halo's Aim Assist ACTUALLY works"</a>
-                   showcases how it works perfectly:
+                   The video <a href="https://www.youtube.com/watch?v=yv3lRNAxA0o">"How Halo's Aim Assist ACTUALLY works"</a>
+                   showcases the system clearly:
                </p>
                <video src="https://www.youtube.com/watch?v=yv3lRNAxA0o" muted="true"/>
            </def>
@@ -187,40 +172,32 @@ There is one exception: if the shot's spread trace already lands on a precision 
        </def>
        <def title="Movement spread" id="movement-spread">
            <p>
-               Spread is the cone a bullet can land in, and <code>GetSpread()</code> decides how wide that cone is
-               for every shot. It builds up across the magazine along a per-weapon curve, gets a flat penalty on top
-               while the player is running or airborne, and starts out tighter when aiming down sights. The first
-               shots after pausing are 'protected' and get an even tighter cone, which <b>rewards pausing between
-               engagements</b>.
+               Spread is the cone a bullet can land in; <code>GetSpread()</code> sets its width per shot. It builds
+               across the magazine along a per-weapon curve, adds a running or airborne penalty, and starts tighter
+               while aiming down sights. The first shots after pausing are 'protected' and tighter, <b>rewarding
+               pauses between engagements</b>.
            </p>
            <p>
-               Movement-spread was originally much more punishing. It came over from <a href="Angel.md">the Angel project</a>, which is a
-               tactical FPS, where you must stand completely still for the best accuracy. FATE is an action FPS
-               like Destiny, so I adjusted it multiple times over the course of the project. In a tactical FPS,
-               accuracy is more binary: standing still is the requirement for a precise shot, while moving should
-               apply a clear penalty. In an action FPS, bloom should feel like a natural reaction to firing, not a
-               yes-or-no condition for whether a gun is accurate.
+               Movement-spread was originally more punishing, inherited from <a href="Angel.md">the Angel project</a>,
+               a tactical FPS where precision requires standing still. FATE is an action FPS like Destiny, so I
+               adjusted it repeatedly. Tactical accuracy is binary; action-FPS bloom should naturally react to
+               firing rather than decide whether a gun is accurate.
            </p>
            <p>
-               That is why <code>GetSpread()</code> increments spread across a magazine instead of simply setting it
-               to a movement penalty. The early version used a binary penalty, and the result was that moving made
-               guns feel totally inaccurate even on their first bullet. The current approach lets a moving player
-               remain reasonably accurate at the start of an engagement, while <b>rapid fire naturally widens the
-               bloom</b> over the course of the magazine.
+               Thus <code>GetSpread()</code> increments spread across a magazine instead of simply applying a movement
+               penalty. The binary early version made even the first moving shot inaccurate. The current approach
+               keeps the start of an engagement accurate while <b>rapid fire naturally widens the bloom</b>.
            </p>
            <p>
-               The movement penalty is tuned per gun and hero to fit their player fantasy. Bastion has a bigger
-               movement-spread penalty than, say, Hawkmoon, because the fantasy is a less mobile, spray-and-pray
-               frontliner. Bastion also gains bonus damage for remaining still, which further emphasizes that you
-               should plant your feet rather than move around while shooting. <b>The penalty isn't so egregious that
-               you can't be accurate while moving</b>, but the spread does noticeably increase as you fire Bastion's
-               large 100-round magazine.
+               The movement penalty is tuned per gun and hero. Bastion's is larger than Hawkmoon's to support its
+               less-mobile, spray-and-pray frontliner fantasy. Its bonus damage for standing still reinforces
+               planting your feet. <b>The penalty still allows accuracy while moving</b>, though spread noticeably
+               increases across Bastion's 100-round magazine.
            </p>
            <p>
-               All of those knobs are data on the weapon definition: the spread curve, first-shot and maximum
-               spread (separately for hip-fire and aiming down sights), the number of bullets it takes to reach the
-               maximum, and the running and airborne penalties. A shot is protected when the player has been still
-               for half a second and has not fired for three quarters of a second.
+               These knobs live on the weapon definition: spread curve, first-shot and maximum spread (separately
+               for hip-fire and aiming down sights), bullets to reach maximum, and running and airborne penalties.
+               A shot is protected after half a second still and three quarters of a second without firing.
            </p>
 &nbsp;
 <code-block lang="c#" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - GetSpread() and IsBulletProtected()" emphasize-lines="8,23-26,29,53-55" src="../resources/GunComponent.as" include-lines="126-134,336-385"/>
@@ -228,25 +205,18 @@ There is one exception: if the shot's spread trace already lands on a precision 
 </def>
         <def title="Recoil recovery" id="recoil-recovery">
             <p>
-                Every shot kicks the player's view up and sideways, and the view then eases back to where it started
-                on its own.
+                Every shot kicks the player's view up and sideways, then eases it back.
             </p>
             <p>
-                The recovery is there to make consistent firing feel less taxing. With the lerped recovery, you
-                don't need to manually account for the recoil of each shot and readjust your aim back onto the
-                target after every bullet. That is especially effective for guns with stronger recoil, like
-                Hawkmoon and Izanagi. Constantly readjusting after every bullet proved exhausting for players who
-                weren't very familiar with FPS shooting, again especially on high-recoil weapons. Once I added the
-                recovery, <b>the gunplay felt much better overall</b>.
+                Recovery makes sustained fire less taxing: players need not account for each shot and readjust after
+                every bullet. This especially helps high-recoil Hawkmoon and Izanagi, and avoided exhausting players
+                unfamiliar with FPS shooting. Once added, <b>gunplay felt much better overall</b>.
             </p>
             <p>
-                It took a lot of effort on the implementation side. Recoil is applied as controller input rather
-                than as a camera animation, so the player's view is a mix of recoil and their own aim, and the
-                recovery has to undo only the recoil. The component therefore keeps a running tally of exactly how
-                much recoil it has injected (the 'recovery debt') and feeds the opposite input back, lerped over a
-                settle time set on each weapon's recoil data. Since recovery is just more input, normal mouse or
-                controller movement keeps working while the view settles. Recoil also only runs on the owning
-                client, because it moves that player's own view.
+                Implementation was difficult. Recoil is controller input rather than a camera animation, so recovery
+                must undo recoil without undoing the player's aim. The component tracks injected recoil ('recovery
+                debt') and feeds opposite input back over each weapon's settle time. Because recovery is input,
+                mouse or controller movement continues while the view settles. Recoil runs only on the owning client.
             </p>
 &nbsp;
 <code-block lang="c#" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - UpdateRecoil() and ApplyControlRecoil()" emphasize-lines="9,26,38-42,66,72-75" src="../resources/GunComponent.as" include-lines="817-894"/>
@@ -254,37 +224,34 @@ There is one exception: if the shot's spread trace already lands on a precision 
 </def>
         <def title="Cooldown handling" id="cooldown-handling">
             <p>
-                The shot cooldown is handled inside the GunComponent, as opposed to in the gameplay ability through a
-                cooldown <tooltip term="GameplayEffect" id="gameplay-effect-cooldown">GameplayEffect</tooltip> committed with CommitAbility/CommitCooldown, which is the standard <tooltip term="Gameplay Ability System (GAS)" id="gas-cooldown">GAS</tooltip>
-                approach. <code>Shoot()</code> turns the weapon's fire rate into a cooldown and refuses any shot
-                that comes too early.
+                The GunComponent handles shot cooldown instead of the gameplay ability through a committed
+                <tooltip term="GameplayEffect" id="gameplay-effect-cooldown">GameplayEffect</tooltip>, the standard
+                <tooltip term="Gameplay Ability System (GAS)" id="gas-cooldown">GAS</tooltip> approach.
+                <code>Shoot()</code> converts fire rate to a cooldown and rejects early shots.
             </p>
             <p>
                 This was a deliberate trade-off, for two reasons:
             </p>
             <list>
                 <li>
-                    The original shooting logic was developed for <a href="Angel.md">the Angel project</a>, which did not use GAS for shooting at
-                    the time. When I ported it to FATE, I kept the internal shoot cooldown as part of the gun
-                    component. It was both a challenge and a boon. The difficulty was that it wasn't connected to
-                    GAS: whether we could shoot did not depend on whether the ability could be committed, which led
-                    to a lot of debugging issues, until I found the cause and reworked it slightly.
+                    The original shooting logic came from <a href="Angel.md">the Angel project</a>, which did not
+                    use GAS for shooting. When ported to FATE, I kept its internal cooldown. Because it was not
+                    connected to GAS, shooting did not depend on ability commitment, causing debugging issues until
+                    I found and reworked the cause.
                 </li>
                 <li>
-                    Handling it manually gave me more control over when to allow, disallow or override shooting
-                    during active development. I was unfamiliar with the intricacies of GAS, and it was more
-                    efficient to lean on what I knew than to rework the system mid-project.
+                    Manual handling gave more control over allowing, disallowing, or overriding shooting during
+                    development. I was unfamiliar with GAS's intricacies, so using what I knew was more efficient
+                    than reworking the system mid-project.
                 </li>
             </list>
             <p>
-                Once the project was 'completed' (we reached our deadline), I reviewed the implementation. <b>My
-                future projects have opted to use the native GAS checks</b> for cost and cooldown, together with
-                extensive use of gameplay tags.
+                After we reached our deadline, I reviewed the implementation. <b>Future projects use native GAS
+                checks</b> for cost and cooldown, with extensive gameplay tags.
             </p>
             <p>
-                The component still plays nicely with GAS where it needs to. <code>bIgnoreInternalCooldown</code>
-                lets an ability bypass the internal cooldown (and ammo check) when it wants to use a custom
-                GameplayEffect cooldown instead.
+                The component still integrates with GAS: <code>bIgnoreInternalCooldown</code> lets an ability bypass
+                the internal cooldown and ammo check when using a custom GameplayEffect cooldown.
             </p>
 &nbsp;
 <code-block lang="c#" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - Shoot() function" emphasize-lines="15,21-31,35-41" src="../resources/GunComponent.as" include-lines="973-1015"/>
@@ -292,37 +259,30 @@ There is one exception: if the shot's spread trace already lands on a precision 
 </def>
         <def title="Supporting work" id="supporting-work">
             <p>
-                Many changes like these that gave us extended functionality in script or blueprint were often made
-                on the C++ side.
-                <br/>
-                I also extended our editor through C++ and <tooltip term="Angelscript" id="angelscript-editor">Angelscript</tooltip> to improve our workflow (examples include
-                linking directly to documentation in the toolbar.)
+                Many script or Blueprint extensions were implemented in C++. I also extended the editor through C++
+                and <tooltip term="Angelscript" id="angelscript-editor">Angelscript</tooltip>, including direct
+                documentation links in the toolbar.
             </p>
             <p>
-                Alongside the implementation of GAS -- which comes with client-predicted replication -- we also had
-                a lot of manual replication to handle.
-                <br/>
-                My primary role on the replication side of things was replicating game state to the UI, such as
-                healthbars, nametags, and boss-bars.
-                <br/>
-                However, as the most experienced with replication, I still remained the primary source of
-                information and assistance on the topic.
+                Alongside GAS's client-predicted replication, we handled substantial manual replication. My primary
+                role was replicating game state to the UI—healthbars, nametags, and boss-bars—but as the most
+                experienced with replication, I also remained the main source of information and assistance.
             </p>
         </def>
         <def title="What I would change" id="gun-reflection">
             <p>
-                If I rebuilt the GunComponent today, I would lean more heavily on native GAS systems.
-                <br/>I am much more familiar with GAS now, and cooldowns in particular could be handled more gracefully through
-                proper GameplayEffects and gameplay tags instead of remaining partly inside the component.
+                If I rebuilt the GunComponent today, I would lean more heavily on native GAS systems. I am more
+                familiar with GAS now, and cooldowns could use proper GameplayEffects and gameplay tags instead of
+                remaining partly in the component.
             </p>
             <p>
-                I would also split the component's responsibilities. Recoil and spread could each become their own
-                components, while the trace logic could be simplified into a reusable component.
-                <br/>I did the latter for <a href="RYFT.md" summary=""></a>, since we only needed to trace with magnetism – no recoil or spread.
+                I would also split its responsibilities: recoil and spread could become separate components, while
+                trace logic could be reusable. I did the latter for <a href="RYFT.md" summary=""></a>, which only
+                needed magnetized traces.
             </p>
         </def>
         </deflist>
-       <p> A couple of other things in the GunComponent also contribute to the shooting feel:</p>
+       <p>Other GunComponent features also contribute to shooting feel:</p>
        <list>
            <li>Aim-down-sights zoom and alternate weapon-mode support, which smoothly interpolates the camera's field of view.</li>
            <li>Replicated tracer and impact effects, with hits on characters running the target's own hit-reaction cue (precision hits have their own).</li>
@@ -380,7 +340,7 @@ There is one exception: if the shot's spread trace already lands on a precision 
        <p>
            This was especially important when a hit killed an enemy. If only the death trigger ran, ordinary
            on-hit enchantments would never execute, which would undermine the fantasy of breaking the game through
-           increasingly powerful rogue-lite upgrades. See <a href="Project-Summaries.md#roles-and-responsibilities_fate">the FATE enchantments overview</a>
+           increasingly powerful rogue-lite upgrades. See <a href="Project-Summaries.md#enchantments">the FATE enchantments overview</a>
            for examples of those upgrades.
        </p>
 &nbsp;

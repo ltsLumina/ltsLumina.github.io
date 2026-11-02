@@ -47,7 +47,7 @@
         Somnium
     </primary-label>
 
-    <primary-label id="skills" short-name=">" name="" href="" color="primary">
+    <primary-label id="skills" short-name=">" name="Alexander Andrejeff" href="" color="primary">
         My Skills
     </primary-label>
 
@@ -145,6 +145,10 @@
     
     <secondary-label id="ms-office" name="Office Suite" color="green">
         The full Microsoft Office suite.
+    </secondary-label>
+    
+    <secondary-label id="figma" name="Figma" color="green">
+        For UI mockups.
     </secondary-label>
     
     <secondary-label id="maya" name="Maya" color="green">
