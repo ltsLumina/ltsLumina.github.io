@@ -26,8 +26,8 @@
 
         <secondary>
             <title>Information</title>
-            <card href="Project-Summaries.md" image="summaries-embed.png" summary="Summaries of projects, responsibilities, skills, and process.">Project Summaries</card>
             <card href="Design-Process.md" image="design-process.png" summary="My iterative approach to designing, prototyping, and solving problems.">Design Process</card>
+            <card href="Project-Summaries.md" image="summaries-embed.png" summary="Summaries of projects, responsibilities, skills, and process.">Project Summaries</card>
         </secondary>
 
         <misc>
