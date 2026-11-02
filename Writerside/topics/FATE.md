@@ -380,7 +380,7 @@ There is one exception: if the shot's spread trace already lands on a precision 
        <p>
            This was especially important when a hit killed an enemy. If only the death trigger ran, ordinary
            on-hit enchantments would never execute, which would undermine the fantasy of breaking the game through
-           increasingly powerful rogue-lite upgrades. See <a href="Portfolio.md#roles-and-responsibilities_fate">the FATE enchantments overview</a>
+           increasingly powerful rogue-lite upgrades. See <a href="Project-Summaries.md#roles-and-responsibilities_fate">the FATE enchantments overview</a>
            for examples of those upgrades.
        </p>
 &nbsp;

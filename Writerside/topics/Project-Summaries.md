@@ -1,6 +1,8 @@
 <include from="see-also.topic" element-id="see-also-defaults"></include>
 
-# Portfolio
+<title id="project-summaries">
+Summaries
+</title>
 
 <primary-label ref="lum"></primary-label>
 <secondary-label ref="tech-designer"></secondary-label>
@@ -13,27 +15,9 @@
 <secondary-label ref="p4"></secondary-label>
 <secondary-label ref="github"></secondary-label>
 
-<quote>
-<p>
-Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>Stockholm, Sweden</b>.
-</p>
-
-<p>At <tooltip term="Futuregames">Futuregames</tooltip> I specialize in the <b>design <u>and</u> development</b> of <b>gameplay mechanics</b>, <br/><b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
-
-<p>I bring a <b><a href="Design-Process.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying together engineers, gameplay programmers, and designers.</p>
-</quote>
-
-<procedure>
-<p>Reach out on <a href="https://www.linkedin.com/in/itslumina/">LinkedIn</a> or email me at: <a href="mailto:itsluminas@gmail.com">itsluminas@gmail.com</a>  
-<br/>
-View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.be/1d3kRUk4NzA">Showreel</a>, or read more <b><a href="About-Me.md">About Me.</a></b></p>
-</procedure>
-
-<tip>
-For a complete overview of my portfolio, visit the <b><a href="Overview.topic" summary="A complete overview of my portfolio, including projects, processes, breakdowns, and more.">Overview page.</a></b>
-</tip>
-
----
+<tldr>
+This page provides short project summaries of my responsibilities, tools used, game info, and more.
+</tldr>
 
 ## FATE
 

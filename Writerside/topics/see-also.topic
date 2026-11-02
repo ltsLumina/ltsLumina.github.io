@@ -11,8 +11,8 @@
         <category ref="angel">
             <a href="%topic%" summary="%topic-summary%"/>
         </category>
-        <category ref="overview">
-            <a href="Overview.topic" summary="An overview of my Portfolio."/>
+        <category ref="portfolio">
+            <a href="Portfolio.topic" summary="An overview of my Portfolio."/>
         </category>
         <category ref="design-process">
             <a href="Design-Process.md" summary="A breakdown of my process."/>
@@ -40,8 +40,8 @@
 
     <snippet id="see-also-defaults">
         <seealso style="cards">
-            <category ref="overview">
-                <a href="Overview.topic" summary="An overview of my Portfolio."/>
+            <category ref="portfolio">
+                <a href="Portfolio.topic" summary="An overview of my Portfolio."/>
             </category>
             <category ref="design-process">
                 <a href="Design-Process.md" summary="A breakdown of my process."/>

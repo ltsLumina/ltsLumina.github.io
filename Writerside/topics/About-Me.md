@@ -7,14 +7,25 @@
 <secondary-label ref="in"></secondary-label>
 <secondary-label ref="location"></secondary-label>
 
-
-<tldr>
+<quote>
 <p>
-<img src="polaroid profile picture.png" width="325" alt="Me!" border-effect="rounded" style="inline"/>
-&nbsp;
-Hello! I'm Alexander "<b>Lum</b>" Andrejeff.
+Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>Stockholm, Sweden</b>.
 </p>
-</tldr>
+
+<p>At <tooltip term="Futuregames">Futuregames</tooltip> I specialize in the <b>design <u>and</u> development</b> of <b>gameplay mechanics</b>, <br/><b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
+
+<p>I bring a <b><a href="Design-Process.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying together engineers, gameplay programmers, and designers.</p>
+</quote>
+
+<procedure>
+<p>Reach out on <a href="https://www.linkedin.com/in/itslumina/">LinkedIn</a> or email me at: <a href="mailto:itsluminas@gmail.com">itsluminas@gmail.com</a>  
+<br/>
+View my <resource src="Resume.pdf"></resource>, or watch my <a href="https://youtu.be/1d3kRUk4NzA">Showreel.</a></p>
+</procedure>
+
+<tip>
+For the complete portfolio, visit the <b><a href="Portfolio.topic" summary="A visual overview of my portfolio, projects, processes, and more.">Portfolio page.</a></b>
+</tip>
 
 ## Who am I?
 

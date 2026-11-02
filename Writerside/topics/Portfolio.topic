@@ -3,17 +3,17 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Overview" id="Overview">
+       title="Portfolio" id="Portfolio">
     
     <section-starting-page>
-        <title>Overview</title>
+        <title>Portfolio</title>
         <description>
             Technical Designer based in Stockholm, Sweden. ㅤㅤㅤㅤㅤGameplay mechanics, complex systems, and backend tech.
         </description>
 
         <spotlight>
-            <card href="Portfolio.md" image="portfolio-embed.png" summary="Summaries of projects, responsibilities, skills, and process.">Portfolio</card>
-            <card href="Design-Process.md" image="design-process.png" summary="My iterative approach to designing, prototyping, and solving interaction problems.">Design Process</card>
+            <card href="Project-Summaries.md" image="summaries-embed.png" summary="Summaries of projects, responsibilities, skills, and process.">Project Summaries</card>
+            <card href="Design-Process.md" image="design-process.png" summary="My iterative approach to designing, prototyping, and solving problems.">Design Process</card>
         </spotlight>
 
         <primary>
@@ -35,20 +35,20 @@
         <misc>
             <cards>
                 <title>Project Summaries</title>
-                <card href="Portfolio.md#fate" summary="Summary of FATE's design, implementation, and systems.">FATE Summary</card>
-                <card href="Portfolio.md#ryft" summary="Summary of RYFT's movement design and iteration process.">RYFT Summary</card>
-                <card href="Portfolio.md#angel" summary="Summary of Angel's guns, abilities, and game phases.">Angel Summary</card>
-                <card href="Portfolio.md#somnium" summary="Summary of Somnium's combat, interaction, and character systems.">Somnium Summary</card>
-                <card href="Portfolio.md#neon-rivalry" summary="Summary of the design and development of Neon Rivalry.">Neon Rivalry Summary</card>
-                <card href="Portfolio.md#palindra" summary="Summary of Palindra's puzzle implementation.">Palindra Summary</card>
+                <card href="Project-Summaries.md#fate" summary="Summary of FATE's design, implementation, and systems.">FATE Summary</card>
+                <card href="Project-Summaries.md#ryft" summary="Summary of RYFT's movement design and iteration process.">RYFT Summary</card>
+                <card href="Project-Summaries.md#angel" summary="Summary of Angel's guns, abilities, and game phases.">Angel Summary</card>
+                <card href="Project-Summaries.md#somnium" summary="Summary of Somnium's combat, interaction, and character systems.">Somnium Summary</card>
+                <card href="Project-Summaries.md#neon-rivalry" summary="Summary of the design and development of Neon Rivalry.">Neon Rivalry Summary</card>
+                <card href="Project-Summaries.md#palindra" summary="Summary of Palindra's puzzle implementation.">Palindra Summary</card>
             </cards>
             <cards>
                 <title>Additional Projects</title>
-                <card href="Portfolio.md#plora" summary="3D infinite runner created in Unity as part of Game Project 1.">PLORA</card>
-                <card href="Portfolio.md#dead-sector" summary="Collaborative action roguelike-style scavenging game.">Dead Sector</card>
-                <card href="Portfolio.md#stokos" summary="2D Celeste-like platformer created during a three-day game jam.">STOKOS</card>
-                <card href="Portfolio.md#prototyping-course" summary="Solo 3D platformer created during the Prototyping Course.">Prototyping Course</card>
-                <card href="Portfolio.md#board-game-design-course" summary="Board game created from scratch during the Board Game Design Course.">Board Game Design Course</card>
+                <card href="Project-Summaries.md#plora" summary="3D infinite runner created in Unity as part of Game Project 1.">PLORA</card>
+                <card href="Project-Summaries.md#dead-sector" summary="Collaborative action roguelike-style scavenging game.">Dead Sector</card>
+                <card href="Project-Summaries.md#stokos" summary="2D Celeste-like platformer created during a three-day game jam.">STOKOS</card>
+                <card href="Project-Summaries.md#prototyping-course" summary="Solo 3D platformer created during the Prototyping Course.">Prototyping Course</card>
+                <card href="Project-Summaries.md#board-game-design-course" summary="Board game created from scratch during the Board Game Design Course.">Board Game Design Course</card>
             </cards>
 
             <links narrow="true">
