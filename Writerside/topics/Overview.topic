@@ -4,12 +4,11 @@
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Overview" id="Overview">
-
+    
     <section-starting-page>
         <title>Overview</title>
         <description>
-            Explore my work as a technical designer.
-            Browse shipped projects, detailed breakdowns, and the design process behind them.
+            Technical Designer based in Stockholm, Sweden. ㅤㅤㅤㅤㅤㅤㅤㅤ Gameplay mechanics, complex systems, and backend tech.
         </description>
 
         <spotlight>
@@ -19,11 +18,11 @@
 
         <primary>
             <title>Projects</title>
-            <card href="Portfolio.md#fate" image="8man-chaos-fate.gif" summary="Online multiplayer 'raid-like' with emphasis on gunplay and collaboration.">FATE</card>
+            <card href="Portfolio.md#fate" image="8man-chaos-fate.gif" summary="Online multiplayer 'raid-like' focused on gunplay and raid mechanics.">FATE</card>
             <card href="Portfolio.md#ryft" image="ryft_thrash_fast.gif" summary="First-person parkour speedgame set in a retro synthwave world.">RYFT</card>
-            <card href="Portfolio.md#angel" image="../videos/angel_project_wip-gif.gif" summary="Work-in-progress Valorant-inspired project demonstrating gun and ability systems.">Angel</card>
+            <card href="Portfolio.md#angel" image="../videos/angel_project_wip-gif.gif" summary="Work-in-progress Valorant clone demonstrating gun and ability systems.">Angel</card>
             <card href="Portfolio.md#somnium" image="../videos/somnium-trailer.gif" summary="Award-winning retro-inspired first-person dungeon crawler.">Somnium</card>
-            <card href="Portfolio.md#neon-rivalry" image="neon-rivalry-trailer-short.gif" summary="Couch co-op 2.5D fighting game created in Unity.">Neon Rivalry</card>
+            <card href="Portfolio.md#neon-rivalry" image="neon-rivalry-trailer-short.gif" summary="Award-winning couch co-op 2.5D fighting game created in Unity.">Neon Rivalry</card>
             <card href="Portfolio.md#palindra" image="Palindra-Trailer.gif" summary="Atmospheric puzzle game built around a time-travel mechanic.">Palindra</card>
         </primary>
 

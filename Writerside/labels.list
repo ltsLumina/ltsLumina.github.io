@@ -27,7 +27,7 @@
         PLORA 
     </primary-label>
 
-    <primary-label id="prototyping" short-name="" name="" href="https://futuregames.itch.io/plora" color="blue">
+    <primary-label id="prototyping" short-name="" name="" href="" color="blue">
         Prototyping Course
     </primary-label>
 
@@ -35,11 +35,11 @@
         Dead Sector
     </primary-label>
 
-    <primary-label id="fate" short-name="FTE" name="" href="https://futuregames.itch.io/somnium" color="primary">
+    <primary-label id="fate" short-name="FTE" name="" href="https://futuregames.itch.io/fate" color="primary">
         FATE
     </primary-label>
 
-    <primary-label id="ryft" short-name="RFT" name="" href="https://futuregames.itch.io/somnium" color="purple">
+    <primary-label id="ryft" short-name="RFT" name="" href="https://futuregames.itch.io/ryft" color="purple">
         RYFT
     </primary-label>
 

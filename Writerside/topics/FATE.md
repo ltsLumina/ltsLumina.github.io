@@ -56,43 +56,6 @@ Additionally, FATE's technical implementation is my most ambitious project, stre
 </procedure>
 </chapter>
 
-<p>
-        FATE is a multiplayer game, so <b><tooltip term="Replication" id="replication-intro">replication</tooltip> was never optional</b>. We used a combination of Angelscript,
-        <b><tooltip term="Gameplay Ability System (GAS)" id="gas">GAS (Gameplay Ability System)</tooltip></b>,
-        <b>replication</b>, and the AdvancedSessions plugin
-        to build on it. GAS comes with client-predicted replication for abilities
-        and effects, which covered a
-        large part of that for us, and left the manual replication work to the game state GAS doesn't touch, like
-        what the UI shows.
-        <br/>
-        As the <b>lead programmer and designer</b>, I built the core functionality of our game's entire framework
-        through a combination of these parts.
-</p>
-<p>
-        The first couple weeks for the programmers and designers consisted of getting caught up to speed on how
-        to work with GAS and replication, two things no one else had worked with previously. I acted as the
-        <b>primary source of information</b> on how these systems worked on their own, as well as how I had
-        implemented them for our project.
-</p>
-<p>
-        <a href="https://github.com/tranek/GASDocumentation">Tranek's unofficial GAS documentation</a> and Epic
-        Games' own GAS tutorials were the starting points for everyone (including myself when I began
-        researching these topics.)
-</p>
-<p>
-        Two scripts that did a lot of heavy-lifting were the GunComponent and HealthAttributes scripts. I held
-        <b>sole ownership</b> of these scripts. (As the most proficient at angelscript during development, I held
-        ownership of all script files, barring a couple.) Both are walked through below, along with the thinking
-        behind them.
-</p>
-<p>
-        My thought process in the development of most scripts was to write clean, self-documenting code, with
-        additional documentation when applicable, or to clarify tips/tricks with the language that my
-        in-learning teammates would appreciate. The code is embedded right on this page so it can be read without
-        downloading anything: each snippet is collapsed under a descriptive title, with the lines the text refers
-        to highlighted, and editor-only debug code trimmed out.
-</p>
-
 <tabs>
 <tab title="GunComponent" id="implementation">
     <chapter title="GunComponent" id="gun-component">
@@ -570,6 +533,13 @@ There is one exception: if the shot's spread trace already lands on a precision 
 <def title="Designing for different player types">
 <p>
 TBD.
+</p>
+</def>
+<def title="Building systems the team can own">
+<p>
+As lead programmer and designer, I built FATE's core framework around Angelscript, C++, GAS, and replication. Because
+the rest of the team was new to GAS and replication, I became the primary source of information while we learned from
+<a href="https://github.com/tranek/GASDocumentation">Tranek's unofficial GAS documentation</a> and Epic Games' tutorials.
 </p>
 </def>
             <def title="Dependencies">
