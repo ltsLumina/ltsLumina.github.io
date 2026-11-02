@@ -2,35 +2,35 @@
  * Visual project-card labels for the primary projects.
  * These are CSS decorations, not separate links.
  */
-a[href*="Portfolio.md#"],
-a[href*="portfolio.html#"] {
+a[data-test="starting-page-card"][href*="Portfolio.md#"],
+a[data-test="starting-page-card"][href*="portfolio.html#"] {
     position: relative;
 }
 
-a[href*="Portfolio.md#fate"]::before,
-a[href*="portfolio.html#fate"]::before,
-a[href*="Portfolio.md#ryft"]::before,
-a[href*="portfolio.html#ryft"]::before,
-a[href*="Portfolio.md#angel"]::before,
-a[href*="portfolio.html#angel"]::before,
-a[href*="Portfolio.md#somnium"]::before,
-a[href*="portfolio.html#somnium"]::before,
-a[href*="Portfolio.md#neon-rivalry"]::before,
-a[href*="portfolio.html#neon-rivalry"]::before,
-a[href*="Portfolio.md#palindra"]::before,
-a[href*="portfolio.html#palindra"]::before,
-a[href*="Portfolio.md#fate"]::after,
-a[href*="portfolio.html#fate"]::after,
-a[href*="Portfolio.md#ryft"]::after,
-a[href*="portfolio.html#ryft"]::after,
-a[href*="Portfolio.md#angel"]::after,
-a[href*="portfolio.html#angel"]::after,
-a[href*="Portfolio.md#somnium"]::after,
-a[href*="portfolio.html#somnium"]::after,
-a[href*="Portfolio.md#neon-rivalry"]::after,
-a[href*="portfolio.html#neon-rivalry"]::after,
-a[href*="Portfolio.md#palindra"]::after,
-a[href*="portfolio.html#palindra"]::after {
+[data-test="starting-page-card"][href*="Portfolio.md#fate"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#fate"]::before,
+[data-test="starting-page-card"][href*="Portfolio.md#ryft"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#ryft"]::before,
+[data-test="starting-page-card"][href*="Portfolio.md#angel"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#angel"]::before,
+[data-test="starting-page-card"][href*="Portfolio.md#somnium"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#somnium"]::before,
+[data-test="starting-page-card"][href*="Portfolio.md#neon-rivalry"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#neon-rivalry"]::before,
+[data-test="starting-page-card"][href*="Portfolio.md#palindra"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#palindra"]::before,
+[data-test="starting-page-card"][href*="Portfolio.md#fate"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#fate"]::after,
+[data-test="starting-page-card"][href*="Portfolio.md#ryft"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#ryft"]::after,
+[data-test="starting-page-card"][href*="Portfolio.md#angel"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#angel"]::after,
+[data-test="starting-page-card"][href*="Portfolio.md#somnium"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#somnium"]::after,
+[data-test="starting-page-card"][href*="Portfolio.md#neon-rivalry"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#neon-rivalry"]::after,
+[data-test="starting-page-card"][href*="Portfolio.md#palindra"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#palindra"]::after {
     position: absolute;
     left: 0.75rem;
     z-index: 2;
@@ -40,21 +40,21 @@ a[href*="portfolio.html#palindra"]::after {
     color: #303033;
     font-family: inherit;
     font-size: 1rem;
-    font-weight: 450;
+    font-weight: 400;
     line-height: 1;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    text-transform: none;
     pointer-events: none;
 }
 
-a[href*="Portfolio.md#fate"]::before,
-a[href*="portfolio.html#fate"]::before,
-a[href*="Portfolio.md#ryft"]::before,
-a[href*="portfolio.html#ryft"]::before,
-a[href*="Portfolio.md#somnium"]::before,
-a[href*="portfolio.html#somnium"]::before,
-a[href*="Portfolio.md#palindra"]::before,
-a[href*="portfolio.html#palindra"]::before {
+[data-test="starting-page-card"][href*="Portfolio.md#fate"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#fate"]::before,
+[data-test="starting-page-card"][href*="Portfolio.md#ryft"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#ryft"]::before,
+[data-test="starting-page-card"][href*="Portfolio.md#somnium"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#somnium"]::before,
+[data-test="starting-page-card"][href*="Portfolio.md#palindra"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#palindra"]::before {
     top: 0.75rem;
     background: var(--wh-color-marine);
     background-image: url("team.svg");
@@ -65,10 +65,10 @@ a[href*="portfolio.html#palindra"]::before {
     content: "Group";
 }
 
-a[href*="Portfolio.md#angel"]::before,
-a[href*="portfolio.html#angel"]::before,
-a[href*="Portfolio.md#neon-rivalry"]::before,
-a[href*="portfolio.html#neon-rivalry"]::before {
+[data-test="starting-page-card"][href*="Portfolio.md#angel"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#angel"]::before,
+[data-test="starting-page-card"][href*="Portfolio.md#neon-rivalry"]::before,
+[data-test="starting-page-card"][href*="portfolio.html#neon-rivalry"]::before {
     top: 0.75rem;
     background: var(--wh-color-marine);
     background-image: url("person.svg");
@@ -79,14 +79,14 @@ a[href*="portfolio.html#neon-rivalry"]::before {
     content: "Solo";
 }
 
-a[href*="Portfolio.md#fate"]::after,
-a[href*="portfolio.html#fate"]::after,
-a[href*="Portfolio.md#ryft"]::after,
-a[href*="portfolio.html#ryft"]::after,
-a[href*="Portfolio.md#angel"]::after,
-a[href*="portfolio.html#angel"]::after,
-a[href*="Portfolio.md#palindra"]::after,
-a[href*="portfolio.html#palindra"]::after {
+[data-test="starting-page-card"][href*="Portfolio.md#fate"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#fate"]::after,
+[data-test="starting-page-card"][href*="Portfolio.md#ryft"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#ryft"]::after,
+[data-test="starting-page-card"][href*="Portfolio.md#angel"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#angel"]::after,
+[data-test="starting-page-card"][href*="Portfolio.md#palindra"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#palindra"]::after {
     top: 2.75rem;
     left: 0.75rem;
     background: var(--wh-color-purple);
@@ -98,10 +98,10 @@ a[href*="portfolio.html#palindra"]::after {
     content: "Unreal";
 }
 
-a[href*="Portfolio.md#somnium"]::after,
-a[href*="portfolio.html#somnium"]::after,
-a[href*="Portfolio.md#neon-rivalry"]::after,
-a[href*="portfolio.html#neon-rivalry"]::after {
+[data-test="starting-page-card"][href*="Portfolio.md#somnium"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#somnium"]::after,
+[data-test="starting-page-card"][href*="Portfolio.md#neon-rivalry"]::after,
+[data-test="starting-page-card"][href*="portfolio.html#neon-rivalry"]::after {
     top: 2.75rem;
     left: 0.75rem;
     background: var(--wh-color-purple);
