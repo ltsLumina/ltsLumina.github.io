@@ -7,6 +7,22 @@ a[data-test="starting-page-card"][href*=".html"] {
     position: relative;
 }
 
+[data-test="starting-page-card"][href*="Somnium.md"],
+[data-test="starting-page-card"][href*="somnium.html"] {
+    background-image: url("Debut_Win25_White.png");
+    background-position: right 0.1rem bottom 0.25rem;
+    background-repeat: no-repeat;
+    background-size: 7rem auto;
+}
+
+[data-test="starting-page-card"][href*="Neon-Rivalry.md"],
+[data-test="starting-page-card"][href*="neon-rivalry.html"] {
+    background-image: url("lbs-game-awards.png");
+    background-position: right 0.5rem bottom 0.1rem;
+    background-repeat: no-repeat;
+    background-size: 7rem auto;
+}
+
 [data-test="starting-page-card"][href*="FATE.md"]::before,
 [data-test="starting-page-card"][href*="fate.html"]::before,
 [data-test="starting-page-card"][href*="RYFT.md"]::before,
