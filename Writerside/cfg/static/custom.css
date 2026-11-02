@@ -23,6 +23,14 @@ a[data-test="starting-page-card"][href*=".html"] {
     background-size: 7rem auto;
 }
 
+[data-test="starting-page-card"][href*="RYFT.md"],
+[data-test="starting-page-card"][href*="ryft.html"] {
+    background-image: url("steam_icon.png");
+    background-position: right 0.75rem bottom 0.75rem;
+    background-repeat: no-repeat;
+    background-size: 4.5rem auto;
+}
+
 [data-test="starting-page-card"][href*="FATE.md"]::before,
 [data-test="starting-page-card"][href*="fate.html"]::before,
 [data-test="starting-page-card"][href*="RYFT.md"]::before,
