@@ -8,11 +8,12 @@
 # Design Process
 <primary-label ref="lum"></primary-label>
 
+<tldr>
+<p>I always design <a href="https://www.riotgames.com/darkroom/original/1b58ddf664999d1e51c7a5ee3908f3e3:aedf85c30ef9072a3f1530b2d05706dc/riot-games-fact-sheet-2023.pdf" summary="Riot Games' mission statement, which I follow wholeheartedly.">in favour of the player</a>, because once shipped, it's no longer my/our game – it's the players' – and the best we can do is serve them well.</p>
+</tldr>
+
 <tabs>
 <tab title="Process" id="v2">
-<quote>
-<p>I always design <a href="https://www.riotgames.com/darkroom/original/1b58ddf664999d1e51c7a5ee3908f3e3:aedf85c30ef9072a3f1530b2d05706dc/riot-games-fact-sheet-2023.pdf" summary="Riot Games' mission statement, which I follow wholeheartedly.">in favour of the player</a>, because once shipped, it's no longer my/our game – it's the players' – and the best we can do is serve them well.</p>
-</quote>
 
 <p>
 Game Design is fundamentally about <a href="https://youtu.be/HqUbpJUiJFI?si=w4aYcasQNCvXvKY5" summary="A talk by Paul Bellezza (of Riot Games) on his journey as a game designer. An early inspiration and professional contact of mine.">solving interaction problems.</a><br/>
@@ -43,7 +44,7 @@ This process closely resembles an <tooltip term="Iterative Design Loop">iterativ
 <deflist type="full" collapsible="true" default-state="collapsed">
 <def title="1. Consider the Players' Problems">
 
-<include from="Portfolio.md" element-id="i-design-for"/>
+<include from="Project-Summaries.md" element-id="i-design-for"/>
 <p>
 Given the player type, I list as many potential interaction problems as I can imagine to give myself a broad overview of what I'm designing.
 This is the first step because it takes the <b>least time and effort</b> – far less than testing each problem in a prototype, for example.

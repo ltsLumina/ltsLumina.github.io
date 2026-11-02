@@ -4,10 +4,10 @@
 
 <instance-profile id="pf"
                   name="Alexander Andrejeff"
-                  start-page="Portfolio.md">
+                  start-page="Portfolio.topic">
     
-    <toc-element topic="Overview.topic"/>
-    <toc-element topic="Portfolio.md"/>
+    <toc-element topic="Portfolio.topic" accepts-web-file-names="Overview.html"/>
+    <toc-element topic="Project-Summaries.md" accepts-web-file-names="Project-Summaries.md"/>
     <toc-element topic="About-Me.md"/>
         <toc-element toc-title="Breakdowns">
         <toc-element topic="FATE.md"/>
