@@ -18,12 +18,12 @@
 
         <primary>
             <title>Projects</title>
-            <card href="Portfolio.md#fate" image="8man-chaos-fate.gif" summary="Online multiplayer 'raid-like' focused on gunplay and raid mechanics.">FATE</card>
-            <card href="Portfolio.md#ryft" image="ryft_thrash_fast.gif" summary="First-person parkour speedgame set in a retro synthwave world.">RYFT</card>
-            <card href="Portfolio.md#angel" image="../videos/angel_project_wip-gif.gif" summary="Work-in-progress Valorant clone demonstrating gun and ability systems.">Angel</card>
-            <card href="Portfolio.md#somnium" image="../videos/somnium-trailer.gif" summary="Award-winning retro-inspired first-person dungeon crawler.">Somnium</card>
-            <card href="Portfolio.md#neon-rivalry" image="neon-rivalry-trailer-short.gif" summary="Award-winning couch co-op 2.5D fighting game created in Unity.">Neon Rivalry</card>
-            <card href="Portfolio.md#palindra" image="Palindra-Trailer.gif" summary="Atmospheric puzzle game built around a time-travel mechanic.">Palindra</card>
+            <card href="FATE.md" image="8man-chaos-fate.gif" summary="Online multiplayer 'raid-like' focused on gunplay and raid mechanics.">FATE</card>
+            <card href="RYFT.md" image="ryft_thrash_fast.gif" summary="First-person parkour speedgame set in a retro synthwave world.">RYFT</card>
+            <card href="Angel.md" image="../videos/angel_project_wip-gif.gif" summary="Work-in-progress Valorant clone demonstrating gun and ability systems.">Angel</card>
+            <card href="Somnium.md" image="../videos/somnium-trailer.gif" summary="Award-winning retro-inspired first-person dungeon crawler.">Somnium</card>
+            <card href="Neon-Rivalry.md" image="neon-rivalry-trailer-short.gif" summary="Award-winning couch co-op 2.5D fighting game created in Unity.">Neon Rivalry</card>
+            <card href="Palindra.md" image="Palindra-Trailer.gif" summary="Atmospheric puzzle game built around a time-travel mechanic.">Palindra</card>
         </primary>
 
         <secondary>
@@ -34,13 +34,13 @@
 
         <misc>
             <cards>
-                <title>Breakdowns</title>
-                <card href="FATE.md" summary="Detailed breakdown of FATE's design, implementation, and systems.">FATE Breakdown</card>
-                <card href="RYFT.md" summary="Detailed breakdown of RYFT's movement design and iteration process.">RYFT Breakdown</card>
-                <card href="Angel.md" summary="Implementation details for Angel's guns, abilities, and game phases.">Angel Breakdown</card>
-                <card href="Somnium.md" summary="Detailed breakdown of Somnium's combat, interaction, and character systems.">Somnium Breakdown</card>
-                <card href="Neon-Rivalry.md" summary="Retrospective on the design and development of Neon Rivalry.">Neon Rivalry Breakdown</card>
-                <card href="Palindra.md" summary="Detailed breakdown of Palindra's puzzle implementation.">Palindra Breakdown</card>
+                <title>Project Summaries</title>
+                <card href="Portfolio.md#fate" summary="Summary of FATE's design, implementation, and systems.">FATE Summary</card>
+                <card href="Portfolio.md#ryft" summary="Summary of RYFT's movement design and iteration process.">RYFT Summary</card>
+                <card href="Portfolio.md#angel" summary="Summary of Angel's guns, abilities, and game phases.">Angel Summary</card>
+                <card href="Portfolio.md#somnium" summary="Summary of Somnium's combat, interaction, and character systems.">Somnium Summary</card>
+                <card href="Portfolio.md#neon-rivalry" summary="Summary of the design and development of Neon Rivalry.">Neon Rivalry Summary</card>
+                <card href="Portfolio.md#palindra" summary="Summary of Palindra's puzzle implementation.">Palindra Summary</card>
             </cards>
             <cards>
                 <title>Additional Projects</title>

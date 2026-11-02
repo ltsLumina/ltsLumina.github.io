@@ -535,7 +535,7 @@ There is one exception: if the shot's spread trace already lands on a precision 
 TBD.
 </p>
 </def>
-<def title="Building systems the team can own">
+<def title="GAS Architecture &amp; Framework">
 <p>
 As lead programmer and designer, I built FATE's core framework around Angelscript, C++, GAS, and replication. Because
 the rest of the team was new to GAS and replication, I became the primary source of information while we learned from
@@ -544,7 +544,7 @@ the rest of the team was new to GAS and replication, I became the primary source
 </def>
             <def title="Dependencies">
 <p>
-        As the lead designer <emphasis>and</emphasis> programmer, all team members were dependent on me in some capacity.
+        As the lead designer <b>and</b> programmer, all team members were dependent on me in some capacity.
         While it was very flattering – being trusted by so many in such a pivotal project – it was also a burden that I learned a lot from.
 </p>
     <p>

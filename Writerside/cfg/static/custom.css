@@ -2,35 +2,35 @@
  * Visual project-card labels for the primary projects.
  * These are CSS decorations, not separate links.
  */
-a[data-test="starting-page-card"][href*="Portfolio.md#"],
-a[data-test="starting-page-card"][href*="portfolio.html#"] {
+a[data-test="starting-page-card"][href*=".md"],
+a[data-test="starting-page-card"][href*=".html"] {
     position: relative;
 }
 
-[data-test="starting-page-card"][href*="Portfolio.md#fate"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#fate"]::before,
-[data-test="starting-page-card"][href*="Portfolio.md#ryft"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#ryft"]::before,
-[data-test="starting-page-card"][href*="Portfolio.md#angel"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#angel"]::before,
-[data-test="starting-page-card"][href*="Portfolio.md#somnium"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#somnium"]::before,
-[data-test="starting-page-card"][href*="Portfolio.md#neon-rivalry"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#neon-rivalry"]::before,
-[data-test="starting-page-card"][href*="Portfolio.md#palindra"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#palindra"]::before,
-[data-test="starting-page-card"][href*="Portfolio.md#fate"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#fate"]::after,
-[data-test="starting-page-card"][href*="Portfolio.md#ryft"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#ryft"]::after,
-[data-test="starting-page-card"][href*="Portfolio.md#angel"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#angel"]::after,
-[data-test="starting-page-card"][href*="Portfolio.md#somnium"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#somnium"]::after,
-[data-test="starting-page-card"][href*="Portfolio.md#neon-rivalry"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#neon-rivalry"]::after,
-[data-test="starting-page-card"][href*="Portfolio.md#palindra"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#palindra"]::after {
+[data-test="starting-page-card"][href*="FATE.md"]::before,
+[data-test="starting-page-card"][href*="fate.html"]::before,
+[data-test="starting-page-card"][href*="RYFT.md"]::before,
+[data-test="starting-page-card"][href*="ryft.html"]::before,
+[data-test="starting-page-card"][href*="Angel.md"]::before,
+[data-test="starting-page-card"][href*="angel.html"]::before,
+[data-test="starting-page-card"][href*="Somnium.md"]::before,
+[data-test="starting-page-card"][href*="somnium.html"]::before,
+[data-test="starting-page-card"][href*="Neon-Rivalry.md"]::before,
+[data-test="starting-page-card"][href*="neon-rivalry.html"]::before,
+[data-test="starting-page-card"][href*="Palindra.md"]::before,
+[data-test="starting-page-card"][href*="palindra.html"]::before,
+[data-test="starting-page-card"][href*="FATE.md"]::after,
+[data-test="starting-page-card"][href*="fate.html"]::after,
+[data-test="starting-page-card"][href*="RYFT.md"]::after,
+[data-test="starting-page-card"][href*="ryft.html"]::after,
+[data-test="starting-page-card"][href*="Angel.md"]::after,
+[data-test="starting-page-card"][href*="angel.html"]::after,
+[data-test="starting-page-card"][href*="Somnium.md"]::after,
+[data-test="starting-page-card"][href*="somnium.html"]::after,
+[data-test="starting-page-card"][href*="Neon-Rivalry.md"]::after,
+[data-test="starting-page-card"][href*="neon-rivalry.html"]::after,
+[data-test="starting-page-card"][href*="Palindra.md"]::after,
+[data-test="starting-page-card"][href*="palindra.html"]::after {
     position: absolute;
     left: 0.75rem;
     z-index: 2;
@@ -47,14 +47,14 @@ a[data-test="starting-page-card"][href*="portfolio.html#"] {
     pointer-events: none;
 }
 
-[data-test="starting-page-card"][href*="Portfolio.md#fate"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#fate"]::before,
-[data-test="starting-page-card"][href*="Portfolio.md#ryft"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#ryft"]::before,
-[data-test="starting-page-card"][href*="Portfolio.md#somnium"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#somnium"]::before,
-[data-test="starting-page-card"][href*="Portfolio.md#palindra"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#palindra"]::before {
+[data-test="starting-page-card"][href*="FATE.md"]::before,
+[data-test="starting-page-card"][href*="fate.html"]::before,
+[data-test="starting-page-card"][href*="RYFT.md"]::before,
+[data-test="starting-page-card"][href*="ryft.html"]::before,
+[data-test="starting-page-card"][href*="Somnium.md"]::before,
+[data-test="starting-page-card"][href*="somnium.html"]::before,
+[data-test="starting-page-card"][href*="Palindra.md"]::before,
+[data-test="starting-page-card"][href*="palindra.html"]::before {
     top: 0.75rem;
     background: var(--wh-color-marine);
     background-image: url("team.svg");
@@ -65,10 +65,10 @@ a[data-test="starting-page-card"][href*="portfolio.html#"] {
     content: "Group";
 }
 
-[data-test="starting-page-card"][href*="Portfolio.md#angel"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#angel"]::before,
-[data-test="starting-page-card"][href*="Portfolio.md#neon-rivalry"]::before,
-[data-test="starting-page-card"][href*="portfolio.html#neon-rivalry"]::before {
+[data-test="starting-page-card"][href*="Angel.md"]::before,
+[data-test="starting-page-card"][href*="angel.html"]::before,
+[data-test="starting-page-card"][href*="Neon-Rivalry.md"]::before,
+[data-test="starting-page-card"][href*="neon-rivalry.html"]::before {
     top: 0.75rem;
     background: var(--wh-color-marine);
     background-image: url("person.svg");
@@ -79,14 +79,14 @@ a[data-test="starting-page-card"][href*="portfolio.html#"] {
     content: "Solo";
 }
 
-[data-test="starting-page-card"][href*="Portfolio.md#fate"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#fate"]::after,
-[data-test="starting-page-card"][href*="Portfolio.md#ryft"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#ryft"]::after,
-[data-test="starting-page-card"][href*="Portfolio.md#angel"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#angel"]::after,
-[data-test="starting-page-card"][href*="Portfolio.md#palindra"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#palindra"]::after {
+[data-test="starting-page-card"][href*="FATE.md"]::after,
+[data-test="starting-page-card"][href*="fate.html"]::after,
+[data-test="starting-page-card"][href*="RYFT.md"]::after,
+[data-test="starting-page-card"][href*="ryft.html"]::after,
+[data-test="starting-page-card"][href*="Angel.md"]::after,
+[data-test="starting-page-card"][href*="angel.html"]::after,
+[data-test="starting-page-card"][href*="Palindra.md"]::after,
+[data-test="starting-page-card"][href*="palindra.html"]::after {
     top: 2.75rem;
     left: 0.75rem;
     background: var(--wh-color-purple);
@@ -98,10 +98,10 @@ a[data-test="starting-page-card"][href*="portfolio.html#"] {
     content: "Unreal";
 }
 
-[data-test="starting-page-card"][href*="Portfolio.md#somnium"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#somnium"]::after,
-[data-test="starting-page-card"][href*="Portfolio.md#neon-rivalry"]::after,
-[data-test="starting-page-card"][href*="portfolio.html#neon-rivalry"]::after {
+[data-test="starting-page-card"][href*="Somnium.md"]::after,
+[data-test="starting-page-card"][href*="somnium.html"]::after,
+[data-test="starting-page-card"][href*="Neon-Rivalry.md"]::after,
+[data-test="starting-page-card"][href*="neon-rivalry.html"]::after {
     top: 2.75rem;
     left: 0.75rem;
     background: var(--wh-color-purple);
