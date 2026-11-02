@@ -12,14 +12,12 @@
         </description>
 
         <spotlight>
-            <card href="Project-Summaries.md" image="summaries-embed.png" summary="Summaries of projects, responsibilities, skills, and process.">Project Summaries</card>
-            <card href="Design-Process.md" image="design-process.png" summary="My iterative approach to designing, prototyping, and solving problems.">Design Process</card>
+            <card href="FATE.md" image="8man-chaos-fate.gif" summary="Online multiplayer 'raid-like' focused on gunplay and raid mechanics.">FATE</card>
+            <card href="RYFT.md" image="ryft_thrash_fast.gif" summary="First-person parkour speedgame set in a retro synthwave world.">RYFT</card>
         </spotlight>
 
         <primary>
             <title>Projects</title>
-            <card href="FATE.md" image="8man-chaos-fate.gif" summary="Online multiplayer 'raid-like' focused on gunplay and raid mechanics.">FATE</card>
-            <card href="RYFT.md" image="ryft_thrash_fast.gif" summary="First-person parkour speedgame set in a retro synthwave world.">RYFT</card>
             <card href="Angel.md" image="../videos/angel_project_wip-gif.gif" summary="Work-in-progress Valorant clone demonstrating gun and ability systems.">Angel</card>
             <card href="Somnium.md" image="../videos/somnium-trailer.gif" summary="Award-winning retro-inspired first-person dungeon crawler.">Somnium</card>
             <card href="Neon-Rivalry.md" image="neon-rivalry-trailer-short.gif" summary="Award-winning couch co-op 2.5D fighting game created in Unity.">Neon Rivalry</card>
@@ -27,12 +25,17 @@
         </primary>
 
         <secondary>
-            <title>More Information</title>
-            <card href="About-Me.md" badge="account" summary="Learn more about my background, interests, and experience.">About Me</card>
-            <card href="Credits.md" badge="community" summary="Contact information for current and former collaborators.">Credits</card>
+            <title>Information</title>
+            <card href="Project-Summaries.md" image="summaries-embed.png" summary="Summaries of projects, responsibilities, skills, and process.">Project Summaries</card>
+            <card href="Design-Process.md" image="design-process.png" summary="My iterative approach to designing, prototyping, and solving problems.">Design Process</card>
         </secondary>
 
         <misc>
+            <cards>
+                <title>About</title>
+                <card href="About-Me.md" badge="account" summary="Learn more about my background, interests, and experience.">About Me</card>
+                <card href="Credits.md" badge="community" summary="Contact information for current and former collaborators.">Credits</card>
+            </cards>
             <cards>
                 <title>Project Summaries</title>
                 <card href="Project-Summaries.md#fate" summary="Summary of FATE's design, implementation, and systems.">FATE Summary</card>
