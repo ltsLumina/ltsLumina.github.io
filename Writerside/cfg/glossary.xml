@@ -10,6 +10,27 @@
     <term name="Self-Determination Theory">
         Self-determination theory holds that people are most motivated, perform best, and are healthiest when their environment supports three basic psychological needs: autonomy, competence, and relatedness.
     </term>
+    <term name="Rogue-lite">
+        A game structure where players make progress through repeated runs, with some upgrades or knowledge carrying between attempts while failure resets most of the run.
+    </term>
+    <term name="Gameplay Ability System (GAS)">
+        Unreal Engine's framework for building gameplay abilities, effects, attributes, and tags in a data-driven and network-aware way.
+    </term>
+    <term name="Replication">
+        The process of synchronizing gameplay state between the server and connected clients in a multiplayer game.
+    </term>
+    <term name="Hitscan">
+        A weapon or attack that determines what it hits immediately along a trace instead of simulating a physical projectile travelling through space.
+    </term>
+    <term name="GameplayEffect">
+        A Gameplay Ability System object that applies a temporary or permanent change, such as damage, healing, a stat modification, or a gameplay tag.
+    </term>
+    <term name="Client RPC">
+        A remote procedure call sent from the server to a specific client so that code can execute on that player's machine.
+    </term>
+    <term name="Ad-clear">
+        The act of defeating ordinary enemy combatants, usually to keep them from overwhelming players during a larger objective or encounter.
+    </term>
     <term name="The Door Problem">
         Highlights the stark contrast between how simple a trivial feature (like a door) appears to players and how complex, multifaceted, and coordinated it actually is to build in a video game.
     </term>

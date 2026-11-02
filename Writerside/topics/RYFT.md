@@ -1,5 +1,5 @@
 <include from="see-also.topic" element-id="see-also">
-    <var name="topic" value="Prototyping.md#v1"/>
+    <var name="topic" value="Prototyping.md"/>
     <var name="topic-summary" value="RYFT is the spiritual successor to this project."/>
 </include>
 
@@ -12,11 +12,12 @@
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
 
+<tldr>
+RYFT taught me a lot about parsing player feedback, iterating on features (through said feedback), and building systems that support future content. 
+</tldr>
+
 <tabs>
     <tab title="Movement" id="movement">
-        <quote>
-            <p>Breaking down the many iterations of the player's movement, its complexity, skill expression, and evolution from genre to genre.</p>
-        </quote>
         <p>
             The design of the movement went through nearly half a dozen iterations in the span of 4–6 weeks.
             <br/>
@@ -140,7 +141,8 @@
                 <p><img src="zweek_videos_transparent.png" thumbnail="true" alt=""/></p>
                 <p>I wanted to see if any of Titanfall's movement tech could work in ours, beginning with air-strafing:</p>
             </chapter>
-            <chapter title="Air-Strafing" id="air-strafing" collapsible="true">
+            <deflist type="full" collapsible="true" default-state="collapsed">
+            <def title="Air-Strafing" id="air-strafing">
                 <p>
                     My fellow designer <a href="https://www.linkedin.com/in/egebarisoncu">Ege Barış Öncü</a> and I looked into the Quake source code and Zweek's video on air strafing to get a better
                     understanding of how it works.
@@ -154,8 +156,8 @@
                 <p>
                     We realized after a couple of hours of tinkering, however, that this was not the right fit for our game, and I moved on to the next mechanic:
                 </p>
-            </chapter>
-            <chapter title="Wall Kicks" id="wall-kicks" collapsible="true">
+            </def>
+            <def title="Wall Kicks" id="wall-kicks">
                 <p>
                     Wall Kicks are my favourite movement mechanic in Titanfall, as they are your main source of maintaining and gaining speed in the speedrun.
                 </p>
@@ -172,8 +174,8 @@
                     A skill check for players who want to achieve the absolute fastest times, but absolutely not a requirement for casual players. All levels are made with wall kicks in mind, but are
                     never a requirement for the best medal.
                 </p>
-            </chapter>
-            <chapter title="Air Control" id="air-control" collapsible="true">
+            </def>
+            <def title="Air Control" id="air-control">
                 <p>
                     Air Control is a common variable in all games with vertical movement: The speed at which you move in the air relative to your grounded walk speed, or put simpler: The amount of
                     control you have in the air (0–1).
@@ -187,8 +189,8 @@
                     <br/>
                     You will need to plan out your route in finer detail, accounting for the reduced mobility if you wish to move at a faster rate.
                 </p>
-            </chapter>
-            <chapter title="Strafe Lurch" id="strafe-lurch" collapsible="true">
+            </def>
+            <def title="Strafe Lurch" id="strafe-lurch">
                 <p>
                     An odd mechanic we adopted from Titanfall 2 that gives you a slight lateral boost on initial button press while airborne.
                 </p>
@@ -206,7 +208,8 @@
                     <br/>
                     A very minor, but interesting mechanic that players can master to reach unintended speed.
                 </p>
-            </chapter>
+            </def>
+            </deflist>
         <img src="ryft_thrash_fast.gif" thumbnail="true" alt=""/>
         <quote>Gameplay footage of speedrunning a stage using all the aforementioned movement tech.</quote>
         </chapter>

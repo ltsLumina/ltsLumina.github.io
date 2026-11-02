@@ -6,7 +6,7 @@
                   name="Alexander Andrejeff"
                   start-page="Portfolio.md">
     
-    <toc-element topic="Hub.topic"/>
+    <toc-element topic="Overview.topic"/>
     <toc-element topic="Portfolio.md"/>
     <toc-element topic="About-Me.md"/>
         <toc-element toc-title="Breakdowns">
@@ -19,7 +19,7 @@
         </toc-element>
     
     <toc-element toc-title="Process">
-        <toc-element topic="Prototyping.md"/>
+        <toc-element topic="Design-Process.md"/>
         <toc-element toc-title="GAS Architecture" wip="true"/>
     </toc-element>
     
@@ -31,4 +31,6 @@
     <!-- HIDDEN -->
     <toc-element topic="Professional-Projects.md" hidden="true"/>
     <toc-element topic="GAS-Architecture.md" hidden="true"/>
+    <toc-element topic="Prototyping.md" hidden="true"/>
+
 </instance-profile>

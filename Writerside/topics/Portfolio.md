@@ -30,7 +30,7 @@ View my <resource src="Resume.pdf"></resource>, watch my <a href="https://youtu.
 </procedure>
 
 <tip>
-For a complete overview of my portfolio, visit the <b><a href="Hub.topic" summary="A complete overview of my portfolio, including projects, processes, breakdowns, and more.">Hub page.</a></b>
+For a complete overview of my portfolio, visit the <b><a href="Overview.topic" summary="A complete overview of my portfolio, including projects, processes, breakdowns, and more.">Overview page.</a></b>
 </tip>
 
 ---
@@ -219,7 +219,7 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
 <title>
 <format style="bold" color="e14273">TOOLS</format>
 </title>
-
+<p/> <!-- formatting fix -->
 Unreal Engine 5.8, JetBrains Rider, Visual Studio Code, Diversion, Trello.
 </chapter>
 
@@ -229,12 +229,12 @@ Unreal Engine 5.8, JetBrains Rider, Visual Studio Code, Diversion, Trello.
 </title>
 
 <list>
-<li><p><a href="https://futuregames.itch.io/ryft"><format style="strikethrough">Itch.io</format></a></p></li>
-<li><p><a href="https://store.steampowered.com"><format style="strikethrough">Steam</format> (coming soon)</a></p></li>
+<li><p><a href="https://futuregames.itch.io/ryft"><format style:="strikethrough">Itch.io</format></a></p></li>
+<li><p><a href="https://store.steampowered.com"><format style:="strikethrough">Steam</format> (coming soon)</a></p></li>
 <li><p><a href="https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing">Playtest Document</a></p></li>
 </list>
 </chapter>
-
+<p/> <!-- formatting fix -->
 <a href="RYFT.md" as="button" mode="classic" icon="info">View the detailed breakdown on RYFT</a>
 
 ---
@@ -476,7 +476,7 @@ Game Designer, Product Owner, Scrum Master, Programmer (C#).
 <title>
 <format style="bold" color="e14273">TOOLS</format>
 </title>
-
+<p/> <!-- formatting fix -->
 Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrains Space <b>(CI/CD)</b>.
 </chapter>
 
@@ -489,7 +489,7 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 <li><p><a href="https://www.youtube.com/watch?v=BDWqbVHXUpc">Trailer</a></p></li>
 </list>
 </chapter>
-
+<p/> <!-- formatting fix -->
 <a href="Neon-Rivalry.md" as="button" mode="classic" icon="info">Read my retrospective on Neon Rivalry</a>
 
 ---
@@ -553,7 +553,7 @@ Game Designer and Associate Programmer (C++).
 <title>
 <format style="bold" color="e14273">TOOLS</format>
 </title>
-
+<p/> <!-- formatting fix -->
 <b>Unreal Engine 5</b> (C++ &amp; Blueprints), JetBrains Rider, <b>Perforce</b>, <b>JIRA</b>, <b>Miro</b>, Discord.
 </chapter>
 
@@ -566,7 +566,6 @@ Game Designer and Associate Programmer (C++).
 <li><p><a href="https://futuregames.itch.io/palindra">Itch.io</a></p></li>
 </list>
 </chapter>
-
 <a href="Palindra.md" as="button" mode="classic" icon="info">View the detailed breakdown on Palindra</a>
 
 ---
@@ -576,7 +575,7 @@ Game Designer and Associate Programmer (C++).
 ## About Me
 
 <primary-label ref="lum"></primary-label>
-
+<p/> <!-- formatting fix -->
 <a href="About-Me.md" as="button" mode="classic" icon="person">Read more about me!</a>
 
 <p>&nbsp;</p>
@@ -762,12 +761,11 @@ Solo Developer (Designer/Programmer/Artist)
 
 Unity, JetBrains Rider, GitHub, Notion
 
-<chapter id="breakdown_prototyping">
-<title>
-<format style="bold" color="e14273">BREAKDOWN</format>
-</title>
-
-<a href="Prototyping.md#v1" as="button" mode="classic" icon="info">Read more about my design process.</a>
+<chapter title="Prototyping" id="breakdown_prototyping">
+    <title>
+        <format style="bold" color="e14273">BREAKDOWN</format>
+    </title>
+    <a href="Prototyping.md#" as="button" mode="classic" icon="info">Read the project/course breakdown.</a>
 </chapter>
 
 ### Board Game Design Course
