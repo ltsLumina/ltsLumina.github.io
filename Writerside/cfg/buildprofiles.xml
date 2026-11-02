@@ -20,6 +20,7 @@
         <link-color>aqua</link-color>
         <content-max-width>1280</content-max-width>
         <custom-favicons>favicon.png</custom-favicons>
+        <custom-css>custom.css</custom-css>
         <header-logo>favicon.png</header-logo>
         <showDownloadButton>true</showDownloadButton>
         <download-title>CV/Resume</download-title>

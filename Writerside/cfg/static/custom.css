@@ -1,0 +1,114 @@
+/*
+ * Visual project-card labels for the primary projects.
+ * These are CSS decorations, not separate links.
+ */
+a[href*="Portfolio.md#"],
+a[href*="portfolio.html#"] {
+    position: relative;
+}
+
+a[href*="Portfolio.md#fate"]::before,
+a[href*="portfolio.html#fate"]::before,
+a[href*="Portfolio.md#ryft"]::before,
+a[href*="portfolio.html#ryft"]::before,
+a[href*="Portfolio.md#angel"]::before,
+a[href*="portfolio.html#angel"]::before,
+a[href*="Portfolio.md#somnium"]::before,
+a[href*="portfolio.html#somnium"]::before,
+a[href*="Portfolio.md#neon-rivalry"]::before,
+a[href*="portfolio.html#neon-rivalry"]::before,
+a[href*="Portfolio.md#palindra"]::before,
+a[href*="portfolio.html#palindra"]::before,
+a[href*="Portfolio.md#fate"]::after,
+a[href*="portfolio.html#fate"]::after,
+a[href*="Portfolio.md#ryft"]::after,
+a[href*="portfolio.html#ryft"]::after,
+a[href*="Portfolio.md#angel"]::after,
+a[href*="portfolio.html#angel"]::after,
+a[href*="Portfolio.md#somnium"]::after,
+a[href*="portfolio.html#somnium"]::after,
+a[href*="Portfolio.md#neon-rivalry"]::after,
+a[href*="portfolio.html#neon-rivalry"]::after,
+a[href*="Portfolio.md#palindra"]::after,
+a[href*="portfolio.html#palindra"]::after {
+    position: absolute;
+    left: 0.75rem;
+    z-index: 2;
+    display: block;
+    padding: 0.25rem 0.4rem;
+    border-radius: 0.25rem;
+    color: #303033;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+
+a[href*="Portfolio.md#fate"]::before,
+a[href*="portfolio.html#fate"]::before,
+a[href*="Portfolio.md#ryft"]::before,
+a[href*="portfolio.html#ryft"]::before,
+a[href*="Portfolio.md#somnium"]::before,
+a[href*="portfolio.html#somnium"]::before,
+a[href*="Portfolio.md#palindra"]::before,
+a[href*="portfolio.html#palindra"]::before {
+    top: 0.75rem;
+    background: var(--wh-color-marine);
+    background-image: url("team.svg");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "Group";
+}
+
+a[href*="Portfolio.md#angel"]::before,
+a[href*="portfolio.html#angel"]::before,
+a[href*="Portfolio.md#neon-rivalry"]::before,
+a[href*="portfolio.html#neon-rivalry"]::before {
+    top: 0.75rem;
+    background: var(--wh-color-marine);
+    background-image: url("person.svg");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "Solo";
+}
+
+a[href*="Portfolio.md#fate"]::after,
+a[href*="portfolio.html#fate"]::after,
+a[href*="Portfolio.md#ryft"]::after,
+a[href*="portfolio.html#ryft"]::after,
+a[href*="Portfolio.md#angel"]::after,
+a[href*="portfolio.html#angel"]::after,
+a[href*="Portfolio.md#palindra"]::after,
+a[href*="portfolio.html#palindra"]::after {
+    top: 2.75rem;
+    left: 0.75rem;
+    background: var(--wh-color-purple);
+    background-image: url("unreal-engine.svg");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "Unreal";
+}
+
+a[href*="Portfolio.md#somnium"]::after,
+a[href*="portfolio.html#somnium"]::after,
+a[href*="Portfolio.md#neon-rivalry"]::after,
+a[href*="portfolio.html#neon-rivalry"]::after {
+    top: 2.75rem;
+    left: 0.75rem;
+    background: var(--wh-color-purple);
+    background-image: url("unity.svg");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "Unity";
+}
