@@ -24,9 +24,10 @@
 Additionally, FATE's technical implementation is my most ambitious project: <b>15,000+ lines of code</b> across <b><tooltip term="Angelscript" id="angelscript">Angelscript</tooltip> and C++</b>, with over <b>300</b> coding hours.
 </p>
 <img src="FATE-as-metrics.png" alt="FATE Angelscript metrics" style:="block"/>
-<img src="FATE-cpp-metrics.png" alt="FATE C++ metrics" style:="block"/>
 </quote>
 </tldr>
+<p/> <!-- formatting fix -->
+<a href="https://futuregames.itch.io/fate" as="button" mode="transparent">Install via itch.io</a>
 
 <chapter title="Design direction" id="design-direction">
     <p>
@@ -53,6 +54,7 @@ Additionally, FATE's technical implementation is my most ambitious project: <b>1
             obvious.
         </li>
     </list>
+<img src="fate-pillars.png" alt=""/>
 </procedure>
 </chapter>
 
@@ -107,11 +109,14 @@ Additionally, FATE's technical implementation is my most ambitious project: <b>1
                 </li>
                 <li>The final calculated point in space the bullet will hit.</li>
             </list>
+
+<procedure>
+<warning>Clarification: Although the variables are named e.g. 'Spread<b>Point</b>', most of them are actually unit vectors, and do not represent a world location. Some time during development the variables' purpose changed, but their names
+unfortunately did not.</warning>
 &nbsp;
 <code-block lang="actionscript" collapsible="true" default-state="expanded" collapsed-title="GunComponent.as - Fire() function" emphasize-lines="8,12,31-35" src="../resources/GunComponent.as" include-lines="427-469"/>
-
+</procedure>
 <p/> <!-- formatting fix -->
-<warning>Clarification: Although the variables are named e.g. 'Spread<b>Point</b>', most of them are actually unit vectors, and do not represent a world location. Some time during development the variables' purpose changed, but their names unfortunately did not.</warning>
      </def>
      <def title="Bullet magnetism" id="bullet-magnetism">
          <p>
@@ -124,49 +129,53 @@ Additionally, FATE's technical implementation is my most ambitious project: <b>1
              Movement, recoil, and hectic encounters cause small errors, so the system preserves the player's intent
              while rewarding aim near the target. The player must still aim in the right direction.
          </p>
-         <p>
-             Studying Destiny's and Marathon's shooting helped enormously. Two videos were instrumental:
-             <br/>• <a href="https://www.youtube.com/watch?v=qrJv7mj7Ab4">Accuracy, Aim Assist &amp; Range Explained In-Depth</a> by Drewsky
-             <br/>• <a href="https://www.youtube.com/watch?v=LTVi3owxttc">How Aim Assist & Accuracy REALLY Work in Marathon</a> by CoolGuy
-         </p>
-         <p>
-             Each shot sweeps a capsule along the player's aim. Its radius comes from the weapon's aim-assist angle
-             (<code>tan(angle) × distance</code>), keeping forgiveness angularly consistent at any range. Our levels
-             are large and open, so punishing distant targets felt bad; the same principle explains why we use no
-             damage-or-bullet falloff.</p>
-
-<p>
-If the capsule finds a target, the spread direction is pulled toward its hit point by at most that angle. Because
-the pull is capped rather than snapping to the target, aiming still matters.
-</p>
-<p>
-There is one exception: if the spread trace already lands on a precision hit (a head), magnetism is skipped. It
-cannot pull a shot away from an earned headshot, a bug discovered during testing.
-</p>
-&nbsp;
-<code-block lang="c#" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - bullet magnetism (capsule sweep and pull)" emphasize-lines="3,19,27-39,60,66-67" src="../resources/GunComponent.as" include-lines="502-510,512-549,572-604"/>
-
-<deflist type="full" collapsible="true" default-state="collapsed">
-<def title="Click to view a visualization in-engine" id="bullet-magnetism-visualization">
+<p id="bullet-magnetism-visualization"><b>Bullet magnetism in-engine</b></p>
     <img src="../videos/bullet-magnetism-visualization.gif" alt="Bullet Magnetism" width="800" thumbnail="true" style:="block"/>
                <p>
                    Although I'm aiming at the target closest to the wall, the bullet is pulled toward the closer
                    target because the bullet-magnetism capsule trace detected it.
                </p>
-               <img src="magnetism_img1-fix.png" alt="Bullet Magnetism" width="600" thumbnail="true" style:="block"/>
+<table width="auto">
+    <tr>
+        <td><img src="magnetism_img1-fix.png" alt="Bullet Magnetism" width="600" thumbnail="true"/>
+        <p>The actor that the target acquisition capsule (pink) overlaps becomes the target the bullet will magnetize toward.</p>
+</td>
+        <td><img src="magnetism_img2-fix.png" alt="Bullet Magnetism" width="200" thumbnail="true"/>
+<p>The dark blue line is the target point: the exact vector the player was facing when they pressed fire.</p>
+</td>
+    </tr>
+</table>
                <p>
                    The dark blue line/capsule trace is the exact aim point; the light blue line is the final bullet
-                   path.
-               </p>
-               <img src="magnetism_img2-fix.png" alt="Bullet Magnetism" width="600" thumbnail="true" style:="block"/>
-               <p>
-                   Although the trace appears to hit the furthest target, the bullet stopped at the closer target.
+                   path. Although the trace appears to hit the furthest target, the bullet stopped at the closer target, <b>because the bullet was magnetized toward the acquired target</b>.
                </p>
                <p>
                    The video <a href="https://www.youtube.com/watch?v=yv3lRNAxA0o">"How Halo's Aim Assist ACTUALLY works"</a>
-                   showcases the system clearly:
+                   showcases the system clearly.
                </p>
-               <video src="https://www.youtube.com/watch?v=yv3lRNAxA0o" muted="true"/>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<def title="How bullet magnetism works" id="bullet-magnetism-how">
+         <p>
+             Studying Destiny's and Marathon's shooting helped enormously. Two videos were instrumental:
+             <br/>• <a href="https://www.youtube.com/watch?v=qrJv7mj7Ab4">Accuracy, Aim Assist &amp; Range Explained In-Depth</a> by Drewsky
+             <br/>• <a href="https://www.youtube.com/watch?v=LTVi3owxttc">How Aim Assist &amp; Accuracy REALLY Work in Marathon</a> by CoolGuy
+         </p>
+         <p>
+             Each shot sweeps a capsule along the player's aim. Its radius comes from the weapon's aim-assist angle
+             (<code>tan(angle) × distance</code>), keeping forgiveness angularly consistent at any range. Our levels
+             are large and open, so punishing distant targets felt bad; the same principle explains why we use no
+             damage-or-bullet falloff.
+         </p>
+         <p>
+             If the capsule finds a target, the spread direction is pulled toward its hit point by at most that
+             angle. Because the pull is capped rather than snapping to the target, aiming still matters.
+         </p>
+         <p>
+             There is one exception: if the spread trace already lands on a precision hit (a head), magnetism is
+             skipped. It cannot pull a shot away from an earned headshot, a bug discovered during testing.
+         </p>
+&nbsp;
+<code-block lang="c#" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - bullet magnetism (capsule sweep and pull)" emphasize-lines="3,19,27-39,60,66-67" src="../resources/GunComponent.as" include-lines="502-510,512-549,572-604"/>
            </def>
            </deflist>
        </def>
@@ -197,12 +206,17 @@ cannot pull a shot away from an earned headshot, a bug discovered during testing
            <p>
                These knobs live on the weapon definition: spread curve, first-shot and maximum spread (separately
                for hip-fire and aiming down sights), bullets to reach maximum, and running and airborne penalties.
-               A shot is protected after half a second still and three quarters of a second without firing.
+                <br/><b>By placing these knobs in per-weapon data assets, I can easily balance the weapons through a data-oriented way.</b>
            </p>
+<img src="angel-Phantom-BP-1.png" alt="" thumbnail="true"/>
+<note>
+This image is from <a href="Angel.md">the angel project</a>, so the data isn't totally accurate, but gives an approximate idea of what kind of knobs we had available in FATE.
+</note>
 &nbsp;
 <code-block lang="c#" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - GetSpread() and IsBulletProtected()" emphasize-lines="8,23-26,29,53-55" src="../resources/GunComponent.as" include-lines="126-134,336-385"/>
 
 </def>
+<!--
         <def title="Recoil recovery" id="recoil-recovery">
             <p>
                 Every shot kicks the player's view up and sideways, then eases it back.
@@ -222,7 +236,8 @@ cannot pull a shot away from an earned headshot, a bug discovered during testing
 <code-block lang="c#" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - UpdateRecoil() and ApplyControlRecoil()" emphasize-lines="9,26,38-42,66,72-75" src="../resources/GunComponent.as" include-lines="817-894"/>
 
 </def>
-        <def title="Cooldown handling" id="cooldown-handling">
+-->
+<def title="Cooldown handling" id="cooldown-handling">
             <p>
                 The GunComponent handles shot cooldown instead of the gameplay ability through a committed
                 <tooltip term="GameplayEffect" id="gameplay-effect-cooldown">GameplayEffect</tooltip>, the standard
@@ -257,18 +272,6 @@ cannot pull a shot away from an earned headshot, a bug discovered during testing
 <code-block lang="c#" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - Shoot() function" emphasize-lines="15,21-31,35-41" src="../resources/GunComponent.as" include-lines="973-1015"/>
 
 </def>
-        <def title="Supporting work" id="supporting-work">
-            <p>
-                Many script or Blueprint extensions were implemented in C++. I also extended the editor through C++
-                and <tooltip term="Angelscript" id="angelscript-editor">Angelscript</tooltip>, including direct
-                documentation links in the toolbar.
-            </p>
-            <p>
-                Alongside GAS's client-predicted replication, we handled substantial manual replication. My primary
-                role was replicating game state to the UI—healthbars, nametags, and boss-bars—but as the most
-                experienced with replication, I also remained the main source of information and assistance.
-            </p>
-        </def>
         <def title="What I would change" id="gun-reflection">
             <p>
                 If I rebuilt the GunComponent today, I would lean more heavily on native GAS systems. I am more
@@ -282,11 +285,6 @@ cannot pull a shot away from an earned headshot, a bug discovered during testing
             </p>
         </def>
         </deflist>
-       <p>Other GunComponent features also contribute to shooting feel:</p>
-       <list>
-           <li>Aim-down-sights zoom and alternate weapon-mode support, which smoothly interpolates the camera's field of view.</li>
-           <li>Replicated tracer and impact effects, with hits on characters running the target's own hit-reaction cue (precision hits have their own).</li>
-       </list>
 </procedure>
 </chapter>
 </tab>
@@ -331,7 +329,11 @@ cannot pull a shot away from an earned headshot, a bug discovered during testing
            developer creates a new GameplayAbility asset and adds its entry to the enchantment data table.
            <b>No new branch in the damage handler should be needed for each upgrade.</b>
        </p>
-       <p>
+<procedure>
+<img src="fate-enchant-data.png" alt="" thumbnail="true"/>
+The DataTable view for adding a new enchantment.
+</procedure>
+<p>
            The HealthAttributes script reads the enchantment trigger tags from the GameplayEffect context and
            invokes every ability that has one of those tags. The tags deliberately fall through: a precision hit
            <b>triggers both</b> <code>Ability_Enchant_Trigger_OnPrecisionHit</code> and the ordinary
@@ -396,10 +398,7 @@ cannot pull a shot away from an earned headshot, a bug discovered during testing
     <chapter title="Encounter design" id="encounter-design">
         <p>
             Every encounter asks players to collaborate differently. The first encounter, a tether puzzle,
-            requires players to position themselves between generators so electricity can pass from one player to
-            the next and reach a capacitor or door. Completing it requires communication and positioning, but also
-            <b><tooltip term="Ad-clear" id="ad-clear">ad-clear</tooltip></b>: players must defeat the
-            repeatedly-spawning combatants while maintaining the puzzle.
+            requires players to position themselves between generators so electricity can pass from one player to the next and reach a capacitor or door. Completing it requires communication and positioning, but also <b><tooltip term="Ad-clear" id="ad-clear">ad-clear</tooltip></b>: players must defeat the repeatedly-spawning combatants while maintaining the puzzle.
         </p>
         <p>
             The balance between gunplay and puzzles leaned roughly 60–40 toward gunplay. <b>Shooting was the most
@@ -438,7 +437,8 @@ cannot pull a shot away from an earned headshot, a bug discovered during testing
             <b><tooltip term="Self-Determination Theory" id="self-determination-theory">self-determination theory</tooltip></b>.
         </p>
         <p>
-            Bartle's Taxonomy was not the framework I used to design FATE's heroes. Instead, I designed each hero around a distinct player fantasy: <b>Hawkmoon is simple – yet powerful</b>, <b>Izanagi has a high skill ceiling – but punishing if innacurate</b>, and <b>Bastion goes where he pleases – mowing down enemies</b>. Those fantasies naturally create different points of entry: Hawkmoon offers flexibility and accessibility, Izanagi rewards precision and mastery, and Bastion prioritizes immediate action and integrity.
+            Bartle's Taxonomy was not the framework I used to design FATE's heroes. Instead, I designed each hero around a distinct player fantasy: <b>Hawkmoon is simple – yet powerful</b>, <b>Izanagi has a high skill ceiling – but punishing if innacurate</b>, and <b>Bastion goes where he pleases – mowing down enemies</b>. 
+            <br/>Those fantasies naturally create different points of entry: Hawkmoon offers flexibility and accessibility, Izanagi rewards precision and mastery, and Bastion prioritizes immediate action and integrity.
         </p>
         <p>
             This also supports <b>self-determination theory</b>: each hero offers a different route to autonomy and
