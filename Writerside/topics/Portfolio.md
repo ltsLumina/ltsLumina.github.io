@@ -20,7 +20,7 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>St
 
 <p>At <tooltip term="Futuregames">Futuregames</tooltip> I specialize in the <b>design <u>and</u> development</b> of <b>gameplay mechanics</b>, <br/><b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
 
-<p>I bring a <b><a href="Prototyping.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying together engineers, gameplay programmers, and designers.</p>
+<p>I bring a <b><a href="Design-Process.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying together engineers, gameplay programmers, and designers.</p>
 </quote>
 
 <procedure>

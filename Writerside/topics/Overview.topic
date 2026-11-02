@@ -14,7 +14,7 @@
 
         <spotlight>
             <card href="Portfolio.md" image="portfolio-embed.png" summary="An overview of my portfolio, projects, responsibilities, and experience.">Portfolio</card>
-            <card href="Prototyping.md" image="design-process.png" summary="My iterative approach to designing, prototyping, and solving interaction problems.">Design Process</card>
+            <card href="Design-Process.md" image="design-process.png" summary="My iterative approach to designing, prototyping, and solving interaction problems.">Design Process</card>
         </spotlight>
 
         <primary>
