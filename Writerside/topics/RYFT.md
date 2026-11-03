@@ -117,8 +117,9 @@
                 <br/>
                 There were enough changes with this iteration that I felt the need to write patch notes for the dev team:
             </p>
-            <chapter title="Patch Notes" id="patch-notes" collapsible="true" default-state="collapsed">
-                <list>
+            <deflist title="Patch Notes" id="patch-notes" collapsible="true" default-state="collapsed">
+<def title="Patch Notes">
+<list>
                     <li>walk speed has been raised by 200 units (800 -&gt; 1000)</li>
                     <li>wall-kicks now grant 100 units of speed. (capped at the max move speed of 2000 units)</li>
                     <li>
@@ -143,8 +144,8 @@
                     </li>
                     <li>Added view bobbing while walking.</li>
                 </list>
-            </chapter>
-            <chapter title="&af;" id="iteration-4-continued">
+            </def>
+            </deflist>
                 <p>
                     As you can see, there are a lot of changes, and far too many to reason each one.
                     <br/>
@@ -164,7 +165,6 @@
                 </p>
                 <p><img src="zweek_videos_transparent.png" thumbnail="true" alt=""/></p>
                 <p>I wanted to see if any of Titanfall's movement tech could work in ours, beginning with air-strafing:</p>
-            </chapter>
             <deflist type="full" collapsible="true" default-state="collapsed">
             <def title="Air-Strafing" id="air-strafing">
                 <p>

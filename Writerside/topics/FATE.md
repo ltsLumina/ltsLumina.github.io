@@ -588,7 +588,7 @@ the rest of the team was new to GAS and replication, I became the primary source
 <a href="https://github.com/tranek/GASDocumentation">Tranek's unofficial GAS documentation</a> and Epic Games' tutorials.
 </p>
 </def>
-            <def title="Dependencies">
+<def title="Dependencies">
 <p>
         As the lead designer and lead programmer, all team members were dependent on me in some capacity.
         While it was very flattering – being trusted by so many in such a pivotal project – it was also a burden that I learned a lot from.
