@@ -14,20 +14,16 @@
 <secondary-label ref="miro"></secondary-label>
 <secondary-label ref="figma"></secondary-label>
 
-<tldr>
-    <p>
-        FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("Raid-like")</b>.
-        <br/>Across <b>7 weeks</b>, our combined efforts produced a game we were overjoyed to see others play.
-    </p>
+<video src="https://youtu.be/cMRGwG6g7GQ" preview-src="8man-chaos-fate.gif" muted="true"/>
+
 <quote>
-<p>
-Additionally, FATE's technical implementation is my most ambitious project: <b>15,000+ lines of code</b> across <b><tooltip term="Angelscript" id="angelscript">Angelscript</tooltip> and C++</b>, with over <b>300</b> coding hours.
+<p> 
+FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("Raid-like")</b>. 
+<br/>Across <b>7 weeks</b>, our combined efforts produced a game we were overjoyed to see others play.
 </p>
+<p>Additionally, FATE's technical implementation is my most ambitious project: <b>15,000+ lines of code</b> across <b><tooltip term="Angelscript" id="angelscript">Angelscript</tooltip> and C++</b>, with over <b>300</b> coding hours.</p>
 <img src="FATE-as-metrics.png" alt="FATE Angelscript metrics" style:="block"/>
 </quote>
-</tldr>
-<p/> <!-- formatting fix -->
-<a href="https://futuregames.itch.io/fate" as="button" mode="transparent">Install via itch.io</a>
 
 <chapter title="Design direction" id="design-direction">
     <p>
@@ -54,9 +50,18 @@ Additionally, FATE's technical implementation is my most ambitious project: <b>1
             obvious.
         </li>
     </list>
-<img src="fate-pillars.png" alt=""/>
+<img src="fate-pillars.png" alt="" thumbnail="false"/>
 </procedure>
 </chapter>
+
+<procedure title="My design process for FATE" collapsible="false">
+    <step>Consider as many interaction problems as possible (writing them down, making flowcharts)</step>
+    <step>Decide the relevance of designing around a given problem</step>
+    <step>Account for the implementation's complexity and estimated time to develop</step>
+    <step>Prototype the first iteration quickly to uncover unexpected problems</step>
+    <step>Iterate on the original design through feedback and evaluation.</step>
+<a href="Design-Process.md" as="button" mode="outline" icon="info">More on my design process</a>
+</procedure>
 
 <tabs>
 <tab title="GunComponent" id="implementation">
