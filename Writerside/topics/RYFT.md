@@ -12,74 +12,98 @@
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
 
-<tldr>
-RYFT taught me a lot about parsing player feedback, iterating on features (through said feedback), and building systems that support future content. 
-</tldr>
+<video src="https://youtu.be/GO6zLJVXBX8" preview-src="ryft_showcase.gif"/>
+
+<quote>
+<p>RYFT taught me to parse player feedback, iterate on features, and build systems that support future content.</p>
+</quote>
+
+<chapter title="Design direction" id="design-direction">
+    <p>
+        RYFT is a speedgame built around movement, momentum, and player mastery. The design evolved through several
+        iterations as we tested whether the movement felt fast, controllable, and rewarding to improve.
+    </p>
+    <p>
+        My design process was to identify traversal problems, decide which were worth solving, account for the
+        implementation cost, prototype quickly, and iterate through feedback and evaluation. This meant repeatedly testing movement in playable levels rather than relying on the initial concept -- which by the end we had strayed far from.
+    </p>
+</chapter>
+
+<procedure title="My design process for RYFT" collapsible="false">
+    <step>Consider the interaction problems created by the current movement design</step>
+    <step>Decide which problems were relevant enough to solve</step>
+    <step>Account for implementation complexity and available development time</step>
+    <step>Prototype the next movement iteration quickly</step>
+    <step>Iterate through player feedback and evaluation</step>
+    <p>
+        This is the iterative design loop described in <a href="Design-Process.md">my design process</a>: find
+        problems as early and cheaply as possible, then feed what the prototype teaches back into the design.
+    </p>
+</procedure>
 
 <tabs>
     <tab title="Movement" id="movement">
         <p>
-            The design of the movement went through nearly half a dozen iterations in the span of 4–6 weeks.
-            <br/>
-            I was <b>solely responsible</b> for the design and implementation of the movement: The <b>character controller</b>, <b>abilities</b> (dash, grapple, wallrun, double-jump, slide, etc.),
-            sense of speed, <b>speed-tech</b>, and more.
+            Movement went through nearly half a dozen iterations over 4–6 weeks. I was <b>solely responsible</b>
+            for its design and implementation, including the character controller, abilities, sense of speed,
+            and speed-tech.
         </p>
         <img src="ryft_showcase.gif" thumbnail="true" alt=""/>
         <chapter title="Iteration 1" id="iteration-1">
             <p>
-                Our first iteration was 'inspired' by Neon White. To say inspired is a bit equivocal, since I tried my best to replicate it one-to-one (aside from the movement abilities).
+                The first iteration tried to replicate <i>Neon White</i>'s movement as closely as possible, aside
+                from its movement abilities.
             </p>
             <p>
-                We received plenty of feedback that your momentum was stripped from you at an instant, which doesn't feel great in a speedgame all about going fast. I remedied it by adding
-                accel-and-deceleration, something the original iteration did not use.
+                Feedback showed that instantly losing momentum felt wrong in a speedgame about going fast. I addressed
+                this by adding acceleration and deceleration.
             </p>
-            <chapter title="Iteration 2" id="iteration-2">
-                <p>
-                    Feedback on the second iteration was steadily improving, but the sense of speed was still not there.
-                    <br/>
-                    Speedlines and modulating field of view based on your actions and velocity were added to sell the sense of speed.
-                </p>
-            </chapter>
+        </chapter>
+        <chapter title="Iteration 2" id="iteration-2">
+            <p>
+                Feedback on the second iteration improved, but the sense of speed was still missing. Speedlines
+                and a field of view that changed with actions and velocity helped communicate it.
+            </p>
+        </chapter>
         <video src="../videos/RYFT_MovementComparison.mp4" preview-src="RYFT_MovementComparison.gif" width="800"></video>
         <quote>A comparison between the second iteration of movement and the latest version of the game.</quote>
-        </chapter>
         <chapter title="Iteration 3" id="iteration-3">
             <p>
-                Finally, with iterations three and four, the real sense of speed was achieved.
-                <br/>
-                We had slowly strayed away from our original reference game (Neon White) over the course of the project, and by the time iteration three came around, I knew it was time to make
-                some big changes to the movement.
-                <br/>
-                The first addition in iteration 3 was sliding:
+                Iterations three and four finally achieved the intended sense of speed. By then, the movement had
+                strayed from the original reference enough that larger changes were justified. The first addition
+                was sliding:
             </p>
                 <img src="ryft_sliding.gif" thumbnail="true" alt=""/>
             <quote>Early development footage of sliding.</quote>
-            <p>Sliding was added for two reasons:</p>
+            <p>Sliding addressed two design problems:</p>
             <list>
                 <li>
-                    We needed a way to carry momentum after a long fall (and while moving especially fast (iteration 4))
+                    It carried momentum after a long fall and while moving especially fast.
                 </li>
                 <li>
-                    I thought sliding would be a great addition to the game – promoting agency and momentum – but we were skeptical how it fits the original design, which feared sliding may become too prominent. <br/>After prototyping it, however, the rest of the development team liked it, and we decided to lean into it more.
+                    It promoted agency and momentum. Although we initially worried it might become too prominent,
+                    prototyping showed that it fit the game, so we leaned into it.
                 </li>
             </list>
             <chapter title="Inertia" id="inertia">
                 <p>
                     The identifying feature of iteration three was the addition of 'inertia'.
                     <br/>
-                    'Inertia' is the system behind gaining and carrying momentum through the level. It also affects the player's speed quite drastically, depending on the actions and how the player combines them.
+                    Inertia is the system for gaining and carrying momentum through a level. It changes the player's
+                    speed based on their actions and how they combine them.
                 </p>
                 <p>
-                    Performing actions like sliding or using abilities grants a stack of inertia for a duration (depending on the action), for a maximum of three stacks and a maximum duration of 2.5s
-                    (at the time). <br/>While the player has any inertia stacks, gain +650 units of speed (base speed = 1000 units, max = 2000).
+                    Sliding and using abilities grant inertia for a duration based on the action, up to three stacks
+                    and 2.5 seconds at the time. While any stacks remain, the player gains 650 units of speed
+                    (base speed 1000, maximum 2000).
                 </p>
                 <p>
-                    However, inertia needs to be managed and considered with every jump and ability used. If your inertia expires, you lose all the benefits and slow down drastically. Not too slow to
-                    beat the level, but not particularly fast either.
+                    Inertia must be managed with every jump and ability. If it expires, the player loses its benefits
+                    and slows down considerably, though not enough to make the level impossible to beat.
                 </p>
                 <p>
-                    This effect alone enabled players to travel far quicker than they ever could before, and created new skips on all existing levels, which saw the game receive even more traction
-                    during development.
+                    This enabled much faster movement and created new skips on existing levels, increasing the game's
+                    traction during development.
                 </p>
                 <video src="../videos/inertia-demonstration-v2.mp4" preview-src="inertia-demonstration-v2.gif"></video>
                 <quote>Demonstration of iteration 3 compared to iteration 2.<br/>When inertia is enabled, you have infinitely more momentum and control compared to iteration 2.
