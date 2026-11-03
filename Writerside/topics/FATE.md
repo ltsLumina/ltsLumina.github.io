@@ -71,7 +71,9 @@ FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("R
     <tldr>
         The up-to-date files are private, so snippets date to August 3rd 2026.
     </tldr>
-<img src="fate-pvp.gif" thumbnail="true" alt="PvP Footage" width="400"/>
+<quote>
+<img src="fate-pvp.gif" thumbnail="true" alt="PvP Footage"/>
+PvP footage during development.</quote>
         <p>
             I designed and implemented the GunComponent, a project pillar: <b>every shot a player fires goes through
             it</b>. FATE's weapons are <b><tooltip term="Hitscan" id="hitscan">hitscan</tooltip></b>, so there are
@@ -121,7 +123,7 @@ FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("R
 <warning>Clarification: Although the variables are named e.g. 'Spread<b>Point</b>', most of them are actually unit vectors, and do not represent a world location. Some time during development the variables' purpose changed, but their names
 unfortunately did not.</warning>
 &nbsp;
-<code-block lang="actionscript" collapsible="true" default-state="expanded" collapsed-title="GunComponent.as - Fire() function" emphasize-lines="8,12,31-35" src="../resources/GunComponent.as" include-lines="427-469"/>
+<code-block lang="actionscript" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - Fire() function" emphasize-lines="8,12,31-35" src="../resources/GunComponent.as" include-lines="427-469"/>
 </procedure>
 <p/> <!-- formatting fix -->
      </def>
@@ -323,10 +325,17 @@ This image is from <a href="Angel.md">the angel project</a>, so the data isn't t
             My iteration loop was: define the fantasy, prototype the weapon, playtest it in encounters and waves,
             then adjust it without losing its identity. The following sections trace that process.
         </p>
+<chapter title="Self-determination Theory" id="self-determination-theory" level="4">
+<img src="self-determination-theory.jpg" alt="" thumbnail="true" width="400" style:="inline"/>
+<p>
+This approach also supported <b><tooltip term="Self-Determination Theory">self-determination theory</tooltip></b>. Each hero offered a different route to autonomy and competence, while cooperative encounters supported relatedness. Hero mastery provided intrinsic rewards, and enchantments (rogue-lite upgrades) provided extrinsic rewards that encouraged experimentation and progression.
+</p>
+</chapter>
     </chapter>
 
 <chapter title="Encounter design" id="encounter-design">
-        <p>
+<img src="fate-img0.png" thumbnail="true" width="800" alt=""/>
+<p>
             Every encounter asks players to collaborate differently. The first encounter, a tether puzzle,
             requires players to position themselves between generators so electricity can reach a capacitor or door.
             While maintaining the puzzle, they must also defeat repeatedly spawning enemies. 
@@ -562,10 +571,14 @@ The DataTable view for adding a new enchantment.
 
 <tab title="What I Learned" id="what-i-learned">
 <warning> Under Construction!</warning>
+<quote>
+<img src="fate-img1-environment-enc2.png" thumbnail="false" width="800" alt=""/>
+The second encounter, featuring the symbol puzzle.
+</quote>
 <deflist>
 <def title="Designing for different player types">
 <p>
-TBD.
+I learned how to iterate a design to service a given player by designing three different heroes for different player fantasies and player types.
 </p>
 </def>
 <def title="GAS Architecture &amp; Framework">
@@ -577,18 +590,15 @@ the rest of the team was new to GAS and replication, I became the primary source
 </def>
             <def title="Dependencies">
 <p>
-        As the lead designer <b>and</b> programmer, all team members were dependent on me in some capacity.
+        As the lead designer and lead programmer, all team members were dependent on me in some capacity.
         While it was very flattering – being trusted by so many in such a pivotal project – it was also a burden that I learned a lot from.
 </p>
-    <p>
-        <br/>I was often needed somewhere, either in a design meeting or helping the programmers, which meant I was unable to work on my own responsibilities as much and as undisturbed as I would like.
+<p>
+        Furthermore, being so dependent by the whole team meant that if I was ever unavailable – such as during week three of seven – the project grinds to a halt on many fronts, as designs I've written are interpreted without supervision, and systems are modified without proper review.
 </p>
 <p>
-        <br/>Furthermore, being so dependent by the whole team meant that if I was ever unavailable – such as during week three of seven – the project grinds to a halt on many fronts, as designs I've written are interpreted without supervision, and systems are modified without proper review.
-</p>
-<p>
-        <br/>The takeaway is to <b>scope according to your overall team's capacity</b>, not that of one (or a few) developer(s),
-        account for unavailability, and defer responsibilities throughout your team.
+        The takeaway is to <b>scope according to your overall team's capacity</b>, not that of one (or a few) developer(s).
+        <b>Account for unavailability</b>, and <b>defer responsibilities</b> throughout your team.
 </p>
 </def>
 

@@ -38,7 +38,7 @@ This page provides short summaries of my projects, responsibilities, tools, and 
 <table width="auto">
     <tr>
       <td><img src="fate-pvp.gif" thumbnail="true" alt="PvP Footage"/></td>
-      <td><img src="fate-3tap.gif"  thumbnail="true" alt="Firing in the Shooting Range as Izanagi"/></td>
+      <td><img src="fate-3tap.gif" thumbnail="true" alt="Firing in the Shooting Range as Izanagi"/></td>
     </tr>
 </table>
 

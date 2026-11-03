@@ -27,9 +27,7 @@ My core skills include gameplay design, rapid prototyping, systems programming, 
 
 <quote>
 <p id="i-design-for">
-I design for <b><tooltip term="Bartle's Taxonomy">different player types</tooltip></b> and how they play together,
-balancing <b>intrinsic and extrinsic rewards</b> through
-<b><tooltip term="Self-Determination Theory">self-determination theory</tooltip>.</b>
+I design for <b><tooltip term="Bartle's Taxonomy">different player types</tooltip></b> and how they play together, balancing <b>intrinsic and extrinsic rewards</b> through <b><a href="FATE.md#self-determination-theory" summary=""><tooltip term="Self-Determination Theory">self-determination theory</tooltip></a></b>
 </p>
 
 <p>• Experienced in <b>C#</b>, <b>Blueprint</b>, and <b><tooltip term="Angelscript">Angelscript</tooltip></b>, with limited experience in <b>C++</b> and <b>Java</b>.</p>
