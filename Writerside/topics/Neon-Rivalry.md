@@ -5,7 +5,11 @@
 <secondary-label ref="lbs"></secondary-label>
 <secondary-label ref="unity"></secondary-label>
 
-<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="NeonRivalry_COVERART.jpg" width="600"/>
+<tldr>
+Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a high school game project course.
+</tldr>
+
+<video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="neon-rivalry-trailer-short.gif" width="800"/>
 
 I unfortunately have little to say about this project.  
 It was developed in 2023–2024 at LBS (Gymnasium), and I have little footage or documentation from then.

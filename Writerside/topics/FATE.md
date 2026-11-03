@@ -14,14 +14,17 @@
 <secondary-label ref="miro"></secondary-label>
 <secondary-label ref="figma"></secondary-label>
 
-<video src="https://youtu.be/cMRGwG6g7GQ" preview-src="8man-chaos-fate.gif" muted="true"/>
-
-<quote>
+<tldr>
 <p> 
 FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("Raid-like")</b>. 
-<br/>Across <b>7 weeks</b>, our combined efforts produced a game we were overjoyed to see others play.
+<br/>Across <b>7 weeks</b>, the efforts of 10 students culminated in a game we were overjoyed to see others play.
 </p>
-<p>Additionally, FATE's technical implementation is my most ambitious project: <b>15,000+ lines of code</b> across <b><tooltip term="Angelscript" id="angelscript">Angelscript</tooltip> and C++</b>, with over <b>300</b> coding hours.</p>
+</tldr>
+
+<video src="https://youtu.be/cMRGwG6g7GQ" preview-src="8man-chaos-fate.gif" muted="true" width="800"/>
+
+<quote>
+<p>Additionally, FATE's technical implementation is my most ambitious project: <b>15,000+ lines of code</b> across <b><tooltip term="Angelscript" id="angelscript">Angelscript</tooltip>, and C++</b>, with over <b>300</b> coding hours.</p>
 <img src="FATE-as-metrics.png" alt="FATE Angelscript metrics" style:="block"/>
 </quote>
 
@@ -53,17 +56,6 @@ FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("R
 <img src="fate-pillars.png" alt="" thumbnail="false"/>
 </procedure>
 </chapter>
-
-<procedure title="My design process for FATE's Heroes" collapsible="false">
-    <step>Brainstorm heroes that fit a given player fantasy</step>
-    <step>Debate their playstyle and role in a team composition</step>
-    <step>Prototype the heroes' weapon</step>
-    <step>Test their gunplay and role in encounters and waves of enemies</step>
-    <step>Iterate the design through feedback without losing its identity</step>
-
-<p>The <a href="FATE.md#guns-and-heroes"></a> tab further elaborates on this process.</p>
-<a href="Design-Process.md" as="button" mode="outline" icon="info">More on my design process</a>
-</procedure>
 
 <tabs>
 <tab title="Gunplay" id="implementation">
@@ -298,7 +290,16 @@ This image is from <a href="Angel.md">the angel project</a>, so the data isn't t
 </chapter>
 </tab>
 <tab title="Guns &amp; Heroes" id="guns-and-heroes">
-    <chapter title="Hero roles" id="hero-roles">
+<procedure title="My design process for FATE's Heroes" collapsible="false">
+    <step>Brainstorm heroes that fit a given player fantasy</step>
+    <step>Debate their playstyle and role in a team composition</step>
+    <step>Prototype the heroes' weapon</step>
+    <step>Test their gunplay and role in encounters and waves of enemies</step>
+    <step>Iterate the design through feedback without losing its identity</step>
+<a href="Design-Process.md" as="button" mode="outline" icon="info">More on my design process</a>
+</procedure>
+
+<chapter title="Hero roles" id="hero-roles">
         <p>
             I started with a simple design question: <b>what kind of player fantasy should each hero make feel
             natural?</b> The answer had to shape both the weapon and the way that weapon contributed to a team:

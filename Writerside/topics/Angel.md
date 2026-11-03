@@ -7,7 +7,13 @@
 <secondary-label ref="unreal"></secondary-label>
 <secondary-label ref="angelscript"></secondary-label>
 
-<warning> This project is heavily outdated and no longer represents how I would implement much of the described logic. Please refer to <a href="FATE.md"></a> for updated implementation and reasoning.</warning>
+<tldr>
+A work-in-progress clone of Valorant demonstrating gun and ability systems in Angelscript.
+</tldr>
+
+<video src="https://youtu.be/cMRGwG6g7GQ" preview-src="8man-chaos-fate.gif" muted="true" width="750"/>
+
+<warning> This project is outdated and no longer represents how I would implement much of the described logic. Please refer to <a href="FATE.md"></a> for updated implementation and reasoning.</warning>
 
 This project is very early in development, and is very prototype-heavy at the moment. Nothing is final, nor is this page
 complete.

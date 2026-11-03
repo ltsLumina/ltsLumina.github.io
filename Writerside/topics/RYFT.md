@@ -12,7 +12,12 @@
 <secondary-label ref="angelscript"></secondary-label>
 <secondary-label ref="c++"></secondary-label>
 
-<video src="https://youtu.be/GO6zLJVXBX8" preview-src="ryft_showcase.gif"/>
+<tldr>
+<p>‘RYFT’ is a first-person parkour speedgame set in a retro synthwave world, developed by 6 students.</p>
+<p><a href="https://store.steampowered.com">Soon available on Steam</a></p>
+</tldr>
+
+<video src="https://youtu.be/GO6zLJVXBX8" preview-src="ryft_showcase.gif" width="800"/>
 
 <quote>
 <p>RYFT taught me to parse player feedback, iterate on features, and build systems that support future content.</p>

@@ -5,6 +5,12 @@
 <secondary-label ref="futuregames"></secondary-label>
 <secondary-label ref="unreal"></secondary-label>
 
+<tldr>
+<p>Palindra is an atmospheric puzzle game with a time-travel mechanic, created by 10 students at Futuregames.</p>
+</tldr>
+
+<video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" preview-src="Palindra-Trailer.gif" width="800"/>
+
 <tabs>
     <tab title="Piano Puzzle" id="piano">
 

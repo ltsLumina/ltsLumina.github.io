@@ -7,13 +7,12 @@
 <secondary-label ref="unity"></secondary-label>
 <secondary-label ref="award"></secondary-label>
 
-<quote>
-<p>
-    Somnium is a retro-inspired dungeon-crawler, created by a wonderful team of 11 talented people.
-    <br/>
-    Below is a breakdown of my decisions, thoughts, and experiences, throughout its development.
-</p>
-</quote>
+<tldr>
+<p>Somnium is a retro-inspired dungeon-crawler, created by 11 talented people.</p>
+<p>Below is a breakdown of my decisions, thoughts, and experiences, throughout its development.</p>
+</tldr>
+
+<video src="https://www.youtube.com/watch?v=ZB1c6866ts8" preview-src="../videos/somnium-trailer.gif" width="750"/>
 
 <tabs>
     <tab title="Design Responsibilities" id="design-responsibilities">
@@ -69,7 +68,7 @@
                     We achieved this increase in difficulty by introducing a higher-tiered version of our enemies that posed higher health and damage values. We also increased the density of enemies in key areas.
                 </p>
             </tab>
-            <tab title="Gameplay Feel &amp; Experience" id="gameplay-feel-and-experience">
+            <tab title="Gameplay Feel" id="gameplay-feel">
                 <p>
                     Once we decided on the project's core premise, I knew I wanted to incorporate immersive-sim features into this experience.
                     <br/>
