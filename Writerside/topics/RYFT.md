@@ -36,7 +36,7 @@
     <step>Prototype the next movement iteration quickly</step>
     <step>Iterate through player feedback and evaluation</step>
     <p>
-        This is the iterative design loop described in <a href="Design-Process.md">my design process</a>: find
+        This is the iterative design loop described in <b><a href="Design-Process.md">my design process</a></b>: find
         problems as early and cheaply as possible, then feed what the prototype teaches back into the design.
     </p>
 </procedure>
