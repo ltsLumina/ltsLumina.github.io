@@ -116,13 +116,11 @@ a[data-test="starting-page-card"][href*=".html"] {
     background-repeat: no-repeat;
     background-size: 0.9rem 0.9rem;
     padding-left: 1.5rem;
-    content: "Movement Design";
+    content: "Movement & Systems Design";
 }
 
 [data-test="starting-page-card"][href*="Angel.md"]::before,
-[data-test="starting-page-card"][href*="angel.html"]::before,
-[data-test="starting-page-card"][href*="Neon-Rivalry.md"]::before,
-[data-test="starting-page-card"][href*="neon-rivalry.html"]::before {
+[data-test="starting-page-card"][href*="angel.html"]::before {
     top: 0.75rem;
     background: var(--wh-color-marine);
     background-image: url("person.svg");
@@ -133,12 +131,57 @@ a[data-test="starting-page-card"][href*=".html"] {
     content: "Solo";
 }
 
+[data-test="starting-page-card"][href*="Neon-Rivalry.md"]::before,
+[data-test="starting-page-card"][href*="neon-rivalry.html"]::before {
+    top: 0.75rem;
+    background: var(--wh-color-marine);
+    background-image: url("person.svg");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "Solo Designer";
+}
+
 [data-test="starting-page-card"][href*="FATE.md"]::after,
-[data-test="starting-page-card"][href*="fate.html"]::after,
+[data-test="starting-page-card"][href*="fate.html"]::after {
+    top: 2.75rem;
+    left: 0.75rem;
+    background: var(--wh-color-purple);
+    background-image: url("unreal-engine.svg");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "10 devs | 7 weeks";
+}
+
 [data-test="starting-page-card"][href*="RYFT.md"]::after,
-[data-test="starting-page-card"][href*="ryft.html"]::after,
+[data-test="starting-page-card"][href*="ryft.html"]::after {
+    top: 2.75rem;
+    left: 0.75rem;
+    background: var(--wh-color-purple);
+    background-image: url("unreal-engine.svg");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "6 devs | 6 weeks";
+}
+
 [data-test="starting-page-card"][href*="Angel.md"]::after,
-[data-test="starting-page-card"][href*="angel.html"]::after,
+[data-test="starting-page-card"][href*="angel.html"]::after {
+    top: 2.75rem;
+    left: 0.75rem;
+    background: var(--wh-color-purple);
+    background-image: url("unreal-engine.svg");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "3 weeks";
+}
+
 [data-test="starting-page-card"][href*="Palindra.md"]::after,
 [data-test="starting-page-card"][href*="palindra.html"]::after {
     top: 2.75rem;
@@ -149,11 +192,22 @@ a[data-test="starting-page-card"][href*=".html"] {
     background-repeat: no-repeat;
     background-size: 0.9rem 0.9rem;
     padding-left: 1.5rem;
-    content: "Unreal";
+    content: "10 devs | 6 weeks";
 }
 
 [data-test="starting-page-card"][href*="Somnium.md"]::after,
-[data-test="starting-page-card"][href*="somnium.html"]::after,
+[data-test="starting-page-card"][href*="somnium.html"]::after {
+    top: 2.75rem;
+    left: 0.75rem;
+    background: var(--wh-color-purple);
+    background-image: url("unity.svg");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "11 devs | 2.5 weeks";
+}
+
 [data-test="starting-page-card"][href*="Neon-Rivalry.md"]::after,
 [data-test="starting-page-card"][href*="neon-rivalry.html"]::after {
     top: 2.75rem;
@@ -164,5 +218,5 @@ a[data-test="starting-page-card"][href*=".html"] {
     background-repeat: no-repeat;
     background-size: 0.9rem 0.9rem;
     padding-left: 1.5rem;
-    content: "Unity";
+    content: "5 devs | 7.5 months";
 }

@@ -290,7 +290,7 @@ This image is from <a href="Angel.md">the angel project</a>, so the data isn't t
 </chapter>
 </tab>
 <tab title="Guns &amp; Heroes" id="guns-and-heroes">
-<procedure title="My design process for FATE's Heroes" collapsible="false">
+<procedure title="My design process for FATE's Heroes" id="design-process" collapsible="false">
     <step>Brainstorm heroes that fit a given player fantasy</step>
     <step>Debate their playstyle and role in a team composition</step>
     <step>Prototype the heroes' weapon</step>

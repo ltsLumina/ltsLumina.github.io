@@ -109,3 +109,10 @@ This is the <tooltip term="Iterative Design Loop">iterative design loop</tooltip
 <a href="Prototyping.md" as="button" mode="classic">Read about the 'Prototyping' course.</a>
 </tab>
 </tabs>
+
+<quote>
+<p>Read more about my design process in:</p>
+<a href="FATE.md#design-process" as="button" mode="classic" icon="enter" size="s">FATE</a>
+<a href="RYFT.md#design-process" as="button" mode="classic" icon="enter" size="s">RYFT</a>
+<a href="Somnium.md#weapons-and-ability" as="button" mode="classic" icon="enter" size="s">Somnium</a>
+</quote>

@@ -7,21 +7,18 @@
 <secondary-label ref="in"></secondary-label>
 <secondary-label ref="location"></secondary-label>
 
-<quote>
+<tldr>
 <p>
 Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>Stockholm, Sweden</b>.
 </p>
 
 <p>At <tooltip term="Futuregames">Futuregames</tooltip> I specialize in the <b>design <u>and</u> development</b> of <b>gameplay mechanics</b>, <br/><b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
 
-<p>I bring a <b><a href="Design-Process.md">unique perspective on game design</a></b> through my <b>programming background</b>, tying together engineers, gameplay programmers, and designers.</p>
-</quote>
-
-<procedure>
-<p>Reach out on <a href="https://www.linkedin.com/in/itslumina/">LinkedIn</a> or email me at: <a href="mailto:itsluminas@gmail.com">itsluminas@gmail.com</a>  
-<br/>
-View my <resource src="Resume.pdf"></resource>, or watch my <a href="https://youtu.be/1d3kRUk4NzA">Showreel.</a></p>
-</procedure>
+<p>I bring a <b><a href="Design-Process.md" summary="I account for the implementation's complexity and estimated time to develop, prototype iterations quickly, and iterate designs and code through feedback and evaluation.">unique perspective on game design</a></b> through my <b>programming background</b>, tying together engineers, gameplay programmers, and designers.</p>
+</tldr>
+<a href="https://www.linkedin.com/in/itslumina/" as="button" mode="outline" size="m">LinkedIn</a>
+<a href="mailto:itsluminas@gmail.com" as="button" mode="outline" size="m">Email</a>
+<a href="https://alexanderseguin.com/resources/Resume.pdf" as="button" mode="outline" size="m">Resume</a>
 
 ## Portfolio
 

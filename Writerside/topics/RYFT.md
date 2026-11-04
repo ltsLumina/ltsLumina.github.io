@@ -34,7 +34,7 @@
     </p>
 </chapter>
 
-<procedure title="My design process for RYFT" collapsible="false">
+<procedure title="My design process for RYFT" id="design-process" collapsible="false">
     <step>Consider the interaction problems created by the current movement design</step>
     <step>Decide which problems were relevant enough to solve</step>
     <step>Account for implementation complexity and available development time</step>
