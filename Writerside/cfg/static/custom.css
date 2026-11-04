@@ -71,22 +71,52 @@ a[data-test="starting-page-card"][href*=".html"] {
     pointer-events: none;
 }
 
-[data-test="starting-page-card"][href*="FATE.md"]::before,
-[data-test="starting-page-card"][href*="fate.html"]::before,
-[data-test="starting-page-card"][href*="RYFT.md"]::before,
-[data-test="starting-page-card"][href*="ryft.html"]::before,
 [data-test="starting-page-card"][href*="Somnium.md"]::before,
-[data-test="starting-page-card"][href*="somnium.html"]::before,
-[data-test="starting-page-card"][href*="Palindra.md"]::before,
-[data-test="starting-page-card"][href*="palindra.html"]::before {
+[data-test="starting-page-card"][href*="somnium.html"]::before {
     top: 0.75rem;
-    background: var(--wh-color-marine);
-    background-image: url("team.svg");
+    background: var(--wh-color-strawberry);
+    background-image: url("swords.png");
     background-position: 0.4rem center;
     background-repeat: no-repeat;
     background-size: 0.9rem 0.9rem;
     padding-left: 1.5rem;
-    content: "Group";
+    content: "Combat Design";
+}
+
+[data-test="starting-page-card"][href*="Palindra.md"]::before,
+[data-test="starting-page-card"][href*="palindra.html"]::before {
+    top: 0.75rem;
+    background: var(--wh-color-strawberry);
+    background-image: url("jigsaw-piece.png");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "Puzzle Design";
+}
+
+[data-test="starting-page-card"][href*="FATE.md"]::before,
+[data-test="starting-page-card"][href*="fate.html"]::before {
+    top: 0.75rem;
+    background: var(--wh-color-strawberry);
+    background-image: url("gear.svg");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "Gunplay & Hero Design";
+}
+
+[data-test="starting-page-card"][href*="RYFT.md"]::before,
+[data-test="starting-page-card"][href*="ryft.html"]::before {
+    top: 0.75rem;
+    background: var(--wh-color-strawberry);
+    background-image: url("lightning.svg");
+    background-position: 0.4rem center;
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+    padding-left: 1.5rem;
+    content: "Movement Design";
 }
 
 [data-test="starting-page-card"][href*="Angel.md"]::before,

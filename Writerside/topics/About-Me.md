@@ -23,11 +23,13 @@ Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>St
 View my <resource src="Resume.pdf"></resource>, or watch my <a href="https://youtu.be/1d3kRUk4NzA">Showreel.</a></p>
 </procedure>
 
+## Portfolio
+
 <tip>
 For the complete portfolio, visit the <b><a href="Portfolio.topic" summary="A visual overview of my portfolio, projects, processes, and more.">Portfolio page.</a></b>
 </tip>
 
-## Who am I?
+## Outside of work
 
 I'm a Swedish-_born_ **Finnish-Canadian**, with an unmatched dedication and drive to **learn**, **improve**, **teach**, and **create**. I have a growth mindset, which pushes me to iterate on existing skills and to always be willing to learn new things.  
 
@@ -60,7 +62,7 @@ To be part of that would mean more to me than words can express.
 
 ---
 
-## Favourite Games
+## Favourite games
 Here's a list of games I enjoy, in no particular order.
 
 - Valorant
@@ -73,14 +75,15 @@ Here's a list of games I enjoy, in no particular order.
 - Satisfactory
 - NieR: Automata
 
-## Tutorials
+## Teaching and learning
+
 I've made a bunch of tutorials for my friends and classmates throughout my education.    
-Additionally, I've held lectures at Futuregames on Angelscript which where recorded and made available on YouTube.
+Additionally, I've held lectures at Futuregames on Angelscript which were recorded and made available on YouTube.
 > [Futuregames Tutorials](https://www.youtube.com/playlist?list=PLY-ty403ysHTlh4AzxgBGEONXBIY9UANx)  
 > [Futuregames Lectures](https://www.youtube.com/playlist?list=PLYkS5X71nWoU)
 
-### Fun Fact: 
-This website was made with the code-documentation tool [Writerside](https://www.jetbrains.com/writerside/) by JetBrains, rather than through traditional website-making means.
+### Fun fact
+This website was made with the code-documentation tool [Writerside](https://www.jetbrains.com/writerside/) by JetBrains, rather than through traditional website-making means. It has taught me how to use Markdown, HTML, XML, and CSS.
 
 ## Thanks for reading about me!
 

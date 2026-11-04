@@ -53,7 +53,7 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
 </p>
 <p>
 <b>Engine:</b> Unreal Engine 5.7 (custom angelscript fork)
-<br/><b>Genre:</b> 'Raid-like' (FPS + Destiny Raid + Rogue-lite)
+<br/><b>Genre:</b> 'Raid-like' (FPS + Destiny Raid + Roguelite)
 <br/><b>Team Size:</b> 10 (4 Designers, 4 Programmers, 2 VFX/Animators)
 <br/><b>Duration:</b> 7 weeks @ Futuregames (2026)
 </p>
@@ -80,7 +80,7 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
         <p><a href="FATE.md#guns-and-heroes">Read more about their design and implementation here.</a></p>
     </def>
     <def title="Enchantments (upgrades)" id="enchantments">
-        <p>Designed and implemented <b>'enchantments' (rogue-lite upgrades)</b>. The design of each was catered toward each hero's playstyle, including some that were <b>unique</b> to each hero.</p>
+        <p>Designed and implemented <b>'enchantments' (roguelite upgrades)</b>. The design of each was catered toward each hero's playstyle, including some that were <b>unique</b> to each hero.</p>
         <p>Each enchantment is a GameplayAbility granted upon picking up the enchantment orb. <br/>The ability auto-activates when granted, executing its logic (stat buffs, VFX/SFX, deal damage, etc.) </p>
         <p>A non-exhaustive list <a href="https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing">can be viewed here.</a></p>
     </def>

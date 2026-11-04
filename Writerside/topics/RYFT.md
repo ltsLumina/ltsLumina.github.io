@@ -108,8 +108,9 @@
                 </p>
                 <p>
                     This enabled much faster movement and created new skips on existing levels, increasing the game's
-                    traction during development.
+                    replay value during development. <b>Players repeatedly replayed levels — often dozens of times — to beat their own and each other's times</b>, encouraging players to challenge each other.
                 </p>
+                <p>Another thing that strengthened that loop considerably was implementíng the global leaderboard showing friends' times.</p>
                 <video src="../videos/inertia-demonstration-v2.mp4" preview-src="inertia-demonstration-v2.gif"></video>
                 <quote>Demonstration of iteration 3 compared to iteration 2.<br/>When inertia is enabled, you have infinitely more momentum and control compared to iteration 2.
                         <br/>Conversely, when inertia is disabled (iteration 2), only your movement speed is increased.
@@ -282,7 +283,10 @@
             For instance, the <code>MakeMixtapeWidget</code> is a modal with many buttons and configuration, so it uses the VCR style.
             The <code>PreStageWidget</code>, however, covers the full screen and has no obvious buttons (there are some hover interactions, but otherwise the menu is dismissed with keyboard/controller inputs)
         </p>
-        <p>The UI has only ever gotten praise, with the very little feedback we did get pertaining to feature requests, rather than constructive criticism.</p>
+        <p>
+            Feedback on the UI was consistently positive. The few requests we received were mostly for additional
+            features rather than corrections to the underlying presentation or usability.
+        </p>
         <p>
             I am very proud of my work on the UI. I believe it shows that I am willing to learn new things outside my comfort zone, as UI was previously something I distanced myself from, that
             I ultimately relegated myself to since <i>someone</i> eventually has to do it.

@@ -1,6 +1,6 @@
 <include from="see-also.topic" element-id="see-also-defaults"/>
 
-# Angel Project
+# Angel Prototype
 
 <primary-label ref="angel"></primary-label>
 <secondary-label ref="futuregames"></secondary-label>
@@ -11,7 +11,7 @@
 A work-in-progress clone of Valorant demonstrating gun and ability systems in Angelscript.
 </tldr>
 
-<video src="https://youtu.be/cMRGwG6g7GQ" preview-src="8man-chaos-fate.gif" muted="true" width="750"/>
+<img src="../videos/angel_project_wip-gif.gif" alt="WIP footage of the Angel Project" width="850"/>
 
 <warning> This project is outdated and no longer represents how I would implement much of the described logic. Please refer to <a href="FATE.md"></a> for updated implementation and reasoning.</warning>
 

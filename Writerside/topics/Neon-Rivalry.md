@@ -14,9 +14,7 @@ Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a high 
 I unfortunately have little to say about this project.  
 It was developed in 2023–2024 at LBS (Gymnasium), and I have little footage or documentation from then.
 
-Neon Rivalry was an early project of mine from when I was younger, immature, and less experienced working in a team. A foundational project in becoming a great teammate. At the
-time, I was under the mentality that all my peers' work was subpar and had to be "fixed", meaning I would rewrite all their logic. Furthermore, as the product owner, I rarely
-delegated any tasks to my peers and 'hoarded' all the work to myself for the same reason.  
+Neon Rivalry was an early project of mine, from a time when I was less experienced working in a team. It became foundational in teaching me how to be a better teammate. At the time, I assumed too much of my peers' work needed to be "fixed", so I rewrote logic instead of delegating and took on more work than I should have.
 
 Now, having grown as a person, aged, worked in more structured teams, and reflected on my
 mentality, I have become a natural leader who emphasizes communication (especially between disciplines), organizes meetings, and makes people feel seen and heard.

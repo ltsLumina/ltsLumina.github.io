@@ -18,7 +18,7 @@
 
         <primary>
             <title>Projects</title>
-            <card href="Angel.md" image="../videos/angel_project_wip-gif.gif" summary="Work-in-progress Valorant clone demonstrating gun and ability systems">Angel</card>
+            <card href="Angel.md" image="../videos/angel_project_wip-gif.gif" summary="Work-in-progress Valorant clone demonstrating gun and ability systems">Angel Prototype</card>
             <card href="Somnium.md" image="../videos/somnium-trailer.gif" summary="Retro dungeon crawler.">Somnium</card>
             <card href="Neon-Rivalry.md" image="neon-rivalry-trailer-short.gif" summary="Couch co-op 2.5D fighting game">Neon Rivalry</card>
             <card href="Palindra.md" image="Palindra-Trailer.gif" summary="Atmospheric puzzle game built around a time-travel mechanic">Palindra</card>

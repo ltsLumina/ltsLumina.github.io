@@ -30,7 +30,7 @@ FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("R
 
 <chapter title="Design direction" id="design-direction">
     <p>
-        FATE is a Destiny-inspired <b><tooltip term="Rogue-lite" id="rogue-lite">rogue-lite</tooltip> FPS puzzle
+        FATE is a Destiny-inspired <b><tooltip term="Rogue-lite" id="rogue-lite">roguelite</tooltip> FPS puzzle
         game</b> about collaborating with up to two friends in encounter-based levels. Players solve puzzles while
         repeatedly-spawning enemies create <b>constant pressure</b>, capturing the communication, coordination, and
         combat tension of a traditional Destiny raid in a smaller experience.
@@ -329,7 +329,7 @@ This image is from <a href="Angel.md">the angel project</a>, so the data isn't t
 <chapter title="Self-determination Theory" id="self-determination-theory" level="4">
 <img src="self-determination-theory.jpg" alt="" thumbnail="true" width="400" style:="inline"/>
 <p>
-This approach also supported <b><tooltip term="Self-Determination Theory">self-determination theory</tooltip></b>. Each hero offered a different route to autonomy and competence, while cooperative encounters supported relatedness. Hero mastery provided intrinsic rewards, and enchantments (rogue-lite upgrades) provided extrinsic rewards that encouraged experimentation and progression.
+This approach also supported <b><tooltip term="Self-Determination Theory">self-determination theory</tooltip></b>. Each hero offered a different route to autonomy and competence, while cooperative encounters supported relatedness. Hero mastery provided intrinsic rewards, and enchantments (roguelite upgrades) provided extrinsic rewards that encouraged experimentation and progression.
 </p>
 </chapter>
     </chapter>
@@ -461,7 +461,7 @@ This approach also supported <b><tooltip term="Self-Determination Theory">self-d
    </def>
    <def title="Designer-friendly enchantments" id="health-enchantments">
        <p>
-           Damage also needed to invoke enchantments -- the <tooltip term="Rogue-lite" id="rogue-lite-damage">rogue-lite</tooltip> upgrades that let players grow
+           Damage also needed to invoke enchantments -- the <tooltip term="Rogue-lite" id="rogue-lite-damage">roguelite</tooltip> upgrades that let players grow
            exponentially stronger. The implementation goal was to make adding one require little code: a designer or
            developer creates a new GameplayAbility asset and adds its entry to the enchantment data table.
            <b>No new branch in the damage handler should be needed for each upgrade.</b>
@@ -479,8 +479,14 @@ The DataTable view for adding a new enchantment.
        <p>
            This was especially important when a hit killed an enemy. If only the death trigger ran, ordinary
            on-hit enchantments would never execute, which would undermine the fantasy of breaking the game through
-           increasingly powerful rogue-lite upgrades. See <a href="Project-Summaries.md#enchantments">the FATE enchantments overview</a>
+           increasingly powerful roguelite upgrades. See <a href="Project-Summaries.md#enchantments">the FATE enchantments overview</a>
            for examples of those upgrades.
+       </p>
+       <p>
+           The result was a shared pipeline that let enchantments trigger one another and stack without a hard
+           ceiling. As gunplay became better at clearing groups, players became less cautious and pushed deeper
+           into encounters than before; the damage and enchantment systems made that escalation work without
+           adding bespoke branches for every upgrade.
        </p>
 &nbsp;
 &nbsp;
@@ -544,12 +550,13 @@ The DataTable view for adding a new enchantment.
     </chapter>
     <chapter title="Pivot" id="pivot">
         <p>
-            Realizing the difficulty of making this work in a multiplayer setting (after dozens of hours of
-            troubleshooting), <b>I announced to our team that our current vision and workflow would not be
-            sustainable</b>. The team was in unanimous agreement.
+            Our original vision was a semi-procedurally-generated roguelite dungeon, but after dozens of hours of
+            troubleshooting we realized that making it work in a multiplayer setting would not be sustainable.
+            <b>I announced to our team that our current vision and workflow had to change.</b> The team was in
+            unanimous agreement.
         </p>
         <p>
-            Later that day, we pivoted to a <b>hand-crafted experience with 3 characters</b> (down from 4), more
+            Later that day, we pivoted to a <b>hand-crafted experience structured like a Destiny raid</b>, with more
             thought-provoking puzzles, more cooperation, and far more sustainable workflows. Workflow changes
             included better communication about working hours, scoping down areas where we were lacking in raw
             workforce (e.g. Animations), and focusing on polishing our core experience, rather than opting for
@@ -617,8 +624,7 @@ Navigate to some recommended topics.
 
 <chapter title="Closing Thoughts" id="closing-thoughts">
     <p>
-            Having designed 3 heroes and guns, raid puzzles, written <b>15,000+ lines of code, and spent over 300 hours</b> on the project,
-            I am only able to reflect on so much, so should you want to hear more, please reach out to me on
+            FATE began as a multiplayer roguelite dungeon and became a hand-crafted raid-like experience after the pivot I led. Having <b>designed 3 heroes and guns, raid puzzles</b>, written <b>15,000+ lines of code, and spent over 300 hours</b> on the project, I am only able to reflect on so much, so should you want to hear more, please reach out to me on
             <a href="https://www.linkedin.com/in/itslumina">LinkedIn</a>,
             <a href="https://discordapp.com/users/287272193946288129">Discord</a>,
             <a href="mailto:itsluminas@gmail.com">Email</a>
