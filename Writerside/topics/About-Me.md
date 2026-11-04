@@ -9,7 +9,7 @@
 
 <tldr>
 <p>
-Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer based in <b>Stockholm, Sweden</b>.
+Hello, I'm <b>Alexander "Lum" Andrejeff</b>, a Technical Designer of <b>6 years</b> based in <b>Stockholm, Sweden</b>.
 </p>
 
 <p>At <tooltip term="Futuregames">Futuregames</tooltip> I specialize in the <b>design <u>and</u> development</b> of <b>gameplay mechanics</b>, <br/><b>complex systems</b>, and <b>backend tech</b> <i>(engine and tooling)</i>.</p>
