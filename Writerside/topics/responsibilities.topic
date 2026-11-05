@@ -6,7 +6,8 @@
        is-library="true" id="responsibilities" title="Responsibilities">
 
     <snippet id="fate-responsibilities">
-            <def title="Gunplay &amp; Abilities" default-state="expanded">
+        <var name="first-def-default-state" value="expanded"/>
+            <def title="Gunplay &amp; Abilities" default-state="%first-def-default-state%">
                 <p>Designed <b>distinct PvE and PvP gunplay, akin to Destiny and Halo</b>. Achieved by breaking down what makes those games fun and how they implement them.</p>
                 <p>Developed the <b>gun logic and all related abilities</b>: <b>shoot</b>, <b>reload</b>, <b>ADS</b>, etc.
                 <br/>View my most extensive script here: <resource src="GunComponent.as"/></p>
@@ -35,7 +36,8 @@
     </snippet>
 
     <snippet id="ryft-responsibilities">
-            <def title="Player Movement" default-state="expanded">
+        <var name="first-def-default-state" value="expanded"/>
+            <def title="Player Movement" default-state="%first-def-default-state%">
                 <p>Designed, prototyped, iterated, and fully developed the movement abilities including <b>dash</b>, <b>grapple</b>, <b>mantle</b>, and more.</p>
                 <p>Movement went through half a dozen iterations, built on <a href="https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing" summary="Link to a compilation of all our playtest feedback.">over 25 playtests.</a></p>
             </def>
@@ -57,7 +59,8 @@
     </snippet>
 
     <snippet id="angel-responsibilities">
-            <def title="Gun Systems" default-state="expanded">
+        <var name="first-def-default-state" value="expanded"/>
+            <def title="Gun Systems" default-state="%first-def-default-state%">
                 Designed and implemented a modular gun system in Angelscript, including shooting, recoil, spread, damage falloff, equipping, and reloading.
             </def>
             <def title="Ability Systems">
@@ -67,7 +70,8 @@
     </snippet>
 
     <snippet id="somnium-responsibilities">
-            <def title="3C (Character, Camera, Controls)" default-state="expanded">
+        <var name="first-def-default-state" value="expanded"/>
+            <def title="3C (Character, Camera, Controls)" default-state="%first-def-default-state%">
                 Designed and implemented the player's camera and controls, tuning the experience for the <a href="https://www.microsoft.com/sv-se/d/xbox-adaptive-controller/8NSDBHZ1N3D8/0002">XBOX adaptive controller</a>, and an audience of ages 4-9.
             </def>
             <def title="Combat System">
@@ -83,7 +87,8 @@
     </snippet>
 
     <snippet id="neon-rivalry-responsibilities">
-            <def title="State Machine" default-state="expanded">
+        <var name="first-def-default-state" value="expanded"/>
+            <def title="State Machine" default-state="%first-def-default-state%">
                 Implemented the game state flow for menus, gameplay, and match transitions.
             </def>
             <def title="Combat System">
@@ -95,7 +100,8 @@
     </snippet>
 
     <snippet id="palindra-responsibilities">
-            <def title="Level Design" default-state="expanded">
+        <var name="first-def-default-state" value="expanded"/>
+            <def title="Level Design" default-state="%first-def-default-state%">
                 Designed the playable spaces and player flow around the game's time-travel mechanic.
             </def>
             <def title="Puzzle Design">

@@ -33,7 +33,7 @@ FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("R
 <def title="Responsibilities">
 <tip>Press a title to expand/collapse it.</tip>
 <deflist type="full" collapsible="true" default-state="collapsed">
-<include from="responsibilities.topic" element-id="fate-responsibilities"></include>
+<include from="responsibilities.topic" element-id="fate-responsibilities"/>
 </deflist>
 </def>
 </deflist>

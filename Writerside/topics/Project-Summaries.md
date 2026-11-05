@@ -60,11 +60,14 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
 </quote>
 </chapter>
 
-<deflist id="roles-and-responsibilities_fate_summary" type="full" collapsible="true" default-state="collapsed">
-<def title="RESPONSIBILITIES">
-<tip>Press a title to expand/collapse it.</tip>
-<include from="responsibilities.topic" element-id="fate-responsibilities"/>
-</def>
+<chapter id="roles-and-responsibilities_fate_summary" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">RESPONSIBILITIES</format>
+</title>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<include from="responsibilities.topic" element-id="fate-responsibilities">
+<var name="first-def-default-state" value="collapsed"></var>
+</include>
 </deflist>
 
 <chapter id="additional-responsibilities" collapsible="true" default-state="collapsed" level="4">
@@ -77,6 +80,7 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
 <li><p>Main &amp; Pause menus (Session-handling, extensive settings options)</p></li>
 <li><p>DLSS implementation</p></li>
 </list>
+</chapter>
 </chapter>
 
 <chapter id="tools_fate" collapsible="true" default-state="collapsed">
@@ -141,12 +145,16 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
 </quote>
 </chapter>
 
-<deflist id="roles-and-responsibilities_ryft_summary" type="full" collapsible="true" default-state="collapsed">
-<def title="RESPONSIBILITIES">
-<tip>Press a title to expand/collapse it.</tip>
-<include from="responsibilities.topic" element-id="ryft-responsibilities"/>
-</def>
+<chapter id="roles-and-responsibilities_ryft_summary" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">RESPONSIBILITIES</format>
+</title>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<include from="responsibilities.topic" element-id="ryft-responsibilities">
+<var name="first-def-default-state" value="collapsed"></var>
+</include>
 </deflist>
+</chapter>
 
 <chapter id="tools_ryft" collapsible="true" default-state="collapsed">
 <title>
@@ -203,17 +211,8 @@ All infringing assets serve only as references during development and will be re
     </td>
   </tr>
 </table>
-
+<p/> <!-- formatting fix -->
 <a href="Angel.md" as="button" mode="classic" icon="info">Read about the Implementation</a>
-
-<deflist id="roles-and-responsibilities_angel_summary" type="full" collapsible="true" default-state="collapsed">
-<def title="RESPONSIBILITIES">
-<tip>Press a title to expand/collapse it.</tip>
-<include from="responsibilities.topic" element-id="angel-responsibilities"/>
-</def>
-</deflist>
-
-
 
 ---
 
@@ -259,12 +258,16 @@ All infringing assets serve only as references during development and will be re
 </quote>
 </chapter>
 
-<deflist id="roles-and-responsibilities_som_summary" type="full" collapsible="true" default-state="collapsed">
-<def title="RESPONSIBILITIES">
-<tip>Press a title to expand/collapse it.</tip>
-<include from="responsibilities.topic" element-id="somnium-responsibilities"/>
-</def>
+<chapter id="roles-and-responsibilities_som_summary" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">RESPONSIBILITIES</format>
+</title>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<include from="responsibilities.topic" element-id="somnium-responsibilities">
+<var name="first-def-default-state" value="collapsed"></var>
+</include>
 </deflist>
+</chapter>
 
 
 
@@ -327,12 +330,16 @@ Unity, JetBrains Rider, Perforce, Trello, Miro.
 </quote>
 </chapter>
 
-<deflist id="roles-and-responsibilities_nr_summary" type="full" collapsible="true" default-state="collapsed">
-<def title="RESPONSIBILITIES">
-<tip>Press a title to expand/collapse it.</tip>
-<include from="responsibilities.topic" element-id="neon-rivalry-responsibilities"/>
-</def>
+<chapter id="roles-and-responsibilities_nr_summary" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">RESPONSIBILITIES</format>
+</title>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<include from="responsibilities.topic" element-id="neon-rivalry-responsibilities">
+<var name="first-def-default-state" value="collapsed"></var>
+</include>
 </deflist>
+</chapter>
 
 
 
@@ -393,12 +400,16 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 </quote>
 </chapter>
 
-<deflist id="roles-and-responsibilities_pal_summary" type="full" collapsible="true" default-state="collapsed">
-<def title="RESPONSIBILITIES">
-<tip>Press a title to expand/collapse it.</tip>
-<include from="responsibilities.topic" element-id="palindra-responsibilities"/>
-</def>
+<chapter id="roles-and-responsibilities_pal_summary" collapsible="true" default-state="collapsed">
+<title>
+<format style="bold" color="e14273">RESPONSIBILITIES</format>
+</title>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<include from="responsibilities.topic" element-id="palindra-responsibilities">
+<var name="first-def-default-state" value="collapsed"></var>
+</include>
 </deflist>
+</chapter>
 
 
 
