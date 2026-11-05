@@ -92,25 +92,23 @@
             </list>
             <chapter title="Inertia" id="inertia">
                 <p>
-                    The identifying feature of iteration three was the addition of 'inertia'.
-                    <br/>
-                    Inertia is the system for gaining and carrying momentum through a level. It changes the player's
-                    speed based on their actions and how they combine them.
+                    I identified inertia as the next feature because I thought it would reward player skill.
+                    Players improving at it over time could keep their high speed, opening up new paths in our maps
+                    and new ways to speedrun them.
                 </p>
                 <p>
-                    Sliding and using abilities grant inertia for a duration based on the action, up to three stacks
-                    and 2.5 seconds at the time. While any stacks remain, the player gains 650 units of speed
+                    This was implemented as a system for gaining and carrying momentum through a level. Sliding and
+                    using abilities grant inertia for a duration based on the action, up to three stacks and
+                    2.5 seconds total. While any stacks remain, the player gains 650 units of speed
                     (base speed 1000, maximum 2000).
                 </p>
                 <p>
                     Inertia must be managed with every jump and ability. If it expires, the player loses its benefits
-                    and slows down considerably, though not enough to make the level impossible to beat.
+                    and slows down considerably, though not enough to make the level impossible to beat. This enabled
+                    much faster movement and created new skips on existing levels, increasing the game's replay value during development. 
+                    <b>Players repeatedly replayed levels — often dozens of times — to beat their own and each other's times</b>.
                 </p>
-                <p>
-                    This enabled much faster movement and created new skips on existing levels, increasing the game's
-                    replay value during development. <b>Players repeatedly replayed levels — often dozens of times — to beat their own and each other's times</b>, encouraging players to challenge each other.
-                </p>
-                <p>Another thing that strengthened that loop considerably was implementíng the global leaderboard showing friends' times.</p>
+                <p>Another thing that strengthened that loop considerably was implementing the global leaderboard showing friends' times, which I added to encourage players to challenge each other.</p>
                 <video src="../videos/inertia-demonstration-v2.mp4" preview-src="inertia-demonstration-v2.gif"></video>
                 <quote>Demonstration of iteration 3 compared to iteration 2.<br/>When inertia is enabled, you have infinitely more momentum and control compared to iteration 2.
                         <br/>Conversely, when inertia is disabled (iteration 2), only your movement speed is increased.
