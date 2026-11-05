@@ -60,38 +60,11 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
 </quote>
 </chapter>
 
-<chapter id="roles-and-responsibilities_fate" collapsible="true" default-state="collapsed">
-<title>
-<format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
-</title>
-<tip>Press a step to expand/collapse it.</tip>
-<deflist type="full" collapsible="true" default-state="collapsed">
-    <def title="Gunplay &amp; Abilities">
-        <p>Designed <b>distinct PvE and PvP gunplay, akin to Destiny and Halo</b>. Achieved by breaking down what makes those games fun and how they implement them.</p>
-        <p>Developed the <b>gun logic and all related abilities</b>: <b>shoot</b>, <b>reload</b>, <b>ADS</b>, etc.
-        <br/>View my most extensive script here: <resource src="GunComponent.as"/></p>
-    </def>
-    <def title="Guns &amp; Heroes">
-        <p>Concepted, pitched, and iterated on <b>three hero designs</b>: <b>Hawkmoon</b>, <b>Izanagi</b>, and <b>Bastion</b>.</p>
-        <p><b>Hawkmoon: Short-range forgiving</b> revolver with a medium magazine and fire-rate.</p>
-        <p><b>Izanagi: Long-range precision</b> sniper with an alternate burst-fire mode.</p>
-        <p><b>Bastion: Medium-range machine-gun</b> with a large magazine and high fire-rate.</p>
-        <br/>
-        <p><a href="FATE.md#guns-and-heroes">Read more about their design and implementation here.</a></p>
-    </def>
-    <def title="Enchantments (upgrades)" id="enchantments">
-        <p>Designed and implemented <b>'enchantments' (roguelite upgrades)</b>. The design of each was catered toward each hero's playstyle, including some that were <b>unique</b> to each hero.</p>
-        <p>Each enchantment is a GameplayAbility granted upon picking up the enchantment orb. <br/>The ability auto-activates when granted, executing its logic (stat buffs, VFX/SFX, deal damage, etc.) </p>
-        <p>A non-exhaustive list <a href="https://docs.google.com/spreadsheets/d/185Nj0lvcnXBs3CzpVRlTaijVfU537k-QxnOOKjZVzqE/edit?usp=sharing">can be viewed here.</a></p>
-    </def>
-    <def title="GAS (Gameplay Ability System)">
-        <p>Designed and implemented all <b><a href="GAS-Architecture.md" summary="Read more about how and why I structured the GAS architecture.">GAS architecture</a></b> including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc.</p>
-        <p>Parts of the implementation were handled in C++, such as custom GameplayEffectContext properties.</p>
-    </def>
-    <def title="Netcode">
-        <p>Worked with the <b>AdvancedSessions plugin</b>, <b>SteamSockets</b>, <b>SteamSubsystem</b>, and more to connect clients to each other.</p>
-        <p><b>RPCs, Replication, and custom</b> <code>async</code> <b>nodes</b> were used for synchronizing state across clients.</p>
-    </def>
+<deflist id="roles-and-responsibilities_fate_summary" type="full" collapsible="true" default-state="collapsed">
+<def title="RESPONSIBILITIES">
+<tip>Press a title to expand/collapse it.</tip>
+<include from="responsibilities.topic" element-id="fate-responsibilities"/>
+</def>
 </deflist>
 
 <chapter id="additional-responsibilities" collapsible="true" default-state="collapsed" level="4">
@@ -104,8 +77,6 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
 <li><p>Main &amp; Pause menus (Session-handling, extensive settings options)</p></li>
 <li><p>DLSS implementation</p></li>
 </list>
-</chapter>
-
 </chapter>
 
 <chapter id="tools_fate" collapsible="true" default-state="collapsed">
@@ -170,33 +141,12 @@ Battle swarms of enemies, grow stronger, and conquer <b>The Ruined Guardian.</b>
 </quote>
 </chapter>
 
-<chapter id="roles-and-responsibilities_ryft" collapsible="true" default-state="collapsed">
-<title>
-<format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
-</title>
-<tip>Press a step to expand/collapse it.</tip>
-<deflist type="full" collapsible="true" default-state="collapsed">
-    <def title="Player Movement">
-        <p>Designed, prototyped, iterated, and fully developed the movement abilities including <b>dash</b>, <b>grapple</b>, <b>mantle</b>, and more.</p>
-        <p>Movement went through <a href="RYFT.md" summary="Read more about each iteration.">half a dozen iterations</a>, built on <a href="https://docs.google.com/document/d/13lN_6bHk4n_5mxYfQAJLzR8i6ntqcQczTnsEIPtKB7M/edit?usp=sharing" summary="Link to a compilation of all our playtest feedback.">over 25 playtests.</a></p>
-    </def>
-    <def title="UI/UX">
-        <p>Designed, implemented, and iterated on <b>all the user interfaces</b>.</p>
-        <p>Read more about my work on the UI in the design breakdown.</p>
-    </def>
-    <def title="Subsystems">
-        <p>Designed, unit tested, and fully developed the architecture and systems that the game runs on, including <b>nine different subsystems</b> which control game logic, level transitions, and more.</p>
-            <chapter title="View a few subsystem scripts" id="ryft-scripts" collapsible="true" default-state="collapsed">
-                <resource src="StageSubsystem.as"/>
-                <resource src="MixtapeSubsystem.as"/>
-                <resource src="RemixSubsystem.as"/>
-            </chapter>
-    </def>
-    <def title="GAS (Gameplay Ability System)">
-        Designed and implemented all <b><a href="GAS-Architecture.md" summary="Read more about how and why I structured the GAS architecture.">GAS architecture</a></b> including <b>attributes</b>, <b>classes</b>, <b>abilities & effects</b>, etc. 
-    </def>
+<deflist id="roles-and-responsibilities_ryft_summary" type="full" collapsible="true" default-state="collapsed">
+<def title="RESPONSIBILITIES">
+<tip>Press a title to expand/collapse it.</tip>
+<include from="responsibilities.topic" element-id="ryft-responsibilities"/>
+</def>
 </deflist>
-</chapter>
 
 <chapter id="tools_ryft" collapsible="true" default-state="collapsed">
 <title>
@@ -256,6 +206,15 @@ All infringing assets serve only as references during development and will be re
 
 <a href="Angel.md" as="button" mode="classic" icon="info">Read about the Implementation</a>
 
+<deflist id="roles-and-responsibilities_angel_summary" type="full" collapsible="true" default-state="collapsed">
+<def title="RESPONSIBILITIES">
+<tip>Press a title to expand/collapse it.</tip>
+<include from="responsibilities.topic" element-id="angel-responsibilities"/>
+</def>
+</deflist>
+
+
+
 ---
 
 ## SOMNIUM <format><img src="Debut_Win25_White.png" alt="" style="inline" width="125"/></format>
@@ -300,29 +259,14 @@ All infringing assets serve only as references during development and will be re
 </quote>
 </chapter>
 
-<chapter id="roles-and-responsibilities_som" collapsible="true" default-state="collapsed">
-<title>
-<format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
-</title>
-
-Combat & Tech Designer, Programming.
-
-<deflist type="full" collapsible="true" default-state="collapsed">
-    <def title="3C (Character, Camera, Controls)">
-        Designed and implemented the player's camera and controls, tuning the experience for the <a href="https://www.microsoft.com/sv-se/d/xbox-adaptive-controller/8NSDBHZ1N3D8/0002">XBOX adaptive controller</a>, and an audience of ages 4-9. 
-    </def>
-    <def title="Combat System">
-        <p>Designed and implemented two weapons: the Dagger, and the Staff.</p>
-        <p>Implemented the 'kick/force-push' mechanic, enabling the player to knock back enemies and environmental objects.</p>
-    </def>
-    <def title="Enemy AI and Combat">
-        Designed and implemented both enemy's AI and attack patterns.
-    </def>
-    <def title="Interaction System">
-        Designed and implemented the game's interaction mechanics, enabling players to pick up items and weapons.
-    </def>
+<deflist id="roles-and-responsibilities_som_summary" type="full" collapsible="true" default-state="collapsed">
+<def title="RESPONSIBILITIES">
+<tip>Press a title to expand/collapse it.</tip>
+<include from="responsibilities.topic" element-id="somnium-responsibilities"/>
+</def>
 </deflist>
-</chapter>
+
+
 
 <chapter id="tools_som" collapsible="true" default-state="collapsed">
 <title>
@@ -383,25 +327,14 @@ Unity, JetBrains Rider, Perforce, Trello, Miro.
 </quote>
 </chapter>
 
-<chapter id="roles-and-responsibilities_nr" collapsible="true" default-state="collapsed">
-<title>
-<format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
-</title>
-
-Game Designer, Product Owner, Scrum Master, Programmer (C#).
-
-<deflist type="full" collapsible="true" default-state="collapsed">
-    <def title="State Machine">
-        Implemented the game state flow for menus, gameplay, and match transitions.
-    </def>
-    <def title="Combat System">
-        Designed and implemented the core combat logic and player-vs-player interactions.
-    </def>
-    <def title="3C (Character, Camera, Controls)">
-        Designed and implemented the player-facing controls and camera behaviour for the fighting experience.
-    </def>
+<deflist id="roles-and-responsibilities_nr_summary" type="full" collapsible="true" default-state="collapsed">
+<def title="RESPONSIBILITIES">
+<tip>Press a title to expand/collapse it.</tip>
+<include from="responsibilities.topic" element-id="neon-rivalry-responsibilities"/>
+</def>
 </deflist>
-</chapter>
+
+
 
 <chapter id="tools_nr" collapsible="true" default-state="collapsed">
 <title>
@@ -460,25 +393,14 @@ Unity, JetBrains Rider, GitHub, Trello, Google Drive, JetBrains Qodana, JetBrain
 </quote>
 </chapter>
 
-<chapter id="roles-and-responsibilities_pal" collapsible="true" default-state="collapsed">
-<title>
-<format style="bold" color="e14273">ROLES AND RESPONSIBILITIES</format>
-</title>
-
-Game Designer and Associate Programmer (C++).
-
-<deflist type="full" collapsible="true" default-state="collapsed">
-    <def title="Level Design">
-        Designed the playable spaces and player flow around the game's time-travel mechanic.
-    </def>
-    <def title="Puzzle Design">
-        Built and iterated on environmental puzzles that use past/present state changes to progress.
-    </def>
-    <def title="UI/UX Design">
-        Created the interface to support puzzle readability and player guidance.
-    </def>
+<deflist id="roles-and-responsibilities_pal_summary" type="full" collapsible="true" default-state="collapsed">
+<def title="RESPONSIBILITIES">
+<tip>Press a title to expand/collapse it.</tip>
+<include from="responsibilities.topic" element-id="palindra-responsibilities"/>
+</def>
 </deflist>
-</chapter>
+
+
 
 <chapter id="tools_pal" collapsible="true" default-state="collapsed">
 <title>

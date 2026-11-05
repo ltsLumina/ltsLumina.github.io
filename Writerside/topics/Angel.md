@@ -13,6 +13,17 @@ A work-in-progress clone of Valorant demonstrating gun and ability systems in An
 
 <img src="../videos/angel_project_wip-gif.gif" alt="WIP footage of the Angel Project" width="850"/>
 
+<chapter title="&af;" id="responsibilities_angel" hide-from-structure="true" level="6">
+<deflist title="Responsibilities" type="full" collapsible="true" default-state="collapsed">
+<def title="Responsibilities">
+<tip>Press a title to expand/collapse it.</tip>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<include from="responsibilities.topic" element-id="angel-responsibilities"/>
+</deflist>
+</def>
+</deflist>
+</chapter>
+
 <warning> This project is outdated and no longer represents how I would implement much of the described logic. Please refer to <a href="FATE.md"></a> for updated implementation and reasoning.</warning>
 
 This project is very early in development, and is very prototype-heavy at the moment. Nothing is final, nor is this page

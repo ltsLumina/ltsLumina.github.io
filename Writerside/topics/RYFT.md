@@ -23,6 +23,17 @@
 <p>RYFT taught me to parse player feedback, iterate on features, and build systems that support future content.</p>
 </quote>
 
+<chapter title="&af;" id="responsibilities_ryft" hide-from-structure="true" level="6">
+<deflist title="Responsibilities" type="full" collapsible="true" default-state="collapsed">
+<def title="Responsibilities">
+<tip>Press a title to expand/collapse it.</tip>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<include from="responsibilities.topic" element-id="ryft-responsibilities"/>
+</deflist>
+</def>
+</deflist>
+</chapter>
+
 <chapter title="Design direction" id="design-direction">
     <p>
         RYFT is a speedgame built around movement, momentum, and player mastery. The design evolved through several

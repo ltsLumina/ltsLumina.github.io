@@ -14,6 +14,17 @@
 
 <video src="https://www.youtube.com/watch?v=ZB1c6866ts8" preview-src="../videos/somnium-trailer.gif" width="750"/>
 
+<chapter title="&af;" id="responsibilities_somnium" hide-from-structure="true" level="6">
+<deflist title="Responsibilities" type="full" collapsible="true" default-state="collapsed">
+<def title="Responsibilities">
+<tip>Press a title to expand/collapse it.</tip>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<include from="responsibilities.topic" element-id="somnium-responsibilities"/>
+</deflist>
+</def>
+</deflist>
+</chapter>
+
 <tabs>
     <tab title="Design Responsibilities" id="design-responsibilities">
         <p>My responsibilities as a designer included — but were certainly not limited to:</p>

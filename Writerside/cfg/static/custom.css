@@ -7,54 +7,54 @@ a[data-test="starting-page-card"][href*=".html"] {
     position: relative;
 }
 
-[data-test="starting-page-card"][href*="Somnium.md"],
-[data-test="starting-page-card"][href*="somnium.html"] {
+[data-test="starting-page-card"][href="Somnium.md"],
+[data-test="starting-page-card"][href="somnium.html"] {
     background-image: url("Debut_Win25_White.png");
     background-position: right 0.1rem bottom 0.25rem;
     background-repeat: no-repeat;
     background-size: 7rem auto;
 }
 
-[data-test="starting-page-card"][href*="Neon-Rivalry.md"],
-[data-test="starting-page-card"][href*="neon-rivalry.html"] {
+[data-test="starting-page-card"][href="Neon-Rivalry.md"],
+[data-test="starting-page-card"][href="neon-rivalry.html"] {
     background-image: url("lbs-game-awards.png");
     background-position: right 0.5rem bottom 0.1rem;
     background-repeat: no-repeat;
     background-size: 7rem auto;
 }
 
-[data-test="starting-page-card"][href*="RYFT.md"],
-[data-test="starting-page-card"][href*="ryft.html"] {
+[data-test="starting-page-card"][href="RYFT.md"],
+[data-test="starting-page-card"][href="ryft.html"] {
     background-image: url("steam_icon.png");
     background-position: right 0.75rem bottom 0.75rem;
     background-repeat: no-repeat;
     background-size: 4.5rem auto;
 }
 
-[data-test="starting-page-card"][href*="FATE.md"]::before,
-[data-test="starting-page-card"][href*="fate.html"]::before,
-[data-test="starting-page-card"][href*="RYFT.md"]::before,
-[data-test="starting-page-card"][href*="ryft.html"]::before,
-[data-test="starting-page-card"][href*="Angel.md"]::before,
-[data-test="starting-page-card"][href*="angel.html"]::before,
-[data-test="starting-page-card"][href*="Somnium.md"]::before,
-[data-test="starting-page-card"][href*="somnium.html"]::before,
-[data-test="starting-page-card"][href*="Neon-Rivalry.md"]::before,
-[data-test="starting-page-card"][href*="neon-rivalry.html"]::before,
-[data-test="starting-page-card"][href*="Palindra.md"]::before,
-[data-test="starting-page-card"][href*="palindra.html"]::before,
-[data-test="starting-page-card"][href*="FATE.md"]::after,
-[data-test="starting-page-card"][href*="fate.html"]::after,
-[data-test="starting-page-card"][href*="RYFT.md"]::after,
-[data-test="starting-page-card"][href*="ryft.html"]::after,
-[data-test="starting-page-card"][href*="Angel.md"]::after,
-[data-test="starting-page-card"][href*="angel.html"]::after,
-[data-test="starting-page-card"][href*="Somnium.md"]::after,
-[data-test="starting-page-card"][href*="somnium.html"]::after,
-[data-test="starting-page-card"][href*="Neon-Rivalry.md"]::after,
-[data-test="starting-page-card"][href*="neon-rivalry.html"]::after,
-[data-test="starting-page-card"][href*="Palindra.md"]::after,
-[data-test="starting-page-card"][href*="palindra.html"]::after {
+[data-test="starting-page-card"][href="FATE.md"]::before,
+[data-test="starting-page-card"][href="fate.html"]::before,
+[data-test="starting-page-card"][href="RYFT.md"]::before,
+[data-test="starting-page-card"][href="ryft.html"]::before,
+[data-test="starting-page-card"][href="Angel.md"]::before,
+[data-test="starting-page-card"][href="angel.html"]::before,
+[data-test="starting-page-card"][href="Somnium.md"]::before,
+[data-test="starting-page-card"][href="somnium.html"]::before,
+[data-test="starting-page-card"][href="Neon-Rivalry.md"]::before,
+[data-test="starting-page-card"][href="neon-rivalry.html"]::before,
+[data-test="starting-page-card"][href="Palindra.md"]::before,
+[data-test="starting-page-card"][href="palindra.html"]::before,
+[data-test="starting-page-card"][href="FATE.md"]::after,
+[data-test="starting-page-card"][href="fate.html"]::after,
+[data-test="starting-page-card"][href="RYFT.md"]::after,
+[data-test="starting-page-card"][href="ryft.html"]::after,
+[data-test="starting-page-card"][href="Angel.md"]::after,
+[data-test="starting-page-card"][href="angel.html"]::after,
+[data-test="starting-page-card"][href="Somnium.md"]::after,
+[data-test="starting-page-card"][href="somnium.html"]::after,
+[data-test="starting-page-card"][href="Neon-Rivalry.md"]::after,
+[data-test="starting-page-card"][href="neon-rivalry.html"]::after,
+[data-test="starting-page-card"][href="Palindra.md"]::after,
+[data-test="starting-page-card"][href="palindra.html"]::after {
     position: absolute;
     left: 0.75rem;
     z-index: 2;
@@ -71,8 +71,8 @@ a[data-test="starting-page-card"][href*=".html"] {
     pointer-events: none;
 }
 
-[data-test="starting-page-card"][href*="Somnium.md"]::before,
-[data-test="starting-page-card"][href*="somnium.html"]::before {
+[data-test="starting-page-card"][href="Somnium.md"]::before,
+[data-test="starting-page-card"][href="somnium.html"]::before {
     top: 0.75rem;
     background: var(--wh-color-strawberry);
     background-image: url("swords.png");
@@ -83,8 +83,8 @@ a[data-test="starting-page-card"][href*=".html"] {
     content: "Combat Design";
 }
 
-[data-test="starting-page-card"][href*="Palindra.md"]::before,
-[data-test="starting-page-card"][href*="palindra.html"]::before {
+[data-test="starting-page-card"][href="Palindra.md"]::before,
+[data-test="starting-page-card"][href="palindra.html"]::before {
     top: 0.75rem;
     background: var(--wh-color-strawberry);
     background-image: url("jigsaw-piece.png");
@@ -95,8 +95,8 @@ a[data-test="starting-page-card"][href*=".html"] {
     content: "Puzzle Design";
 }
 
-[data-test="starting-page-card"][href*="FATE.md"]::before,
-[data-test="starting-page-card"][href*="fate.html"]::before {
+[data-test="starting-page-card"][href="FATE.md"]::before,
+[data-test="starting-page-card"][href="fate.html"]::before {
     top: 0.75rem;
     background: var(--wh-color-strawberry);
     background-image: url("gear.svg");
@@ -104,11 +104,11 @@ a[data-test="starting-page-card"][href*=".html"] {
     background-repeat: no-repeat;
     background-size: 0.9rem 0.9rem;
     padding-left: 1.5rem;
-    content: "Gunplay & Hero Design";
+    content: "Gunplay | Hero Design";
 }
 
-[data-test="starting-page-card"][href*="RYFT.md"]::before,
-[data-test="starting-page-card"][href*="ryft.html"]::before {
+[data-test="starting-page-card"][href="RYFT.md"]::before,
+[data-test="starting-page-card"][href="ryft.html"]::before {
     top: 0.75rem;
     background: var(--wh-color-strawberry);
     background-image: url("lightning.svg");
@@ -116,11 +116,11 @@ a[data-test="starting-page-card"][href*=".html"] {
     background-repeat: no-repeat;
     background-size: 0.9rem 0.9rem;
     padding-left: 1.5rem;
-    content: "Movement & Systems Design";
+    content: "3C | Systems Design";
 }
 
-[data-test="starting-page-card"][href*="Angel.md"]::before,
-[data-test="starting-page-card"][href*="angel.html"]::before {
+[data-test="starting-page-card"][href="Angel.md"]::before,
+[data-test="starting-page-card"][href="angel.html"]::before {
     top: 0.75rem;
     background: var(--wh-color-marine);
     background-image: url("person.svg");
@@ -131,8 +131,8 @@ a[data-test="starting-page-card"][href*=".html"] {
     content: "Solo";
 }
 
-[data-test="starting-page-card"][href*="Neon-Rivalry.md"]::before,
-[data-test="starting-page-card"][href*="neon-rivalry.html"]::before {
+[data-test="starting-page-card"][href="Neon-Rivalry.md"]::before,
+[data-test="starting-page-card"][href="neon-rivalry.html"]::before {
     top: 0.75rem;
     background: var(--wh-color-marine);
     background-image: url("person.svg");
@@ -143,8 +143,8 @@ a[data-test="starting-page-card"][href*=".html"] {
     content: "Solo Designer";
 }
 
-[data-test="starting-page-card"][href*="FATE.md"]::after,
-[data-test="starting-page-card"][href*="fate.html"]::after {
+[data-test="starting-page-card"][href="FATE.md"]::after,
+[data-test="starting-page-card"][href="fate.html"]::after {
     top: 2.75rem;
     left: 0.75rem;
     background: var(--wh-color-purple);
@@ -156,8 +156,8 @@ a[data-test="starting-page-card"][href*=".html"] {
     content: "10 devs | 7 weeks";
 }
 
-[data-test="starting-page-card"][href*="RYFT.md"]::after,
-[data-test="starting-page-card"][href*="ryft.html"]::after {
+[data-test="starting-page-card"][href="RYFT.md"]::after,
+[data-test="starting-page-card"][href="ryft.html"]::after {
     top: 2.75rem;
     left: 0.75rem;
     background: var(--wh-color-purple);
@@ -169,8 +169,8 @@ a[data-test="starting-page-card"][href*=".html"] {
     content: "6 devs | 6 weeks";
 }
 
-[data-test="starting-page-card"][href*="Angel.md"]::after,
-[data-test="starting-page-card"][href*="angel.html"]::after {
+[data-test="starting-page-card"][href="Angel.md"]::after,
+[data-test="starting-page-card"][href="angel.html"]::after {
     top: 2.75rem;
     left: 0.75rem;
     background: var(--wh-color-purple);
@@ -182,8 +182,8 @@ a[data-test="starting-page-card"][href*=".html"] {
     content: "3 weeks";
 }
 
-[data-test="starting-page-card"][href*="Palindra.md"]::after,
-[data-test="starting-page-card"][href*="palindra.html"]::after {
+[data-test="starting-page-card"][href="Palindra.md"]::after,
+[data-test="starting-page-card"][href="palindra.html"]::after {
     top: 2.75rem;
     left: 0.75rem;
     background: var(--wh-color-purple);
@@ -195,8 +195,8 @@ a[data-test="starting-page-card"][href*=".html"] {
     content: "10 devs | 6 weeks";
 }
 
-[data-test="starting-page-card"][href*="Somnium.md"]::after,
-[data-test="starting-page-card"][href*="somnium.html"]::after {
+[data-test="starting-page-card"][href="Somnium.md"]::after,
+[data-test="starting-page-card"][href="somnium.html"]::after {
     top: 2.75rem;
     left: 0.75rem;
     background: var(--wh-color-purple);
@@ -208,8 +208,8 @@ a[data-test="starting-page-card"][href*=".html"] {
     content: "11 devs | 2.5 weeks";
 }
 
-[data-test="starting-page-card"][href*="Neon-Rivalry.md"]::after,
-[data-test="starting-page-card"][href*="neon-rivalry.html"]::after {
+[data-test="starting-page-card"][href="Neon-Rivalry.md"]::after,
+[data-test="starting-page-card"][href="neon-rivalry.html"]::after {
     top: 2.75rem;
     left: 0.75rem;
     background: var(--wh-color-purple);

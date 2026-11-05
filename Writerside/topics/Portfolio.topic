@@ -37,13 +37,13 @@
                 <card href="Credits.md" badge="community" summary="Contact information for current and former collaborators">Credits</card>
             </cards>
             <cards>
-                <title>Project Summaries</title>
-                <card href="Project-Summaries.md#fate" summary="Summary of FATE's design, implementation, and systems.">FATE Summary</card>
-                <card href="Project-Summaries.md#ryft" summary="Summary of RYFT's movement design and iteration process.">RYFT Summary</card>
-                <card href="Project-Summaries.md#angel" summary="Summary of Angel's guns, abilities, and game phases.">Angel Summary</card>
-                <card href="Project-Summaries.md#somnium" summary="Summary of Somnium's combat, interaction, and character systems.">Somnium Summary</card>
-                <card href="Project-Summaries.md#neon-rivalry" summary="Summary of the design and development of Neon Rivalry.">Neon Rivalry Summary</card>
-                <card href="Project-Summaries.md#palindra" summary="Summary of Palindra's puzzle implementation.">Palindra Summary</card>
+                <title>Responsibilities</title>
+                <card href="FATE.md#responsibilities_fate" summary="Gunplay, abilities, GAS architecture, and netcode.">FATE</card>
+                <card href="RYFT.md#responsibilities_ryft" summary="3C, UI/UX, subsystems, and GAS architecture.">RYFT</card>
+                <card href="Angel.md#responsibilities_angel" summary="Gun and ability systems in Angelscript.">Angel</card>
+                <card href="Somnium.md#responsibilities_somnium" summary="Combat and technical design, programming, 3C, enemy AI, and interaction systems.">Somnium</card>
+                <card href="Neon-Rivalry.md#responsibilities_neon-rivalry" summary="Game &amp; Combat design, product ownership, programming, and 3C.">Neon Rivalry</card>
+                <card href="Palindra.md#responsibilities_palindra" summary="Level design, puzzle design, UI/UX, and associate programming.">Palindra</card>
             </cards>
             <cards>
                 <title>Additional Projects</title>

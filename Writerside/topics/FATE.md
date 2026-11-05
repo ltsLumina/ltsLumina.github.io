@@ -28,6 +28,17 @@ FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("R
 <img src="FATE-as-metrics.png" alt="FATE Angelscript metrics" style:="block"/>
 </quote>
 
+<chapter title="&af;" id="responsibilities_fate" hide-from-structure="true" level="6">
+<deflist title="Responsibilities" type="full" collapsible="true" default-state="collapsed">
+<def title="Responsibilities">
+<tip>Press a title to expand/collapse it.</tip>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<include from="responsibilities.topic" element-id="fate-responsibilities"></include>
+</deflist>
+</def>
+</deflist>
+</chapter>
+
 <chapter title="Design direction" id="design-direction">
     <p>
         FATE is a Destiny-inspired <b><tooltip term="Rogue-lite" id="rogue-lite">roguelite</tooltip> FPS puzzle
@@ -479,8 +490,7 @@ The DataTable view for adding a new enchantment.
        <p>
            This was especially important when a hit killed an enemy. If only the death trigger ran, ordinary
            on-hit enchantments would never execute, which would undermine the fantasy of breaking the game through
-           increasingly powerful roguelite upgrades. See <a href="Project-Summaries.md#enchantments">the FATE enchantments overview</a>
-           for examples of those upgrades.
+           increasingly powerful roguelite upgrades.
        </p>
        <p>
            The result was a shared pipeline that let enchantments trigger one another and stack without a hard

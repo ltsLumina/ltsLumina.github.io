@@ -11,6 +11,17 @@ Neon Rivalry is a couch co-op 2.5D fighting game created in Unity during a high 
 
 <video src="https://www.youtube.com/watch?v=BDWqbVHXUpc" preview-src="neon-rivalry-trailer-short.gif" width="800"/>
 
+<chapter title="&af;" id="responsibilities_neon-rivalry" hide-from-structure="true" level="6">
+<deflist title="Responsibilities" type="full" collapsible="true" default-state="collapsed">
+<def title="Responsibilities">
+<tip>Press a title to expand/collapse it.</tip>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<include from="responsibilities.topic" element-id="neon-rivalry-responsibilities"/>
+</deflist>
+</def>
+</deflist>
+</chapter>
+
 I unfortunately have little to say about this project.  
 It was developed in 2023–2024 at LBS (Gymnasium), and I have little footage or documentation from then.
 
