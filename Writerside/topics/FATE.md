@@ -21,6 +21,8 @@ FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("R
 </p>
 </tldr>
 
+<resource src="Resume.pdf"> foo </resource>
+
 <video src="https://youtu.be/cMRGwG6g7GQ" preview-src="8man-chaos-fate.gif" muted="true" width="800"/>
 
 <quote>
