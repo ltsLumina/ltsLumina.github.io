@@ -58,22 +58,159 @@ FATE is a <b>love-letter to Destiny (2)</b> and an attempt at a <b>new genre ("R
 </chapter>
 
 <tabs>
+<tab title="Guns &amp; Heroes" id="guns-and-heroes">
+<procedure title="My design process for FATE's Heroes" id="design-process" collapsible="false">
+    <step>Ideate guns and hero identities that fit an array of player fantasies</step>
+    <step>Debate their playstyle and role in a team composition</step>
+    <step>Prototype the heroes' weapon</step>
+    <step>Test their gunplay and role in encounters and waves of enemies</step>
+    <step>Iterate the design through feedback without losing its identity</step>
+<a href="Design-Process.md" as="button" mode="outline" icon="info">More on my design process</a>
+</procedure>
+
+<chapter title="Hero roles" id="hero-roles">
+        <p>
+            I started with a simple design question: <b>what player fantasy should each hero emphasize?</b>
+            <br/>The answer had to shape both the weapon and the way that weapon contributed to a team:
+        </p>
+        <list>
+            <li>
+                <b>Hawkmoon:</b> a flexible, approachable sharpshooter who is simple to understand but rewarding to
+                use well.
+            </li>
+            <li>
+                <b>Izanagi:</b> a precision specialist with a higher skill ceiling and a deliberate pace.
+            </li>
+            <li>
+                <b>Bastion:</b> an aggressive frontliner who creates immediate momentum through sustained fire.
+            </li>
+        </list>
+        <p>
+            I tested those fantasies against the same requirements: each hero had to feel distinct, contribute to a
+            cooperative encounter, and remain useful against enemy waves. This created a tension between identity and
+            accessibility. A sniper should reward precision, for example, but could not leave its player helpless
+            against five or more enemies.
+        </p>
+        <p>
+            My iteration loop was: define the fantasy, prototype the weapon, playtest it in encounters and waves,
+            then adjust it without losing its identity. The following sections trace that process.
+        </p>
+<chapter title="Self-determination Theory" id="self-determination-theory" level="4">
+<img src="self-determination-theory.jpg" alt="" thumbnail="true" width="400" style:="inline"/>
+<p>
+This approach also supported <b><tooltip term="Self-Determination Theory">self-determination theory</tooltip></b>. Each hero offered a different route to autonomy and competence, while cooperative encounters supported relatedness. Hero mastery provided intrinsic rewards, and enchantments (roguelite upgrades) provided extrinsic rewards that encouraged experimentation and progression.
+</p>
+</chapter>
+    </chapter>
+
+<chapter title="Encounter design" id="encounter-design">
+<img src="fate-img0.png" thumbnail="true" width="800" alt=""/>
+<p>
+            Every encounter asks players to collaborate differently. The first encounter, a tether puzzle,
+            requires players to position themselves between generators so electricity can reach a capacitor or door.
+            While maintaining the puzzle, they must also defeat repeatedly spawning enemies.
+<br/><b>I emphasized shooting as a core design principle because it was the most immediately satisfying part</b>, and enchantments gave players a natural way to grow stronger during each encounter. <b>Puzzles were designed to be interacted with through shooting to further connect the gunplay to the core game loop.</b>
+        </p>
+        <p>
+            Every hero had to be capable of surviving waves of enemies through their weapon alone. We decided
+            against grenades and other dedicated wave-clear abilities because the project's scope was already large.
+            This made ad-clear a central weapon-design problem: a sniper rifle rewards precision at range, while a
+            machine gun clears a horde more naturally. The goal was not equal performance, but a distinct solution for
+            each hero: Hawkmoon became more forgiving, Izanagi could chain precision kills, and Bastion applied pressure through volume of fire.
+        </p>
+        <chapter title="Hero weapon iterations" id="hero-weapon-iterations" level="3">
+            <p>
+                <b>Hawkmoon</b> originally used a six-shooter firing at two rounds per second. It could kill a basic
+                enemy with one headshot, but the small magazine and roughly 2.5-second reload made waves difficult.
+                Players liked how satisfying it felt to shoot, but reported that six bullets made every shot feel
+                overly precious. The redesign increased the magazine size and fire rate, preserving the approachable
+                sharpshooter fantasy while allowing longer firing before reloading.
+            </p>
+            <p>
+                <b>Izanagi</b> originally fired one charged shot per magazine, followed by a two-to-three-second
+                reload. Izanagi was redesigned more substantially than the other heroes: its hip-fire mode became a
+                three-tap burst, replacing the earlier boomstick that launched the player into the air and enabled
+                repositioning unavailable to the other heroes.
+            </p>
+            <note>
+                The reload duration was a design constraint: the animations were made to look good rather than serve
+                a precise gameplay cadence. We could adjust them slightly, but changing them too much looked
+                unnatural, especially when enchantments modified reload speed.
+            </note>
+            <quote>
+                The boomstick's movement created an interesting level-design opportunity, including sniper towers and
+                watchpoints built specifically for Izanagi. It was replaced because all heroes received a double jump
+                to improve mobility.
+            </quote>
+            <p>
+                The final redesign gave Izanagi a total magazine of 12 rounds: each charged shot costs three rounds,
+                and the complete three-tap burst also costs three. This made Izanagi more capable against groups
+                without losing its precision identity. It became a fan favourite alongside its innate trait.
+            </p>
+            <img src="fate-3tap.gif" thumbnail="true" alt="Izanagi firing its three-tap burst in the shooting range"/>
+            <p>
+                <b>Bastion</b> required the fewest iterations. Its original concept was inspired by Overwatch's
+                Bastion: a semi-immobile frontliner protected by a barricade while mowing down the battlefield. The
+                barricade was never implemented, but Bastion retained the fantasy through a large health pool, a
+                100-round drum magazine, and a fire rate that increases as the magazine drains. Its bullets are weak,
+                but the volume of fire makes it a powerful choice for clearing waves.
+            </p>
+            <p>
+                Firing slows Bastion because of the weapon's recoil, selling its power without making the recoil
+                uncontrollable. The recoil becomes more sporadic as the magazine gets low, but remains manageable.
+                If sustained fire were impossible to control, there would be little reason to commit to the frontliner
+                fantasy.
+            </p>
+        </chapter>
+        <chapter title="Hero traits" id="hero-traits" level="3">
+            <p>
+                When weapon changes alone could not solve the ad-clear problem without flattening the heroes'
+                identities, I added hero-specific traits. These traits were designed as the final step in the same
+                process: each one addresses a weapon weakness while reinforcing the intended fantasy. Hawkmoon's is
+                a unique enchantment; Izanagi's and Bastion's are innate traits:
+            </p>
+            <list>
+                <li>
+                    <b>Hawkmoon:</b> Inspired by Destiny's Hawkmoon, each precision hit increases the damage of
+                    subsequent precision hits. The final bullet in the magazine deals exponentially more damage based
+                    on the number of precision hits landed before reloading. This rewards accuracy and emphasizes the
+                    sharpshooter fantasy.
+                </li>
+                <li>
+                    <b>Izanagi:</b> Precision kills trigger a large fireball around the target, dealing heavy area
+                    damage and killing basic enemies nearby. This innate trait was added specifically to improve
+                    Izanagi's ability to clear groups.
+                </li>
+                <li>
+                    <b>Bastion:</b> Bastion deals increased damage while standing still. The simple, effective
+                    bonus reinforces the immobile frontliner fantasy and rewards committing to a firing position.
+                </li>
+            </list>
+        </chapter>
+        <tip>
+            The heroes' names are drawn from weapons in <a href="https://www.destinythegame.com/">Destiny 2</a>, and their playstyles and defining features are similarly inspired by those weapons. This was another deliberate connection to Destiny.
+        </tip>
+    </chapter>
+
+</tab>
 <tab title="Gunplay" id="implementation">
     <chapter title="GunComponent.as" id="gun-component">
     <tldr>
         The up-to-date files are private, so snippets date to August 3rd 2026.
+        <p><resource src="GunComponent.as">Download the script if you wish.</resource></p>
     </tldr>
 <quote>
 <img src="fate-pvp.gif" thumbnail="true" alt="PvP Footage"/>
 PvP footage during development.</quote>
         <p>
             I designed and implemented the GunComponent, a project pillar: <b>every shot a player fires goes through
-            it</b>. FATE's weapons are <b><tooltip term="Hitscan" id="hitscan">hitscan</tooltip></b>, so there are
-            no projectiles to simulate. The component answers four questions per trigger pull:
+            it</b>.
         </p>
+        <p>The component answers four questions per trigger pull:</p>
         <list>
             <li>
-                <b>May this shot fire?</b> It checks fire rate, fire mode (semi, burst or auto), ammo, and cooldown.
+                <p><b>May this shot fire?</b> It checks fire rate, fire mode (semi, burst, or auto), ammo, and cooldown.
+                <br/>FATE's weapons are <b><tooltip term="Hitscan" id="hitscan">hitscan</tooltip></b>, so there are no projectiles to simulate.</p>
             </li>
             <li>
                 <b>Where does the bullet go?</b> It starts from the player's aim, adjusts spread for movement and
@@ -288,143 +425,6 @@ This image is from <a href="Angel.md">the angel project</a>, so the data isn't t
         </deflist>
 </procedure>
 </chapter>
-</tab>
-<tab title="Guns &amp; Heroes" id="guns-and-heroes">
-<procedure title="My design process for FATE's Heroes" id="design-process" collapsible="false">
-    <step>Brainstorm heroes that fit a given player fantasy</step>
-    <step>Debate their playstyle and role in a team composition</step>
-    <step>Prototype the heroes' weapon</step>
-    <step>Test their gunplay and role in encounters and waves of enemies</step>
-    <step>Iterate the design through feedback without losing its identity</step>
-<a href="Design-Process.md" as="button" mode="outline" icon="info">More on my design process</a>
-</procedure>
-
-<chapter title="Hero roles" id="hero-roles">
-        <p>
-            I started with a simple design question: <b>what kind of player fantasy should each hero make feel
-            natural?</b> The answer had to shape both the weapon and the way that weapon contributed to a team:
-        </p>
-        <list>
-            <li>
-                <b>Hawkmoon:</b> a flexible, approachable sharpshooter who is simple to understand but rewarding to
-                use well.
-            </li>
-            <li>
-                <b>Izanagi:</b> a precision specialist with a higher skill ceiling and a deliberate pace.
-            </li>
-            <li>
-                <b>Bastion:</b> an aggressive frontliner who creates immediate momentum through sustained fire.
-            </li>
-        </list>
-        <p>
-            I tested those fantasies against the same requirements: each hero had to feel distinct, contribute to a
-            cooperative encounter, and remain useful against enemy waves. This created a tension between identity and
-            accessibility. A sniper should reward precision, for example, but could not leave its player helpless
-            against five or more enemies.
-        </p>
-        <p>
-            My iteration loop was: define the fantasy, prototype the weapon, playtest it in encounters and waves,
-            then adjust it without losing its identity. The following sections trace that process.
-        </p>
-<chapter title="Self-determination Theory" id="self-determination-theory" level="4">
-<img src="self-determination-theory.jpg" alt="" thumbnail="true" width="400" style:="inline"/>
-<p>
-This approach also supported <b><tooltip term="Self-Determination Theory">self-determination theory</tooltip></b>. Each hero offered a different route to autonomy and competence, while cooperative encounters supported relatedness. Hero mastery provided intrinsic rewards, and enchantments (roguelite upgrades) provided extrinsic rewards that encouraged experimentation and progression.
-</p>
-</chapter>
-    </chapter>
-
-<chapter title="Encounter design" id="encounter-design">
-<img src="fate-img0.png" thumbnail="true" width="800" alt=""/>
-<p>
-            Every encounter asks players to collaborate differently. The first encounter, a tether puzzle,
-            requires players to position themselves between generators so electricity can reach a capacitor or door.
-            While maintaining the puzzle, they must also defeat repeatedly spawning enemies. 
-<br/><b>I emphasized shooting as a core design principle because it was the most immediately satisfying part</b>, and enchantments gave players a natural way to grow stronger during each encounter.
-        </p>
-        <p>
-            Every hero had to be capable of surviving waves of enemies through their weapon alone. We decided
-            against grenades and other dedicated wave-clear abilities because the project's scope was already large.
-            This made ad-clear a central weapon-design problem: a sniper rifle rewards precision at range, while a
-            machine gun clears a horde more naturally. The goal was not equal performance, but a distinct solution for
-            each hero: Hawkmoon became more forgiving, Izanagi could chain precision kills, and Bastion applied pressure through volume of fire.
-        </p>
-        <chapter title="Hero weapon iterations" id="hero-weapon-iterations" level="3">
-            <p>
-                <b>Hawkmoon</b> originally used a six-shooter firing at two rounds per second. It could kill a basic
-                enemy with one headshot, but the small magazine and roughly 2.5-second reload made waves difficult.
-                Players liked how satisfying it felt to shoot, but reported that six bullets made every shot feel
-                overly precious. The redesign increased the magazine size and fire rate, preserving the approachable
-                sharpshooter fantasy while allowing longer firing before reloading.
-            </p>
-            <p>
-                <b>Izanagi</b> originally fired one charged shot per magazine, followed by a two-to-three-second
-                reload. Izanagi was redesigned more substantially than the other heroes: its hip-fire mode became a
-                three-tap burst, replacing the earlier boomstick that launched the player into the air and enabled
-                repositioning unavailable to the other heroes.
-            </p>
-            <note>
-                The reload duration was a design constraint: the animations were made to look good rather than serve
-                a precise gameplay cadence. We could adjust them slightly, but changing them too much looked
-                unnatural, especially when enchantments modified reload speed.
-            </note>
-            <quote>
-                The boomstick's movement created an interesting level-design opportunity, including sniper towers and
-                watchpoints built specifically for Izanagi. It was replaced because all heroes received a double jump
-                to improve mobility.
-            </quote>
-            <p>
-                The final redesign gave Izanagi a total magazine of 12 rounds: each charged shot costs three rounds,
-                and the complete three-tap burst also costs three. This made Izanagi more capable against groups
-                without losing its precision identity. It became a fan favourite alongside its innate trait.
-            </p>
-            <img src="fate-3tap.gif" thumbnail="true" alt="Izanagi firing its three-tap burst in the shooting range"/>
-            <p>
-                <b>Bastion</b> required the fewest iterations. Its original concept was inspired by Overwatch's
-                Bastion: a semi-immobile frontliner protected by a barricade while mowing down the battlefield. The
-                barricade was never implemented, but Bastion retained the fantasy through a large health pool, a
-                100-round drum magazine, and a fire rate that increases as the magazine drains. Its bullets are weak,
-                but the volume of fire makes it a powerful choice for clearing waves.
-            </p>
-            <p>
-                Firing slows Bastion because of the weapon's recoil, selling its power without making the recoil
-                uncontrollable. The recoil becomes more sporadic as the magazine gets low, but remains manageable.
-                If sustained fire were impossible to control, there would be little reason to commit to the frontliner
-                fantasy.
-            </p>
-        </chapter>
-        <chapter title="Hero traits" id="hero-traits" level="3">
-            <p>
-                When weapon changes alone could not solve the ad-clear problem without flattening the heroes'
-                identities, I added hero-specific traits. These traits were designed as the final step in the same
-                process: each one addresses a weapon weakness while reinforcing the intended fantasy. Hawkmoon's is
-                a unique enchantment; Izanagi's and Bastion's are innate traits:
-            </p>
-            <list>
-                <li>
-                    <b>Hawkmoon:</b> Inspired by Destiny's Hawkmoon, each precision hit increases the damage of
-                    subsequent precision hits. The final bullet in the magazine deals exponentially more damage based
-                    on the number of precision hits landed before reloading. This rewards accuracy and emphasizes the
-                    sharpshooter fantasy.
-                </li>
-                <li>
-                    <b>Izanagi:</b> Precision kills trigger a large fireball around the target, dealing heavy area
-                    damage and killing basic enemies nearby. This innate trait was added specifically to improve
-                    Izanagi's ability to clear groups.
-                </li>
-                <li>
-                    <b>Bastion:</b> Bastion deals increased damage while standing still. The simple, effective
-                    bonus reinforces the immobile frontliner fantasy and rewards committing to a firing position.
-                </li>
-            </list>
-        </chapter>
-        <tip>
-            The heroes' names are drawn from weapons in <a href="https://www.destinythegame.com/">Destiny 2</a>, and their playstyles and defining features are
-            similarly inspired by those weapons. This was another deliberate connection to Destiny: FATE's heroes
-            echo familiar weapon fantasies while adapting them to our own cooperative, raid-like experience.
-        </tip>
-    </chapter>
-
 </tab>
 <tab title="Damage Pipeline" id="health-attributes">
    <chapter title="HealthAttributes.as" id="healthattributes-chapter">
