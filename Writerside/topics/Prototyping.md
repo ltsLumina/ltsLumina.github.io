@@ -181,3 +181,7 @@ because it’s for a prototype, and therefore only took a few minutes to impleme
 crouching was a thing.
 </p>
 </chapter>
+
+<chapter title="Reach Out" hide-from-structure="true">
+View my <resource src="Resume.pdf" filter="">Resume</resource> for contact info.
+</chapter>

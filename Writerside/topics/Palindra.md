@@ -11,6 +11,17 @@
 
 <video src="https://www.youtube.com/watch?v=pQPQpJtuY8Y" preview-src="Palindra-Trailer.gif" width="800"/>
 
+<chapter title="&af;" id="responsibilities_palindra" hide-from-structure="true" level="6">
+<deflist title="Responsibilities" type="full" collapsible="true" default-state="collapsed">
+<def title="Responsibilities">
+<tip>Press a title to expand/collapse it.</tip>
+<deflist type="full" collapsible="true" default-state="collapsed">
+<include from="responsibilities.topic" element-id="palindra-responsibilities"/>
+</deflist>
+</def>
+</deflist>
+</chapter>
+
 <tabs>
     <tab title="Piano Puzzle" id="piano">
 
