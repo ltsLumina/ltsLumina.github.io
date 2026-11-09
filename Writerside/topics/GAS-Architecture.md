@@ -13,10 +13,10 @@ To read about a specific project, please select it below.
 
 <tabs>
 <tab title="FATE" id="fate"> 
-some words for FATE
+WIP
 </tab>
 <tab title="RYFT" id="ryft">
-other words for RYFT
+WIP
 </tab>
 </tabs>
 

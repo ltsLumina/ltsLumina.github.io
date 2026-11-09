@@ -212,7 +212,8 @@ This approach also supported <b><tooltip term="Self-Determination Theory">self-d
     </tldr>
 <quote>
 <img src="fate-pvp.gif" thumbnail="true" alt="PvP Footage"/>
-PvP footage during development.</quote>
+PvP footage during development.
+</quote>
         <p>
             I designed and implemented the GunComponent, a project pillar: <b>every shot a player fires goes through
             it</b>.
@@ -365,7 +366,7 @@ This image is from <a href="Angel.md">the angel project</a>, so the data isn't t
 <code-block lang="c#" collapsible="true" default-state="collapsed" collapsed-title="GunComponent.as - GetSpread() and IsBulletProtected()" emphasize-lines="8,23-26,29,53-55" src="../resources/GunComponent.as" include-lines="126-134,336-385"/>
 
 </def>
-<!--
+<!-- | Didn't write this (AI did) so I don't want to claim ownership of making it. |
         <def title="Recoil recovery" id="recoil-recovery">
             <p>
                 Every shot kicks the player's view up and sideways, then eases it back.
@@ -591,7 +592,7 @@ The DataTable view for adding a new enchantment.
 <warning> Under Construction!</warning>
 <quote>
 <img src="fate-img1-environment-enc2.png" thumbnail="false" width="800" alt=""/>
-The second encounter, featuring the symbol puzzle.
+The second encounter, featuring the symbol puzzle that I co-designed.
 </quote>
 <deflist>
 <def title="Designing for different player types">

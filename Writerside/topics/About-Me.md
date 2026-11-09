@@ -3,7 +3,7 @@
 # About Me
 <primary-label ref="lum"></primary-label>
 <secondary-label ref="ethnicity"></secondary-label>
-<secondary-label ref="game-designer"></secondary-label>
+<secondary-label ref="tech-designer"></secondary-label>
 <secondary-label ref="in"></secondary-label>
 <secondary-label ref="location"></secondary-label>
 
